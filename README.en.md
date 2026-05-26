@@ -18,6 +18,12 @@ Ling Player is a local music player supporting FLAC, APE, DSD, MP3, AAC, and oth
 
 🎵 Rich Format Support · 🎨 Visualizer · ✨ Transparent Effects · 💻 Cross-Platform
 
+## Screenshots
+
+![Screenshot Preview](images/2.png){:height="80%" width="80%"}
+![Screenshot Preview](images/3.png){:height="80%" width="80%"}
+![Screenshot Preview](images/4.png){:height="80%" width="80%"}
+
 ## Download
 
 - [Steam](https://store.steampowered.com/app/4496780/)

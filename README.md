@@ -19,6 +19,12 @@
 
 🎵 丰富格式支持 · 🎨 可视化频谱 · ✨ 透明效果 · 💻 多平台
 
+## 截图
+
+![截图预览](images/2.png){:height="80%" width="80%"}
+![截图预览](images/3.png){:height="80%" width="80%"}
+![截图预览](images/4.png){:height="80%" width="80%"}
+
 ## 下载
 
 - [Steam](https://store.steampowered.com/app/4496780/)
