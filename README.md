@@ -21,9 +21,9 @@
 
 ## 截图
 
-![截图预览](images/2.png){:height="80%" width="80%"}
-![截图预览](images/3.png){:height="80%" width="80%"}
-![截图预览](images/4.png){:height="80%" width="80%"}
+![截图预览](images/2.png)
+![截图预览](images/3.png)
+![截图预览](images/4.png)
 
 ## 下载
 
