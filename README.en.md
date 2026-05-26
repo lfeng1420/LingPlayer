@@ -31,5 +31,5 @@ Ling Player is a local music player supporting FLAC, APE, DSD, MP3, AAC, and oth
 
 ## Links
 
-- 🛡️ [Privacy Policy](privacy-policy.html)
-- 🚀 [Changelog](changelog.html)
+- 🛡️ [Privacy Policy](https://www.lfengs.com/en-us/apps/ling/privacy-policy.html)
+- 🚀 [Changelog](https://www.lfengs.com/en-us/apps/ling/changelog.html)

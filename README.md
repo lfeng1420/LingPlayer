@@ -32,5 +32,5 @@
 
 ## 相关链接
 
-- 🛡️ [隐私协议](privacy-policy.html)
-- 🚀 [更新日志](changelog.html)
+- 🛡️ [隐私协议](https://www.lfengs.com/zh-cn/apps/ling/privacy-policy.html)
+- 🚀 [更新日志](https://www.lfengs.com/zh-cn/apps/ling/changelog.html)
