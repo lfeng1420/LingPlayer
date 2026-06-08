@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.Plugin.Steam.Languages.es_ES">
+    <x:String x:Key="SteamPluginName">Steam</x:String>
+    <x:String x:Key="SteamPluginDesc">Integrar presencia enriquecida, estadísticas y logros de Steam</x:String>
+    <x:String x:Key="SteamSettingPage">Configuración del plugin Steam</x:String>
+    <x:String x:Key="SteamRichPresenceFormat">Formato de presencia enriquecida</x:String>
+    <x:String x:Key="SteamRichPresenceFormatDesc">Establecer el formato de la presencia enriquecida mostrada en la lista de amigos</x:String>
+    <x:String x:Key="TipsSteamRichPresenceFormat">Introduzca una cadena de formato. Los marcadores se reemplazarán automáticamente con la información correspondiente al reproducir una pista</x:String>
+    <x:String x:Key="SteamRichPresencePreview">Vista previa de presencia enriquecida:</x:String>
+    <x:String x:Key="SteamPlaceholders">Lista de marcadores</x:String>
+    <x:String x:Key="SteamSyncStatistics">Sincronizar estadísticas con Steam</x:String>
+    <x:String x:Key="SteamSyncStatisticsDesc">Cuando está desactivado, los logros de Steam no se pueden desbloquear</x:String>
+</ResourceDictionary>

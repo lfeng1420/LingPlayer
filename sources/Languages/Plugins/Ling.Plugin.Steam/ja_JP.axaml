@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.Plugin.Steam.Languages.ja_JP">
+    <x:String x:Key="SteamPluginName">Steam</x:String>
+    <x:String x:Key="SteamPluginDesc">Steam のリッチプレゼンス、統計、実績を統合</x:String>
+    <x:String x:Key="SteamSettingPage">Steam プラグイン設定</x:String>
+    <x:String x:Key="SteamRichPresenceFormat">リッチプレゼンス形式</x:String>
+    <x:String x:Key="SteamRichPresenceFormatDesc">フレンドリストに表示されるリッチプレゼンスの形式を設定</x:String>
+    <x:String x:Key="TipsSteamRichPresenceFormat">フォーマット文字列を入力してください。トラック再生時にプレースホルダーが自動的に対応する情報に置き換えられます</x:String>
+    <x:String x:Key="SteamRichPresencePreview">リッチプレゼンス プレビュー：</x:String>
+    <x:String x:Key="SteamPlaceholders">プレースホルダー一覧</x:String>
+    <x:String x:Key="SteamSyncStatistics">統計情報を Steam に同期</x:String>
+    <x:String x:Key="SteamSyncStatisticsDesc">無効にすると Steam 実績を解除できなくなります</x:String>
+</ResourceDictionary>

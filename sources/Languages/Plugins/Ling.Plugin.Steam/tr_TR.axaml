@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.Plugin.Steam.Languages.tr_TR">
+    <x:String x:Key="SteamPluginName">Steam</x:String>
+    <x:String x:Key="SteamPluginDesc">Steam zengin durum, istatistik ve başarımları entegre et</x:String>
+    <x:String x:Key="SteamSettingPage">Steam Eklentisi Ayarları</x:String>
+    <x:String x:Key="SteamRichPresenceFormat">Zengin Durum Formatı</x:String>
+    <x:String x:Key="SteamRichPresenceFormatDesc">Arkadaş listesinde gösterilen zengin durum formatını ayarla</x:String>
+    <x:String x:Key="TipsSteamRichPresenceFormat">Bir biçim dizesi girin. Parça çalarken yer tutucular otomatik olarak ilgili bilgilerle değiştirilir</x:String>
+    <x:String x:Key="SteamRichPresencePreview">Zengin Durum Önizlemesi:</x:String>
+    <x:String x:Key="SteamPlaceholders">Yer Tutucu Listesi</x:String>
+    <x:String x:Key="SteamSyncStatistics">İstatistikleri Steam ile Senkronize Et</x:String>
+    <x:String x:Key="SteamSyncStatisticsDesc">Devre dışı bırakıldığında Steam başarımları kazanılamaz</x:String>
+</ResourceDictionary>

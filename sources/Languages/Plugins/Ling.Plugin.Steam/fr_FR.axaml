@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.Plugin.Steam.Languages.fr_FR">
+    <x:String x:Key="SteamPluginName">Steam</x:String>
+    <x:String x:Key="SteamPluginDesc">Intégrer la présence riche, les statistiques et les succès Steam</x:String>
+    <x:String x:Key="SteamSettingPage">Paramètres du plugin Steam</x:String>
+    <x:String x:Key="SteamRichPresenceFormat">Format de présence riche</x:String>
+    <x:String x:Key="SteamRichPresenceFormatDesc">Définir le format de la présence riche affichée dans la liste d'amis</x:String>
+    <x:String x:Key="TipsSteamRichPresenceFormat">Saisissez une chaîne de formatage. Les espaces réservés seront automatiquement remplacés par les informations correspondantes lors de la lecture d'un titre</x:String>
+    <x:String x:Key="SteamRichPresencePreview">Aperçu de la présence riche :</x:String>
+    <x:String x:Key="SteamPlaceholders">Liste des espaces réservés</x:String>
+    <x:String x:Key="SteamSyncStatistics">Synchroniser les statistiques avec Steam</x:String>
+    <x:String x:Key="SteamSyncStatisticsDesc">Lorsque désactivé, les succès Steam ne peuvent pas être débloqués</x:String>
+</ResourceDictionary>

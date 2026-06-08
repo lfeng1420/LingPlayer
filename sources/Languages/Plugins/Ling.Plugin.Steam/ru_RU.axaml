@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.Plugin.Steam.Languages.ru_RU">
+    <x:String x:Key="SteamPluginName">Steam</x:String>
+    <x:String x:Key="SteamPluginDesc">Интеграция расширенного статуса, статистики и достижений Steam</x:String>
+    <x:String x:Key="SteamSettingPage">Настройки плагина Steam</x:String>
+    <x:String x:Key="SteamRichPresenceFormat">Формат расширенного статуса</x:String>
+    <x:String x:Key="SteamRichPresenceFormatDesc">Задайте формат расширенного статуса, отображаемого в списке друзей</x:String>
+    <x:String x:Key="TipsSteamRichPresenceFormat">Введите строку форматирования. При воспроизведении трека заполнители автоматически заменяются соответствующей информацией</x:String>
+    <x:String x:Key="SteamRichPresencePreview">Предпросмотр расширенного статуса:</x:String>
+    <x:String x:Key="SteamPlaceholders">Список заполнителей</x:String>
+    <x:String x:Key="SteamSyncStatistics">Синхронизировать статистику со Steam</x:String>
+    <x:String x:Key="SteamSyncStatisticsDesc">При отключении достижения Steam не могут быть разблокированы</x:String>
+</ResourceDictionary>

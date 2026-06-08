@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.Plugin.Steam.Languages.pl_PL">
+    <x:String x:Key="SteamPluginName">Steam</x:String>
+    <x:String x:Key="SteamPluginDesc">Integracja rozszerzonego statusu, statystyk i osiągnięć Steam</x:String>
+    <x:String x:Key="SteamSettingPage">Ustawienia wtyczki Steam</x:String>
+    <x:String x:Key="SteamRichPresenceFormat">Format rozszerzonego statusu</x:String>
+    <x:String x:Key="SteamRichPresenceFormatDesc">Ustaw format rozszerzonego statusu wyświetlanego na liście znajomych</x:String>
+    <x:String x:Key="TipsSteamRichPresenceFormat">Wprowadź ciąg formatujący. Podczas odtwarzania utworu symbole zastępcze zostaną automatycznie zastąpione odpowiednimi informacjami</x:String>
+    <x:String x:Key="SteamRichPresencePreview">Podgląd rozszerzonego statusu:</x:String>
+    <x:String x:Key="SteamPlaceholders">Lista symboli zastępczych</x:String>
+    <x:String x:Key="SteamSyncStatistics">Synchronizuj statystyki ze Steam</x:String>
+    <x:String x:Key="SteamSyncStatisticsDesc">Gdy wyłączone, osiągnięcia Steam nie mogą zostać odblokowane</x:String>
+</ResourceDictionary>

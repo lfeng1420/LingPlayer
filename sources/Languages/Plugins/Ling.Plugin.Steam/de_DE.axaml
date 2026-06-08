@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.Plugin.Steam.Languages.de_DE">
+    <x:String x:Key="SteamPluginName">Steam</x:String>
+    <x:String x:Key="SteamPluginDesc">Steam Rich Presence, Statistiken und Erfolge integrieren</x:String>
+    <x:String x:Key="SteamSettingPage">Steam-Plugin-Einstellungen</x:String>
+    <x:String x:Key="SteamRichPresenceFormat">Rich-Presence-Format</x:String>
+    <x:String x:Key="SteamRichPresenceFormatDesc">Legen Sie das Format der Rich Presence fest, die in der Freundesliste angezeigt wird</x:String>
+    <x:String x:Key="TipsSteamRichPresenceFormat">Geben Sie eine Formatzeichenfolge ein. Platzhalter werden bei der Titelwiedergabe automatisch durch die entsprechenden Informationen ersetzt</x:String>
+    <x:String x:Key="SteamRichPresencePreview">Rich-Presence-Vorschau:</x:String>
+    <x:String x:Key="SteamPlaceholders">Platzhalterliste</x:String>
+    <x:String x:Key="SteamSyncStatistics">Statistiken mit Steam synchronisieren</x:String>
+    <x:String x:Key="SteamSyncStatisticsDesc">Wenn deaktiviert, können Steam-Erfolge nicht freigeschaltet werden</x:String>
+</ResourceDictionary>

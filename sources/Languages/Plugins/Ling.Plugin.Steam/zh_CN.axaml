@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.Plugin.Steam.Languages.zh_CN">
+    <x:String x:Key="SteamPluginName">Steam</x:String>
+    <x:String x:Key="SteamPluginDesc">接入Steam丰富状态、统计和成就</x:String>
+    <x:String x:Key="SteamSettingPage">Steam插件设置</x:String>
+    <x:String x:Key="SteamRichPresenceFormat">丰富状态格式</x:String>
+    <x:String x:Key="SteamRichPresenceFormatDesc">设置好友列表中显示的丰富状态格式</x:String>
+    <x:String x:Key="TipsSteamRichPresenceFormat">输入格式化字符串，播放歌曲时占位符自动替换为对应信息</x:String>
+    <x:String x:Key="SteamRichPresencePreview">丰富状态预览：</x:String>
+    <x:String x:Key="SteamPlaceholders">占位符列表</x:String>
+    <x:String x:Key="SteamSyncStatistics">同步统计信息至Steam</x:String>
+    <x:String x:Key="SteamSyncStatisticsDesc">关闭后将无法解锁Steam成就</x:String>
+</ResourceDictionary>
