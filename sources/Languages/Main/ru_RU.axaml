@@ -280,6 +280,10 @@
     <x:String x:Key="HomeNavMenuItemDesc">Нажмите пункт меню для выбора страницы по умолчанию</x:String>
     <x:String x:Key="SystemLang">Язык системы</x:String>
     <x:String x:Key="SwitchLang">Сменить язык</x:String>
+    <x:String x:Key="TranslationContributors">Участники перевода</x:String>
+    <x:String x:Key="TranslationContributorsDesc">Список участников, помогавших улучшить перевод</x:String>
+    <x:String x:Key="HelpImproveTranslation">Помочь с переводом</x:String>
+    <x:String x:Key="HelpImproveTranslationDesc">Нашли ошибку в переводе? Отправьте PR</x:String>
     <x:String x:Key="AutoPlay">Автовоспроизведение</x:String>
     <x:String x:Key="AutoPlayDesc">Начинать воспр. после запуска</x:String>
     <x:String x:Key="SMTC">Интеграция SMTC</x:String>
@@ -412,7 +416,8 @@
     <!--  Language  -->
     <x:String x:Key="zh-CN">Китайский (упр.)</x:String>
     <x:String x:Key="zh-TW">Китайский (трад.)</x:String>
-    <x:String x:Key="en-US">Английский</x:String>
+    <x:String x:Key="en-US">Английский (США)</x:String>
+    <x:String x:Key="en-GB">Английский (Великобритания)</x:String>
     <x:String x:Key="ja-JP">Японский</x:String>
     <x:String x:Key="ko-KR">Корейский</x:String>
     <x:String x:Key="ru-RU">Русский</x:String>
@@ -501,19 +506,18 @@
     <x:String x:Key="TipsCueAlbumEdit">Альбом содержит треки из CUE. Правка метаданных недоступна. Редактируйте CUE напрямую.</x:String>
 
     <!--  Notice  -->
-    <x:String x:Key="NoticePart1">Версия 0.9.0.0 оптимизирует генерацию миниатюр с фиксированной высотой, общих для треков, альбомов и исп.</x:String>
-    <x:String x:Key="NoticePart2Prefix">Из-за изменения пути хранения требуется «</x:String>
+    <x:String x:Key="NoticePart1">Версия 0.10.0.0 исправляет проблему преждевременного обрезания конца треков (обычно менее 1 секунды). Точность длительности в кэше обновлена с секунд до миллисекунд.</x:String>
+    <x:String x:Key="NoticePart2Prefix">Чтобы исправление вступило в силу, требуется «</x:String>
     <x:String x:Key="NoticePart2Bold">Полное сканирование</x:String>
-    <x:String x:Key="NoticePart2Suffix">» для пересоздания миниатюр.</x:String>
-    <x:String x:Key="NoticePart3Text1">Нажмите кнопку ниже или перейдите в </x:String>
+    <x:String x:Key="NoticePart2Suffix">» для обновления записей длительности всех треков.</x:String>
+    <x:String x:Key="NoticePart3Text1">Нажмите кнопку ниже, чтобы начать полное сканирование, или перейдите в </x:String>
     <x:String x:Key="NoticePart3Bold1">Настройки -> Библиотека</x:String>
     <x:String x:Key="NoticePart3Text2">, включите </x:String>
     <x:String x:Key="NoticePart3Bold2">Полное сканирование</x:String>
     <x:String x:Key="NoticePart3Text3"> и нажмите </x:String>
     <x:String x:Key="NoticePart3Bold3">Сканировать</x:String>
     <x:String x:Key="NoticePart3Text4">.</x:String>
-    <x:String x:Key="NoticePart4">Ранее заданные обложки альбомов и фото исп. не сохранятся. При полном сканировании они будут пересозданы из файлов. При необходимости задайте заново.</x:String>
-    <x:String x:Key="NoticePart5">Приносим извинения за неудобства. Спасибо за понимание!</x:String>
+    <x:String x:Key="NoticePart5">Приносим извинения за неудобства. Спасибо за понимание и поддержку!</x:String>
 
     <!--  Misc  -->
     <x:String x:Key="SendLogMail">Отправить лог</x:String>

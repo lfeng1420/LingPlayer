@@ -280,6 +280,10 @@
     <x:String x:Key="HomeNavMenuItemDesc">Kliknij element menu, aby zmienić domyślną stronę</x:String>
     <x:String x:Key="SystemLang">Język systemowy</x:String>
     <x:String x:Key="SwitchLang">Zmień język</x:String>
+    <x:String x:Key="TranslationContributors">Współtwórcy tłumaczenia</x:String>
+    <x:String x:Key="TranslationContributorsDesc">Lista osób, które pomogły ulepszyć tłumaczenie</x:String>
+    <x:String x:Key="HelpImproveTranslation">Pomóż ulepszyć tłumaczenie</x:String>
+    <x:String x:Key="HelpImproveTranslationDesc">Znalazłeś problem z tłumaczeniem? Prześlij PR</x:String>
     <x:String x:Key="AutoPlay">Autoodtwarzanie</x:String>
     <x:String x:Key="AutoPlayDesc">Automatycznie rozpocznij odtwarzanie po uruchomieniu</x:String>
     <x:String x:Key="SMTC">Integracja SMTC</x:String>
@@ -412,7 +416,8 @@
     <!--  Language  -->
     <x:String x:Key="zh-CN">Chiński (uproszczony)</x:String>
     <x:String x:Key="zh-TW">Chiński (tradycyjny)</x:String>
-    <x:String x:Key="en-US">Angielski</x:String>
+    <x:String x:Key="en-US">Angielski (Stany Zjednoczone)</x:String>
+    <x:String x:Key="en-GB">Angielski (Wielka Brytania)</x:String>
     <x:String x:Key="ja-JP">Japoński</x:String>
     <x:String x:Key="ko-KR">Koreański</x:String>
     <x:String x:Key="ru-RU">Rosyjski</x:String>
@@ -501,19 +506,18 @@
     <x:String x:Key="TipsCueAlbumEdit">Album zawiera utwory z CUE, metadane nie mogą być modyfikowane. Edytuj plik CUE bezpośrednio.</x:String>
 
     <!--  Notice  -->
-    <x:String x:Key="NoticePart1">Wersja 0.9.0.0 optymalizuje generowanie miniatur ze stałą wysokością, współdzielonych między utworami, albumami i artystami.</x:String>
-    <x:String x:Key="NoticePart2Prefix">Ze względu na zmianę ścieżki przechowywania wymagane jest "</x:String>
+    <x:String x:Key="NoticePart1">Wersja 0.10.0.0 naprawia problem przedwczesnego obcinania końcówek utworów (zwykle mniej niż 1 sekunda). Dokładność czasu trwania w pamięci podręcznej została zaktualizowana z sekund na milisekundy.</x:String>
+    <x:String x:Key="NoticePart2Prefix">Aby poprawka zadziałała, wymagane jest "</x:String>
     <x:String x:Key="NoticePart2Bold">Pełne skanowanie</x:String>
-    <x:String x:Key="NoticePart2Suffix">", aby ponownie wygenerować miniatury.</x:String>
-    <x:String x:Key="NoticePart3Text1">Kliknij poniżej lub przejdź do </x:String>
+    <x:String x:Key="NoticePart2Suffix">" w celu zaktualizowania rekordów czasu trwania wszystkich utworów.</x:String>
+    <x:String x:Key="NoticePart3Text1">Kliknij poniższy przycisk, aby rozpocząć pełne skanowanie, lub przejdź do </x:String>
     <x:String x:Key="NoticePart3Bold1">Ustawienia -> Biblioteka</x:String>
     <x:String x:Key="NoticePart3Text2">, włącz </x:String>
     <x:String x:Key="NoticePart3Bold2">Pełne skanowanie</x:String>
     <x:String x:Key="NoticePart3Text3"> i kliknij </x:String>
     <x:String x:Key="NoticePart3Bold3">Skanuj teraz</x:String>
     <x:String x:Key="NoticePart3Text4">.</x:String>
-    <x:String x:Key="NoticePart4">Ręcznie ustawione okładki albumów i obrazy artystów nie zostaną zachowane. Zostaną ponownie wygenerowane z plików. Ustaw je ponownie w razie potrzeby.</x:String>
-    <x:String x:Key="NoticePart5">Przepraszamy za niedogodności. Dziękujemy za zrozumienie!</x:String>
+    <x:String x:Key="NoticePart5">Przepraszamy za niedogodności. Dziękujemy za zrozumienie i wsparcie!</x:String>
 
     <!--  Misc  -->
     <x:String x:Key="SendLogMail">Wyślij log</x:String>

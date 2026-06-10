@@ -280,6 +280,10 @@
     <x:String x:Key="HomeNavMenuItemDesc">Varsayılan sayfayı değiştirmek için yukarıdaki menü öğesine tıklayın</x:String>
     <x:String x:Key="SystemLang">Sistem dili</x:String>
     <x:String x:Key="SwitchLang">Dil değiştir</x:String>
+    <x:String x:Key="TranslationContributors">Çeviriye Katkıda Bulunanlar</x:String>
+    <x:String x:Key="TranslationContributorsDesc">Çevirilerin iyileştirilmesine yardımcı olan katkıda bulunanların listesini görüntüleyin</x:String>
+    <x:String x:Key="HelpImproveTranslation">Çeviriyi İyileştirmeye Yardımcı Olun</x:String>
+    <x:String x:Key="HelpImproveTranslationDesc">Bir çeviri sorunu mu buldunuz? PR gönderin</x:String>
     <x:String x:Key="AutoPlay">Otomatik oynatma</x:String>
     <x:String x:Key="AutoPlayDesc">Başlatıldıktan sonra otomatik oynat</x:String>
     <x:String x:Key="SMTC">SMTC entegrasyonu</x:String>
@@ -412,7 +416,8 @@
     <!--  Language  -->
     <x:String x:Key="zh-CN">Basitleştirilmiş Çince</x:String>
     <x:String x:Key="zh-TW">Geleneksel Çince</x:String>
-    <x:String x:Key="en-US">İngilizce</x:String>
+    <x:String x:Key="en-US">İngilizce (Amerika Birleşik Devletleri)</x:String>
+    <x:String x:Key="en-GB">İngilizce (Birleşik Krallık)</x:String>
     <x:String x:Key="ja-JP">Japonca</x:String>
     <x:String x:Key="ko-KR">Korece</x:String>
     <x:String x:Key="ru-RU">Rusça</x:String>
@@ -501,19 +506,18 @@
     <x:String x:Key="TipsCueAlbumEdit">Bu albüm CUE dosyalarından parçalar içeriyor, meta veriler değiştirilemez. CUE dosyasını doğrudan düzenleyin.</x:String>
 
     <!--  Notice  -->
-    <x:String x:Key="NoticePart1">0.9.0.0 sürümü, parçalar, albümler ve sanatçılar arasında paylaşılan sabit yükseklikte küçük resim oluşturmayı optimize eder.</x:String>
-    <x:String x:Key="NoticePart2Prefix">Depolama yolundaki değişiklik nedeniyle, küçük resimleri yeniden oluşturmak için bir "</x:String>
+    <x:String x:Key="NoticePart1">0.10.0.0 sürümü, parçaların sonunun erken kesilmesi sorununu (genellikle 1 saniyeden az) düzeltir. Önbellek süre hassasiyeti saniyeden milisaniyeye yükseltildi.</x:String>
+    <x:String x:Key="NoticePart2Prefix">Düzeltmenin etkili olması için, tüm parçaların süre kayıtlarını güncellemek üzere bir "</x:String>
     <x:String x:Key="NoticePart2Bold">Tam tarama</x:String>
     <x:String x:Key="NoticePart2Suffix">" gereklidir.</x:String>
-    <x:String x:Key="NoticePart3Text1">Aşağıdaki düğmeye tıklayın veya </x:String>
+    <x:String x:Key="NoticePart3Text1">Tam taramayı başlatmak için aşağıdaki düğmeye tıklayın veya </x:String>
     <x:String x:Key="NoticePart3Bold1">Ayarlar -> Kitaplık</x:String>
     <x:String x:Key="NoticePart3Text2"> bölümüne gidin, </x:String>
     <x:String x:Key="NoticePart3Bold2">Tam tarama</x:String>
     <x:String x:Key="NoticePart3Text3"> anahtarını açın ve </x:String>
     <x:String x:Key="NoticePart3Bold3">Şimdi tara</x:String>
     <x:String x:Key="NoticePart3Text4"> düğmesine tıklayın.</x:String>
-    <x:String x:Key="NoticePart4">Albümler veya sanatçılar için daha önce ayarladığınız özel kapak resimleri korunmayacaktır. Tam tarama sırasında albüm kapakları ve sanatçı resimleri parça dosyalarınıza göre yeniden oluşturulacaktır. Gerekirse yeniden ayarlayın.</x:String>
-    <x:String x:Key="NoticePart5">Rahatsızlıktan dolayı özür dileriz. Anlayışınız için teşekkür ederiz!</x:String>
+    <x:String x:Key="NoticePart5">Rahatsızlıktan dolayı özür dileriz. Anlayışınız ve desteğiniz için teşekkür ederiz!</x:String>
 
     <!--  Misc  -->
     <x:String x:Key="SendLogMail">Günlük gönder</x:String>

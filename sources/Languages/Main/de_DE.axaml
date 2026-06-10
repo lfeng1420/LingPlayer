@@ -280,6 +280,10 @@
     <x:String x:Key="HomeNavMenuItemDesc">Menüpunkt anklicken, um die Standardseite zu wechseln</x:String>
     <x:String x:Key="SystemLang">Systemsprache</x:String>
     <x:String x:Key="SwitchLang">Sprache wechseln</x:String>
+    <x:String x:Key="TranslationContributors">Übersetzungsmitwirkende</x:String>
+    <x:String x:Key="TranslationContributorsDesc">Liste der Mitwirkenden, die die Übersetzung verbessert haben</x:String>
+    <x:String x:Key="HelpImproveTranslation">Übersetzung verbessern</x:String>
+    <x:String x:Key="HelpImproveTranslationDesc">Übersetzungsproblem gefunden? PR willkommen</x:String>
     <x:String x:Key="AutoPlay">Auto-Wiedergabe</x:String>
     <x:String x:Key="AutoPlayDesc">Nach dem Start automatisch abspielen</x:String>
     <x:String x:Key="SMTC">SMTC-Integration</x:String>
@@ -412,7 +416,8 @@
     <!--  Language  -->
     <x:String x:Key="zh-CN">Chinesisch (vereinfacht)</x:String>
     <x:String x:Key="zh-TW">Chinesisch (traditionell)</x:String>
-    <x:String x:Key="en-US">Englisch</x:String>
+    <x:String x:Key="en-US">Englisch (Vereinigte Staaten)</x:String>
+    <x:String x:Key="en-GB">Englisch (Vereinigtes Königreich)</x:String>
     <x:String x:Key="ja-JP">Japanisch</x:String>
     <x:String x:Key="ko-KR">Koreanisch</x:String>
     <x:String x:Key="ru-RU">Russisch</x:String>
@@ -501,19 +506,18 @@
     <x:String x:Key="TipsCueAlbumEdit">Album enthält CUE-Titel, Metadaten können nicht geändert werden. CUE direkt bearbeiten.</x:String>
 
     <!--  Notice  -->
-    <x:String x:Key="NoticePart1">Version 0.9.0.0 optimiert die Miniaturbild-Generierung mit einheitlicher Höhe, gemeinsam für Titel, Alben und Künstler.</x:String>
-    <x:String x:Key="NoticePart2Prefix">Aufgrund der geänderten Speicherpfade ist ein „</x:String>
+    <x:String x:Key="NoticePart1">Version 0.10.0.0 behebt das Problem, dass Track-Enden vorzeitig abgeschnitten wurden (normalerweise weniger als 1 Sekunde). Die Cache-Dauerpräzision wurde von Sekunden auf Millisekunden aktualisiert.</x:String>
+    <x:String x:Key="NoticePart2Prefix">Damit die Korrektur wirksam wird, ist ein „</x:String>
     <x:String x:Key="NoticePart2Bold">Vollständiger Scan</x:String>
-    <x:String x:Key="NoticePart2Suffix">" erforderlich, um Miniaturbilder neu zu generieren.</x:String>
-    <x:String x:Key="NoticePart3Text1">Klicken Sie unten oder gehen Sie zu </x:String>
+    <x:String x:Key="NoticePart2Suffix">" erforderlich, um die Daueraufzeichnungen aller Tracks zu aktualisieren.</x:String>
+    <x:String x:Key="NoticePart3Text1">Klicken Sie auf die Schaltfläche unten, um den vollständigen Scan zu starten, oder gehen Sie zu </x:String>
     <x:String x:Key="NoticePart3Bold1">Einstellungen -> Bibliothek</x:String>
     <x:String x:Key="NoticePart3Text2">, aktivieren Sie </x:String>
     <x:String x:Key="NoticePart3Bold2">Vollständiger Scan</x:String>
-    <x:String x:Key="NoticePart3Text3"> und klicken Sie </x:String>
+    <x:String x:Key="NoticePart3Text3"> und klicken Sie auf </x:String>
     <x:String x:Key="NoticePart3Bold3">Jetzt scannen</x:String>
     <x:String x:Key="NoticePart3Text4">.</x:String>
-    <x:String x:Key="NoticePart4">Zuvor gesetzte Albumcover und Künstlerbilder werden nicht beibehalten. Sie werden aus den Titeldateien neu generiert. Bei Bedarf bitte erneut setzen.</x:String>
-    <x:String x:Key="NoticePart5">Entschuldigung für die Unannehmlichkeiten. Vielen Dank für Ihr Verständnis!</x:String>
+    <x:String x:Key="NoticePart5">Entschuldigung für die Unannehmlichkeiten. Vielen Dank für Ihr Verständnis und Ihre Unterstützung!</x:String>
 
     <!--  Misc  -->
     <x:String x:Key="SendLogMail">Log senden</x:String>

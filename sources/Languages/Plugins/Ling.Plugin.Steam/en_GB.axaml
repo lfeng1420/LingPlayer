@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.Plugin.Steam.Languages.en_GB">
+    <x:String x:Key="SteamPluginName">Steam</x:String>
+    <x:String x:Key="SteamPluginDesc">Integrate rich presence, statistics, and achievements</x:String>
+    <x:String x:Key="SteamSettingPage">Steam Plugin Settings</x:String>
+    <x:String x:Key="SteamRichPresenceFormat">Rich Presence Format</x:String>
+    <x:String x:Key="SteamRichPresenceFormatDesc">Set the format of the rich presence displayed in the friends list</x:String>
+    <x:String x:Key="TipsSteamRichPresenceFormat">Enter a format string. Placeholders will be automatically replaced with corresponding information when a track is playing</x:String>
+    <x:String x:Key="SteamRichPresencePreview">Rich Presence Preview:</x:String>
+    <x:String x:Key="SteamPlaceholders">Placeholders</x:String>
+    <x:String x:Key="SteamSyncStatistics">Sync Statistics to Steam</x:String>
+    <x:String x:Key="SteamSyncStatisticsDesc">When disabled, Steam achievements cannot be unlocked</x:String>
+</ResourceDictionary>

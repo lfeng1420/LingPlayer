@@ -280,6 +280,10 @@
     <x:String x:Key="HomeNavMenuItemDesc">上のナビゲーションメニュー項目をクリックしてデフォルト表示ページを切り替えます</x:String>
     <x:String x:Key="SystemLang">システム言語</x:String>
     <x:String x:Key="SwitchLang">言語切替</x:String>
+    <x:String x:Key="TranslationContributors">翻訳貢献者</x:String>
+    <x:String x:Key="TranslationContributorsDesc">翻訳の改善に参加した貢献者リストを表示</x:String>
+    <x:String x:Key="HelpImproveTranslation">翻訳の改善に協力</x:String>
+    <x:String x:Key="HelpImproveTranslationDesc">翻訳の問題を見つけましたか？PRを提出してください</x:String>
     <x:String x:Key="AutoPlay">自動再生</x:String>
     <x:String x:Key="AutoPlayDesc">アプリ起動後に自動で再生を開始します</x:String>
     <x:String x:Key="SMTC">SMTC統合</x:String>
@@ -412,7 +416,8 @@
     <!--  Language  -->
     <x:String x:Key="zh-CN">簡体字中国語</x:String>
     <x:String x:Key="zh-TW">繁体字中国語</x:String>
-    <x:String x:Key="en-US">英語</x:String>
+    <x:String x:Key="en-US">英語（アメリカ）</x:String>
+    <x:String x:Key="en-GB">英語（イギリス）</x:String>
     <x:String x:Key="ja-JP">日本語</x:String>
     <x:String x:Key="ko-KR">韓国語</x:String>
     <x:String x:Key="ru-RU">ロシア語</x:String>
@@ -501,10 +506,10 @@
     <x:String x:Key="TipsCueAlbumEdit">このアルバムには CUE ファイルから生成された曲が含まれています。メタデータの変更はサポートされていません。CUE ファイルを直接編集してください。</x:String>
 
     <!--  Notice  -->
-    <x:String x:Key="NoticePart1">0.9.0.0 バージョンではサムネイルの生成ロジックを最適化し、固定高さのサムネイルを統一生成し、曲・アルバム・アーティスト間で共有します。</x:String>
-    <x:String x:Key="NoticePart2Prefix">この変更によりサムネイルの保存パスが変更されたため、すべてのメディアファイルのカバー画像が正常に表示されるよう、「</x:String>
+    <x:String x:Key="NoticePart1">0.10.0.0 バージョンでは、曲の終わりが途中で切断される問題（通常1秒未満）が修正されました。これはキャッシュの時間長精度が秒からミリ秒にアップグレードされたためです。</x:String>
+    <x:String x:Key="NoticePart2Prefix">修正を適用するには、「</x:String>
     <x:String x:Key="NoticePart2Bold">フルスキャン</x:String>
-    <x:String x:Key="NoticePart2Suffix">」を実行してサムネイルを再生成する必要があります。</x:String>
+    <x:String x:Key="NoticePart2Suffix">」を実行してすべての曲の時間長記録を更新する必要があります。</x:String>
     <x:String x:Key="NoticePart3Text1">下のボタンをクリックしてフルスキャンを開始するか、</x:String>
     <x:String x:Key="NoticePart3Bold1">設定 -> ライブラリ</x:String>
     <x:String x:Key="NoticePart3Text2">に移動し、</x:String>
@@ -512,7 +517,6 @@
     <x:String x:Key="NoticePart3Text3"> スイッチをオンにしてから </x:String>
     <x:String x:Key="NoticePart3Bold3">今すぐスキャン</x:String>
     <x:String x:Key="NoticePart3Text4"> をクリックしてください。</x:String>
-    <x:String x:Key="NoticePart4">以前に手動でアルバムやアーティストに設定したカバー画像は保持されません。フルスキャン時には曲ファイルに基づいてアルバムカバーとアーティスト画像が再生成されます。&#xA;必要に応じて、アルバムやアーティストのカバー画像を再設定してください。</x:String>
     <x:String x:Key="NoticePart5">ご不便をおかけして申し訳ございません。ご理解とご支援に感謝いたします！</x:String>
 
     <!--  Misc  -->

@@ -280,6 +280,10 @@
     <x:String x:Key="HomeNavMenuItemDesc">点击上方的导航菜单项可切换默认显示页面</x:String>
     <x:String x:Key="SystemLang">系统语言</x:String>
     <x:String x:Key="SwitchLang">切换语言</x:String>
+    <x:String x:Key="TranslationContributors">翻译贡献人员</x:String>
+    <x:String x:Key="TranslationContributorsDesc">查看参与翻译改进的贡献者名单</x:String>
+    <x:String x:Key="HelpImproveTranslation">帮助改进翻译</x:String>
+    <x:String x:Key="HelpImproveTranslationDesc">发现翻译问题？欢迎提交 PR</x:String>
     <x:String x:Key="AutoPlay">自动播放</x:String>
     <x:String x:Key="AutoPlayDesc">启动应用后自动开始播放</x:String>
     <x:String x:Key="SMTC">SMTC集成</x:String>
@@ -412,7 +416,8 @@
     <!--  Language  -->
     <x:String x:Key="zh-CN">简体中文</x:String>
     <x:String x:Key="zh-TW">繁体中文</x:String>
-    <x:String x:Key="en-US">英语</x:String>
+    <x:String x:Key="en-US">英语（美国）</x:String>
+    <x:String x:Key="en-GB">英语（英国）</x:String>
     <x:String x:Key="ja-JP">日语</x:String>
     <x:String x:Key="ko-KR">韩语</x:String>
     <x:String x:Key="ru-RU">俄语</x:String>
@@ -501,18 +506,17 @@
     <x:String x:Key="TipsCueAlbumEdit">此专辑包含来源于 CUE 文件的歌曲，暂不支持修改元数据，请直接编辑 CUE 文件。</x:String>
 
     <!--  Notice  -->
-    <x:String x:Key="NoticePart1">0.9.0.0 版本优化了缩略图的生成逻辑，统一生成固定高度的缩略图，并在歌曲、专辑和艺术家之间共用。</x:String>
-    <x:String x:Key="NoticePart2Prefix">由于此次调整涉及缩略图存储路径的变更，为了确保所有媒体文件的封面图片能正常显示，需要进行一次“</x:String>
-    <x:String x:Key="NoticePart2Bold">全量扫描</x:String>
-    <x:String x:Key="NoticePart2Suffix">”，以重新生成缩略图。</x:String>
+    <x:String x:Key="NoticePart1">0.10.0.0 版本修复了歌曲末尾被截断的问题（通常少于1秒）。这是因为缓存时长精度已从 秒 升级为 毫秒。</x:String>
+    <x:String x:Key="NoticePart2Prefix">为了让修复生效，需要进行一次</x:String>
+    <x:String x:Key="NoticePart2Bold"> 全量扫描 </x:String>
+    <x:String x:Key="NoticePart2Suffix">，以更新所有歌曲的时长记录。</x:String>
     <x:String x:Key="NoticePart3Text1">点击下方按钮即可开始全量扫描，或前往</x:String>
-    <x:String x:Key="NoticePart3Bold1">设置 -> 音乐库</x:String>
-    <x:String x:Key="NoticePart3Text2">，打开 </x:String>
-    <x:String x:Key="NoticePart3Bold2">全量扫描</x:String>
-    <x:String x:Key="NoticePart3Text3"> 开关后再点击 </x:String>
-    <x:String x:Key="NoticePart3Bold3">立即扫描</x:String>
-    <x:String x:Key="NoticePart3Text4"> 。</x:String>
-    <x:String x:Key="NoticePart4">此前手动为专辑或艺术家设置的封面图片不会被保留，全量扫描时，将根据歌曲文件重新生成专辑封面和艺术家图片。&#xA;如有需要，请重新为专辑或艺术家设置封面图片。</x:String>
+    <x:String x:Key="NoticePart3Bold1"> 设置 -> 音乐库 </x:String>
+    <x:String x:Key="NoticePart3Text2">，打开</x:String>
+    <x:String x:Key="NoticePart3Bold2"> 全量扫描 </x:String>
+    <x:String x:Key="NoticePart3Text3"> 开关后再点击</x:String>
+    <x:String x:Key="NoticePart3Bold3"> 立即扫描 </x:String>
+    <x:String x:Key="NoticePart3Text4">。</x:String>
     <x:String x:Key="NoticePart5">不便之处，敬请谅解。感谢理解与支持！</x:String>
 
     <!--  Misc  -->

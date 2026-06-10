@@ -280,6 +280,10 @@
     <x:String x:Key="HomeNavMenuItemDesc">點擊上方的導航選單項可切換預設顯示頁面</x:String>
     <x:String x:Key="SystemLang">系統語言</x:String>
     <x:String x:Key="SwitchLang">切換語言</x:String>
+    <x:String x:Key="TranslationContributors">翻譯貢獻人員</x:String>
+    <x:String x:Key="TranslationContributorsDesc">檢視參與翻譯改進的貢獻者名單</x:String>
+    <x:String x:Key="HelpImproveTranslation">協助改進翻譯</x:String>
+    <x:String x:Key="HelpImproveTranslationDesc">發現翻譯問題？歡迎提交 PR</x:String>
     <x:String x:Key="AutoPlay">自動播放</x:String>
     <x:String x:Key="AutoPlayDesc">啟動應用程式後自動開始播放</x:String>
     <x:String x:Key="SMTC">SMTC整合</x:String>
@@ -412,7 +416,8 @@
     <!--  Language  -->
     <x:String x:Key="zh-CN">簡體中文</x:String>
     <x:String x:Key="zh-TW">繁體中文</x:String>
-    <x:String x:Key="en-US">英語</x:String>
+    <x:String x:Key="en-US">英語（美國）</x:String>
+    <x:String x:Key="en-GB">英文（英國）</x:String>
     <x:String x:Key="ja-JP">日語</x:String>
     <x:String x:Key="ko-KR">韓語</x:String>
     <x:String x:Key="ru-RU">俄語</x:String>
@@ -501,10 +506,10 @@
     <x:String x:Key="TipsCueAlbumEdit">此專輯包含來源於 CUE 檔案的歌曲，暫不支援修改中繼資料，請直接編輯 CUE 檔案。</x:String>
 
     <!--  Notice  -->
-    <x:String x:Key="NoticePart1">0.9.0.0 版本最佳化了縮圖的生成邏輯，統一生成固定高度的縮圖，並在歌曲、專輯和藝術家之間共用。</x:String>
-    <x:String x:Key="NoticePart2Prefix">由於此次調整涉及縮圖儲存路徑的變更，為了確保所有媒體檔案的封面圖片能正常顯示，需要進行一次「</x:String>
+    <x:String x:Key="NoticePart1">0.10.0.0 版本修復了歌曲末尾被提前截斷的問題（通常少於1秒）。這是因為快取時長精度已從 秒 升級為 毫秒。</x:String>
+    <x:String x:Key="NoticePart2Prefix">為了讓修復生效，需要進行一次「</x:String>
     <x:String x:Key="NoticePart2Bold">完整掃描</x:String>
-    <x:String x:Key="NoticePart2Suffix">」，以重新生成縮圖。</x:String>
+    <x:String x:Key="NoticePart2Suffix">」，以更新所有歌曲的時長記錄。</x:String>
     <x:String x:Key="NoticePart3Text1">點擊下方按鈕即可開始完整掃描，或前往</x:String>
     <x:String x:Key="NoticePart3Bold1">設定 -> 音樂庫</x:String>
     <x:String x:Key="NoticePart3Text2">，開啟 </x:String>
@@ -512,7 +517,6 @@
     <x:String x:Key="NoticePart3Text3"> 開關後再點擊 </x:String>
     <x:String x:Key="NoticePart3Bold3">立即掃描</x:String>
     <x:String x:Key="NoticePart3Text4"> 。</x:String>
-    <x:String x:Key="NoticePart4">此前手動為專輯或藝術家設定的封面圖片不會被保留，完整掃描時，將根據歌曲檔案重新生成專輯封面和藝術家圖片。&#xA;如有需要，請重新為專輯或藝術家設定封面圖片。</x:String>
     <x:String x:Key="NoticePart5">不便之處，敬請見諒。感謝理解與支援！</x:String>
 
     <!--  Misc  -->

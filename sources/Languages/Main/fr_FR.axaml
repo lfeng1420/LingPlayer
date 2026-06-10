@@ -280,6 +280,10 @@
     <x:String x:Key="HomeNavMenuItemDesc">Cliquez sur un élément pour changer la page par défaut</x:String>
     <x:String x:Key="SystemLang">Langue système</x:String>
     <x:String x:Key="SwitchLang">Changer de langue</x:String>
+    <x:String x:Key="TranslationContributors">Contributeurs de traduction</x:String>
+    <x:String x:Key="TranslationContributorsDesc">Voir la liste des contributeurs ayant participé à l'amélioration des traductions</x:String>
+    <x:String x:Key="HelpImproveTranslation">Aider à améliorer la traduction</x:String>
+    <x:String x:Key="HelpImproveTranslationDesc">Un problème de traduction ? Envoyez une PR</x:String>
     <x:String x:Key="AutoPlay">Lecture automatique</x:String>
     <x:String x:Key="AutoPlayDesc">Lecture automatique après le lancement</x:String>
     <x:String x:Key="SMTC">Intégration SMTC</x:String>
@@ -412,7 +416,8 @@
     <!--  Language  -->
     <x:String x:Key="zh-CN">Chinois simplifié</x:String>
     <x:String x:Key="zh-TW">Chinois traditionnel</x:String>
-    <x:String x:Key="en-US">Anglais</x:String>
+    <x:String x:Key="en-US">Anglais (États-Unis)</x:String>
+    <x:String x:Key="en-GB">Anglais (Royaume-Uni)</x:String>
     <x:String x:Key="ja-JP">Japonais</x:String>
     <x:String x:Key="ko-KR">Coréen</x:String>
     <x:String x:Key="ru-RU">Russe</x:String>
@@ -501,19 +506,18 @@
     <x:String x:Key="TipsCueAlbumEdit">Album contenant des pistes CUE, métadonnées non modifiables. Modifiez le fichier CUE directement.</x:String>
 
     <!--  Notice  -->
-    <x:String x:Key="NoticePart1">La version 0.9.0.0 optimise la génération des miniatures avec une hauteur fixe, partagées entre pistes, albums et artistes.</x:String>
-    <x:String x:Key="NoticePart2Prefix">En raison du changement de chemin de stockage, une « </x:String>
+    <x:String x:Key="NoticePart1">La version 0.10.0.0 corrige le problème de troncature prématurée de la fin des pistes (généralement moins d'1 seconde). La précision du cache de durée est passée des secondes aux millisecondes.</x:String>
+    <x:String x:Key="NoticePart2Prefix">Pour que le correctif prenne effet, une « </x:String>
     <x:String x:Key="NoticePart2Bold">Analyse complète</x:String>
-    <x:String x:Key="NoticePart2Suffix"> » est nécessaire pour régénérer les miniatures.</x:String>
-    <x:String x:Key="NoticePart3Text1">Cliquez ci-dessous ou allez dans </x:String>
+    <x:String x:Key="NoticePart2Suffix"> » est nécessaire pour mettre à jour les enregistrements de durée de toutes les pistes.</x:String>
+    <x:String x:Key="NoticePart3Text1">Cliquez sur le bouton ci-dessous pour lancer l'analyse complète, ou allez dans </x:String>
     <x:String x:Key="NoticePart3Bold1">Paramètres -> Bibliothèque</x:String>
     <x:String x:Key="NoticePart3Text2">, activez </x:String>
     <x:String x:Key="NoticePart3Bold2">Analyse complète</x:String>
     <x:String x:Key="NoticePart3Text3"> puis cliquez sur </x:String>
     <x:String x:Key="NoticePart3Bold3">Analyser maintenant</x:String>
     <x:String x:Key="NoticePart3Text4">.</x:String>
-    <x:String x:Key="NoticePart4">Les pochettes d'album et images d'artiste définies manuellement ne seront pas conservées. Elles seront régénérées à partir des fichiers. Redéfinissez-les si nécessaire.</x:String>
-    <x:String x:Key="NoticePart5">Toutes nos excuses pour ce désagrément. Merci de votre compréhension !</x:String>
+    <x:String x:Key="NoticePart5">Toutes nos excuses pour ce désagrément. Merci de votre compréhension et de votre soutien !</x:String>
 
     <!--  Misc  -->
     <x:String x:Key="SendLogMail">Envoyer le log</x:String>
