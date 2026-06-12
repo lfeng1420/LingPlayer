@@ -399,6 +399,7 @@
     <x:String x:Key="ViewArtists">아티스트 보기</x:String>
 
     <!--  Lyric  -->
+    <x:String x:Key="Lyric">가사</x:String>
     <x:String x:Key="LyricLoading">가사 로딩 중</x:String>
     <x:String x:Key="LyricNone">가사 없음</x:String>
     <x:String x:Key="DesktopLyric">데스크톱 가사</x:String>

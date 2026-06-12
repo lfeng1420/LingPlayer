@@ -399,6 +399,7 @@
     <x:String x:Key="ViewArtists">Sanatçıları gör</x:String>
 
     <!--  Lyric  -->
+    <x:String x:Key="Lyric">Şarkı sözleri</x:String>
     <x:String x:Key="LyricLoading">Sözler yükleniyor...</x:String>
     <x:String x:Key="LyricNone">Söz yok</x:String>
     <x:String x:Key="DesktopLyric">Masaüstü şarkı sözleri</x:String>

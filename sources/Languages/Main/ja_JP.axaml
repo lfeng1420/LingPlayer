@@ -399,6 +399,7 @@
     <x:String x:Key="ViewArtists">アーティストを表示</x:String>
 
     <!--  Lyric  -->
+    <x:String x:Key="Lyric">歌詞</x:String>
     <x:String x:Key="LyricLoading">歌詞を読み込み中</x:String>
     <x:String x:Key="LyricNone">歌詞なし</x:String>
     <x:String x:Key="DesktopLyric">デスクトップ歌詞</x:String>

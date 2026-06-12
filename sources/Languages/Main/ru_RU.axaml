@@ -399,6 +399,7 @@
     <x:String x:Key="ViewArtists">Смотреть исп.</x:String>
 
     <!--  Lyric  -->
+    <x:String x:Key="Lyric">Текст песни</x:String>
     <x:String x:Key="LyricLoading">Загрузка текста...</x:String>
     <x:String x:Key="LyricNone">Нет текста</x:String>
     <x:String x:Key="DesktopLyric">Текст на раб. столе</x:String>

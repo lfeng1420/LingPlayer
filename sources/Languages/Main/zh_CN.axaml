@@ -399,6 +399,7 @@
     <x:String x:Key="ViewArtists">查看艺术家</x:String>
 
     <!--  Lyric  -->
+    <x:String x:Key="Lyric">歌词</x:String>
     <x:String x:Key="LyricLoading">正在加载歌词</x:String>
     <x:String x:Key="LyricNone">暂无歌词</x:String>
     <x:String x:Key="DesktopLyric">桌面歌词</x:String>

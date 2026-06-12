@@ -399,6 +399,7 @@
     <x:String x:Key="ViewArtists">Ver artistas</x:String>
 
     <!--  Lyric  -->
+    <x:String x:Key="Lyric">Letras</x:String>
     <x:String x:Key="LyricLoading">Carregando letras...</x:String>
     <x:String x:Key="LyricNone">Sem letras</x:String>
     <x:String x:Key="DesktopLyric">Letras na área de trabalho</x:String>
