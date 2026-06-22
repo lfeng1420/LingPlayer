@@ -156,7 +156,6 @@ Files are organised into sections using XML comments `<!--  Category  -->` for e
 - **Do NOT modify Key names** — Keys are the unique identifiers used in code
 - **Preserve placeholders** `{0}`, `{1}`, etc. — do not delete or reorder them
 - **Keep XML structure intact** — do not break tag closures
-- **Main and plugin translations must be in sync** — if you change a Key's translation in Main, check if the same change is needed in Plugins
 - For Keys with formatting strings (e.g., `TrackBitRate` with `{0} Kbps`), only translate the unit text, preserving the format
 
 ---

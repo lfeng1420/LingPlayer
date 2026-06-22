@@ -156,7 +156,6 @@ Dosyalar, kolay gezinme için `<!--  Category  -->` XML yorumları ile bölümle
 - **Key adlarını değiştirmeyin** — Key'ler kodda kullanılan benzersiz tanımlayıcılardır
 - **Yer tutucuları koruyun** `{0}`, `{1}` vb. — silmeyin veya sıralarını değiştirmeyin
 - **XML yapısını bozmayın** — etiket kapanışlarını kırmayın
-- **Ana program ve eklenti çevirileri senkronize olmalıdır** — Main'de bir Key'in çevirisini değiştirirseniz, Plugins'te de aynı değişikliğin gerekip gerekmediğini kontrol edin
 - Biçimlendirme dizeleri içeren Key'ler için (örn. `TrackBitRate` ile `{0} Kbps`), yalnızca birim metnini çevirin, formatı koruyun
 
 ---

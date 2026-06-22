@@ -156,7 +156,6 @@ Please note that some effects may not be supported on the current platform
 - **Key 이름을 수정하지 마세요** — Key는 코드에서 사용되는 고유 식별자입니다
 - **자리표시자를 유지하세요** `{0}`, `{1}` 등 — 삭제하거나 순서를 변경하지 마세요
 - **XML 구조를 손상시키지 마세요** — 태그 닫힘을 확인하세요
-- **메인 프로그램과 플러그인의 번역은 동기화되어야 합니다** — Main에서 Key 번역을 변경한 경우 Plugins에서도 동일한 변경이 필요한지 확인하세요
 - 형식 문자열이 포함된 Key(예: `TrackBitRate`의 `{0} Kbps`)는 단위 텍스트만 번역하고 형식은 유지하세요
 
 ---

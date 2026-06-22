@@ -156,7 +156,6 @@ Please note that some effects may not be supported on the current platform
 - **不要修改 Key 名称**，Key 是代码中引用文本的唯一标识
 - **保留占位符** `{0}`, `{1}` 等，不要删除或调换顺序
 - **保持 XML 结构完整**，不要破坏标签闭合
-- **主程序和插件的翻译需同步**，如果修改了某个 Key 在 Main 中的翻译，请检查 Plugins 中是否需要同样处理
 - 对于包含格式化说明的 Key（如 `TrackBitRate` 的 `{0} Kbps`），只需翻译单位文本，保留格式
 
 ---

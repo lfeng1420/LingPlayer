@@ -156,7 +156,6 @@ Los archivos están organizados en secciones usando comentarios XML `<!--  Categ
 - **NO modificar los nombres de Key** — Las Keys son los identificadores únicos utilizados en el código
 - **Conserve los marcadores** `{0}`, `{1}`, etc. — no los elimine ni reordene
 - **Mantenga la estructura XML intacta** — no rompa los cierres de etiquetas
-- **Las traducciones del programa principal y los plugins deben estar sincronizadas** — si modifica la traducción de una Key en Main, verifique si se necesita el mismo cambio en Plugins
 - Para Keys con cadenas de formato (ej. `TrackBitRate` con `{0} Kbps`), traduzca solo el texto de la unidad conservando el formato
 
 ---

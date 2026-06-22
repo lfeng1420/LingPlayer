@@ -156,7 +156,6 @@ Dateien sind mit XML-Kommentaren `<!--  Category  -->` in Abschnitte unterteilt,
 - **Key-Namen NICHT ändern** — Keys sind die eindeutigen Kennungen, die im Code verwendet werden
 - **Platzhalter beibehalten** `{0}`, `{1}` usw. — nicht löschen oder umsortieren
 - **XML-Struktur intakt halten** — Tag-Schließungen nicht beschädigen
-- **Übersetzungen von Hauptprogramm und Plugins müssen synchron sein** — wenn Sie die Übersetzung eines Keys in Main ändern, prüfen Sie, ob dieselbe Änderung auch in Plugins erforderlich ist
 - Bei Keys mit Formatierungszeichenfolgen (z. B. `TrackBitRate` mit `{0} Kbps`) nur den Einheitentext übersetzen und das Format beibehalten
 
 ---

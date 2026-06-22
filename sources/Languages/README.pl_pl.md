@@ -156,7 +156,6 @@ Pliki są zorganizowane w sekcje za pomocą komentarzy XML `<!--  Category  -->`
 - **NIE modyfikuj nazw Key** — Keys to unikalne identyfikatory używane w kodzie
 - **Zachowaj symbole zastępcze** `{0}`, `{1}` itp. — nie usuwaj ich ani nie zmieniaj kolejności
 - **Utrzymuj strukturę XML w nienaruszonym stanie** — nie uszkadzaj zamknięć tagów
-- **Tłumaczenia programu głównego i wtyczek muszą być zsynchronizowane** — jeśli zmienisz tłumaczenie Key w Main, sprawdź, czy ta sama zmiana jest potrzebna w Plugins
 - Dla Keys z ciągami formatującymi (np. `TrackBitRate` z `{0} Kbps`), przetłumacz tylko tekst jednostki, zachowując format
 
 ---
