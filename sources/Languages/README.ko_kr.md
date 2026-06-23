@@ -1,8 +1,8 @@
-[简体中文](README.md) | [English](README.en_us.md) | [繁體中文](README.zh_tw.md) | [日本語](README.ja_jp.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md) | [English (UK)](README.en_gb.md)
+[简体中文](README.zh_cn.md) | [English](README.md) | [繁體中文](README.zh_tw.md) | [日本語](README.ja_jp.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md)
 
 # 언어 번역 참조
 
-Ling Player 번역 개선에 참여해 주셔서 감사합니다! 이 가이드는 프로젝트의 국제화 파일 구조와 번역 기여 방법을 설명합니다.
+Ling Player 번역 프로젝트에 참여해 주셔서 감사합니다! 이 가이드는 프로젝트의 국제화 파일 구조와 번역 기여 방법을 설명합니다.
 
 ---
 

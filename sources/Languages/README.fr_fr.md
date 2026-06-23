@@ -1,8 +1,8 @@
-[简体中文](README.md) | [English](README.en_us.md) | [繁體中文](README.zh_tw.md) | [日本語](README.ja_jp.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md) | [English (UK)](README.en_gb.md)
+[简体中文](README.zh_cn.md) | [English](README.md) | [繁體中文](README.zh_tw.md) | [日本語](README.ja_jp.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md)
 
 # Référence de Traduction
 
-Bienvenue dans l'effort d'amélioration des traductions de Ling Player ! Ce guide explique la structure des fichiers d'internationalisation du projet et comment contribuer aux traductions.
+Bienvenue dans le projet de traduction de Ling Player ! Ce guide explique la structure des fichiers d'internationalisation du projet et comment contribuer aux traductions.
 
 ---
 

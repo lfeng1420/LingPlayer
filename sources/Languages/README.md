@@ -1,84 +1,84 @@
-[English](README.en_us.md) | [繁體中文](README.zh_tw.md) | [日本語](README.ja_jp.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md) | [English (UK)](README.en_gb.md)
+[简体中文](README.zh_cn.md) | [繁體中文](README.zh_tw.md) | [日本語](README.ja_jp.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md)
 
-# 语言翻译参考
+# Language Translation Reference
 
-欢迎参与 Ling Player 的翻译改进工作！本文档将帮助你了解项目的国际化文件结构以及如何贡献翻译。
+Welcome to the Ling Player translation project! This guide explains the project's i18n file structure and how to contribute translations.
 
 ---
 
-## 目录结构
+## Directory Structure
 
 ```
 Languages/
-├── Main/                          # 主程序文本
-│   ├── en_US.axaml                # 英语（美国）— 参考基准
-│   ├── zh_CN.axaml                # 简体中文
-│   ├── zh_TW.axaml                # 繁体中文
-│   ├── ja_JP.axaml                # 日语
-│   ├── ko_KR.axaml                # 韩语
-│   ├── de_DE.axaml                # 德语
-│   ├── fr_FR.axaml                # 法语
-│   ├── es_ES.axaml                # 西班牙语
-│   ├── pt_BR.axaml                # 葡萄牙语（巴西）
-│   ├── pl_PL.axaml                # 波兰语
-│   ├── ru_RU.axaml                # 俄语
-│   ├── tr_TR.axaml                # 土耳其语
-│   └── en_GB.axaml                # 英语（英国）
+├── Main/                          # Main application strings
+│   ├── en_US.axaml                # English (United States) — reference base
+│   ├── zh_CN.axaml                # Simplified Chinese
+│   ├── zh_TW.axaml                # Traditional Chinese
+│   ├── ja_JP.axaml                # Japanese
+│   ├── ko_KR.axaml                # Korean
+│   ├── de_DE.axaml                # German
+│   ├── fr_FR.axaml                # French
+│   ├── es_ES.axaml                # Spanish
+│   ├── pt_BR.axaml                # Portuguese (Brazil)
+│   ├── pl_PL.axaml                # Polish
+│   ├── ru_RU.axaml                # Russian
+│   ├── tr_TR.axaml                # Turkish
+│   └── en_GB.axaml                # English (United Kingdom)
 ├── Plugins/
-│   └── Ling.Plugin.Steam/         # Steam 插件
+│   └── Ling.Plugin.Steam/         # Steam plugin
 │       ├── en_US.axaml
 │       ├── zh_CN.axaml
-│       └── ...（同上 13 种语言）
-├── README.md                      # 本文件
-└── CONTRIBUTORS.md                # 翻译贡献者名单
+│       └── ... (same 13 languages as above)
+├── README.md                      # This file
+└── CONTRIBUTORS.md                # Translation contributors
 ```
 
-## 文件格式
+## File Format
 
-语言文件使用 [Avalonia UI](https://avaloniaui.net/) 的 `ResourceDictionary` XAML 格式：
+Language files use the [Avalonia UI](https://avaloniaui.net/) `ResourceDictionary` XAML format:
 
 ```xml
 <ResourceDictionary xmlns="https://github.com/avaloniaui"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     x:Class="Ling.UI.Languages.zh_CN">
-    <!--  分类注释  -->
+    <!--  Category comment  -->
     <x:String x:Key="AppName">轻灵音乐</x:String>
     <x:String x:Key="Welcome">欢迎</x:String>
     ...
 </ResourceDictionary>
 ```
 
-- **Key** — 在代码中引用该文本的唯一标识符，**不可修改**
-- **Value** — 需要翻译的文本内容
-- **x:Class** — 命名空间限定，格式为 `{Namespace}.Languages.{locale_code}`
+- **Key** — The unique identifier used in code to reference this string. **Do NOT modify.**
+- **Value** — The text content to be translated
+- **x:Class** — Namespace qualifier, format: `{Namespace}.Languages.{locale_code}`
 
-## 当前支持的语言
+## Supported Languages
 
-| 语言代码 | 语言 | Language |
-|---------|------|----------|
-| `en_US` | 英语（美国） | English (United States) — **基准语言** |
-| `zh_CN` | 简体中文 | Simplified Chinese |
-| `zh_TW` | 繁体中文 | Traditional Chinese |
-| `ja_JP` | 日语 | Japanese |
-| `ko_KR` | 韩语 | Korean |
-| `de_DE` | 德语 | German |
-| `fr_FR` | 法语 | French |
-| `es_ES` | 西班牙语 | Spanish |
-| `pt_BR` | 葡萄牙语（巴西） | Portuguese (Brazil) |
-| `pl_PL` | 波兰语 | Polish |
-| `ru_RU` | 俄语 | Russian |
-| `tr_TR` | 土耳其语 | Turkish |
-| `en_GB` | 英语（英国） | English (United Kingdom) |
+| Code | Language | Note |
+|------|----------|------|
+| `en_US` | English (United States) | **Reference base** |
+| `zh_CN` | Simplified Chinese | |
+| `zh_TW` | Traditional Chinese | |
+| `ja_JP` | Japanese | |
+| `ko_KR` | Korean | |
+| `de_DE` | German | |
+| `fr_FR` | French | |
+| `es_ES` | Spanish | |
+| `pt_BR` | Portuguese (Brazil) | |
+| `pl_PL` | Polish | |
+| `ru_RU` | Russian | |
+| `tr_TR` | Turkish | |
+| `en_GB` | English (United Kingdom) | |
 
-> **注意：** `en_US` 是翻译的参考基准。所有其他语言的翻译均应以 `en_US.axaml` 的 Key 和语义为准。
+> **Note:** `en_US` is the reference base for translations. All other language translations should be based on the keys and semantics in `en_US.axaml`.
 
 ---
 
-## 翻译规范
+## Translation Guidelines
 
-### 1. 占位符
+### 1. Placeholders
 
-翻译文本中可能包含 `{0}`, `{1}`, `{2}` 等占位符，它们在运行时会替换为实际数值。**必须保留这些占位符及其顺序。**
+Translation strings may contain placeholders like `{0}`, `{1}`, `{2}`, which are replaced with actual values at runtime. **You must preserve these placeholders and their order.**
 
 ```
 en_US:  "{0} track(s)"
@@ -95,85 +95,85 @@ en_US:  "Parsing tracks {0}/{1}"
 zh_CN:  "正在解析歌曲 {0}/{1}"
 ```
 
-### 2. 换行符
+### 2. Line Breaks
 
-使用 XML 实体 `&#xA;` 表示换行：
+Use the XML entity `&#xA;` for line breaks:
 
 ```xml
 <x:String x:Key="TransparencyEffectDesc">The effects will be applied to the main window and the mini window&#xA;Please note that some effects may not be supported on the current platform</x:String>
 ```
 
-以上文本在UI上将显示为：
+The above text will render in the UI as:
 ```
 The effects will be applied to the main window and the mini window
 Please note that some effects may not be supported on the current platform
 ```
 
-### 3. 分类注释
+### 3. Category Comments
 
-文件通过 XML 注释 `<!--  Category  -->` 进行分块，便于定位。翻译时请保持这些注释与原始顺序一致：
+Files are organized into sections using XML comments `<!--  Category  -->` for easy navigation. Please keep these comments consistent with the original order:
 
-- `General` — 通用文本
-- `Navigation` — 导航/页面标题
-- `Track` / `Album` / `Artist` / `Playlist` / `Folder` — 各模块
-- `Statistics` — 统计
-- `Plugin` — 插件
-- `Setting` — 设置
-- `Dialog` — 对话框
-- `MiniWindow` — 迷你窗口
-- `Tray menu` — 托盘菜单
-- `Options` — 操作选项
-- `Lyric` — 歌词
-- `Playing` — 播放页面
-- `Language` — 语言
-- `Toast` — 提示消息
-- `Tips` — 提示
-- `Notice` — 公告
-- `Misc` — 杂项
-
----
-
-## 如何贡献
-
-### 改进现有翻译
-
-1. 在 `Main/` 目录中找到对应的语言文件（如 `de_DE.axaml`）
-2. 参考 `en_US.axaml`（基准文件），逐行对比翻译
-3. 修改不准确或错误的翻译
-4. 通过 GitHub Pull Request 提交修改
-
-### 新增语言
-
-1. 复制 `Main/en_US.axaml` 为新文件，按 `{locale}_{region}.axaml` 格式命名（如 `ar_SA.axaml`）
-2. 修改 `x:Class` 属性：`Ling.UI.Languages.{locale_region}`
-3. 逐一翻译所有 Value，保留 Key 和占位符不变
-4. 在 `Language` 分类块中添加新语言的显示名称（如 `<x:String x:Key="ar-SA">العربية</x:String>`）
-5. **同步处理插件目录：** 同样复制并翻译 `Plugins/` 下的 `en_US.axaml`
-6. 提交 PR
-
-### 翻译注意事项
-
-- **不要修改 Key 名称**，Key 是代码中引用文本的唯一标识
-- **保留占位符** `{0}`, `{1}` 等，不要删除或调换顺序
-- **保持 XML 结构完整**，不要破坏标签闭合
-- 对于包含格式化说明的 Key（如 `TrackBitRate` 的 `{0} Kbps`），只需翻译单位文本，保留格式
+- `General` — General text
+- `Navigation` — Navigation / page titles
+- `Track` / `Album` / `Artist` / `Playlist` / `Folder` — Module-specific
+- `Statistics` — Statistics
+- `Plugin` — Plugin
+- `Setting` — Settings
+- `Dialog` — Dialogs
+- `MiniWindow` — Mini window
+- `Tray menu` — Tray menu
+- `Options` — Action options
+- `Lyric` — Lyrics
+- `Playing` — Playing
+- `Language` — Language
+- `Toast` — Toast messages
+- `Tips` — Tips
+- `Notice` — Notices
+- `Misc` — Miscellaneous
 
 ---
 
-## 插件翻译
+## How to Contribute
 
-每个插件在 `Plugins/` 下有独立的翻译目录。以 Steam 插件为例：
+### Improve Existing Translations
 
-- 目录：`Plugins/Ling.Plugin.Steam/`
-- 命名空间前缀：`Ling.Plugin.Steam.Languages.{locale}`
-- 包含插件特有的 Key，如 `SteamRichPresenceFormat`
+1. Locate the target language file in the `Main/` directory (e.g., `de_DE.axaml`)
+2. Compare against `en_US.axaml` (the reference file) line by line
+3. Correct inaccurate or erroneous translations
+4. Submit your changes via GitHub Pull Request
 
-新增或改进插件翻译的流程与主程序相同。
+### Add a New Language
+
+1. Copy `Main/en_US.axaml` to a new file named in the format `{locale}_{region}.axaml` (e.g., `ar_SA.axaml`)
+2. Update the `x:Class` attribute: `Ling.UI.Languages.{locale_region}`
+3. Translate all Values one by one, keeping Keys and placeholders unchanged
+4. Add the new language's display name in the `Language` category block (e.g., `<x:String x:Key="ar-SA">العربية</x:String>`)
+5. **Sync plugin directories:** Also copy and translate `en_US.axaml` under `Plugins/`
+6. Submit a PR
+
+### Translation Notes
+
+- **Do NOT modify Key names** — Keys are the unique identifiers used in code
+- **Preserve placeholders** `{0}`, `{1}`, etc. — do not delete or reorder them
+- **Keep XML structure intact** — do not break tag closures
+- For Keys with formatting strings (e.g., `TrackBitRate` with `{0} Kbps`), only translate the unit text, preserving the format
 
 ---
 
-## 相关链接
+## Plugin Translations
 
-- [Avalonia UI 官方文档](https://docs.avaloniaui.net/)
+Each plugin has its own translation directory under `Plugins/`. Example for the Steam plugin:
+
+- Directory: `Plugins/Ling.Plugin.Steam/`
+- Namespace prefix: `Ling.Plugin.Steam.Languages.{locale}`
+- Contains plugin-specific Keys, e.g., `SteamRichPresenceFormat`
+
+The process for adding or improving plugin translations is the same as for the main application.
+
+---
+
+## Related Links
+
+- [Avalonia UI Documentation](https://docs.avaloniaui.net/)
 - [GitHub Issues](https://github.com/lfeng1420/LingPlayer/issues)
-- [项目 README](../../README.md)
+- [Project README](../../README.md)

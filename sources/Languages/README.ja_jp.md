@@ -1,8 +1,8 @@
-[简体中文](README.md) | [English](README.en_us.md) | [繁體中文](README.zh_tw.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md) | [English (UK)](README.en_gb.md)
+[简体中文](README.zh_cn.md) | [English](README.md) | [繁體中文](README.zh_tw.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md)
 
 # 言語翻訳リファレンス
 
-Ling Player の翻訳改善にご協力いただきありがとうございます！このガイドでは、プロジェクトの国際化ファイル構造と翻訳の貢献方法について説明します。
+Ling Player の翻訳プロジェクトにご協力いただきありがとうございます！このガイドでは、プロジェクトの国際化ファイル構造と翻訳の貢献方法について説明します。
 
 ---
 

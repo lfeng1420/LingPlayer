@@ -1,8 +1,8 @@
-[简体中文](README.md) | [English](README.en_us.md) | [日本語](README.ja_jp.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md) | [English (UK)](README.en_gb.md)
+[简体中文](README.zh_cn.md) | [English](README.md) | [日本語](README.ja_jp.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md)
 
 # 語言翻譯參考
 
-歡迎參與 Ling Player 的翻譯改進工作！本文件將幫助你了解專案的國際化文件結構以及如何貢獻翻譯。
+歡迎參與 Ling Player 的翻譯專案！本文件將幫助你了解專案的國際化文件結構以及如何貢獻翻譯。
 
 ---
 

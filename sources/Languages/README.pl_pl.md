@@ -1,8 +1,8 @@
-[简体中文](README.md) | [English](README.en_us.md) | [繁體中文](README.zh_tw.md) | [日本語](README.ja_jp.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md) | [English (UK)](README.en_gb.md)
+[简体中文](README.zh_cn.md) | [English](README.md) | [繁體中文](README.zh_tw.md) | [日本語](README.ja_jp.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md)
 
 # Dokumentacja Tłumaczeń
 
-Witamy w projekcie ulepszania tłumaczeń Ling Player! Ten przewodnik wyjaśnia strukturę plików internacjonalizacji oraz sposób wnoszenia wkładu w tłumaczenia.
+Witamy w projekcie tłumaczeń Ling Player! Ten przewodnik wyjaśnia strukturę plików internacjonalizacji oraz sposób wnoszenia wkładu w tłumaczenia.
 
 ---
 
