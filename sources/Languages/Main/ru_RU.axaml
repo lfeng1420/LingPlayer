@@ -291,7 +291,7 @@
     <x:String x:Key="AndroidEnableMediaButtonEvent">Включить управление воспроизведением с помощью мультимедийных кнопок</x:String>
     <x:String x:Key="AndroidEnableMediaButtonEventDesc">Управление воспроизведением с помощью мультимедийных кнопок (например, кнопок воспроизведения/паузы в наушниках)</x:String>
     <x:String x:Key="AndroidAudioFocus">Эксклюзивный аудиофокус</x:String>
-    <x:String x:Key="AndroidAudioFocusDesc">После включения воспроизведение зашлушит другие приложения. Эта функция может не работать из-за системных ограничений устройства</x:String>
+    <x:String x:Key="AndroidAudioFocusDesc">После включения воспроизведение заглушит другие приложения. Эта функция может не работать из-за системных ограничений устройства</x:String>
     <x:String x:Key="TrackClickAction">Действие по нажатию на трек</x:String>
     <x:String x:Key="TrackClickActionDesc">Дополнительные действия при нажатии на трек в списке</x:String>
     <x:String x:Key="TrackClickActionAddToNext">Добавить следующим</x:String>
