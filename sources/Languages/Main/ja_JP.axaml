@@ -1,6 +1,6 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.UI.Languages.ja_JP">
     <!--  General  -->
-    <x:String x:Key="AppName">軽やか音楽</x:String>
+    <x:String x:Key="AppName">Ling Player</x:String>
     <x:String x:Key="Welcome">ようこそ</x:String>
     <x:String x:Key="Tips">ヒント</x:String>
     <x:String x:Key="Yes">はい</x:String>
