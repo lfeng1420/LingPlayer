@@ -24,8 +24,8 @@ Ling Player는 FLAC, APE, DSD, MP3, AAC 등 수십 가지의 일반적인 오디
 
 Ling Player는 다국어 인터페이스를 지원합니다. 번역 기여를 환영합니다!
 
-- 📖 [번역 가이드](sources/Languages/README.md)
-- 👥 [기여자 목록](sources/Languages/CONTRIBUTORS.md)
+- [번역 가이드](sources/Languages/README.md)
+- [기여자 목록](sources/Languages/CONTRIBUTORS.md)
 
 ## 🔗 관련 링크
 

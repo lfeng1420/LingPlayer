@@ -24,8 +24,8 @@ O Ling Player é um reprodutor de música local multiplataforma compatível com 
 
 O Ling Player oferece suporte a vários idiomas de interface. Contribuições são bem-vindas!
 
-- 📖 [Guia de tradução](sources/Languages/README.md)
-- 👥 [Colaboradores](sources/Languages/CONTRIBUTORS.md)
+- [Guia de tradução](sources/Languages/README.md)
+- [Colaboradores](sources/Languages/CONTRIBUTORS.md)
 
 ## 🔗 Links
 

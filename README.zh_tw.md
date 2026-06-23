@@ -24,8 +24,8 @@
 
 輕靈音樂已支援多語言介面，歡迎參與翻譯貢獻！
 
-- 📖 [翻譯指南](sources/Languages/README.md)
-- 👥 [貢獻者列表](sources/Languages/CONTRIBUTORS.md)
+- [翻譯指南](sources/Languages/README.md)
+- [貢獻者列表](sources/Languages/CONTRIBUTORS.md)
 
 ## 🔗 相關連結
 

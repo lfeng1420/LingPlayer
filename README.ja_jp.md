@@ -24,8 +24,8 @@
 
 轻灵音乐は多言語インターフェースに対応しています。翻訳への貢献を歓迎します！
 
-- 📖 [翻訳ガイド](sources/Languages/README.md)
-- 👥 [貢献者リスト](sources/Languages/CONTRIBUTORS.md)
+- [翻訳ガイド](sources/Languages/README.md)
+- [貢献者リスト](sources/Languages/CONTRIBUTORS.md)
 
 ## 🔗 関連リンク
 

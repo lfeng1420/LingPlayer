@@ -24,8 +24,8 @@ Ling Player ist ein plattformübergreifender lokaler Musikplayer, der Dutzende g
 
 Ling Player unterstützt mehrere Sprachoberflächen. Beiträge sind willkommen!
 
-- 📖 [Übersetzungsleitfaden](sources/Languages/README.md)
-- 👥 [Mitwirkende](sources/Languages/CONTRIBUTORS.md)
+- [Übersetzungsleitfaden](sources/Languages/README.md)
+- [Mitwirkende](sources/Languages/CONTRIBUTORS.md)
 
 ## 🔗 Links
 
