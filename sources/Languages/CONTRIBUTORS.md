@@ -6,4 +6,4 @@ Thanks to all the contributors who have helped translate Ling Player into differ
 
 | Language | Contributor |
 |----------|-------------|
-| Русский (Russian) | [DanRug08](https://github.com/DanRug08) |
+| Russian | [DanRug08](https://github.com/DanRug08) |

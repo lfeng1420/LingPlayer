@@ -4,6 +4,6 @@
 
 Ling Player'ı farklı dillere çevirmeye yardımcı olan tüm katkıda bulunanlara teşekkürler!
 
-| Language | Contributor |
+| Dil | Katkıda Bulunan |
 |----------|-------------|
-| Русский (Russian) | [DanRug08](https://github.com/DanRug08) |
+| Rusça | [DanRug08](https://github.com/DanRug08) |

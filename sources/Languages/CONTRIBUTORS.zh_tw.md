@@ -4,6 +4,6 @@
 
 感謝所有幫助將 Ling Player 翻譯成不同語言的貢獻者！
 
-| Language | Contributor |
+| 語言 | 貢獻者 |
 |----------|-------------|
-| Русский (Russian) | [DanRug08](https://github.com/DanRug08) |
+| 俄語 | [DanRug08](https://github.com/DanRug08) |
