@@ -2,8 +2,6 @@
 
 # Ling Player
 
-## Açıklama
-
 Ling Player, FLAC, APE, DSD, MP3 ve AAC gibi düzinelerce yaygın ses formatını destekleyen çapraz platform yerel bir müzik çalardır. CUE dosya ayrıştırma, gruplandırılmış karışık çalma ve daha fazlasını sunar. GPU hızlandırmalı gerçek zamanlı görselleştirici ve özelleştirilebilir arka plan resimleriyle şeffaf cam arayüzü sayesinde Ling Player, zengin ve kişiselleştirilmiş bir müzik deneyimi sunar.
 
 ## ✨ Temel Özellikler

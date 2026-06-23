@@ -2,8 +2,6 @@
 
 # Ling Player
 
-## Description
-
 Ling Player est un lecteur de musique local multiplateforme prenant en charge des dizaines de formats audio courants tels que FLAC, APE, DSD, MP3 et AAC. Il propose l'analyse des fichiers CUE, la lecture aléatoire groupée et bien plus encore. Avec son visualiseur en temps réel accéléré par GPU et son interface en verre transparent associée à des images d'arrière-plan personnalisables, Ling Player offre une expérience musicale riche et personnalisée.
 
 ## ✨ Fonctionnalités principales

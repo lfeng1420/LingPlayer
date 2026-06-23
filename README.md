@@ -2,8 +2,6 @@
 
 # Ling Player
 
-## Description
-
 Ling Player is a cross-platform local music player supporting dozens of common audio formats including FLAC, APE, DSD, MP3, and AAC. It features CUE sheet parsing, grouped shuffle playback, and more. With GPU-accelerated real-time visualizer and a transparent glass UI paired with custom background images, Ling Player delivers a rich, personalized music experience.
 
 ## ✨ Core Features
