@@ -104,7 +104,7 @@
     <x:String x:Key="FolderPage">Folders</x:String>
     <x:String x:Key="PlaylistPage">Playlists</x:String>
     <x:String x:Key="TrackPage">Tracks</x:String>
-    <x:String x:Key="TrackFavoritePage">My Favorites</x:String>
+    <x:String x:Key="TrackFavoritePage">Favorites</x:String>
     <x:String x:Key="TrackRecentPage">Recently Played</x:String>
     <x:String x:Key="GenrePage">Genres</x:String>
     <x:String x:Key="SearchPage">Search</x:String>
@@ -118,6 +118,7 @@
     <x:String x:Key="EffectSettingPage">Effect</x:String>
     <x:String x:Key="LangSettingPage">Language</x:String>
     <x:String x:Key="PlayControlSettingPage">Play Control</x:String>
+    <x:String x:Key="AdvancedSettingPage">Advanced</x:String>
     <x:String x:Key="AboutSettingPage">About</x:String>
     <x:String x:Key="AboutSettingLicensePage">Open Source Licenses</x:String>
     <x:String x:Key="StatTrackPage">Track Ranking</x:String>
@@ -207,6 +208,7 @@
     <x:String x:Key="EffectDesc">Equalizer, Effects</x:String>
     <x:String x:Key="LangDesc">System language, Switch language</x:String>
     <x:String x:Key="PlayControlDesc">Auto-play, Shuffle play</x:String>
+    <x:String x:Key="AdvancedDesc">Garbage collection</x:String>
     <x:String x:Key="AboutDesc">Version info, Bug report, Log cache</x:String>
     <x:String x:Key="ExcludeBelowDurationTracks">Exclude tracks below the set duration</x:String>
     <x:String x:Key="ScanNow">Scan Now</x:String>
@@ -225,7 +227,7 @@
     <x:String x:Key="TransparencyEffect">Transparency effect</x:String>
     <x:String x:Key="TransparencyEffectDesc">The effects will be applied to the main window and the mini window&#xA;Please note that some effects may not be supported on the current platform</x:String>
     <x:String x:Key="WindowsRenderType">Rendering mode</x:String>
-    <x:String x:Key="WindowsRenderTypeDesc">If you encounter display issues, try switching the rendering mode&#xA;Restart the application after changing the render mode to take effect</x:String>
+    <x:String x:Key="WindowsRenderTypeDesc">When display issues occur, try switching the rendering mode&#xA;Restart the application after changing the render mode to take effect</x:String>
     <x:String x:Key="WindowsRenderDefault">Adaptive</x:String>
     <x:String x:Key="WindowsRenderDefaultDesc">Automatically selects an appropriate rendering mode based on the system</x:String>
     <x:String x:Key="WindowsRenderAngleEgl">Angle EGL</x:String>
@@ -276,6 +278,8 @@
     <x:String x:Key="OverlayDarkOpacity">Overlay opacity for dark theme</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">Overlay layer is used to enhance text readability in light theme, setting the value too low may make the text difficult to read</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">Overlay layer is used to dim overly bright backgrounds in dark themes and brighten overly dark backgrounds in light themes, thereby improving text readability</x:String>
+    <x:String x:Key="JumpBarOverlayLightOpacity">Jump bar overlay opacity for light theme</x:String>
+    <x:String x:Key="JumpBarOverlayDarkOpacity">Jump bar overlay opacity for dark theme</x:String>
     <x:String x:Key="HomeNavMenuItem">Default page displayed at startup</x:String>
     <x:String x:Key="HomeNavMenuItemDesc">Click a navigation menu item above to switch the default page displayed at startup</x:String>
     <x:String x:Key="SystemLang">System language</x:String>
@@ -303,6 +307,10 @@
     <x:String x:Key="ShuffleByArtistDesc">Group the tracks in the play queue by artist first, and then shuffle play each group. Within the same group, tracks are sorted by album name, disc number, and track number</x:String>
     <x:String x:Key="ShuffleByFolder">Shuffle by folder</x:String>
     <x:String x:Key="ShuffleByFolderDesc">Group the tracks in the play queue by folder first, and then shuffle play each group</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">Trigger GC after switching pages</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">When enabled, triggers garbage collection after switching pages to free memory&#xA;Since GC pauses threads, disable this option if playback stuttering occurs</x:String>
+    <x:String x:Key="AdvancedForceGC">Force garbage collection</x:String>
+    <x:String x:Key="AdvancedForceGCDesc">This operation may significantly impact application performance, recommended only when memory usage is high</x:String>
     <x:String x:Key="AboutVersion">Version</x:String>
     <x:String x:Key="AboutOpenSourceLicense">Open source license</x:String>
     <x:String x:Key="AboutPrivacyPolicy">Privacy policy</x:String>
@@ -315,9 +323,6 @@
     <x:String x:Key="AboutLogCacheClear">Clear cache</x:String>
     <x:String x:Key="AboutLogCacheClearDesc">Click to clear the log cache</x:String>
     <x:String x:Key="AboutOpenSourceIntro"> uses the following open source components:</x:String>
-    <x:String x:Key="AboutAdvancedOptions">Advanced options</x:String>
-    <x:String x:Key="AboutForceGC">Force GC</x:String>
-    <x:String x:Key="AboutForceGCDesc">This operation may significantly impact application performance, recommended only when memory usage is high</x:String>
     <x:String x:Key="SpectrumSetting">Spectrum Setting</x:String>
     <x:String x:Key="SpectrumVisible">Visible</x:String>
     <x:String x:Key="SpectrumUI">Spectrum UI</x:String>
@@ -353,21 +358,21 @@
     <x:String x:Key="OpenFileDialogTitle">Pick one file</x:String>
     <x:String x:Key="OpenSaveFileDialogTitle">Select file save location</x:String>
     <x:String x:Key="FolderExcludeConfirmTitle">Add folder to exclude list</x:String>
-    <x:String x:Key="FolderExcludeConfirmContent">Are you sure you want to add the following folder(s) to the exclude list? After exclusion, tracks in this folder or its subfolders will be removed from the collection. This action will not delete any files on your device.&#xA;{0}</x:String>
+    <x:String x:Key="FolderExcludeConfirmContent">Add the following folder(s) to the exclude list? After exclusion, tracks in this folder or its subfolders will be removed from the collection. This action will not delete any files from the device.&#xA;{0}</x:String>
     <x:String x:Key="PlaylistDeleteTitle">Delete playlist</x:String>
-    <x:String x:Key="PlaylistDeleteContent">Are you sure you want to delete these playlists? This action will be permanently delete these playlists, and cannot be recovered.&#xA;{0}</x:String>
+    <x:String x:Key="PlaylistDeleteContent">Delete these playlists? This action will permanently delete these playlists and cannot be recovered.&#xA;{0}</x:String>
     <x:String x:Key="PlaylistTrackRemoveTitle">Remove track from playlist</x:String>
-    <x:String x:Key="PlaylistTrackRemoveContent">Are you sure you want to remove track {1} from playlist {0}? This action will not delete the track file from your local storage.</x:String>
+    <x:String x:Key="PlaylistTrackRemoveContent">Remove track {1} from playlist {0}? This action will not delete the track file from local storage.</x:String>
     <x:String x:Key="PlaylistTracksRemoveTitle">Remove multiple tracks from playlist</x:String>
-    <x:String x:Key="PlaylistTracksRemoveContent">Are you sure you want to remove the selected track(s) from playlist {0}? This action will not delete the track file from your local storage.</x:String>
+    <x:String x:Key="PlaylistTracksRemoveContent">Remove the selected track(s) from playlist {0}? This action will not delete the track file from local storage.</x:String>
     <x:String x:Key="TrackRemoveTitle">Remove track</x:String>
-    <x:String x:Key="TrackRemoveContent">Are you sure you want to remove track {0}? This action will not delete the track file from your local storage.</x:String>
+    <x:String x:Key="TrackRemoveContent">Remove track {0}? This action will not delete the track file from local storage.</x:String>
     <x:String x:Key="TracksRemoveTitle">Remove multiple tracks</x:String>
-    <x:String x:Key="TracksRemoveContent">Are you sure you want to remove the selected track(s)? This action will not delete the track file from your local storage.</x:String>
+    <x:String x:Key="TracksRemoveContent">Remove the selected track(s)? This action will not delete the track file from local storage.</x:String>
     <x:String x:Key="AlbumRemoveTitle">Remove album</x:String>
-    <x:String x:Key="AlbumRemoveContent">Are you sure you want to remove album {0}? This action will permanently delete the album and all your edits to it, and cannot be recovered.</x:String>
+    <x:String x:Key="AlbumRemoveContent">Remove album {0}? This action will permanently delete the album and all edits to it, and cannot be recovered.</x:String>
     <x:String x:Key="ArtistRemoveTitle">Remove artist</x:String>
-    <x:String x:Key="ArtistRemoveContent">Are you sure you want to remove artist {0}? This action will permanently delete the artist and all your edits to it, and cannot be recovered.</x:String>
+    <x:String x:Key="ArtistRemoveContent">Remove artist {0}? This action will permanently delete the artist and all edits to it, and cannot be recovered.</x:String>
     <x:String x:Key="TrackScanTitle">Scan tracks</x:String>
     <x:String x:Key="TrackEditTitle">Edit track metadata</x:String>
     <x:String x:Key="AlbumEditTitle">Edit album metadata</x:String>
@@ -486,7 +491,7 @@
     <x:String x:Key="TipsAlbumStage">Parsing from {0} album groups: Album {1} / Artist {2}</x:String>
     <x:String x:Key="TipsDoneStage">Scan completed: updated {0} tracks, {1} albums, {2} artists</x:String>
     <x:String x:Key="TipsFailStage">Scan failed, please check the log file for more information</x:String>
-    <x:String x:Key="TipsTrackEmpty0">No tracks, you can drag and drop files or folders here to scan</x:String>
+    <x:String x:Key="TipsTrackEmpty0">No tracks, drag and drop files or folders here to scan</x:String>
     <x:String x:Key="TipsTrackEmpty1">Or jump to</x:String>
     <x:String x:Key="TipsTrackEmpty2">to add folders</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">Release to scan track files</x:String>
@@ -501,8 +506,8 @@
     <x:String x:Key="TipsSearch">Search tracks, albums, artists, playlists</x:String>
     <x:String x:Key="TipsNavMenuItem">Drag and drop menu items to adjust the display order</x:String>
     <x:String x:Key="TipsSeparatorInput">Input separator</x:String>
-    <x:String x:Key="TipsSeparator">Delimiters are used to parse multiple artists and genres in track information.&#xA;You can select a delimiter to customize how artists or genres are displayed.</x:String>
-    <x:String x:Key="TipsWallpaper">Using a custom wallpaper may cause text to be difficult to read if the contrast between the text and the background is not strong.&#xA;You can adjust the opacity or switch between light and dark themes to improve readability.</x:String>
+    <x:String x:Key="TipsSeparator">Delimiters are used to parse multiple artists and genres in track information.&#xA;Select a delimiter to customize how artists or genres are displayed.</x:String>
+    <x:String x:Key="TipsWallpaper">Using a custom wallpaper may cause text to be difficult to read if the contrast between the text and the background is not strong.&#xA;Adjust the opacity or switch between light and dark themes to improve readability.</x:String>
     <x:String x:Key="TipsCueTrackEdit">This track comes from a CUE file, metadata cannot be modified. Please edit the CUE file directly.</x:String>
     <x:String x:Key="TipsCueAlbumEdit">This album contains tracks from CUE files, metadata cannot be modified. Please edit the CUE file directly.</x:String>
 

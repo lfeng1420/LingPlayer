@@ -118,6 +118,7 @@
     <x:String x:Key="EffectSettingPage">오디오 효과</x:String>
     <x:String x:Key="LangSettingPage">언어</x:String>
     <x:String x:Key="PlayControlSettingPage">재생 제어</x:String>
+    <x:String x:Key="AdvancedSettingPage">고급 설정</x:String>
     <x:String x:Key="AboutSettingPage">정보</x:String>
     <x:String x:Key="AboutSettingLicensePage">오픈소스 라이선스</x:String>
     <x:String x:Key="StatTrackPage">곡 순위</x:String>
@@ -207,6 +208,7 @@
     <x:String x:Key="EffectDesc">이퀄라이저, 음향 효과</x:String>
     <x:String x:Key="LangDesc">시스템 언어, 언어 전환</x:String>
     <x:String x:Key="PlayControlDesc">자동 재생, 무작위 재생</x:String>
+    <x:String x:Key="AdvancedDesc">가비지 컬렉션</x:String>
     <x:String x:Key="AboutDesc">버전 정보, 문제 신고, 로그 캐시</x:String>
     <x:String x:Key="ExcludeBelowDurationTracks">설정된 길이 이하의 곡 제외</x:String>
     <x:String x:Key="ScanNow">지금 스캔</x:String>
@@ -276,6 +278,8 @@
     <x:String x:Key="OverlayDarkOpacity">오버레이 투명도（다크 테마）</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">오버레이는 라이트 테마에서 텍스트 가독성을 향상시킵니다. 값을 너무 낮게 설정하면 텍스트를 읽기 어려울 수 있습니다</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">오버레이는 다크 테마에서 너무 밝은 배경을 어둡게 하고, 라이트 테마에서 너무 어두운 배경을 밝게 하여 텍스트 가독성을 향상시킵니다</x:String>
+    <x:String x:Key="JumpBarOverlayLightOpacity">점프 바 오버레이 불투명도（라이트 테마）</x:String>
+    <x:String x:Key="JumpBarOverlayDarkOpacity">점프 바 오버레이 불투명도（다크 테마）</x:String>
     <x:String x:Key="HomeNavMenuItem">시작 시 기본 표시 페이지</x:String>
     <x:String x:Key="HomeNavMenuItemDesc">위의 탐색 메뉴 항목을 클릭하여 기본 표시 페이지를 전환합니다</x:String>
     <x:String x:Key="SystemLang">시스템 언어</x:String>
@@ -283,7 +287,7 @@
     <x:String x:Key="TranslationContributors">번역 기여자</x:String>
     <x:String x:Key="TranslationContributorsDesc">번역 개선에 참여한 기여자 목록 보기</x:String>
     <x:String x:Key="HelpImproveTranslation">번역 개선 돕기</x:String>
-    <x:String x:Key="HelpImproveTranslationDesc">번역 문제를 발견하셨나요？PR을 제출하세요</x:String>
+    <x:String x:Key="HelpImproveTranslationDesc">번역 문제가 발견되었나요？PR 제출</x:String>
     <x:String x:Key="AutoPlay">자동 재생</x:String>
     <x:String x:Key="AutoPlayDesc">앱 시작 후 자동으로 재생 시작</x:String>
     <x:String x:Key="SMTC">SMTC 통합</x:String>
@@ -303,6 +307,10 @@
     <x:String x:Key="ShuffleByArtistDesc">재생 대기열의 곡을 먼저 아티스트별로 그룹화한 후 각 그룹을 무작위로 재생합니다. 같은 그룹 내 곡은 앨범명, 디스크 번호, 트랙 번호로 정렬됩니다</x:String>
     <x:String x:Key="ShuffleByFolder">폴더별 무작위</x:String>
     <x:String x:Key="ShuffleByFolderDesc">재생 대기열의 곡을 먼저 폴더별로 그룹화한 후 각 그룹을 무작위로 재생합니다</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">페이지 전환 후 가비지 컬렉션 실행</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">활성화하면 페이지 전환 후 가비지 컬렉션을 실행하여 메모리를 해제합니다&#xA;가비지 컬렉션 중에는 스레드가 일시 중지되므로 재생이 끊기는 경우 이 옵션을 비활성화하세요</x:String>
+    <x:String x:Key="AdvancedForceGC">가비지 컬렉션 강제 실행</x:String>
+    <x:String x:Key="AdvancedForceGCDesc">이 작업은 앱 성능에 심각한 영향을 미칠 수 있습니다. 메모리 사용량이 너무 높을 때만 사용하는 것이 좋습니다</x:String>
     <x:String x:Key="AboutVersion">버전</x:String>
     <x:String x:Key="AboutOpenSourceLicense">오픈소스 라이선스</x:String>
     <x:String x:Key="AboutPrivacyPolicy">개인정보 처리방침</x:String>
@@ -315,9 +323,6 @@
     <x:String x:Key="AboutLogCacheClear">캐시 삭제</x:String>
     <x:String x:Key="AboutLogCacheClearDesc">클릭하여 캐시 삭제</x:String>
     <x:String x:Key="AboutOpenSourceIntro">다음 오픈소스 구성 요소를 사용했습니다：</x:String>
-    <x:String x:Key="AboutAdvancedOptions">고급 옵션</x:String>
-    <x:String x:Key="AboutForceGC">강제 가비지 컬렉션</x:String>
-    <x:String x:Key="AboutForceGCDesc">이 작업은 앱 성능에 심각한 영향을 미칠 수 있습니다. 메모리 사용량이 너무 높을 때만 사용하는 것이 좋습니다</x:String>
     <x:String x:Key="SpectrumSetting">스펙트럼 설정</x:String>
     <x:String x:Key="SpectrumVisible">표시</x:String>
     <x:String x:Key="SpectrumUI">UI</x:String>
@@ -353,21 +358,21 @@
     <x:String x:Key="OpenFileDialogTitle">파일 선택</x:String>
     <x:String x:Key="OpenSaveFileDialogTitle">저장 위치 선택</x:String>
     <x:String x:Key="FolderExcludeConfirmTitle">폴더를 제외 목록에 추가</x:String>
-    <x:String x:Key="FolderExcludeConfirmContent">다음 폴더를 제외 목록에 추가하시겠습니까？제외 후 해당 폴더 또는 하위 폴더에 속한 곡이 라이브러리에서 제거됩니다. 이 작업은 곡 파일을 삭제하지 않습니다.&#xA;{0}</x:String>
+    <x:String x:Key="FolderExcludeConfirmContent">다음 폴더를 제외 목록에 추가합니까？제외 후 해당 폴더 또는 하위 폴더에 속한 곡이 라이브러리에서 제거됩니다. 이 작업은 곡 파일을 삭제하지 않습니다.&#xA;{0}</x:String>
     <x:String x:Key="PlaylistDeleteTitle">재생목록 삭제</x:String>
-    <x:String x:Key="PlaylistDeleteContent">다음 재생목록을 삭제하시겠습니까？이 작업은 영구적으로 삭제되며 복구할 수 없습니다.&#xA;{0}</x:String>
+    <x:String x:Key="PlaylistDeleteContent">다음 재생목록을 삭제합니까？이 작업은 영구적으로 삭제되며 복구할 수 없습니다.&#xA;{0}</x:String>
     <x:String x:Key="PlaylistTrackRemoveTitle">곡 제거</x:String>
-    <x:String x:Key="PlaylistTrackRemoveContent">재생목록 {0}에서 곡 {1}을(를) 제거하시겠습니까？</x:String>
+    <x:String x:Key="PlaylistTrackRemoveContent">재생목록 {0}에서 곡 {1}을(를) 제거합니까？</x:String>
     <x:String x:Key="PlaylistTracksRemoveTitle">여러 곡 제거</x:String>
-    <x:String x:Key="PlaylistTracksRemoveContent">재생목록 {0}에서 선택한 곡을 제거하시겠습니까？</x:String>
+    <x:String x:Key="PlaylistTracksRemoveContent">재생목록 {0}에서 선택한 곡을 제거합니까？</x:String>
     <x:String x:Key="TrackRemoveTitle">곡 제거</x:String>
-    <x:String x:Key="TrackRemoveContent">곡 {0}을(를) 제거하시겠습니까？이 작업은 로컬 곡 파일을 삭제하지 않습니다.</x:String>
+    <x:String x:Key="TrackRemoveContent">곡 {0}을(를) 제거합니까？이 작업은 로컬 곡 파일을 삭제하지 않습니다.</x:String>
     <x:String x:Key="TracksRemoveTitle">여러 곡 제거</x:String>
-    <x:String x:Key="TracksRemoveContent">선택한 곡을 제거하시겠습니까？이 작업은 로컬 곡 파일을 삭제하지 않습니다.</x:String>
+    <x:String x:Key="TracksRemoveContent">선택한 곡을 제거합니까？이 작업은 로컬 곡 파일을 삭제하지 않습니다.</x:String>
     <x:String x:Key="AlbumRemoveTitle">앨범 제거</x:String>
-    <x:String x:Key="AlbumRemoveContent">앨범 {0}을(를) 제거하시겠습니까？이 작업은 앨범과 모든 편집 내용을 영구적으로 삭제하며 복구할 수 없습니다.</x:String>
+    <x:String x:Key="AlbumRemoveContent">앨범 {0}을(를) 제거합니까？이 작업은 앨범과 모든 편집 내용을 영구적으로 삭제하며 복구할 수 없습니다.</x:String>
     <x:String x:Key="ArtistRemoveTitle">아티스트 제거</x:String>
-    <x:String x:Key="ArtistRemoveContent">아티스트 {0}을(를) 제거하시겠습니까？이 작업은 아티스트와 모든 편집 내용을 영구적으로 삭제하며 복구할 수 없습니다.</x:String>
+    <x:String x:Key="ArtistRemoveContent">아티스트 {0}을(를) 제거합니까？이 작업은 아티스트와 모든 편집 내용을 영구적으로 삭제하며 복구할 수 없습니다.</x:String>
     <x:String x:Key="TrackScanTitle">곡 스캔</x:String>
     <x:String x:Key="TrackEditTitle">곡 메타데이터 편집</x:String>
     <x:String x:Key="AlbumEditTitle">앨범 메타데이터 편집</x:String>
@@ -486,7 +491,7 @@
     <x:String x:Key="TipsAlbumStage">{0}개 앨범 그룹에서 분석 중：앨범 {1} / 아티스트 {2}</x:String>
     <x:String x:Key="TipsDoneStage">스캔 완료：{0}곡, {1}개 앨범, {2}명 아티스트 업데이트됨</x:String>
     <x:String x:Key="TipsFailStage">스캔 실패，자세한 내용은 로그 파일을 확인하세요</x:String>
-    <x:String x:Key="TipsTrackEmpty0">곡이 없습니다. 파일 또는 폴더를 여기에 끌어다 놓아 스캔할 수 있습니다</x:String>
+    <x:String x:Key="TipsTrackEmpty0">곡이 없습니다. 파일 또는 폴더를 여기에 끌어다 놓아 스캔이 가능합니다</x:String>
     <x:String x:Key="TipsTrackEmpty1">또는 이동</x:String>
     <x:String x:Key="TipsTrackEmpty2">하여 폴더 추가</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">놓으면 곡 파일 스캔</x:String>
@@ -501,8 +506,8 @@
     <x:String x:Key="TipsSearch">곡, 앨범, 아티스트, 재생목록 검색</x:String>
     <x:String x:Key="TipsNavMenuItem">메뉴 항목을 드래그하여 표시 순서 조정</x:String>
     <x:String x:Key="TipsSeparatorInput">구분자 입력</x:String>
-    <x:String x:Key="TipsSeparator">구분자는 곡 정보에서 여러 아티스트와 장르를 구문 분석하는 데 사용됩니다.&#xA;구분자를 선택하여 아티스트 또는 장르의 표시 방식을 사용자 정의할 수 있습니다.</x:String>
-    <x:String x:Key="TipsWallpaper">사용자 정의 배경 화면을 사용하면 텍스트와 배경의 대비가 약해 식별하기 어려울 수 있습니다.&#xA;투명도를 조정하거나 테마（라이트/다크）를 전환하여 최상의 효과를 얻으세요.</x:String>
+    <x:String x:Key="TipsSeparator">구분자는 곡 정보에서 여러 아티스트와 장르를 구문 분석하는 데 사용됩니다.&#xA;구분자를 선택하여 아티스트 또는 장르의 표시 방식을 사용자 정의합니다.</x:String>
+    <x:String x:Key="TipsWallpaper">사용자 정의 배경 화면을 사용하면 텍스트와 배경의 대비가 약해 식별하기 어려울 수 있습니다.&#xA;투명도를 조정하거나 테마（라이트/다크）를 전환하여 최상의 효과를 얻을 수 있습니다.</x:String>
     <x:String x:Key="TipsCueTrackEdit">이 곡은 CUE 파일에서 생성되었습니다. 메타데이터 수정이 지원되지 않습니다. CUE 파일을 직접 편집하세요.</x:String>
     <x:String x:Key="TipsCueAlbumEdit">이 앨범에는 CUE 파일에서 생성된 곡이 포함되어 있습니다. 메타데이터 수정이 지원되지 않습니다. CUE 파일을 직접 편집하세요.</x:String>
 

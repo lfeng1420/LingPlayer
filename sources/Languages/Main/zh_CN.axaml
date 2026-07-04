@@ -47,7 +47,7 @@
     <x:String x:Key="Slow">慢速</x:String>
     <x:String x:Key="FontSize">字体大小</x:String>
     <x:String x:Key="FontWeight">字体粗细</x:String>
-    <x:String x:Key="Opacity">透明度</x:String>
+    <x:String x:Key="Opacity">不透明度</x:String>
     <x:String x:Key="TextAlignment">文本对齐</x:String>
     <x:String x:Key="Left">左对齐</x:String>
     <x:String x:Key="Center">居中对齐</x:String>
@@ -104,7 +104,7 @@
     <x:String x:Key="FolderPage">文件夹</x:String>
     <x:String x:Key="PlaylistPage">歌单</x:String>
     <x:String x:Key="TrackPage">歌曲</x:String>
-    <x:String x:Key="TrackFavoritePage">我喜欢的</x:String>
+    <x:String x:Key="TrackFavoritePage">收藏</x:String>
     <x:String x:Key="TrackRecentPage">最近播放</x:String>
     <x:String x:Key="GenrePage">流派</x:String>
     <x:String x:Key="SearchPage">搜索</x:String>
@@ -118,6 +118,7 @@
     <x:String x:Key="EffectSettingPage">音频音效</x:String>
     <x:String x:Key="LangSettingPage">语言</x:String>
     <x:String x:Key="PlayControlSettingPage">播放控制</x:String>
+    <x:String x:Key="AdvancedSettingPage">高级设置</x:String>
     <x:String x:Key="AboutSettingPage">关于</x:String>
     <x:String x:Key="AboutSettingLicensePage">开放源代码许可</x:String>
     <x:String x:Key="StatTrackPage">歌曲排行榜</x:String>
@@ -207,6 +208,7 @@
     <x:String x:Key="EffectDesc">均衡器、音效</x:String>
     <x:String x:Key="LangDesc">系统语言、切换语言</x:String>
     <x:String x:Key="PlayControlDesc">自动播放、随机播放</x:String>
+    <x:String x:Key="AdvancedDesc">垃圾回收</x:String>
     <x:String x:Key="AboutDesc">版本信息、问题反馈、日志缓存</x:String>
     <x:String x:Key="ExcludeBelowDurationTracks">排除设定时长以下的歌曲</x:String>
     <x:String x:Key="ScanNow">立即扫描</x:String>
@@ -271,11 +273,13 @@
     <x:String x:Key="NoBackground">无</x:String>
     <x:String x:Key="TrackCover">歌曲封面</x:String>
     <x:String x:Key="MainWallpaper">主窗口壁纸</x:String>
-    <x:String x:Key="WallpaperOpacity">壁纸透明度</x:String>
-    <x:String x:Key="OverlayLightOpacity">叠加层透明度（浅色主题）</x:String>
-    <x:String x:Key="OverlayDarkOpacity">叠加层透明度（深色主题）</x:String>
+    <x:String x:Key="WallpaperOpacity">壁纸不透明度</x:String>
+    <x:String x:Key="OverlayLightOpacity">叠加层不透明度（浅色主题）</x:String>
+    <x:String x:Key="OverlayDarkOpacity">叠加层不透明度（深色主题）</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">叠加层用于提升在浅色主题下文本的可读性，设置过小的值可能导致文本难以阅读</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">叠加层用于在深色主题下压暗过亮的背景，在浅色主题下提亮过暗的背景，以提升文本的可读性</x:String>
+    <x:String x:Key="JumpBarOverlayLightOpacity">跳转栏叠加层不透明度（浅色主题）</x:String>
+    <x:String x:Key="JumpBarOverlayDarkOpacity">跳转栏叠加层不透明度（深色主题）</x:String>
     <x:String x:Key="HomeNavMenuItem">启动时默认显示页面</x:String>
     <x:String x:Key="HomeNavMenuItemDesc">点击上方的导航菜单项可切换默认显示页面</x:String>
     <x:String x:Key="SystemLang">系统语言</x:String>
@@ -303,6 +307,10 @@
     <x:String x:Key="ShuffleByArtistDesc">先按艺术家对播放队列中的歌曲进行分组，之后随机播放每个分组。同一分组内的歌曲按专辑名、碟号和曲目号排序</x:String>
     <x:String x:Key="ShuffleByFolder">按文件夹分组随机</x:String>
     <x:String x:Key="ShuffleByFolderDesc">先按文件夹对播放队列中的歌曲进行分组，之后随机播放每个分组</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">切换页面后触发垃圾回收</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">开启后将在切换页面后触发垃圾回收，以释放内存&#xA;由于垃圾回收时会暂停线程运行，如遇到播放卡顿情况，请关闭此选项</x:String>
+    <x:String x:Key="AdvancedForceGC">强制垃圾回收</x:String>
+    <x:String x:Key="AdvancedForceGCDesc">此操作可能严重影响应用性能，建议仅在内存占用过高时使用</x:String>
     <x:String x:Key="AboutVersion">版本</x:String>
     <x:String x:Key="AboutOpenSourceLicense">开放源代码许可</x:String>
     <x:String x:Key="AboutPrivacyPolicy">隐私协议</x:String>
@@ -315,9 +323,6 @@
     <x:String x:Key="AboutLogCacheClear">清除缓存</x:String>
     <x:String x:Key="AboutLogCacheClearDesc">点击清除缓存</x:String>
     <x:String x:Key="AboutOpenSourceIntro">使用了以下开源组件：</x:String>
-    <x:String x:Key="AboutAdvancedOptions">高级选项</x:String>
-    <x:String x:Key="AboutForceGC">强制垃圾回收</x:String>
-    <x:String x:Key="AboutForceGCDesc">此操作可能严重影响应用性能，建议仅在内存占用过高时使用</x:String>
     <x:String x:Key="SpectrumSetting">频谱设置</x:String>
     <x:String x:Key="SpectrumVisible">开关</x:String>
     <x:String x:Key="SpectrumUI">用户界面</x:String>
@@ -336,13 +341,13 @@
     <x:String x:Key="SpectrumSmoothFactor">平滑系数</x:String>
     <x:String x:Key="SpectrumSmoothFactorDesc">用于平滑频谱数据的系数，值越大平滑效果越明显</x:String>
     <x:String x:Key="LyricSetting">歌词设置</x:String>
-    <x:String x:Key="LyricNormalOpacity">透明度（仅普通状态）</x:String>
+    <x:String x:Key="LyricNormalOpacity">不透明度（仅普通状态）</x:String>
     <x:String x:Key="LyricHighlightGlow">辉光效果（仅高亮状态）</x:String>
     <x:String x:Key="DesktopLyricSetting">桌面歌词设置</x:String>
     <x:String x:Key="DesktopLyricDoubleLine">双行歌词</x:String>
     <x:String x:Key="DesktopLyricNormalColor">普通颜色</x:String>
     <x:String x:Key="DesktopLyricSelectedColor">高亮颜色</x:String>
-    <x:String x:Key="MiniWindowOverlayOpacity">叠加层透明度</x:String>
+    <x:String x:Key="MiniWindowOverlayOpacity">叠加层不透明度</x:String>
     <x:String x:Key="MiniWindowOverlayOpacityDesc">叠加层用于提升文本的可读性</x:String>
     <x:String x:Key="MiniWindowShowInTaskbar">在任务栏显示</x:String>
 
@@ -486,7 +491,7 @@
     <x:String x:Key="TipsAlbumStage">正在从 {0} 个专辑分组解析：专辑 {1} / 艺术家 {2}</x:String>
     <x:String x:Key="TipsDoneStage">扫描完成：已更新 {0} 首歌曲，{1} 张专辑，{2} 位艺术家</x:String>
     <x:String x:Key="TipsFailStage">扫描失败，请查阅日志文件获取更多信息</x:String>
-    <x:String x:Key="TipsTrackEmpty0">暂无歌曲，可拖放文件或文件夹到此处扫描</x:String>
+    <x:String x:Key="TipsTrackEmpty0">暂无歌曲，拖放文件或文件夹到此处扫描</x:String>
     <x:String x:Key="TipsTrackEmpty1">或跳转到</x:String>
     <x:String x:Key="TipsTrackEmpty2">以添加文件夹</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">松开以扫描歌曲文件</x:String>
@@ -501,8 +506,8 @@
     <x:String x:Key="TipsSearch">搜索歌曲、专辑、艺术家、歌单</x:String>
     <x:String x:Key="TipsNavMenuItem">拖拽菜单项以调整显示顺序</x:String>
     <x:String x:Key="TipsSeparatorInput">输入分隔符</x:String>
-    <x:String x:Key="TipsSeparator">分隔符用于解析歌曲信息中的多个艺术家和流派。&#xA;可选择一个分隔符以自定义艺术家或流派的显示方式。</x:String>
-    <x:String x:Key="TipsWallpaper">使用自定义壁纸时可能出现文本与背景对比度不强烈导致较难识别的情况。&#xA;可适度调整透明度或切换主题（浅色/深色）以获得最佳效果。</x:String>
+    <x:String x:Key="TipsSeparator">分隔符用于解析歌曲信息中的多个艺术家和流派。&#xA;选择一个分隔符以自定义艺术家或流派的显示方式。</x:String>
+    <x:String x:Key="TipsWallpaper">使用自定义壁纸时可能出现文本与背景对比度不强烈导致较难识别的情况。&#xA;适度调整不透明度或切换主题（浅色/深色）以获得最佳效果。</x:String>
     <x:String x:Key="TipsCueTrackEdit">此歌曲来源于 CUE 文件，暂不支持修改元数据，请直接编辑 CUE 文件。</x:String>
     <x:String x:Key="TipsCueAlbumEdit">此专辑包含来源于 CUE 文件的歌曲，暂不支持修改元数据，请直接编辑 CUE 文件。</x:String>
 

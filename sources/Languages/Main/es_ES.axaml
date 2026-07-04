@@ -118,6 +118,7 @@
     <x:String x:Key="EffectSettingPage">Efectos</x:String>
     <x:String x:Key="LangSettingPage">Idioma</x:String>
     <x:String x:Key="PlayControlSettingPage">Control de reproducción</x:String>
+    <x:String x:Key="AdvancedSettingPage">Avanzado</x:String>
     <x:String x:Key="AboutSettingPage">Acerca de</x:String>
     <x:String x:Key="AboutSettingLicensePage">Licencias de código abierto</x:String>
     <x:String x:Key="StatTrackPage">Ranking de pistas</x:String>
@@ -207,6 +208,7 @@
     <x:String x:Key="EffectDesc">Ecualizador, efectos</x:String>
     <x:String x:Key="LangDesc">Idioma del sistema, cambiar idioma</x:String>
     <x:String x:Key="PlayControlDesc">Reproducción automática, aleatoria</x:String>
+    <x:String x:Key="AdvancedDesc">Recolección de basura</x:String>
     <x:String x:Key="AboutDesc">Versión, reportar errores, caché de logs</x:String>
     <x:String x:Key="ExcludeBelowDurationTracks">Excluir pistas por debajo de la duración establecida</x:String>
     <x:String x:Key="ScanNow">Escanear ahora</x:String>
@@ -276,6 +278,8 @@
     <x:String x:Key="OverlayDarkOpacity">Opacidad de superposición (oscuro)</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">La superposición mejora la legibilidad en tema claro. Valores muy bajos dificultan la lectura</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">Oscurece fondos claros en tema oscuro y aclara fondos oscuros en tema claro</x:String>
+    <x:String x:Key="JumpBarOverlayLightOpacity">Opacidad de superposición de barra de salto para tema claro</x:String>
+    <x:String x:Key="JumpBarOverlayDarkOpacity">Opacidad de superposición de barra de salto para tema oscuro</x:String>
     <x:String x:Key="HomeNavMenuItem">Página predeterminada al iniciar</x:String>
     <x:String x:Key="HomeNavMenuItemDesc">Haga clic en un elemento del menú para cambiar la página predeterminada</x:String>
     <x:String x:Key="SystemLang">Idioma del sistema</x:String>
@@ -283,7 +287,7 @@
     <x:String x:Key="TranslationContributors">Contribuidores de traducción</x:String>
     <x:String x:Key="TranslationContributorsDesc">Ver la lista de contribuidores que ayudaron a mejorar las traducciones</x:String>
     <x:String x:Key="HelpImproveTranslation">Ayudar a mejorar la traducción</x:String>
-    <x:String x:Key="HelpImproveTranslationDesc">¿Encontraste un problema de traducción? Envía un PR</x:String>
+    <x:String x:Key="HelpImproveTranslationDesc">¿Se encontró un problema de traducción? Enviar un PR</x:String>
     <x:String x:Key="AutoPlay">Reproducción automática</x:String>
     <x:String x:Key="AutoPlayDesc">Iniciar reproducción automáticamente al abrir</x:String>
     <x:String x:Key="SMTC">Integración SMTC</x:String>
@@ -303,6 +307,10 @@
     <x:String x:Key="ShuffleByArtistDesc">Agrupar por artista y mezclar los grupos. Ordenado por álbum, disco y pista</x:String>
     <x:String x:Key="ShuffleByFolder">Aleatorio por carpeta</x:String>
     <x:String x:Key="ShuffleByFolderDesc">Agrupar por carpeta y mezclar los grupos</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">Ejecutar GC al cambiar de página</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">Al activarlo, ejecuta la recolección de basura al cambiar de página para liberar memoria&#xA;Dado que el GC pausa los hilos, desactive esta opción si experimenta tartamudeo en la reproducción</x:String>
+    <x:String x:Key="AdvancedForceGC">Forzar recolección de basura</x:String>
+    <x:String x:Key="AdvancedForceGCDesc">Esta operación puede afectar significativamente el rendimiento de la aplicación. Recomendado solo con alto uso de memoria</x:String>
     <x:String x:Key="AboutVersion">Versión</x:String>
     <x:String x:Key="AboutOpenSourceLicense">Licencias de código abierto</x:String>
     <x:String x:Key="AboutPrivacyPolicy">Política de privacidad</x:String>
@@ -315,9 +323,6 @@
     <x:String x:Key="AboutLogCacheClear">Limpiar caché</x:String>
     <x:String x:Key="AboutLogCacheClearDesc">Haga clic para limpiar la caché</x:String>
     <x:String x:Key="AboutOpenSourceIntro">Utiliza los siguientes componentes de código abierto:</x:String>
-    <x:String x:Key="AboutAdvancedOptions">Opciones avanzadas</x:String>
-    <x:String x:Key="AboutForceGC">Forzar GC</x:String>
-    <x:String x:Key="AboutForceGCDesc">Puede afectar significativamente el rendimiento. Recomendado solo con alto uso de memoria</x:String>
     <x:String x:Key="SpectrumSetting">Espectro</x:String>
     <x:String x:Key="SpectrumVisible">Visible</x:String>
     <x:String x:Key="SpectrumUI">Interfaz del espectro</x:String>

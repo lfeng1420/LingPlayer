@@ -118,6 +118,7 @@
     <x:String x:Key="EffectSettingPage">Effets</x:String>
     <x:String x:Key="LangSettingPage">Langue</x:String>
     <x:String x:Key="PlayControlSettingPage">Contrôle de lecture</x:String>
+    <x:String x:Key="AdvancedSettingPage">Avancé</x:String>
     <x:String x:Key="AboutSettingPage">À propos</x:String>
     <x:String x:Key="AboutSettingLicensePage">Licences open source</x:String>
     <x:String x:Key="StatTrackPage">Classement des pistes</x:String>
@@ -207,6 +208,7 @@
     <x:String x:Key="EffectDesc">Égaliseur, effets</x:String>
     <x:String x:Key="LangDesc">Langue système, changer de langue</x:String>
     <x:String x:Key="PlayControlDesc">Lecture automatique, lecture aléatoire</x:String>
+    <x:String x:Key="AdvancedDesc">Nettoyage mémoire</x:String>
     <x:String x:Key="AboutDesc">Version, signalement, cache des logs</x:String>
     <x:String x:Key="ExcludeBelowDurationTracks">Exclure les pistes en dessous de la durée définie</x:String>
     <x:String x:Key="ScanNow">Analyser maintenant</x:String>
@@ -276,6 +278,8 @@
     <x:String x:Key="OverlayDarkOpacity">Opacité du calque (sombre)</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">Le calque améliore la lisibilité en thème clair. Une valeur trop basse rend le texte difficile à lire</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">Le calque assombrit les fonds clairs en thème sombre et éclaircit les fonds sombres en thème clair</x:String>
+    <x:String x:Key="JumpBarOverlayLightOpacity">Opacité du calque de la barre de saut pour le thème clair</x:String>
+    <x:String x:Key="JumpBarOverlayDarkOpacity">Opacité du calque de la barre de saut pour le thème sombre</x:String>
     <x:String x:Key="HomeNavMenuItem">Page par défaut au démarrage</x:String>
     <x:String x:Key="HomeNavMenuItemDesc">Cliquez sur un élément pour changer la page par défaut</x:String>
     <x:String x:Key="SystemLang">Langue système</x:String>
@@ -303,6 +307,10 @@
     <x:String x:Key="ShuffleByArtistDesc">Grouper par artiste, puis mélanger les groupes. Trié par album, disque et piste à l'intérieur</x:String>
     <x:String x:Key="ShuffleByFolder">Aléatoire par dossier</x:String>
     <x:String x:Key="ShuffleByFolderDesc">Grouper par dossier, puis mélanger les groupes</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">Déclencher le GC après changement de page</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">Lorsqu'activé, déclenche le ramasse-miettes après le changement de page pour libérer de la mémoire&#xA;Étant donné que le GC suspend les threads, désactivez cette option si vous rencontrez des saccades de lecture</x:String>
+    <x:String x:Key="AdvancedForceGC">Forcer le ramasse-miettes</x:String>
+    <x:String x:Key="AdvancedForceGCDesc">Cette opération peut affecter significativement les performances de l'application. Recommandé uniquement en cas d'utilisation mémoire élevée</x:String>
     <x:String x:Key="AboutVersion">Version</x:String>
     <x:String x:Key="AboutOpenSourceLicense">Licences open source</x:String>
     <x:String x:Key="AboutPrivacyPolicy">Confidentialité</x:String>
@@ -315,9 +323,6 @@
     <x:String x:Key="AboutLogCacheClear">Vider le cache</x:String>
     <x:String x:Key="AboutLogCacheClearDesc">Cliquer pour vider le cache</x:String>
     <x:String x:Key="AboutOpenSourceIntro">Utilise les composants open source suivants :</x:String>
-    <x:String x:Key="AboutAdvancedOptions">Options avancées</x:String>
-    <x:String x:Key="AboutForceGC">Forcer le GC</x:String>
-    <x:String x:Key="AboutForceGCDesc">Peut fortement impacter les performances. Recommandé uniquement si utilisation mémoire élevée</x:String>
     <x:String x:Key="SpectrumSetting">Spectre</x:String>
     <x:String x:Key="SpectrumVisible">Visible</x:String>
     <x:String x:Key="SpectrumUI">UI du spectre</x:String>

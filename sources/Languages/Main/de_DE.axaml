@@ -118,6 +118,7 @@
     <x:String x:Key="EffectSettingPage">Effekte</x:String>
     <x:String x:Key="LangSettingPage">Sprache</x:String>
     <x:String x:Key="PlayControlSettingPage">Wiedergabe</x:String>
+    <x:String x:Key="AdvancedSettingPage">Erweitert</x:String>
     <x:String x:Key="AboutSettingPage">Über</x:String>
     <x:String x:Key="AboutSettingLicensePage">Open-Source-Lizenzen</x:String>
     <x:String x:Key="StatTrackPage">Titel-Ranking</x:String>
@@ -207,6 +208,7 @@
     <x:String x:Key="EffectDesc">Equalizer, Effekte</x:String>
     <x:String x:Key="LangDesc">Systemsprache, Sprachwechsel</x:String>
     <x:String x:Key="PlayControlDesc">Auto-Wiedergabe, Zufallswiedergabe</x:String>
+    <x:String x:Key="AdvancedDesc">Garbage Collection</x:String>
     <x:String x:Key="AboutDesc">Version, Feedback, Log-Cache</x:String>
     <x:String x:Key="ExcludeBelowDurationTracks">Titel unter festgelegter Dauer ausschließen</x:String>
     <x:String x:Key="ScanNow">Jetzt scannen</x:String>
@@ -225,7 +227,7 @@
     <x:String x:Key="TransparencyEffect">Transparenzeffekt</x:String>
     <x:String x:Key="TransparencyEffectDesc">Wird auf das Haupt- und Minifenster angewendet. Einige Effekte werden möglicherweise nicht auf der aktuellen Plattform unterstützt</x:String>
     <x:String x:Key="WindowsRenderType">Rendermodus</x:String>
-    <x:String x:Key="WindowsRenderTypeDesc">Bei Anzeigeproblemen versuchen Sie den Rendermodus zu wechseln. Ein Neustart ist erforderlich</x:String>
+    <x:String x:Key="WindowsRenderTypeDesc">Bei Anzeigeproblemen den Rendermodus wechseln. Ein Neustart ist erforderlich</x:String>
     <x:String x:Key="WindowsRenderDefault">Adaptiv</x:String>
     <x:String x:Key="WindowsRenderDefaultDesc">Wählt automatisch den passenden Rendermodus</x:String>
     <x:String x:Key="WindowsRenderAngleEgl">Angle EGL</x:String>
@@ -276,6 +278,8 @@
     <x:String x:Key="OverlayDarkOpacity">Overlay-Deckkraft (dunkel)</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">Overlay verbessert Lesbarkeit im hellen Design. Zu niedrige Werte erschweren das Lesen</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">Overlay dunkelt helle Hintergründe im dunklen Design ab und hellt dunkle im hellen Design auf</x:String>
+    <x:String x:Key="JumpBarOverlayLightOpacity">Sprungleisten-Overlay-Deckkraft für helles Design</x:String>
+    <x:String x:Key="JumpBarOverlayDarkOpacity">Sprungleisten-Overlay-Deckkraft für dunkles Design</x:String>
     <x:String x:Key="HomeNavMenuItem">Standardseite beim Start</x:String>
     <x:String x:Key="HomeNavMenuItemDesc">Menüpunkt anklicken, um die Standardseite zu wechseln</x:String>
     <x:String x:Key="SystemLang">Systemsprache</x:String>
@@ -303,6 +307,10 @@
     <x:String x:Key="ShuffleByArtistDesc">Titel nach Künstler gruppieren, dann Gruppen mischen. Innerhalb nach Album, Disc und Titel sortiert</x:String>
     <x:String x:Key="ShuffleByFolder">Nach Ordner mischen</x:String>
     <x:String x:Key="ShuffleByFolderDesc">Titel nach Ordner gruppieren, dann Gruppen mischen</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">GC nach Seitenwechsel auslösen</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">Wenn aktiviert, wird nach dem Seitenwechsel die Garbage Collection ausgelöst, um Speicher freizugeben&#xA;Da die GC Threads anhält, diese Option bei Wiedergabeaussetzern deaktivieren</x:String>
+    <x:String x:Key="AdvancedForceGC">Garbage Collection erzwingen</x:String>
+    <x:String x:Key="AdvancedForceGCDesc">Dieser Vorgang kann die Anwendungsleistung erheblich beeinträchtigen. Nur bei hoher Speichernutzung empfohlen</x:String>
     <x:String x:Key="AboutVersion">Version</x:String>
     <x:String x:Key="AboutOpenSourceLicense">Open-Source-Lizenzen</x:String>
     <x:String x:Key="AboutPrivacyPolicy">Datenschutzerklärung</x:String>
@@ -315,9 +323,6 @@
     <x:String x:Key="AboutLogCacheClear">Cache leeren</x:String>
     <x:String x:Key="AboutLogCacheClearDesc">Klicken zum Leeren</x:String>
     <x:String x:Key="AboutOpenSourceIntro">Verwendet folgende Open-Source-Komponenten:</x:String>
-    <x:String x:Key="AboutAdvancedOptions">Erweiterte Optionen</x:String>
-    <x:String x:Key="AboutForceGC">GC erzwingen</x:String>
-    <x:String x:Key="AboutForceGCDesc">Kann die Leistung stark beeinträchtigen. Nur bei hoher Speichernutzung empfohlen</x:String>
     <x:String x:Key="SpectrumSetting">Spektrum</x:String>
     <x:String x:Key="SpectrumVisible">Sichtbar</x:String>
     <x:String x:Key="SpectrumUI">Spectrum UI</x:String>

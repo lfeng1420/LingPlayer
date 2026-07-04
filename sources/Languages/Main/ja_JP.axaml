@@ -118,6 +118,7 @@
     <x:String x:Key="EffectSettingPage">オーディオ効果</x:String>
     <x:String x:Key="LangSettingPage">言語</x:String>
     <x:String x:Key="PlayControlSettingPage">再生制御</x:String>
+    <x:String x:Key="AdvancedSettingPage">詳細設定</x:String>
     <x:String x:Key="AboutSettingPage">について</x:String>
     <x:String x:Key="AboutSettingLicensePage">オープンソースライセンス</x:String>
     <x:String x:Key="StatTrackPage">曲ランキング</x:String>
@@ -207,6 +208,7 @@
     <x:String x:Key="EffectDesc">イコライザー、音響効果</x:String>
     <x:String x:Key="LangDesc">システム言語、言語切替</x:String>
     <x:String x:Key="PlayControlDesc">自動再生、シャッフル再生</x:String>
+    <x:String x:Key="AdvancedDesc">ガベージコレクション</x:String>
     <x:String x:Key="AboutDesc">バージョン情報、問題報告、ログキャッシュ</x:String>
     <x:String x:Key="ExcludeBelowDurationTracks">設定時間以下の曲を除外</x:String>
     <x:String x:Key="ScanNow">今すぐスキャン</x:String>
@@ -276,6 +278,8 @@
     <x:String x:Key="OverlayDarkOpacity">オーバーレイ不透明度（ダークテーマ）</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">オーバーレイはライトテーマでのテキスト可読性を向上させます。値を小さく設定しすぎるとテキストが読みにくくなる可能性があります</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">オーバーレイはダークテーマで明るすぎる背景を暗くし、ライトテーマで暗すぎる背景を明るくして、テキストの可読性を向上させます</x:String>
+    <x:String x:Key="JumpBarOverlayLightOpacity">ジャンプバーオーバーレイ不透明度（ライトテーマ）</x:String>
+    <x:String x:Key="JumpBarOverlayDarkOpacity">ジャンプバーオーバーレイ不透明度（ダークテーマ）</x:String>
     <x:String x:Key="HomeNavMenuItem">起動時のデフォルト表示ページ</x:String>
     <x:String x:Key="HomeNavMenuItemDesc">上のナビゲーションメニュー項目をクリックしてデフォルト表示ページを切り替えます</x:String>
     <x:String x:Key="SystemLang">システム言語</x:String>
@@ -303,6 +307,10 @@
     <x:String x:Key="ShuffleByArtistDesc">再生キュー内の曲をまずアーティストごとにグループ化し、その後各グループをランダムに再生します。同一グループ内の曲はアルバム名、ディスク番号、トラック番号でソートされます</x:String>
     <x:String x:Key="ShuffleByFolder">フォルダーごとにシャッフル</x:String>
     <x:String x:Key="ShuffleByFolderDesc">再生キュー内の曲をまずフォルダーごとにグループ化し、その後各グループをランダムに再生します</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">ページ切り替え後にガベージコレクションを実行</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">有効にすると、ページ切り替え後にガベージコレクションを実行してメモリを解放します&#xA;ガベージコレクションはスレッドを一時停止させるため、再生が途切れる場合はこのオプションを無効にしてください</x:String>
+    <x:String x:Key="AdvancedForceGC">ガベージコレクションを強制実行</x:String>
+    <x:String x:Key="AdvancedForceGCDesc">この操作はアプリのパフォーマンスに深刻な影響を与える可能性があります。メモリ使用量が高すぎる場合のみ使用を推奨します</x:String>
     <x:String x:Key="AboutVersion">バージョン</x:String>
     <x:String x:Key="AboutOpenSourceLicense">オープンソースライセンス</x:String>
     <x:String x:Key="AboutPrivacyPolicy">プライバシーポリシー</x:String>
@@ -315,9 +323,6 @@
     <x:String x:Key="AboutLogCacheClear">キャッシュをクリア</x:String>
     <x:String x:Key="AboutLogCacheClearDesc">クリックしてキャッシュをクリア</x:String>
     <x:String x:Key="AboutOpenSourceIntro">以下のオープンソースコンポーネントを使用しています：</x:String>
-    <x:String x:Key="AboutAdvancedOptions">詳細オプション</x:String>
-    <x:String x:Key="AboutForceGC">強制ガベージコレクション</x:String>
-    <x:String x:Key="AboutForceGCDesc">この操作はアプリのパフォーマンスに深刻な影響を与える可能性があります。メモリ使用量が高すぎる場合のみ使用を推奨します</x:String>
     <x:String x:Key="SpectrumSetting">スペクトラム設定</x:String>
     <x:String x:Key="SpectrumVisible">表示</x:String>
     <x:String x:Key="SpectrumUI">UI</x:String>
@@ -353,21 +358,21 @@
     <x:String x:Key="OpenFileDialogTitle">ファイルを選択</x:String>
     <x:String x:Key="OpenSaveFileDialogTitle">保存先を選択</x:String>
     <x:String x:Key="FolderExcludeConfirmTitle">フォルダーを除外リストに追加</x:String>
-    <x:String x:Key="FolderExcludeConfirmContent">以下のフォルダーを除外リストに追加してもよろしいですか？除外後、そのフォルダーまたはサブフォルダーに属する曲はライブラリから削除されます。この操作でファイルが削除されることはありません。&#xA;{0}</x:String>
+    <x:String x:Key="FolderExcludeConfirmContent">以下のフォルダーを除外リストに追加しますか？除外後、そのフォルダーまたはサブフォルダーに属する曲はライブラリから削除されます。この操作でファイルが削除されることはありません。&#xA;{0}</x:String>
     <x:String x:Key="PlaylistDeleteTitle">プレイリストを削除</x:String>
-    <x:String x:Key="PlaylistDeleteContent">以下のプレイリストを削除してもよろしいですか？この操作は永久的に削除され、復元できません。&#xA;{0}</x:String>
+    <x:String x:Key="PlaylistDeleteContent">以下のプレイリストを削除しますか？この操作は永久的に削除され、復元できません。&#xA;{0}</x:String>
     <x:String x:Key="PlaylistTrackRemoveTitle">曲を削除</x:String>
-    <x:String x:Key="PlaylistTrackRemoveContent">プレイリスト {0} から曲 {1} を削除してもよろしいですか？</x:String>
+    <x:String x:Key="PlaylistTrackRemoveContent">プレイリスト {0} から曲 {1} を削除しますか？</x:String>
     <x:String x:Key="PlaylistTracksRemoveTitle">複数の曲を削除</x:String>
-    <x:String x:Key="PlaylistTracksRemoveContent">プレイリスト {0} から選択した曲を削除してもよろしいですか？</x:String>
+    <x:String x:Key="PlaylistTracksRemoveContent">プレイリスト {0} から選択した曲を削除しますか？</x:String>
     <x:String x:Key="TrackRemoveTitle">曲を削除</x:String>
-    <x:String x:Key="TrackRemoveContent">曲 {0} を削除してもよろしいですか？この操作でローカルの曲ファイルは削除されません。</x:String>
+    <x:String x:Key="TrackRemoveContent">曲 {0} を削除しますか？この操作でローカルの曲ファイルは削除されません。</x:String>
     <x:String x:Key="TracksRemoveTitle">複数の曲を削除</x:String>
-    <x:String x:Key="TracksRemoveContent">選択した曲を削除してもよろしいですか？この操作でローカルの曲ファイルは削除されません。</x:String>
+    <x:String x:Key="TracksRemoveContent">選択した曲を削除しますか？この操作でローカルの曲ファイルは削除されません。</x:String>
     <x:String x:Key="AlbumRemoveTitle">アルバムを削除</x:String>
-    <x:String x:Key="AlbumRemoveContent">アルバム {0} を削除してもよろしいですか？この操作はアルバムとすべての編集内容を永久的に削除し、復元できません。</x:String>
+    <x:String x:Key="AlbumRemoveContent">アルバム {0} を削除しますか？この操作はアルバムとすべての編集内容を永久的に削除し、復元できません。</x:String>
     <x:String x:Key="ArtistRemoveTitle">アーティストを削除</x:String>
-    <x:String x:Key="ArtistRemoveContent">アーティスト {0} を削除してもよろしいですか？この操作はアーティストとすべての編集内容を永久的に削除し、復元できません。</x:String>
+    <x:String x:Key="ArtistRemoveContent">アーティスト {0} を削除しますか？この操作はアーティストとすべての編集内容を永久的に削除し、復元できません。</x:String>
     <x:String x:Key="TrackScanTitle">曲をスキャン</x:String>
     <x:String x:Key="TrackEditTitle">曲メタデータを編集</x:String>
     <x:String x:Key="AlbumEditTitle">アルバムメタデータを編集</x:String>
@@ -486,7 +491,7 @@
     <x:String x:Key="TipsAlbumStage">{0} アルバムグループから解析中：アルバム {1} / アーティスト {2}</x:String>
     <x:String x:Key="TipsDoneStage">スキャン完了：{0} 曲、{1} アルバム、{2} アーティストを更新しました</x:String>
     <x:String x:Key="TipsFailStage">スキャンに失敗しました。詳細はログファイルをご確認ください</x:String>
-    <x:String x:Key="TipsTrackEmpty0">曲がありません。ファイルまたはフォルダーをここにドラッグ＆ドロップしてスキャンできます</x:String>
+    <x:String x:Key="TipsTrackEmpty0">曲がありません。ファイルまたはフォルダーをここにドラッグ＆ドロップしてスキャンが可能です</x:String>
     <x:String x:Key="TipsTrackEmpty1">または移動先</x:String>
     <x:String x:Key="TipsTrackEmpty2">でフォルダーを追加</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">離して曲ファイルをスキャン</x:String>
@@ -501,8 +506,8 @@
     <x:String x:Key="TipsSearch">曲、アルバム、アーティスト、プレイリストを検索</x:String>
     <x:String x:Key="TipsNavMenuItem">メニュー項目をドラッグして表示順序を調整</x:String>
     <x:String x:Key="TipsSeparatorInput">区切り文字を入力</x:String>
-    <x:String x:Key="TipsSeparator">区切り文字は曲情報内の複数のアーティストやジャンルを解析するために使用します。&#xA;区切り文字を選択してアーティストやジャンルの表示方法をカスタマイズできます。</x:String>
-    <x:String x:Key="TipsWallpaper">カスタム壁紙を使用すると、テキストと背景のコントラストが弱くて識別しにくい場合があります。&#xA;透明度を調整するか、テーマ（ライト/ダーク）を切り替えて最適な効果を得てください。</x:String>
+    <x:String x:Key="TipsSeparator">区切り文字は曲情報内の複数のアーティストやジャンルを解析するために使用します。&#xA;区切り文字を選択してアーティストやジャンルの表示方法をカスタマイズすることが可能です。</x:String>
+    <x:String x:Key="TipsWallpaper">カスタム壁紙を使用すると、テキストと背景のコントラストが弱くて識別しにくい場合があります。&#xA;透明度を調整するか、テーマ（ライト/ダーク）を切り替えることで最適な効果が得られます。</x:String>
     <x:String x:Key="TipsCueTrackEdit">この曲は CUE ファイルから生成されています。メタデータの変更はサポートされていません。CUE ファイルを直接編集してください。</x:String>
     <x:String x:Key="TipsCueAlbumEdit">このアルバムには CUE ファイルから生成された曲が含まれています。メタデータの変更はサポートされていません。CUE ファイルを直接編集してください。</x:String>
 

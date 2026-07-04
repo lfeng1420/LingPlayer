@@ -118,6 +118,7 @@
     <x:String x:Key="EffectSettingPage">Аудиоэффекты</x:String>
     <x:String x:Key="LangSettingPage">Язык</x:String>
     <x:String x:Key="PlayControlSettingPage">Управление</x:String>
+    <x:String x:Key="AdvancedSettingPage">Дополнительно</x:String>
     <x:String x:Key="AboutSettingPage">О программе</x:String>
     <x:String x:Key="AboutSettingLicensePage">Лицензии</x:String>
     <x:String x:Key="StatTrackPage">Рейтинг треков</x:String>
@@ -207,6 +208,7 @@
     <x:String x:Key="EffectDesc">Эквалайзер, эффекты</x:String>
     <x:String x:Key="LangDesc">Язык системы, смена языка</x:String>
     <x:String x:Key="PlayControlDesc">Автовоспроизведение, перемешивание</x:String>
+    <x:String x:Key="AdvancedDesc">Сборка мусора</x:String>
     <x:String x:Key="AboutDesc">Версия, отзывы, кэш</x:String>
     <x:String x:Key="ExcludeBelowDurationTracks">Исключить треки короче заданной длительности</x:String>
     <x:String x:Key="ScanNow">Сканировать</x:String>
@@ -276,6 +278,8 @@
     <x:String x:Key="OverlayDarkOpacity">Наложение (тёмная)</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">Улучшает видимость текста при использовании светлой темы. Низкие значения могут ухудшить видимость текста</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">Затемняет яркий фон при использовании тёмной темы и осветляет при использовани светлой темы для лучшей видимости текста</x:String>
+    <x:String x:Key="JumpBarOverlayLightOpacity">Непрозрачность наложения панели перехода для светлой темы</x:String>
+    <x:String x:Key="JumpBarOverlayDarkOpacity">Непрозрачность наложения панели перехода для тёмной темы</x:String>
     <x:String x:Key="HomeNavMenuItem">Страница при запуске</x:String>
     <x:String x:Key="HomeNavMenuItemDesc">Нажмите на пункт меню для выбора страницы по умолчанию</x:String>
     <x:String x:Key="SystemLang">Язык системы</x:String>
@@ -303,6 +307,10 @@
     <x:String x:Key="ShuffleByArtistDesc">Сначала треки группируются в очереди воспроизведения по исполнителям, а затем каждая группа воспроизводится в случайном порядке. Внутри одной и той же группы треки сортируются по названию альбома, номеру диска и трека</x:String>
     <x:String x:Key="ShuffleByFolder">По папкам</x:String>
     <x:String x:Key="ShuffleByFolderDesc">Сначала треки группируются в очереди воспроизведения по папкам, а затем каждая группа воспроизводится в случайном порядке</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">Запускать сборку мусора при смене страницы</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">При включении запускает сборку мусора после смены страницы для освобождения памяти&#xA;Поскольку сборка мусора приостанавливает потоки, отключите эту опцию, если воспроизведение прерывается</x:String>
+    <x:String x:Key="AdvancedForceGC">Принудительная сборка мусора</x:String>
+    <x:String x:Key="AdvancedForceGCDesc">Эта операция может существенно повлиять на производительность приложения. Рекомендуется только при высокой загрузке памяти</x:String>
     <x:String x:Key="AboutVersion">Версия</x:String>
     <x:String x:Key="AboutOpenSourceLicense">Лицензии</x:String>
     <x:String x:Key="AboutPrivacyPolicy">Конфиденциальность</x:String>
@@ -315,9 +323,6 @@
     <x:String x:Key="AboutLogCacheClear">Очистить</x:String>
     <x:String x:Key="AboutLogCacheClearDesc">Нажмите для очистки</x:String>
     <x:String x:Key="AboutOpenSourceIntro">Используются компоненты:</x:String>
-    <x:String x:Key="AboutAdvancedOptions">Дополнительные опции</x:String>
-    <x:String x:Key="AboutForceGC">Принудительная сборка мусора</x:String>
-    <x:String x:Key="AboutForceGCDesc">Эта операция может существенно повлиять на производительность приложения, поэтому рекомендуется выполнять ее только при высокой загрузке памяти</x:String>
     <x:String x:Key="SpectrumSetting">Настройки спектра</x:String>
     <x:String x:Key="SpectrumVisible">Отображение</x:String>
     <x:String x:Key="SpectrumUI">Интерфейс</x:String>
@@ -353,21 +358,21 @@
     <x:String x:Key="OpenFileDialogTitle">Выбор файла</x:String>
     <x:String x:Key="OpenSaveFileDialogTitle">Куда сохранить</x:String>
     <x:String x:Key="FolderExcludeConfirmTitle">Добавить папку в исключения</x:String>
-    <x:String x:Key="FolderExcludeConfirmContent">Вы уверены, что хотите добавить следующие папки в список исключений? После исключения треки из этой папки или ее подпапок будут удалены из библиотеки. Это действие не приведет к удалению каких-либо файлов на вашем устройстве.&#xA;{0}</x:String>
+    <x:String x:Key="FolderExcludeConfirmContent">Добавить следующие папки в список исключений? После исключения треки из этой папки или ее подпапок будут удалены из библиотеки. Это действие не приведет к удалению каких-либо файлов на устройстве.&#xA;{0}</x:String>
     <x:String x:Key="PlaylistDeleteTitle">Удалить плейлист</x:String>
-    <x:String x:Key="PlaylistDeleteContent">Вы уверены, что хотите удалить эти плейлисты? Это действие приведет к необратимому удалению этих плейлистов, и восстановить их будет невозможно.&#xA;{0}</x:String>
+    <x:String x:Key="PlaylistDeleteContent">Удалить эти плейлисты? Это действие приведет к необратимому удалению этих плейлистов, и восстановить их будет невозможно.&#xA;{0}</x:String>
     <x:String x:Key="PlaylistTrackRemoveTitle">Убрать трек</x:String>
-    <x:String x:Key="PlaylistTrackRemoveContent">Вы уверены, что хотите удалить трек {1} из списка воспроизведения {0}? Это действие не приведет к удалению файла трека из вашей библиотеки.</x:String>
+    <x:String x:Key="PlaylistTrackRemoveContent">Удалить трек {1} из списка воспроизведения {0}? Это действие не приведет к удалению файла трека из библиотеки.</x:String>
     <x:String x:Key="PlaylistTracksRemoveTitle">Убрать треки</x:String>
     <x:String x:Key="PlaylistTracksRemoveContent">Убрать выбранные треки из плейлиста {0}?</x:String>
     <x:String x:Key="TrackRemoveTitle">Убрать трек</x:String>
     <x:String x:Key="TrackRemoveContent">Убрать трек {0}? Файл не удаляется.</x:String>
     <x:String x:Key="TracksRemoveTitle">Убрать треки</x:String>
-    <x:String x:Key="TracksRemoveContent">Вы уверены, что хотите удалить выбранные треки? Это действие не приведет к удалению файла трека из вашей библиотеки.</x:String>
+    <x:String x:Key="TracksRemoveContent">Удалить выбранные треки? Это действие не приведет к удалению файлов треков из библиотеки.</x:String>
     <x:String x:Key="AlbumRemoveTitle">Удалить альбом</x:String>
-    <x:String x:Key="AlbumRemoveContent">Вы уверены, что хотите удалить альбом {0}? Это действие приведет к необратимому удалению альбома и всех внесенных вами изменений, восстановить которые будет невозможно.</x:String>
+    <x:String x:Key="AlbumRemoveContent">Удалить альбом {0}? Это действие приведет к необратимому удалению альбома и всех внесенных изменений, восстановить которые будет невозможно.</x:String>
     <x:String x:Key="ArtistRemoveTitle">Удалить исполнителя</x:String>
-    <x:String x:Key="ArtistRemoveContent">Вы уверены, что хотите удалить исполнителя {0}? Это действие приведет к необратимому удалению исполнителя и всех внесенных вами изменений, восстановить которые будет невозможно.</x:String>
+    <x:String x:Key="ArtistRemoveContent">Удалить исполнителя {0}? Это действие приведет к необратимому удалению исполнителя и всех внесенных изменений, восстановить которые будет невозможно.</x:String>
     <x:String x:Key="TrackScanTitle">Сканирование</x:String>
     <x:String x:Key="TrackEditTitle">Изменить метаданные трека</x:String>
     <x:String x:Key="AlbumEditTitle">Изменить метаданные альбома</x:String>
@@ -466,7 +471,7 @@
     <x:String x:Key="ToastOpenFolderFail">Не удалось открыть {0}, см. лог</x:String>
     <x:String x:Key="ToastOneDriveLoginFail">Ошибка входа OneDrive</x:String>
     <x:String x:Key="ToastOneDriveLoginSucc">Вход в OneDrive выполнен</x:String>
-    <x:String x:Key="ToastOneDriveLogout">Вы вышли из аккаунта OneDrive {0}</x:String>
+    <x:String x:Key="ToastOneDriveLogout">Выход из аккаунта OneDrive {0} выполнен</x:String>
     <x:String x:Key="ToastOneDriveNoAccount">Аккаунт OneDrive не настроен</x:String>
     <x:String x:Key="ToastForceGCResult">Принудительный сбор мусора завершен, освобождено {0}</x:String>
     <x:String x:Key="ToastArtistExists">Исполнитель {0} уже существует</x:String>
@@ -501,8 +506,8 @@
     <x:String x:Key="TipsSearch">Поиск треков, альбомов, исполнителей, плейлистов</x:String>
     <x:String x:Key="TipsNavMenuItem">Перетащите пункты для изменения порядка</x:String>
     <x:String x:Key="TipsSeparatorInput">Введите разделитель</x:String>
-    <x:String x:Key="TipsSeparator">Разделители для парсинга нескольких исполнителей и жанров.&#xA;Вы можете выбрать разделитель, чтобы настроить способ отображения исполнителей или жанров.</x:String>
-    <x:String x:Key="TipsWallpaper">Использование пользовательских обоев может привести к снижению видимости текста, если контраст между текстом и фоном будет недостаточным.&#xA;Вы можете настроить непрозрачность или переключаться между светлыми и темными темами, чтобы улучшить видимость текста.</x:String>
+    <x:String x:Key="TipsSeparator">Разделители для парсинга нескольких исполнителей и жанров.&#xA;Выбор разделителя для настройки способа отображения исполнителей или жанров.</x:String>
+    <x:String x:Key="TipsWallpaper">Использование пользовательских обоев может привести к снижению видимости текста, если контраст между текстом и фоном будет недостаточным.&#xA;Настройте непрозрачность или переключайтесь между светлыми и темными темами, чтобы улучшить видимость текста.</x:String>
     <x:String x:Key="TipsCueTrackEdit">Этот трек взят из файла CUE, метаданные не могут быть изменены. Пожалуйста, отредактируйте файл CUE напрямую.</x:String>
     <x:String x:Key="TipsCueAlbumEdit">Этот альбом содержит треки из файлов CUE, метаданные не могут быть изменены. Пожалуйста, отредактируйте файл CUE напрямую.</x:String>
 
