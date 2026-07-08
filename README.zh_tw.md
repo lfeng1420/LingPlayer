@@ -1,5 +1,6 @@
 [简体中文](README.zh_cn.md) | [English](README.md) | [日本語](README.ja_jp.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md)
 
+![logo](logo_cn.png)
 # 輕靈音樂
 
 輕靈音樂是一款跨平台本地音樂播放器，支援 FLAC、APE、DSD、MP3、AAC 等數十種常見音訊格式，具備 CUE 分軌解析、分組隨機播放等實用功能。配合即時渲染的可視化頻譜與透明毛玻璃介面，搭配自訂背景圖片，帶來豐富的個人化體驗。

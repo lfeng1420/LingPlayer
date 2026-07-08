@@ -1,5 +1,6 @@
 [简体中文](README.zh_cn.md) | [English](README.md) | [繁體中文](README.zh_tw.md) | [日本語](README.ja_jp.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Türkçe](README.tr_tr.md)
 
+![logo](logo_ru.png)
 # Ling Player
 
 Ling Player — это кроссплатформенный локальный музыкальный проигрыватель, поддерживающий десятки распространённых аудиоформатов, включая FLAC, APE, DSD, MP3 и AAC. Он предлагает разбор CUE-файлов, групповое случайное воспроизведение и многое другое. Благодаря визуализатору реального времени с ускорением на GPU и прозрачному стеклянному интерфейсу с настраиваемыми фоновыми изображениями, Ling Player дарит богатый персонализированный музыкальный опыт.

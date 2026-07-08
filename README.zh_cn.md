@@ -1,5 +1,6 @@
 [English](README.md) | [繁體中文](README.zh_tw.md) | [日本語](README.ja_jp.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md)
 
+![logo](logo_cn.png)
 # 轻灵音乐
 
 轻灵音乐是一款跨平台本地音乐播放器，支持 FLAC、APE、DSD、MP3、AAC 等数十种常见音频格式，具备 CUE 分轨解析、分组随机播放等实用功能。配合实时渲染的可视化频谱与透明毛玻璃界面，搭配自定义背景图片，带来丰富的个性化体验。

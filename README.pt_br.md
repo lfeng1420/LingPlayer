@@ -1,5 +1,6 @@
 [简体中文](README.zh_cn.md) | [English](README.md) | [繁體中文](README.zh_tw.md) | [日本語](README.ja_jp.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md)
 
+![logo](logo_en.png)
 # Ling Player
 
 O Ling Player é um reprodutor de música local multiplataforma compatível com dezenas de formatos de áudio comuns, como FLAC, APE, DSD, MP3 e AAC. Ele oferece análise de arquivos CUE, reprodução aleatória agrupada e muito mais. Com visualizador em tempo real acelerado por GPU e uma interface de vidro transparente com imagens de fundo personalizáveis, o Ling Player proporciona uma experiência musical rica e personalizada.

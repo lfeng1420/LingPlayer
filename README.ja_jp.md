@@ -1,5 +1,6 @@
 [简体中文](README.zh_cn.md) | [English](README.md) | [繁體中文](README.zh_tw.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md) | [Türkçe](README.tr_tr.md)
 
+![logo](logo_en.png)
 # Ling Player
 
 轻灵音乐は、FLAC、APE、DSD、MP3、AAC など数十種類の一般的なオーディオ形式をサポートするクロスプラットフォームのローカル音楽プレーヤーです。CUE シート解析やグループシャッフル再生などの便利な機能を備えています。GPU によるリアルタイムビジュアライザーと透過ガラス UI にカスタム背景画像を組み合わせ、豊かなパーソナライズ体験を提供します。

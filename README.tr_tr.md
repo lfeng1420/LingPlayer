@@ -1,5 +1,6 @@
 [简体中文](README.zh_cn.md) | [English](README.md) | [繁體中文](README.zh_tw.md) | [日本語](README.ja_jp.md) | [한국어](README.ko_kr.md) | [Deutsch](README.de_de.md) | [Français](README.fr_fr.md) | [Español](README.es_es.md) | [Português](README.pt_br.md) | [Polski](README.pl_pl.md) | [Русский](README.ru_ru.md)
 
+![logo](logo_en.png)
 # Ling Player
 
 Ling Player, FLAC, APE, DSD, MP3 ve AAC gibi düzinelerce yaygın ses formatını destekleyen çapraz platform yerel bir müzik çalardır. CUE dosya ayrıştırma, gruplandırılmış karışık çalma ve daha fazlasını sunar. GPU hızlandırmalı gerçek zamanlı görselleştirici ve özelleştirilebilir arka plan resimleriyle şeffaf cam arayüzü sayesinde Ling Player, zengin ve kişiselleştirilmiş bir müzik deneyimi sunar.
