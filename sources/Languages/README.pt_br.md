@@ -82,7 +82,7 @@ As strings de tradução podem conter marcadores como `{0}`, `{1}`, `{2}`, que s
 
 ```
 en_US:  "{0} track(s)"
-zh_CN:  "{0}首歌曲"
+zh_CN:  "{0} 首歌曲"
 ```
 
 ```

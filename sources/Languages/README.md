@@ -82,7 +82,7 @@ Translation strings may contain placeholders like `{0}`, `{1}`, `{2}`, which are
 
 ```
 en_US:  "{0} track(s)"
-zh_CN:  "{0}首歌曲"
+zh_CN:  "{0} 首歌曲"
 ```
 
 ```

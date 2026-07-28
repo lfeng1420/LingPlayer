@@ -82,7 +82,7 @@ Dil dosyaları [Avalonia UI](https://avaloniaui.net/) `ResourceDictionary` XAML 
 
 ```
 en_US:  "{0} track(s)"
-zh_CN:  "{0}首歌曲"
+zh_CN:  "{0} 首歌曲"
 ```
 
 ```

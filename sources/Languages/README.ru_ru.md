@@ -82,7 +82,7 @@ Languages/
 
 ```
 en_US:  "{0} track(s)"
-zh_CN:  "{0}首歌曲"
+zh_CN:  "{0} 首歌曲"
 ```
 
 ```
