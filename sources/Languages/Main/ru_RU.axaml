@@ -124,6 +124,7 @@
     <x:String x:Key="StatTrackPage">Рейтинг треков</x:String>
     <x:String x:Key="StatAlbumPage">Рейтинг альбомов</x:String>
     <x:String x:Key="StatArtistPage">Рейтинг исполнителей</x:String>
+    <x:String x:Key="ImageCornerSettingPage">Скругление углов изображения</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Инфо о треке</x:String>
@@ -215,8 +216,9 @@
     <x:String x:Key="FullScan">Полное сканирование</x:String>
     <x:String x:Key="IncludedFolders">Включённые папки</x:String>
     <x:String x:Key="ExcludedFolders">Исключённые папки</x:String>
-    <x:String x:Key="Separator">Разделители</x:String>
-    <x:String x:Key="SeparatorDesc">Для парсинга нескольких исполнителей и жанров в инфо трека</x:String>
+    <x:String x:Key="Separator">Разделитель</x:String>
+    <x:String x:Key="Separators">Разделители</x:String>
+    <x:String x:Key="SeparatorsDesc">Для парсинга нескольких исполнителей и жанров в инфо трека</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">Показывать приглашённых исполнителей в списке</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">При включении приглашённые исполнители отображаются в списке</x:String>
     <x:String x:Key="FolderHierachyView">Иерархия папок</x:String>
@@ -252,7 +254,8 @@
     <x:String x:Key="TaskbarTitle">Показывать трек в названии окна на панели задач</x:String>
     <x:String x:Key="TaskbarTitleDesc">Формат: Трек - Исполнитель</x:String>
     <x:String x:Key="ImageCornerStrength">Скругление углов</x:String>
-    <x:String x:Key="ImageCornerStrengthDesc">Настройка скругления обложек и фото. Меньшее зачение — углы острее, большее — круглее</x:String>
+    <x:String x:Key="ImageCornerStrengthDesc">Настройка скругления обложек и фото</x:String>
+    <x:String x:Key="ImageCornerStrengthTips">Меньшее значение — углы острее, большее — круглее</x:String>
     <x:String x:Key="ImageCornerStrengthSmall">Маленькие изображения</x:String>
     <x:String x:Key="ImageCornerStrengthSmallDesc">Треки, альбомы (список), управление воспроизведением</x:String>
     <x:String x:Key="ImageCornerStrengthMedium">Средние изображения</x:String>

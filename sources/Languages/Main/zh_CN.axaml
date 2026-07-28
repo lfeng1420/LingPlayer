@@ -124,6 +124,7 @@
     <x:String x:Key="StatTrackPage">歌曲排行榜</x:String>
     <x:String x:Key="StatAlbumPage">专辑排行榜</x:String>
     <x:String x:Key="StatArtistPage">艺术家排行榜</x:String>
+    <x:String x:Key="ImageCornerSettingPage">图片圆角强度</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">歌曲信息</x:String>
@@ -216,7 +217,8 @@
     <x:String x:Key="IncludedFolders">包含文件夹</x:String>
     <x:String x:Key="ExcludedFolders">已排除的文件夹</x:String>
     <x:String x:Key="Separator">分隔符</x:String>
-    <x:String x:Key="SeparatorDesc">用于解析歌曲信息中的多个艺术家和流派</x:String>
+    <x:String x:Key="Separators">分隔符</x:String>
+    <x:String x:Key="SeparatorsDesc">用于解析歌曲信息中的多个艺术家和流派</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">在艺术家页面中显示参与创作艺术家</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">启用后，参与创作的艺术家将显示在艺术家列表中</x:String>
     <x:String x:Key="FolderHierachyView">文件夹层级视图</x:String>
@@ -252,7 +254,8 @@
     <x:String x:Key="TaskbarTitle">任务栏标题显示当前播放歌曲</x:String>
     <x:String x:Key="TaskbarTitleDesc">默认显示格式：标题 - 艺术家</x:String>
     <x:String x:Key="ImageCornerStrength">图片圆角强度</x:String>
-    <x:String x:Key="ImageCornerStrengthDesc">自定义歌曲封面、专辑封面和艺术家图片的圆角大小&#xA;数值越小越锐利，越大越圆润</x:String>
+    <x:String x:Key="ImageCornerStrengthDesc">自定义歌曲封面、专辑封面和艺术家图片的圆角大小</x:String>
+    <x:String x:Key="ImageCornerStrengthTips">数值越小越锐利，越大越圆润</x:String>
     <x:String x:Key="ImageCornerStrengthSmall">小尺寸图片圆角强度</x:String>
     <x:String x:Key="ImageCornerStrengthSmallDesc">应用于：歌曲、专辑（列表视图）和播放控制等页面或控件的图片</x:String>
     <x:String x:Key="ImageCornerStrengthMedium">中尺寸图片圆角强度</x:String>

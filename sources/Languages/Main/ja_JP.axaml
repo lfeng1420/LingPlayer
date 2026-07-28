@@ -124,6 +124,7 @@
     <x:String x:Key="StatTrackPage">曲ランキング</x:String>
     <x:String x:Key="StatAlbumPage">アルバムランキング</x:String>
     <x:String x:Key="StatArtistPage">アーティストランキング</x:String>
+    <x:String x:Key="ImageCornerSettingPage">画像の角の強度</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">曲情報</x:String>
@@ -216,7 +217,8 @@
     <x:String x:Key="IncludedFolders">含めるフォルダー</x:String>
     <x:String x:Key="ExcludedFolders">除外したフォルダー</x:String>
     <x:String x:Key="Separator">区切り文字</x:String>
-    <x:String x:Key="SeparatorDesc">曲情報内の複数のアーティストやジャンルを解析するために使用します</x:String>
+    <x:String x:Key="Separators">区切り文字</x:String>
+    <x:String x:Key="SeparatorsDesc">曲情報内の複数のアーティストやジャンルを解析するために使用します</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">アーティストページにコラボアーティストを表示</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">有効にすると、コラボアーティストがアーティストリストに表示されます</x:String>
     <x:String x:Key="FolderHierachyView">フォルダー階層ビュー</x:String>
@@ -252,7 +254,8 @@
     <x:String x:Key="TaskbarTitle">タスクバーに現在再生中の曲を表示</x:String>
     <x:String x:Key="TaskbarTitleDesc">デフォルト表示形式：タイトル - アーティスト</x:String>
     <x:String x:Key="ImageCornerStrength">画像の角丸サイズ</x:String>
-    <x:String x:Key="ImageCornerStrengthDesc">曲・アルバム・アーティスト画像の角丸サイズをカスタマイズ&#xA;値が小さいほどシャープに、大きいほど丸くなります</x:String>
+    <x:String x:Key="ImageCornerStrengthDesc">曲・アルバム・アーティスト画像の角丸サイズをカスタマイズ</x:String>
+    <x:String x:Key="ImageCornerStrengthTips">値が小さいほどシャープに、大きいほど丸くなります</x:String>
     <x:String x:Key="ImageCornerStrengthSmall">小サイズ画像の角丸サイズ</x:String>
     <x:String x:Key="ImageCornerStrengthSmallDesc">適用先：曲、アルバム（リストビュー）、再生コントロールなどのページやコントロールの画像</x:String>
     <x:String x:Key="ImageCornerStrengthMedium">中サイズ画像の角丸サイズ</x:String>

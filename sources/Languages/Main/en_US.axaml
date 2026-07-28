@@ -124,6 +124,7 @@
     <x:String x:Key="StatTrackPage">Track Ranking</x:String>
     <x:String x:Key="StatAlbumPage">Album Ranking</x:String>
     <x:String x:Key="StatArtistPage">Artist Ranking</x:String>
+    <x:String x:Key="ImageCornerSettingPage">Image Corner Strength</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Track info</x:String>
@@ -215,8 +216,9 @@
     <x:String x:Key="FullScan">Full scan</x:String>
     <x:String x:Key="IncludedFolders">Included folders</x:String>
     <x:String x:Key="ExcludedFolders">Excluded folders</x:String>
-    <x:String x:Key="Separator">Separators</x:String>
-    <x:String x:Key="SeparatorDesc">Used to parse multiple artists and genres in track information</x:String>
+    <x:String x:Key="Separator">Separator</x:String>
+    <x:String x:Key="Separators">Separators</x:String>
+    <x:String x:Key="SeparatorsDesc">Used to parse multiple artists and genres in track information</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">Show featured artists on artist page</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">When enabled, artists credited on tracks will also appear in the artist list</x:String>
     <x:String x:Key="FolderHierachyView">Folder hierarchical view</x:String>
@@ -252,7 +254,8 @@
     <x:String x:Key="TaskbarTitle">Taskbar title displays current playing track</x:String>
     <x:String x:Key="TaskbarTitleDesc">Default display format: Title - Artist(s)</x:String>
     <x:String x:Key="ImageCornerStrength">Image corner strength</x:String>
-    <x:String x:Key="ImageCornerStrengthDesc">Customize the corner radius of track, album, and artist images. Lower values look sharper, higher values look rounder</x:String>
+    <x:String x:Key="ImageCornerStrengthDesc">Customize the corner radius of track, album, and artist images</x:String>
+    <x:String x:Key="ImageCornerStrengthTips">Lower values look sharper, higher values look rounder</x:String>
     <x:String x:Key="ImageCornerStrengthSmall">Small image corner strength</x:String>
     <x:String x:Key="ImageCornerStrengthSmallDesc">Applied to images in track lists, album (list view), and playback controls</x:String>
     <x:String x:Key="ImageCornerStrengthMedium">Medium image corner strength</x:String>
@@ -322,7 +325,7 @@
     <x:String x:Key="AboutLogCacheLocation">Log location</x:String>
     <x:String x:Key="AboutLogCacheClear">Clear cache</x:String>
     <x:String x:Key="AboutLogCacheClearDesc">Click to clear the log cache</x:String>
-    <x:String x:Key="AboutOpenSourceIntro"> uses the following open source components:</x:String>
+    <x:String x:Key="AboutOpenSourceIntro">uses the following open source components:</x:String>
     <x:String x:Key="SpectrumSetting">Spectrum Setting</x:String>
     <x:String x:Key="SpectrumVisible">Visible</x:String>
     <x:String x:Key="SpectrumUI">Spectrum UI</x:String>

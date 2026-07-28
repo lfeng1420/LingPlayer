@@ -124,6 +124,7 @@
     <x:String x:Key="StatTrackPage">Classement des pistes</x:String>
     <x:String x:Key="StatAlbumPage">Classement des albums</x:String>
     <x:String x:Key="StatArtistPage">Classement des artistes</x:String>
+    <x:String x:Key="ImageCornerSettingPage">Force des coins d'image</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Infos piste</x:String>
@@ -215,8 +216,9 @@
     <x:String x:Key="FullScan">Analyse complète</x:String>
     <x:String x:Key="IncludedFolders">Dossiers inclus</x:String>
     <x:String x:Key="ExcludedFolders">Dossiers exclus</x:String>
-    <x:String x:Key="Separator">Séparateurs</x:String>
-    <x:String x:Key="SeparatorDesc">Utilisé pour analyser plusieurs artistes et genres dans les infos des pistes</x:String>
+    <x:String x:Key="Separator">Séparateur</x:String>
+    <x:String x:Key="Separators">Séparateurs</x:String>
+    <x:String x:Key="SeparatorsDesc">Utilisé pour analyser plusieurs artistes et genres dans les infos des pistes</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">Afficher les artistes invités dans la liste</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">Si activé, les artistes invités apparaissent dans la liste des artistes</x:String>
     <x:String x:Key="FolderHierachyView">Vue hiérarchique des dossiers</x:String>
@@ -252,7 +254,8 @@
     <x:String x:Key="TaskbarTitle">Afficher le titre en cours dans la barre des tâches</x:String>
     <x:String x:Key="TaskbarTitleDesc">Format par défaut : Titre - Artiste(s)</x:String>
     <x:String x:Key="ImageCornerStrength">Arrondi des coins des images</x:String>
-    <x:String x:Key="ImageCornerStrengthDesc">Personnaliser l'arrondi des pochettes. Valeurs basses = plus net, hautes = plus rond</x:String>
+    <x:String x:Key="ImageCornerStrengthDesc">Personnaliser l'arrondi des pochettes</x:String>
+    <x:String x:Key="ImageCornerStrengthTips">Valeurs basses = plus net, hautes = plus rond</x:String>
     <x:String x:Key="ImageCornerStrengthSmall">Arrondi petites images</x:String>
     <x:String x:Key="ImageCornerStrengthSmallDesc">Pistes, albums (vue liste), contrôle de lecture</x:String>
     <x:String x:Key="ImageCornerStrengthMedium">Arrondi images moyennes</x:String>

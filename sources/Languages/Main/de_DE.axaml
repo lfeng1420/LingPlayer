@@ -124,6 +124,7 @@
     <x:String x:Key="StatTrackPage">Titel-Ranking</x:String>
     <x:String x:Key="StatAlbumPage">Album-Ranking</x:String>
     <x:String x:Key="StatArtistPage">Künstler-Ranking</x:String>
+    <x:String x:Key="ImageCornerSettingPage">Bildeckenstärke</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Titelinfo</x:String>
@@ -216,7 +217,8 @@
     <x:String x:Key="IncludedFolders">Eingeschlossene Ordner</x:String>
     <x:String x:Key="ExcludedFolders">Ausgeschlossene Ordner</x:String>
     <x:String x:Key="Separator">Trennzeichen</x:String>
-    <x:String x:Key="SeparatorDesc">Zum Parsen mehrerer Künstler und Genres in Titelinformationen</x:String>
+    <x:String x:Key="Separators">Trennzeichen</x:String>
+    <x:String x:Key="SeparatorsDesc">Zum Parsen mehrerer Künstler und Genres in Titelinformationen</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">Gastkünstler auf Künstlerseite anzeigen</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">Wenn aktiviert, erscheinen Gastkünstler in der Künstlerliste</x:String>
     <x:String x:Key="FolderHierachyView">Ordnerhierarchie</x:String>
@@ -252,7 +254,8 @@
     <x:String x:Key="TaskbarTitle">Aktuellen Titel in Taskleiste anzeigen</x:String>
     <x:String x:Key="TaskbarTitleDesc">Standardformat: Titel - Künstler</x:String>
     <x:String x:Key="ImageCornerStrength">Bildecken-Rundung</x:String>
-    <x:String x:Key="ImageCornerStrengthDesc">Rundungsradius für Titel-, Album- und Künstlerbilder. Kleinere Werte = schärfer, größere = runder</x:String>
+    <x:String x:Key="ImageCornerStrengthDesc">Rundungsradius für Titel-, Album- und Künstlerbilder</x:String>
+    <x:String x:Key="ImageCornerStrengthTips">Kleinere Werte = schärfer, größere = runder</x:String>
     <x:String x:Key="ImageCornerStrengthSmall">Ecken-Rundung kleine Bilder</x:String>
     <x:String x:Key="ImageCornerStrengthSmallDesc">Titel, Alben (Listenansicht), Wiedergabesteuerung</x:String>
     <x:String x:Key="ImageCornerStrengthMedium">Ecken-Rundung mittlere Bilder</x:String>

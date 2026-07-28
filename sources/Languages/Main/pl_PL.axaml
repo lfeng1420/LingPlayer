@@ -124,6 +124,7 @@
     <x:String x:Key="StatTrackPage">Ranking utworów</x:String>
     <x:String x:Key="StatAlbumPage">Ranking albumów</x:String>
     <x:String x:Key="StatArtistPage">Ranking artystów</x:String>
+    <x:String x:Key="ImageCornerSettingPage">Siła narożników obrazu</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Informacje o utworze</x:String>
@@ -215,8 +216,9 @@
     <x:String x:Key="FullScan">Pełne skanowanie</x:String>
     <x:String x:Key="IncludedFolders">Dołączone foldery</x:String>
     <x:String x:Key="ExcludedFolders">Wykluczone foldery</x:String>
-    <x:String x:Key="Separator">Separatory</x:String>
-    <x:String x:Key="SeparatorDesc">Używane do analizowania wielu artystów i gatunków w informacjach o utworach</x:String>
+    <x:String x:Key="Separator">Separator</x:String>
+    <x:String x:Key="Separators">Separatory</x:String>
+    <x:String x:Key="SeparatorsDesc">Używane do analizowania wielu artystów i gatunków w informacjach o utworach</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">Pokaż artystów gościnnych na liście</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">Po włączeniu artyści gościnni pojawią się na liście artystów</x:String>
     <x:String x:Key="FolderHierachyView">Widok hierarchii folderów</x:String>
@@ -252,7 +254,8 @@
     <x:String x:Key="TaskbarTitle">Pokaż bieżący utwór na pasku zadań</x:String>
     <x:String x:Key="TaskbarTitleDesc">Format domyślny: Tytuł - Artysta(-ści)</x:String>
     <x:String x:Key="ImageCornerStrength">Zaokrąglenie obrazów</x:String>
-    <x:String x:Key="ImageCornerStrengthDesc">Dostosuj zaokrąglenie okładek. Niższe wartości = ostrzejsze, wyższe = bardziej okrągłe</x:String>
+    <x:String x:Key="ImageCornerStrengthDesc">Dostosuj zaokrąglenie okładek</x:String>
+    <x:String x:Key="ImageCornerStrengthTips">Niższe wartości = ostrzejsze, wyższe = bardziej okrągłe</x:String>
     <x:String x:Key="ImageCornerStrengthSmall">Zaokrąglenie małych obrazów</x:String>
     <x:String x:Key="ImageCornerStrengthSmallDesc">Utwory, albumy (widok listy), sterowanie odtwarzaniem</x:String>
     <x:String x:Key="ImageCornerStrengthMedium">Zaokrąglenie średnich obrazów</x:String>

@@ -124,6 +124,7 @@
     <x:String x:Key="StatTrackPage">Ranking de faixas</x:String>
     <x:String x:Key="StatAlbumPage">Ranking de álbuns</x:String>
     <x:String x:Key="StatArtistPage">Ranking de artistas</x:String>
+    <x:String x:Key="ImageCornerSettingPage">Força dos cantos da imagem</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Informações da faixa</x:String>
@@ -215,8 +216,9 @@
     <x:String x:Key="FullScan">Escaneamento completo</x:String>
     <x:String x:Key="IncludedFolders">Pastas incluídas</x:String>
     <x:String x:Key="ExcludedFolders">Pastas excluídas</x:String>
-    <x:String x:Key="Separator">Separadores</x:String>
-    <x:String x:Key="SeparatorDesc">Usado para analisar vários artistas e gêneros nas informações das faixas</x:String>
+    <x:String x:Key="Separator">Separador</x:String>
+    <x:String x:Key="Separators">Separadores</x:String>
+    <x:String x:Key="SeparatorsDesc">Usado para analisar vários artistas e gêneros nas informações das faixas</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">Mostrar artistas convidados na lista</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">Se ativado, artistas convidados aparecem na lista de artistas</x:String>
     <x:String x:Key="FolderHierachyView">Visualização hierárquica de pastas</x:String>
@@ -252,7 +254,8 @@
     <x:String x:Key="TaskbarTitle">Exibir faixa atual na barra de tarefas</x:String>
     <x:String x:Key="TaskbarTitleDesc">Formato padrão: Título - Artista(s)</x:String>
     <x:String x:Key="ImageCornerStrength">Arredondamento das imagens</x:String>
-    <x:String x:Key="ImageCornerStrengthDesc">Personalize o arredondamento das capas. Valores menores = mais nítido, maiores = mais redondo</x:String>
+    <x:String x:Key="ImageCornerStrengthDesc">Personalize o arredondamento das capas</x:String>
+    <x:String x:Key="ImageCornerStrengthTips">Valores menores = mais nítido, maiores = mais redondo</x:String>
     <x:String x:Key="ImageCornerStrengthSmall">Arredondamento imagens pequenas</x:String>
     <x:String x:Key="ImageCornerStrengthSmallDesc">Faixas, álbuns (lista), controles de reprodução</x:String>
     <x:String x:Key="ImageCornerStrengthMedium">Arredondamento imagens médias</x:String>

@@ -124,6 +124,7 @@
     <x:String x:Key="StatTrackPage">곡 순위</x:String>
     <x:String x:Key="StatAlbumPage">앨범 순위</x:String>
     <x:String x:Key="StatArtistPage">아티스트 순위</x:String>
+    <x:String x:Key="ImageCornerSettingPage">이미지 모서리 강도</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">곡 정보</x:String>
@@ -216,7 +217,8 @@
     <x:String x:Key="IncludedFolders">포함 폴더</x:String>
     <x:String x:Key="ExcludedFolders">제외된 폴더</x:String>
     <x:String x:Key="Separator">구분자</x:String>
-    <x:String x:Key="SeparatorDesc">곡 정보에서 여러 아티스트와 장르를 구문 분석하는 데 사용됩니다</x:String>
+    <x:String x:Key="Separators">구분자</x:String>
+    <x:String x:Key="SeparatorsDesc">곡 정보에서 여러 아티스트와 장르를 구문 분석하는 데 사용됩니다</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">아티스트 페이지에 협업 아티스트 표시</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">활성화하면 협업 아티스트가 아티스트 목록에 표시됩니다</x:String>
     <x:String x:Key="FolderHierachyView">폴더 계층 보기</x:String>
@@ -252,7 +254,8 @@
     <x:String x:Key="TaskbarTitle">작업 표시줄에 현재 재생 곡 표시</x:String>
     <x:String x:Key="TaskbarTitleDesc">기본 표시 형식：제목 - 아티스트</x:String>
     <x:String x:Key="ImageCornerStrength">이미지 모서리 둥글기</x:String>
-    <x:String x:Key="ImageCornerStrengthDesc">곡, 앨범, 아티스트 이미지의 모서리 둥글기 크기를 사용자 정의&#xA;값이 작을수록 날카롭고, 클수록 둥글어집니다</x:String>
+    <x:String x:Key="ImageCornerStrengthDesc">곡, 앨범, 아티스트 이미지의 모서리 둥글기 크기를 사용자 정의</x:String>
+    <x:String x:Key="ImageCornerStrengthTips">값이 작을수록 날카롭고, 클수록 둥글어집니다</x:String>
     <x:String x:Key="ImageCornerStrengthSmall">작은 이미지 모서리 둥글기</x:String>
     <x:String x:Key="ImageCornerStrengthSmallDesc">적용 대상：곡, 앨범（목록 보기）, 재생 제어 등의 페이지 또는 컨트롤 이미지</x:String>
     <x:String x:Key="ImageCornerStrengthMedium">중간 이미지 모서리 둥글기</x:String>

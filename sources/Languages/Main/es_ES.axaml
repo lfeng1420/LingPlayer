@@ -124,6 +124,7 @@
     <x:String x:Key="StatTrackPage">Ranking de pistas</x:String>
     <x:String x:Key="StatAlbumPage">Ranking de álbumes</x:String>
     <x:String x:Key="StatArtistPage">Ranking de artistas</x:String>
+    <x:String x:Key="ImageCornerSettingPage">Fuerza de esquinas de imagen</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Info de pista</x:String>
@@ -215,8 +216,9 @@
     <x:String x:Key="FullScan">Escaneo completo</x:String>
     <x:String x:Key="IncludedFolders">Carpetas incluidas</x:String>
     <x:String x:Key="ExcludedFolders">Carpetas excluidas</x:String>
-    <x:String x:Key="Separator">Separadores</x:String>
-    <x:String x:Key="SeparatorDesc">Usado para analizar varios artistas y géneros en la información de las pistas</x:String>
+    <x:String x:Key="Separator">Separador</x:String>
+    <x:String x:Key="Separators">Separadores</x:String>
+    <x:String x:Key="SeparatorsDesc">Usado para analizar varios artistas y géneros en la información de las pistas</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">Mostrar artistas invitados en la lista</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">Si se activa, los artistas invitados aparecen en la lista de artistas</x:String>
     <x:String x:Key="FolderHierachyView">Vista jerárquica de carpetas</x:String>
@@ -252,7 +254,8 @@
     <x:String x:Key="TaskbarTitle">Mostrar pista actual en la barra de tareas</x:String>
     <x:String x:Key="TaskbarTitleDesc">Formato predeterminado: Título - Artista(s)</x:String>
     <x:String x:Key="ImageCornerStrength">Redondeo de imágenes</x:String>
-    <x:String x:Key="ImageCornerStrengthDesc">Personaliza el redondeo de portadas. Valores más bajos = más nítido, más altos = más redondo</x:String>
+    <x:String x:Key="ImageCornerStrengthDesc">Personaliza el redondeo de portadas</x:String>
+    <x:String x:Key="ImageCornerStrengthTips">Valores más bajos = más nítido, más altos = más redondo</x:String>
     <x:String x:Key="ImageCornerStrengthSmall">Redondeo imágenes pequeñas</x:String>
     <x:String x:Key="ImageCornerStrengthSmallDesc">Pistas, álbumes (vista lista), control de reproducción</x:String>
     <x:String x:Key="ImageCornerStrengthMedium">Redondeo imágenes medianas</x:String>

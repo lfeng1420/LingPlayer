@@ -124,6 +124,7 @@
     <x:String x:Key="StatTrackPage">Parça Sıralaması</x:String>
     <x:String x:Key="StatAlbumPage">Albüm Sıralaması</x:String>
     <x:String x:Key="StatArtistPage">Sanatçı Sıralaması</x:String>
+    <x:String x:Key="ImageCornerSettingPage">Görüntü Köşe Gücü</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Parça bilgisi</x:String>
@@ -215,8 +216,9 @@
     <x:String x:Key="FullScan">Tam tarama</x:String>
     <x:String x:Key="IncludedFolders">Dahil edilen klasörler</x:String>
     <x:String x:Key="ExcludedFolders">Hariç tutulan klasörler</x:String>
-    <x:String x:Key="Separator">Ayraçlar</x:String>
-    <x:String x:Key="SeparatorDesc">Parça bilgilerindeki birden çok sanatçı ve türü ayrıştırmak için kullanılır</x:String>
+    <x:String x:Key="Separator">Ayraç</x:String>
+    <x:String x:Key="Separators">Ayraçlar</x:String>
+    <x:String x:Key="SeparatorsDesc">Parça bilgilerindeki birden çok sanatçı ve türü ayrıştırmak için kullanılır</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">Konuk sanatçıları listede göster</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">Etkinleştirildiğinde, konuk sanatçılar sanatçı listesinde görünür</x:String>
     <x:String x:Key="FolderHierachyView">Klasör hiyerarşi görünümü</x:String>
@@ -252,7 +254,8 @@
     <x:String x:Key="TaskbarTitle">Görev çubuğunda geçerli parçayı göster</x:String>
     <x:String x:Key="TaskbarTitleDesc">Varsayılan biçim: Başlık - Sanatçı(lar)</x:String>
     <x:String x:Key="ImageCornerStrength">Resim köşe yuvarlaklığı</x:String>
-    <x:String x:Key="ImageCornerStrengthDesc">Kapak resimlerinin köşe yuvarlaklığını özelleştirin. Daha düşük = daha keskin, daha yüksek = daha yuvarlak</x:String>
+    <x:String x:Key="ImageCornerStrengthDesc">Kapak resimlerinin köşe yuvarlaklığını özelleştirin</x:String>
+    <x:String x:Key="ImageCornerStrengthTips">Daha düşük = daha keskin, daha yüksek = daha yuvarlak</x:String>
     <x:String x:Key="ImageCornerStrengthSmall">Küçük resim köşe yuvarlaklığı</x:String>
     <x:String x:Key="ImageCornerStrengthSmallDesc">Parçalar, albümler (liste görünümü), oynatma kontrolleri</x:String>
     <x:String x:Key="ImageCornerStrengthMedium">Orta resim köşe yuvarlaklığı</x:String>
