@@ -75,6 +75,7 @@
     <x:String x:Key="Total">Total</x:String>
     <x:String x:Key="Hour">h</x:String>
     <x:String x:Key="Minute">min</x:String>
+    <x:String x:Key="Minutes">min</x:String>
     <x:String x:Key="Second">s</x:String>
     <x:String x:Key="Explore">Explorar</x:String>
     <x:String x:Key="Global">Global</x:String>
@@ -95,6 +96,8 @@
     <x:String x:Key="Misc">Diversos</x:String>
     <x:String x:Key="EditMetadata">Editar metadados</x:String>
     <x:String x:Key="Apply">Aplicar</x:String>
+    <x:String x:Key="None">Nenhum</x:String>
+    <x:String x:Key="Switch">Interruptor</x:String>
 
     <!--  Navigation  -->
     <x:String x:Key="AlbumPage">Álbuns</x:String>
@@ -133,7 +136,7 @@
     <x:String x:Key="UnknownGenre">Gênero desconhecido</x:String>
 
     <!--  Album  -->
-    <x:String x:Key="AlbumNumDesc">{0} álbuns</x:String>
+    <x:String x:Key="AlbumNumDesc">{0} álbum(s)</x:String>
     <x:String x:Key="UnknownAlbum">Álbum desconhecido</x:String>
     <x:String x:Key="AlbumIntro">Sobre o álbum</x:String>
     <x:String x:Key="AlbumIntroEmpty">Nenhuma descrição disponível.</x:String>
@@ -273,7 +276,6 @@
     <x:String x:Key="MainNavOpenPaneLength">Largura do menu de navegação</x:String>
     <x:String x:Key="MainNavOpenPaneLengthDesc">Largura do painel de navegação quando aberto</x:String>
     <x:String x:Key="PlayingPage">Página de reprodução</x:String>
-    <x:String x:Key="NoBackground">Nenhum</x:String>
     <x:String x:Key="TrackCover">Capa da faixa</x:String>
     <x:String x:Key="MainWallpaper">Papel de parede principal</x:String>
     <x:String x:Key="WallpaperOpacity">Opacidade do papel de parede</x:String>
@@ -295,8 +297,8 @@
     <x:String x:Key="AutoPlayDesc">Iniciar reprodução automaticamente após abrir</x:String>
     <x:String x:Key="SMTC">Integração SMTC</x:String>
     <x:String x:Key="SMTCDesc">Controles de Transporte de Mídia do Windows (SMTC)</x:String>
-    <x:String x:Key="AndroidEnableMediaButtonEvent">Ativar botões de mídia</x:String>
-    <x:String x:Key="AndroidEnableMediaButtonEventDesc">Controlar reprodução via botões de mídia (ex.: fone de ouvido)</x:String>
+    <x:String x:Key="AndroidMediaButtonEvent">Ativar botões de mídia</x:String>
+    <x:String x:Key="AndroidMediaButtonEventDesc">Controlar reprodução via botões de mídia (ex.: fone de ouvido)</x:String>
     <x:String x:Key="AndroidAudioFocus">Foco de áudio exclusivo</x:String>
     <x:String x:Key="AndroidAudioFocusDesc">Não reproduz junto com outros apps. Pode não funcionar devido a restrições do sistema</x:String>
     <x:String x:Key="TrackClickAction">Ação ao clicar na faixa</x:String>
@@ -327,9 +329,7 @@
     <x:String x:Key="AboutLogCacheClearDesc">Clique para limpar o cache</x:String>
     <x:String x:Key="AboutOpenSourceIntro">Usa os seguintes componentes de código aberto:</x:String>
     <x:String x:Key="SpectrumSetting">Espectro</x:String>
-    <x:String x:Key="SpectrumVisible">Visível</x:String>
-    <x:String x:Key="SpectrumUI">Interface do espectro</x:String>
-    <x:String x:Key="SpectrumUpdateSpeed">Velocidade de atualização</x:String>
+    <x:String x:Key="SpectrumRefreshTime">Intervalo de atualização (ms)</x:String>
     <x:String x:Key="SpectrumBarCornerRadius">Arredondamento das barras</x:String>
     <x:String x:Key="SpectrumBarWidth">Largura das barras</x:String>
     <x:String x:Key="SpectrumBarSpacing">Espaçamento das barras</x:String>
@@ -343,6 +343,7 @@
     <x:String x:Key="SpectrumNoiseFloorDesc">Filtra dados do espectro abaixo deste valor</x:String>
     <x:String x:Key="SpectrumSmoothFactor">Suavização</x:String>
     <x:String x:Key="SpectrumSmoothFactorDesc">Fator de suavização, valores maiores = efeito mais forte</x:String>
+    <x:String x:Key="SpectrumTips">Ativar o visualizador de espectro pode aumentar o consumo da bateria</x:String>
     <x:String x:Key="LyricSetting">Letras</x:String>
     <x:String x:Key="LyricNormalOpacity">Opacidade (normal)</x:String>
     <x:String x:Key="LyricHighlightGlow">Brilho (destacado)</x:String>
@@ -380,6 +381,11 @@
     <x:String x:Key="TrackEditTitle">Editar metadados da faixa</x:String>
     <x:String x:Key="AlbumEditTitle">Editar metadados do álbum</x:String>
     <x:String x:Key="NoticeTitle">📢 Mudanças importantes</x:String>
+    <x:String x:Key="SleepTimerTitle">Temporizador de sono</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEnd">Estender o timer até o término da faixa atual</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEndDesc">Após ativar a extensão, o sinal "+" aparecerá antes da contagem regressiva, por exemplo: +01:50&#xA;Se o timer já estiver estendido, trocar de faixa irá estendê-lo automaticamente até o fim dessa faixa</x:String>
+    <x:String x:Key="SleepTimerStart">Iniciar timer</x:String>
+    <x:String x:Key="SleepTimerStop">Parar timer</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Mini janela</x:String>
@@ -411,16 +417,23 @@
     <x:String x:Key="LyricLoading">Carregando letras...</x:String>
     <x:String x:Key="LyricNone">Sem letras</x:String>
     <x:String x:Key="DesktopLyric">Letras na área de trabalho</x:String>
+    <x:String x:Key="LyricEmbedded">Incorporada</x:String>
+    <x:String x:Key="LyricFile">Arquivo</x:String>
 
     <!--  Playing  -->
-    <x:String x:Key="TrackBitRate">{0} Kbps</x:String>
-    <x:String x:Key="TrackSampleRate">{0} kHz</x:String>
-    <x:String x:Key="TrackBitsPerSample">{0} bit</x:String>
-    <x:String x:Key="NextTrackTitle">Próxima faixa: {0}</x:String>
-    <x:String x:Key="RepeatAll">Repetir tudo</x:String>
-    <x:String x:Key="RepeatOne">Repetir uma</x:String>
-    <x:String x:Key="Shuffle">Aleatório</x:String>
-    <x:String x:Key="RepeatOff">Repetição desligada</x:String>
+    <x:String x:Key="PlayingTrackBitRate">{0} Kbps</x:String>
+    <x:String x:Key="PlayingTrackSampleRate">{0} kHz</x:String>
+    <x:String x:Key="PlayingTrackBitsPerSample">{0} bit</x:String>
+    <x:String x:Key="PlayingNextTrackTitle">Próxima faixa: {0}</x:String>
+    <x:String x:Key="PlayingKeepScreenOn">Manter tela acesa</x:String>
+    <x:String x:Key="PlayingImmersiveMode">Modo imersivo</x:String>
+    <x:String x:Key="PlayingEqualizer">Equalizador</x:String>
+    <x:String x:Key="PlayingStatisticTime">Última reprodução</x:String>
+    <x:String x:Key="PlayingStatisticCount">Reproduções</x:String>
+    <x:String x:Key="PlayingStatisticTimeSecond">há {0} s</x:String>
+    <x:String x:Key="PlayingStatisticTimeMinute">há {0} min</x:String>
+    <x:String x:Key="PlayingStatisticTimeHour">há {0} h</x:String>
+    <x:String x:Key="PlayingStatisticTimeDay">há {0} d</x:String>
 
     <!--  Language  -->
     <x:String x:Key="zh-CN">Chinês simplificado</x:String>
@@ -497,6 +510,8 @@
     <x:String x:Key="TipsTrackEmpty0">Nenhuma faixa. Arraste arquivos ou pastas aqui para escanear</x:String>
     <x:String x:Key="TipsTrackEmpty1">Ou vá para</x:String>
     <x:String x:Key="TipsTrackEmpty2">para adicionar pastas</x:String>
+    <x:String x:Key="TipsAndroidTrackEmpty1">Nenhuma faixa. Vá para</x:String>
+    <x:String x:Key="TipsAndroidTrackEmpty2">para adicionar pastas</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">Solte para escanear</x:String>
     <x:String x:Key="TipsAddTracksResult">{0} faixa(s) adicionada(s)</x:String>
     <x:String x:Key="TipsAlbumIntroInput">Digite a descrição do álbum</x:String>

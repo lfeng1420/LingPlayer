@@ -75,6 +75,7 @@
     <x:String x:Key="Total">합계</x:String>
     <x:String x:Key="Hour">시</x:String>
     <x:String x:Key="Minute">분</x:String>
+    <x:String x:Key="Minutes">분</x:String>
     <x:String x:Key="Second">초</x:String>
     <x:String x:Key="Explore">탐색</x:String>
     <x:String x:Key="Global">전역</x:String>
@@ -95,6 +96,8 @@
     <x:String x:Key="Misc">기타</x:String>
     <x:String x:Key="EditMetadata">메타데이터 편집</x:String>
     <x:String x:Key="Apply">적용</x:String>
+    <x:String x:Key="None">없음</x:String>
+    <x:String x:Key="Switch">스위치</x:String>
 
     <!--  Navigation  -->
     <x:String x:Key="AlbumPage">앨범</x:String>
@@ -273,7 +276,6 @@
     <x:String x:Key="MainNavOpenPaneLength">탐색 메뉴 펼침 너비</x:String>
     <x:String x:Key="MainNavOpenPaneLengthDesc">탐색 메뉴가 펼쳐진 상태의 패널 너비를 조정합니다</x:String>
     <x:String x:Key="PlayingPage">재생 화면</x:String>
-    <x:String x:Key="NoBackground">없음</x:String>
     <x:String x:Key="TrackCover">곡 커버</x:String>
     <x:String x:Key="MainWallpaper">메인 창 배경 화면</x:String>
     <x:String x:Key="WallpaperOpacity">배경 화면 투명도</x:String>
@@ -295,8 +297,8 @@
     <x:String x:Key="AutoPlayDesc">앱 시작 후 자동으로 재생 시작</x:String>
     <x:String x:Key="SMTC">SMTC 통합</x:String>
     <x:String x:Key="SMTCDesc">Windows 시스템 미디어 전송 컨트롤（SMTC）</x:String>
-    <x:String x:Key="AndroidEnableMediaButtonEvent">미디어 버튼 이벤트 처리 활성화</x:String>
-    <x:String x:Key="AndroidEnableMediaButtonEventDesc">활성화하면 미디어 버튼（예: 헤드폰의 재생/일시정지 버튼）으로 재생을 제어할 수 있습니다</x:String>
+    <x:String x:Key="AndroidMediaButtonEvent">미디어 버튼 이벤트 처리 활성화</x:String>
+    <x:String x:Key="AndroidMediaButtonEventDesc">활성화하면 미디어 버튼（예: 헤드폰의 재생/일시정지 버튼）으로 재생을 제어할 수 있습니다</x:String>
     <x:String x:Key="AndroidAudioFocus">오디오 포커스 독점</x:String>
     <x:String x:Key="AndroidAudioFocusDesc">활성화하면 다른 앱과 함께 재생되지 않습니다. 이 기능은 기기 시스템 제한으로 인해 작동하지 않을 수 있습니다</x:String>
     <x:String x:Key="TrackClickAction">곡 클릭 동작</x:String>
@@ -327,9 +329,7 @@
     <x:String x:Key="AboutLogCacheClearDesc">클릭하여 캐시 삭제</x:String>
     <x:String x:Key="AboutOpenSourceIntro">다음 오픈소스 구성 요소를 사용했습니다：</x:String>
     <x:String x:Key="SpectrumSetting">스펙트럼 설정</x:String>
-    <x:String x:Key="SpectrumVisible">표시</x:String>
-    <x:String x:Key="SpectrumUI">UI</x:String>
-    <x:String x:Key="SpectrumUpdateSpeed">업데이트 속도</x:String>
+    <x:String x:Key="SpectrumRefreshTime">새로고침 간격（밀리초）</x:String>
     <x:String x:Key="SpectrumBarCornerRadius">바 모서리 반경</x:String>
     <x:String x:Key="SpectrumBarWidth">바 너비</x:String>
     <x:String x:Key="SpectrumBarSpacing">바 간격</x:String>
@@ -343,6 +343,7 @@
     <x:String x:Key="SpectrumNoiseFloorDesc">이 값 이하의 스펙트럼 데이터를 필터링합니다</x:String>
     <x:String x:Key="SpectrumSmoothFactor">평활화 계수</x:String>
     <x:String x:Key="SpectrumSmoothFactorDesc">스펙트럼 데이터의 평활화 계수, 값이 클수록 평활 효과가 강해집니다</x:String>
+    <x:String x:Key="SpectrumTips">스펙트럼 비주얼라이저를 활성화하면 배터리 소모가 증가할 수 있습니다</x:String>
     <x:String x:Key="LyricSetting">가사 설정</x:String>
     <x:String x:Key="LyricNormalOpacity">투명도（일반 상태만）</x:String>
     <x:String x:Key="LyricHighlightGlow">글로우 효과（하이라이트 상태만）</x:String>
@@ -380,6 +381,11 @@
     <x:String x:Key="TrackEditTitle">곡 메타데이터 편집</x:String>
     <x:String x:Key="AlbumEditTitle">앨범 메타데이터 편집</x:String>
     <x:String x:Key="NoticeTitle">📢 주요 변경 사항</x:String>
+    <x:String x:Key="SleepTimerTitle">슬립 타이머</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEnd">현재 곡 재생이 끝날 때까지 타이머 연장</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEndDesc">연장이 적용되면 카운트다운 앞에 '+' 기호가 표시됩니다. 예: +01:50&#xA;이미 연장된 상태에서 곡을 전환하면 해당 곡이 끝날 때까지 자동으로 다시 연장됩니다</x:String>
+    <x:String x:Key="SleepTimerStart">타이머 시작</x:String>
+    <x:String x:Key="SleepTimerStop">타이머 중지</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">미니 창</x:String>
@@ -411,16 +417,23 @@
     <x:String x:Key="LyricLoading">가사 로딩 중</x:String>
     <x:String x:Key="LyricNone">가사 없음</x:String>
     <x:String x:Key="DesktopLyric">데스크톱 가사</x:String>
+    <x:String x:Key="LyricEmbedded">내장</x:String>
+    <x:String x:Key="LyricFile">파일</x:String>
 
     <!--  Playing  -->
-    <x:String x:Key="TrackBitRate">{0} Kbps</x:String>
-    <x:String x:Key="TrackSampleRate">{0} kHz</x:String>
-    <x:String x:Key="TrackBitsPerSample">{0} bit</x:String>
-    <x:String x:Key="NextTrackTitle">다음 곡：{0}</x:String>
-    <x:String x:Key="RepeatAll">전체 반복</x:String>
-    <x:String x:Key="RepeatOne">한 곡 반복</x:String>
-    <x:String x:Key="Shuffle">무작위 재생</x:String>
-    <x:String x:Key="RepeatOff">순차 재생</x:String>
+    <x:String x:Key="PlayingTrackBitRate">{0} Kbps</x:String>
+    <x:String x:Key="PlayingTrackSampleRate">{0} kHz</x:String>
+    <x:String x:Key="PlayingTrackBitsPerSample">{0} bit</x:String>
+    <x:String x:Key="PlayingNextTrackTitle">다음 곡：{0}</x:String>
+    <x:String x:Key="PlayingKeepScreenOn">화면 켜짐 유지</x:String>
+    <x:String x:Key="PlayingImmersiveMode">몰입 모드</x:String>
+    <x:String x:Key="PlayingEqualizer">이퀄라이저</x:String>
+    <x:String x:Key="PlayingStatisticTime">최근 재생</x:String>
+    <x:String x:Key="PlayingStatisticCount">재생 횟수</x:String>
+    <x:String x:Key="PlayingStatisticTimeSecond">{0}초 전</x:String>
+    <x:String x:Key="PlayingStatisticTimeMinute">{0}분 전</x:String>
+    <x:String x:Key="PlayingStatisticTimeHour">{0}시간 전</x:String>
+    <x:String x:Key="PlayingStatisticTimeDay">{0}일 전</x:String>
 
     <!--  Language  -->
     <x:String x:Key="zh-CN">중국어 간체</x:String>
@@ -470,7 +483,7 @@
     <x:String x:Key="ToastPluginEnableSucc">플러그인 {0} 활성화됨</x:String>
     <x:String x:Key="ToastPluginDisable">플러그인 {0} 비활성화됨</x:String>
     <x:String x:Key="ToastOperationCanceled">작업이 취소되었습니다</x:String>
-    <x:String x:Key="ToastShuffleFailed">{0}모드：곡 목록 무작위화 실패</x:String>
+    <x:String x:Key="ToastShuffleFailed">{0} 모드：곡 목록 무작위화 실패</x:String>
     <x:String x:Key="ToastOpenFolderFail">폴더 {0} 열기 실패，자세한 내용은 로그 파일을 확인하세요</x:String>
     <x:String x:Key="ToastOneDriveLoginFail">OneDrive 로그인 실패</x:String>
     <x:String x:Key="ToastOneDriveLoginSucc">OneDrive 로그인 성공</x:String>
@@ -497,6 +510,8 @@
     <x:String x:Key="TipsTrackEmpty0">곡이 없습니다. 파일 또는 폴더를 여기에 끌어다 놓아 스캔이 가능합니다</x:String>
     <x:String x:Key="TipsTrackEmpty1">또는 이동</x:String>
     <x:String x:Key="TipsTrackEmpty2">하여 폴더 추가</x:String>
+    <x:String x:Key="TipsAndroidTrackEmpty1">곡이 없습니다. 이동</x:String>
+    <x:String x:Key="TipsAndroidTrackEmpty2">하여 폴더 추가</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">놓으면 곡 파일 스캔</x:String>
     <x:String x:Key="TipsAddTracksResult">{0}곡 추가됨</x:String>
     <x:String x:Key="TipsAlbumIntroInput">앨범 소개 입력</x:String>

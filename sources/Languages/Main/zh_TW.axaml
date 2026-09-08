@@ -75,6 +75,7 @@
     <x:String x:Key="Total">總計</x:String>
     <x:String x:Key="Hour">時</x:String>
     <x:String x:Key="Minute">分</x:String>
+    <x:String x:Key="Minutes">分鐘</x:String>
     <x:String x:Key="Second">秒</x:String>
     <x:String x:Key="Explore">瀏覽</x:String>
     <x:String x:Key="Global">全域</x:String>
@@ -95,6 +96,8 @@
     <x:String x:Key="Misc">雜項</x:String>
     <x:String x:Key="EditMetadata">編輯中繼資料</x:String>
     <x:String x:Key="Apply">套用</x:String>
+    <x:String x:Key="None">無</x:String>
+    <x:String x:Key="Switch">開關</x:String>
 
     <!--  Navigation  -->
     <x:String x:Key="AlbumPage">專輯</x:String>
@@ -128,12 +131,12 @@
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">歌曲資訊</x:String>
-    <x:String x:Key="TrackNumDesc">{0}首歌曲</x:String>
+    <x:String x:Key="TrackNumDesc">{0} 首歌曲</x:String>
     <x:String x:Key="RevealInExplorer">在檔案總管中顯示</x:String>
     <x:String x:Key="UnknownGenre">未知流派</x:String>
 
     <!--  Album  -->
-    <x:String x:Key="AlbumNumDesc">{0}張專輯</x:String>
+    <x:String x:Key="AlbumNumDesc">{0} 張專輯</x:String>
     <x:String x:Key="UnknownAlbum">未知專輯</x:String>
     <x:String x:Key="AlbumIntro">專輯介紹</x:String>
     <x:String x:Key="AlbumIntroEmpty">暫無介紹。</x:String>
@@ -273,7 +276,6 @@
     <x:String x:Key="MainNavOpenPaneLength">導航列展開寬度</x:String>
     <x:String x:Key="MainNavOpenPaneLengthDesc">調整導航選單展開狀態下的面板寬度</x:String>
     <x:String x:Key="PlayingPage">播放介面</x:String>
-    <x:String x:Key="NoBackground">無</x:String>
     <x:String x:Key="TrackCover">歌曲封面</x:String>
     <x:String x:Key="MainWallpaper">主視窗桌布</x:String>
     <x:String x:Key="WallpaperOpacity">桌布不透明度</x:String>
@@ -295,8 +297,8 @@
     <x:String x:Key="AutoPlayDesc">啟動應用程式後自動開始播放</x:String>
     <x:String x:Key="SMTC">SMTC整合</x:String>
     <x:String x:Key="SMTCDesc">Windows系統媒體傳輸控制項（SMTC）</x:String>
-    <x:String x:Key="AndroidEnableMediaButtonEvent">啟用媒體按鈕事件處理</x:String>
-    <x:String x:Key="AndroidEnableMediaButtonEventDesc">開啟後可透過媒體按鈕（例如耳機上的播放/暫停按鈕）控制播放</x:String>
+    <x:String x:Key="AndroidMediaButtonEvent">啟用媒體按鈕事件處理</x:String>
+    <x:String x:Key="AndroidMediaButtonEventDesc">開啟後可透過媒體按鈕（例如耳機上的播放/暫停按鈕）控制播放</x:String>
     <x:String x:Key="AndroidAudioFocus">音訊焦點獨佔</x:String>
     <x:String x:Key="AndroidAudioFocusDesc">開啟後將不會與其他應用程式一起播放。此功能可能受裝置系統影響而不起作用</x:String>
     <x:String x:Key="TrackClickAction">歌曲點擊動作</x:String>
@@ -327,9 +329,7 @@
     <x:String x:Key="AboutLogCacheClearDesc">點擊清除快取</x:String>
     <x:String x:Key="AboutOpenSourceIntro">使用了以下開源元件：</x:String>
     <x:String x:Key="SpectrumSetting">頻譜設定</x:String>
-    <x:String x:Key="SpectrumVisible">開關</x:String>
-    <x:String x:Key="SpectrumUI">使用者介面</x:String>
-    <x:String x:Key="SpectrumUpdateSpeed">更新速度</x:String>
+    <x:String x:Key="SpectrumRefreshTime">刷新間隔（毫秒）</x:String>
     <x:String x:Key="SpectrumBarCornerRadius">頻譜條圓角半徑</x:String>
     <x:String x:Key="SpectrumBarWidth">頻譜條寬度</x:String>
     <x:String x:Key="SpectrumBarSpacing">頻譜條間距</x:String>
@@ -343,6 +343,7 @@
     <x:String x:Key="SpectrumNoiseFloorDesc">用於過濾掉低於該值的頻譜資料</x:String>
     <x:String x:Key="SpectrumSmoothFactor">平滑係數</x:String>
     <x:String x:Key="SpectrumSmoothFactorDesc">用於平滑頻譜資料的係數，值越大平滑效果越明顯</x:String>
+    <x:String x:Key="SpectrumTips">開啟頻譜可能增加應用的電量消耗</x:String>
     <x:String x:Key="LyricSetting">歌詞設定</x:String>
     <x:String x:Key="LyricNormalOpacity">不透明度（僅普通狀態）</x:String>
     <x:String x:Key="LyricHighlightGlow">光暈效果（僅高亮狀態）</x:String>
@@ -380,6 +381,11 @@
     <x:String x:Key="TrackEditTitle">編輯歌曲中繼資料</x:String>
     <x:String x:Key="AlbumEditTitle">編輯專輯中繼資料</x:String>
     <x:String x:Key="NoticeTitle">📢 重大變更</x:String>
+    <x:String x:Key="SleepTimerTitle">睡眠定時</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEnd">延長計時直到當前歌曲播放完成</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEndDesc">延長生效後，倒數計時前將顯示「+」符號，例如：+01:50&#xA;已處於延長狀態時切換歌曲，將自動重新延長至該歌曲播放完成</x:String>
+    <x:String x:Key="SleepTimerStart">開始計時</x:String>
+    <x:String x:Key="SleepTimerStop">停止計時</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Mini視窗</x:String>
@@ -411,16 +417,23 @@
     <x:String x:Key="LyricLoading">正在載入歌詞</x:String>
     <x:String x:Key="LyricNone">暫無歌詞</x:String>
     <x:String x:Key="DesktopLyric">桌面歌詞</x:String>
+    <x:String x:Key="LyricEmbedded">內嵌</x:String>
+    <x:String x:Key="LyricFile">檔案</x:String>
 
     <!--  Playing  -->
-    <x:String x:Key="TrackBitRate">{0} Kbps</x:String>
-    <x:String x:Key="TrackSampleRate">{0} kHz</x:String>
-    <x:String x:Key="TrackBitsPerSample">{0} bit</x:String>
-    <x:String x:Key="NextTrackTitle">下一首：{0}</x:String>
-    <x:String x:Key="RepeatAll">全部循環</x:String>
-    <x:String x:Key="RepeatOne">單曲循環</x:String>
-    <x:String x:Key="Shuffle">隨機播放</x:String>
-    <x:String x:Key="RepeatOff">順序播放</x:String>
+    <x:String x:Key="PlayingTrackBitRate">{0} Kbps</x:String>
+    <x:String x:Key="PlayingTrackSampleRate">{0} kHz</x:String>
+    <x:String x:Key="PlayingTrackBitsPerSample">{0} bit</x:String>
+    <x:String x:Key="PlayingNextTrackTitle">下一首：{0}</x:String>
+    <x:String x:Key="PlayingKeepScreenOn">螢幕常亮</x:String>
+    <x:String x:Key="PlayingImmersiveMode">沉浸模式</x:String>
+    <x:String x:Key="PlayingEqualizer">均衡器</x:String>
+    <x:String x:Key="PlayingStatisticTime">最近播放</x:String>
+    <x:String x:Key="PlayingStatisticCount">播放次數</x:String>
+    <x:String x:Key="PlayingStatisticTimeSecond">{0} 秒前</x:String>
+    <x:String x:Key="PlayingStatisticTimeMinute">{0} 分前</x:String>
+    <x:String x:Key="PlayingStatisticTimeHour">{0} 時前</x:String>
+    <x:String x:Key="PlayingStatisticTimeDay">{0} 天前</x:String>
 
     <!--  Language  -->
     <x:String x:Key="zh-CN">簡體中文</x:String>
@@ -470,7 +483,7 @@
     <x:String x:Key="ToastPluginEnableSucc">已啟用外掛 {0}</x:String>
     <x:String x:Key="ToastPluginDisable">已停用外掛 {0}</x:String>
     <x:String x:Key="ToastOperationCanceled">操作已取消</x:String>
-    <x:String x:Key="ToastShuffleFailed">{0}模式：歌曲列表隨機失敗</x:String>
+    <x:String x:Key="ToastShuffleFailed">{0} 模式：歌曲列表隨機失敗</x:String>
     <x:String x:Key="ToastOpenFolderFail">開啟所在資料夾 {0} 失敗，請查閱日誌檔案獲取更多資訊</x:String>
     <x:String x:Key="ToastOneDriveLoginFail">OneDrive 登入失敗</x:String>
     <x:String x:Key="ToastOneDriveLoginSucc">OneDrive 登入成功</x:String>
@@ -497,6 +510,8 @@
     <x:String x:Key="TipsTrackEmpty0">暫無歌曲，拖放檔案或資料夾到此處掃描</x:String>
     <x:String x:Key="TipsTrackEmpty1">或跳轉到</x:String>
     <x:String x:Key="TipsTrackEmpty2">以新增資料夾</x:String>
+    <x:String x:Key="TipsAndroidTrackEmpty1">暫無歌曲，跳轉到</x:String>
+    <x:String x:Key="TipsAndroidTrackEmpty2">以新增資料夾</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">放開以掃描歌曲檔案</x:String>
     <x:String x:Key="TipsAddTracksResult">已新增 {0} 首歌曲</x:String>
     <x:String x:Key="TipsAlbumIntroInput">輸入專輯介紹</x:String>
@@ -510,7 +525,7 @@
     <x:String x:Key="TipsNavMenuItem">拖曳選單項目以調整顯示順序</x:String>
     <x:String x:Key="TipsSeparatorInput">輸入分隔符</x:String>
     <x:String x:Key="TipsSeparator">分隔符用於解析歌曲資訊中的多個藝術家和流派。&#xA;選擇一個分隔符以自訂藝術家或流派的顯示方式。</x:String>
-    <x:String x:Key="TipsWallpaper">使用自訂桌布時可能出現文字與背景對比度不強烈導致較難辨識的情況。&#xA;適度調整不透明度或切換主題（淺色/深色）以獲得最佳效果。</x:String>
+    <x:String x:Key="TipsWallpaper">使用自訂桌布時可能出現文字與背景對比度不強烈導致難以辨識的情況。&#xA;適度調整不透明度或切換主題（淺色/深色）以獲得最佳效果。</x:String>
     <x:String x:Key="TipsCueTrackEdit">此歌曲來源於 CUE 檔案，暫不支援修改中繼資料，請直接編輯 CUE 檔案。</x:String>
     <x:String x:Key="TipsCueAlbumEdit">此專輯包含來源於 CUE 檔案的歌曲，暫不支援修改中繼資料，請直接編輯 CUE 檔案。</x:String>
 

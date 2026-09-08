@@ -75,6 +75,7 @@
     <x:String x:Key="Total">合計</x:String>
     <x:String x:Key="Hour">時</x:String>
     <x:String x:Key="Minute">分</x:String>
+    <x:String x:Key="Minutes">分</x:String>
     <x:String x:Key="Second">秒</x:String>
     <x:String x:Key="Explore">閲覧</x:String>
     <x:String x:Key="Global">グローバル</x:String>
@@ -95,6 +96,8 @@
     <x:String x:Key="Misc">その他</x:String>
     <x:String x:Key="EditMetadata">メタデータ編集</x:String>
     <x:String x:Key="Apply">適用</x:String>
+    <x:String x:Key="None">なし</x:String>
+    <x:String x:Key="Switch">スイッチ</x:String>
 
     <!--  Navigation  -->
     <x:String x:Key="AlbumPage">アルバム</x:String>
@@ -273,7 +276,6 @@
     <x:String x:Key="MainNavOpenPaneLength">ナビゲーション展開幅</x:String>
     <x:String x:Key="MainNavOpenPaneLengthDesc">ナビゲーションメニュー展開時のパネル幅を調整します</x:String>
     <x:String x:Key="PlayingPage">再生画面</x:String>
-    <x:String x:Key="NoBackground">なし</x:String>
     <x:String x:Key="TrackCover">曲カバー</x:String>
     <x:String x:Key="MainWallpaper">メインウィンドウ壁紙</x:String>
     <x:String x:Key="WallpaperOpacity">壁紙の不透明度</x:String>
@@ -295,8 +297,8 @@
     <x:String x:Key="AutoPlayDesc">アプリ起動後に自動で再生を開始します</x:String>
     <x:String x:Key="SMTC">SMTC統合</x:String>
     <x:String x:Key="SMTCDesc">Windows システムメディアトランスポートコントロール（SMTC）</x:String>
-    <x:String x:Key="AndroidEnableMediaButtonEvent">メディアボタンイベント処理を有効化</x:String>
-    <x:String x:Key="AndroidEnableMediaButtonEventDesc">有効にすると、メディアボタン（例：ヘッドフォンの再生/一時停止ボタン）で再生を制御できます</x:String>
+    <x:String x:Key="AndroidMediaButtonEvent">メディアボタンイベント処理を有効化</x:String>
+    <x:String x:Key="AndroidMediaButtonEventDesc">有効にすると、メディアボタン（例：ヘッドフォンの再生/一時停止ボタン）で再生を制御できます</x:String>
     <x:String x:Key="AndroidAudioFocus">排他的オーディオフォーカス</x:String>
     <x:String x:Key="AndroidAudioFocusDesc">有効にすると、他のアプリと同時に再生されません。この機能はデバイスのシステム制限により動作しない場合があります</x:String>
     <x:String x:Key="TrackClickAction">曲クリック時のアクション</x:String>
@@ -327,9 +329,7 @@
     <x:String x:Key="AboutLogCacheClearDesc">クリックしてキャッシュをクリア</x:String>
     <x:String x:Key="AboutOpenSourceIntro">以下のオープンソースコンポーネントを使用しています：</x:String>
     <x:String x:Key="SpectrumSetting">スペクトラム設定</x:String>
-    <x:String x:Key="SpectrumVisible">表示</x:String>
-    <x:String x:Key="SpectrumUI">UI</x:String>
-    <x:String x:Key="SpectrumUpdateSpeed">更新速度</x:String>
+    <x:String x:Key="SpectrumRefreshTime">更新間隔（ミリ秒）</x:String>
     <x:String x:Key="SpectrumBarCornerRadius">バーの角丸半径</x:String>
     <x:String x:Key="SpectrumBarWidth">バー幅</x:String>
     <x:String x:Key="SpectrumBarSpacing">バー間隔</x:String>
@@ -343,6 +343,7 @@
     <x:String x:Key="SpectrumNoiseFloorDesc">この値以下のスペクトラムデータをフィルタリングします</x:String>
     <x:String x:Key="SpectrumSmoothFactor">平滑化係数</x:String>
     <x:String x:Key="SpectrumSmoothFactorDesc">スペクトラムデータの平滑化係数。値が大きいほど平滑効果が強くなります</x:String>
+    <x:String x:Key="SpectrumTips">スペクトラムビジュアライザーを有効にすると、バッテリー消費が増加する可能性があります</x:String>
     <x:String x:Key="LyricSetting">歌詞設定</x:String>
     <x:String x:Key="LyricNormalOpacity">不透明度（通常状態のみ）</x:String>
     <x:String x:Key="LyricHighlightGlow">グロー効果（ハイライト状態のみ）</x:String>
@@ -380,6 +381,11 @@
     <x:String x:Key="TrackEditTitle">曲メタデータを編集</x:String>
     <x:String x:Key="AlbumEditTitle">アルバムメタデータを編集</x:String>
     <x:String x:Key="NoticeTitle">📢 重要な変更</x:String>
+    <x:String x:Key="SleepTimerTitle">スリープタイマー</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEnd">現在の曲の再生終了までタイマーを延長</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEndDesc">延長が有効になると、カウントダウンの前に「+」記号が表示されます。例：+01:50&#xA;すでに延長されている状態で曲を切り替えると、その曲の再生が終わるまで自動的に再延長されます</x:String>
+    <x:String x:Key="SleepTimerStart">タイマー開始</x:String>
+    <x:String x:Key="SleepTimerStop">タイマー停止</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">ミニウィンドウ</x:String>
@@ -411,16 +417,23 @@
     <x:String x:Key="LyricLoading">歌詞を読み込み中</x:String>
     <x:String x:Key="LyricNone">歌詞なし</x:String>
     <x:String x:Key="DesktopLyric">デスクトップ歌詞</x:String>
+    <x:String x:Key="LyricEmbedded">埋め込み</x:String>
+    <x:String x:Key="LyricFile">ファイル</x:String>
 
     <!--  Playing  -->
-    <x:String x:Key="TrackBitRate">{0} Kbps</x:String>
-    <x:String x:Key="TrackSampleRate">{0} kHz</x:String>
-    <x:String x:Key="TrackBitsPerSample">{0} bit</x:String>
-    <x:String x:Key="NextTrackTitle">次の曲：{0}</x:String>
-    <x:String x:Key="RepeatAll">全曲リピート</x:String>
-    <x:String x:Key="RepeatOne">1曲リピート</x:String>
-    <x:String x:Key="Shuffle">シャッフル</x:String>
-    <x:String x:Key="RepeatOff">順次再生</x:String>
+    <x:String x:Key="PlayingTrackBitRate">{0} Kbps</x:String>
+    <x:String x:Key="PlayingTrackSampleRate">{0} kHz</x:String>
+    <x:String x:Key="PlayingTrackBitsPerSample">{0} bit</x:String>
+    <x:String x:Key="PlayingNextTrackTitle">次の曲：{0}</x:String>
+    <x:String x:Key="PlayingKeepScreenOn">画面常時点灯</x:String>
+    <x:String x:Key="PlayingImmersiveMode">没入モード</x:String>
+    <x:String x:Key="PlayingEqualizer">イコライザ</x:String>
+    <x:String x:Key="PlayingStatisticTime">最終再生</x:String>
+    <x:String x:Key="PlayingStatisticCount">再生回数</x:String>
+    <x:String x:Key="PlayingStatisticTimeSecond">{0}秒前</x:String>
+    <x:String x:Key="PlayingStatisticTimeMinute">{0}分前</x:String>
+    <x:String x:Key="PlayingStatisticTimeHour">{0}時間前</x:String>
+    <x:String x:Key="PlayingStatisticTimeDay">{0}日前</x:String>
 
     <!--  Language  -->
     <x:String x:Key="zh-CN">簡体字中国語</x:String>
@@ -497,6 +510,8 @@
     <x:String x:Key="TipsTrackEmpty0">曲がありません。ファイルまたはフォルダーをここにドラッグ＆ドロップしてスキャンが可能です</x:String>
     <x:String x:Key="TipsTrackEmpty1">または移動先</x:String>
     <x:String x:Key="TipsTrackEmpty2">でフォルダーを追加</x:String>
+    <x:String x:Key="TipsAndroidTrackEmpty1">曲がありません。移動先</x:String>
+    <x:String x:Key="TipsAndroidTrackEmpty2">でフォルダーを追加</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">離して曲ファイルをスキャン</x:String>
     <x:String x:Key="TipsAddTracksResult">{0} 曲を追加しました</x:String>
     <x:String x:Key="TipsAlbumIntroInput">アルバム紹介を入力</x:String>

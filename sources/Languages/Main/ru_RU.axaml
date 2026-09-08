@@ -75,6 +75,7 @@
     <x:String x:Key="Total">Всего</x:String>
     <x:String x:Key="Hour">ч</x:String>
     <x:String x:Key="Minute">мин</x:String>
+    <x:String x:Key="Minutes">мин</x:String>
     <x:String x:Key="Second">сек</x:String>
     <x:String x:Key="Explore">Обзор</x:String>
     <x:String x:Key="Global">Глобально</x:String>
@@ -95,6 +96,8 @@
     <x:String x:Key="Misc">Прочее</x:String>
     <x:String x:Key="EditMetadata">Правка метаданных</x:String>
     <x:String x:Key="Apply">Применить</x:String>
+    <x:String x:Key="None">Нет</x:String>
+    <x:String x:Key="Switch">Переключатель</x:String>
 
     <!--  Navigation  -->
     <x:String x:Key="AlbumPage">Альбомы</x:String>
@@ -273,7 +276,6 @@
     <x:String x:Key="MainNavOpenPaneLength">Ширина меню</x:String>
     <x:String x:Key="MainNavOpenPaneLengthDesc">Ширина панели навигации в раскрытом виде</x:String>
     <x:String x:Key="PlayingPage">Страница "Сейчас играет"</x:String>
-    <x:String x:Key="NoBackground">Нет</x:String>
     <x:String x:Key="TrackCover">Обложка трека</x:String>
     <x:String x:Key="MainWallpaper">Обои главного окна</x:String>
     <x:String x:Key="WallpaperOpacity">Непрозрачность обоев</x:String>
@@ -295,8 +297,8 @@
     <x:String x:Key="AutoPlayDesc">Начинать воспроизведение после открытия приложения</x:String>
     <x:String x:Key="SMTC">Интеграция SMTC</x:String>
     <x:String x:Key="SMTCDesc">Системные элементы управления мультимедиа Windows</x:String>
-    <x:String x:Key="AndroidEnableMediaButtonEvent">Включить управление воспроизведением с помощью мультимедийных кнопок</x:String>
-    <x:String x:Key="AndroidEnableMediaButtonEventDesc">Управление воспроизведением с помощью мультимедийных кнопок (например, кнопок воспроизведения/паузы в наушниках)</x:String>
+    <x:String x:Key="AndroidMediaButtonEvent">Включить управление воспроизведением с помощью мультимедийных кнопок</x:String>
+    <x:String x:Key="AndroidMediaButtonEventDesc">Управление воспроизведением с помощью мультимедийных кнопок (например, кнопок воспроизведения/паузы в наушниках)</x:String>
     <x:String x:Key="AndroidAudioFocus">Эксклюзивный аудиофокус</x:String>
     <x:String x:Key="AndroidAudioFocusDesc">После включения воспроизведение заглушит другие приложения. Эта функция может не работать из-за системных ограничений устройства</x:String>
     <x:String x:Key="TrackClickAction">Действие по нажатию на трек</x:String>
@@ -327,9 +329,7 @@
     <x:String x:Key="AboutLogCacheClearDesc">Нажмите для очистки</x:String>
     <x:String x:Key="AboutOpenSourceIntro">Используются компоненты:</x:String>
     <x:String x:Key="SpectrumSetting">Настройки спектра</x:String>
-    <x:String x:Key="SpectrumVisible">Отображение</x:String>
-    <x:String x:Key="SpectrumUI">Интерфейс</x:String>
-    <x:String x:Key="SpectrumUpdateSpeed">Скорость обновления</x:String>
+    <x:String x:Key="SpectrumRefreshTime">Интервал обновления (мс)</x:String>
     <x:String x:Key="SpectrumBarCornerRadius">Скругление столбцов</x:String>
     <x:String x:Key="SpectrumBarWidth">Ширина столбца</x:String>
     <x:String x:Key="SpectrumBarSpacing">Интервал</x:String>
@@ -343,6 +343,7 @@
     <x:String x:Key="SpectrumNoiseFloorDesc">Отфильтровывает данные спектра ниже этого значения</x:String>
     <x:String x:Key="SpectrumSmoothFactor">Сглаживание</x:String>
     <x:String x:Key="SpectrumSmoothFactorDesc">Коэффициент сглаживания, чем выше значение — тем плавнее спектр</x:String>
+    <x:String x:Key="SpectrumTips">Включение визуализатора спектра может увеличить расход заряда батареи</x:String>
     <x:String x:Key="LyricSetting">Текст песен</x:String>
     <x:String x:Key="LyricNormalOpacity">Непрозрачность (обычный текст)</x:String>
     <x:String x:Key="LyricHighlightGlow">Свечение (выделенный текст)</x:String>
@@ -380,6 +381,11 @@
     <x:String x:Key="TrackEditTitle">Изменить метаданные трека</x:String>
     <x:String x:Key="AlbumEditTitle">Изменить метаданные альбома</x:String>
     <x:String x:Key="NoticeTitle">📢 Важные изменения</x:String>
+    <x:String x:Key="SleepTimerTitle">Таймер сна</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEnd">Продлить таймер до конца текущего трека</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEndDesc">После активации продления перед обратным отсчётом появится знак «+», например: +01:50&#xA;Если таймер уже продлён, переключение трека автоматически продлит его до конца этого трека</x:String>
+    <x:String x:Key="SleepTimerStart">Запустить таймер</x:String>
+    <x:String x:Key="SleepTimerStop">Остановить таймер</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Мини-окно</x:String>
@@ -410,17 +416,24 @@
     <x:String x:Key="Lyric">Текст песни</x:String>
     <x:String x:Key="LyricLoading">Загрузка текста...</x:String>
     <x:String x:Key="LyricNone">Нет текста</x:String>
-    <x:String x:Key="DesktopLyric">Текст на рабочем столе</x:String>
+    <x:String x:Key="DesktopLyric">Тексты на рабочем столе</x:String>
+    <x:String x:Key="LyricEmbedded">Встроенный</x:String>
+    <x:String x:Key="LyricFile">Файл</x:String>
 
     <!--  Playing  -->
-    <x:String x:Key="TrackBitRate">{0} Kbps</x:String>
-    <x:String x:Key="TrackSampleRate">{0} kHz</x:String>
-    <x:String x:Key="TrackBitsPerSample">{0} bit</x:String>
-    <x:String x:Key="NextTrackTitle">Далее: {0}</x:String>
-    <x:String x:Key="RepeatAll">Повторять всё</x:String>
-    <x:String x:Key="RepeatOne">Повторять один</x:String>
-    <x:String x:Key="Shuffle">Перемешать</x:String>
-    <x:String x:Key="RepeatOff">По порядку</x:String>
+    <x:String x:Key="PlayingTrackBitRate">{0} Kbps</x:String>
+    <x:String x:Key="PlayingTrackSampleRate">{0} kHz</x:String>
+    <x:String x:Key="PlayingTrackBitsPerSample">{0} bit</x:String>
+    <x:String x:Key="PlayingNextTrackTitle">Далее: {0}</x:String>
+    <x:String x:Key="PlayingKeepScreenOn">Не выключать экран</x:String>
+    <x:String x:Key="PlayingImmersiveMode">Иммерсивный режим</x:String>
+    <x:String x:Key="PlayingEqualizer">Эквалайзер</x:String>
+    <x:String x:Key="PlayingStatisticTime">Последнее воспроизведение</x:String>
+    <x:String x:Key="PlayingStatisticCount">Воспроизведения</x:String>
+    <x:String x:Key="PlayingStatisticTimeSecond">{0} с назад</x:String>
+    <x:String x:Key="PlayingStatisticTimeMinute">{0} мин назад</x:String>
+    <x:String x:Key="PlayingStatisticTimeHour">{0} ч назад</x:String>
+    <x:String x:Key="PlayingStatisticTimeDay">{0} дн назад</x:String>
 
     <!--  Language  -->
     <x:String x:Key="zh-CN">Китайский (упр.)</x:String>
@@ -497,6 +510,8 @@
     <x:String x:Key="TipsTrackEmpty0">Нет треков. Перетащите файлы или папки для сканирования</x:String>
     <x:String x:Key="TipsTrackEmpty1">Или перейдите в</x:String>
     <x:String x:Key="TipsTrackEmpty2">для добавления папок</x:String>
+    <x:String x:Key="TipsAndroidTrackEmpty1">Нет треков. Перейдите в</x:String>
+    <x:String x:Key="TipsAndroidTrackEmpty2">для добавления папок</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">Отпустите для сканирования</x:String>
     <x:String x:Key="TipsAddTracksResult">Добавлено {0} трек(ов)</x:String>
     <x:String x:Key="TipsAlbumIntroInput">Введите описание альбома</x:String>

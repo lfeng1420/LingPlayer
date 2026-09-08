@@ -75,6 +75,7 @@
     <x:String x:Key="Total">Toplam</x:String>
     <x:String x:Key="Hour">sa</x:String>
     <x:String x:Key="Minute">dk</x:String>
+    <x:String x:Key="Minutes">dk</x:String>
     <x:String x:Key="Second">sn</x:String>
     <x:String x:Key="Explore">Gözat</x:String>
     <x:String x:Key="Global">Genel</x:String>
@@ -95,6 +96,8 @@
     <x:String x:Key="Misc">Diğer</x:String>
     <x:String x:Key="EditMetadata">Meta verileri düzenle</x:String>
     <x:String x:Key="Apply">Uygula</x:String>
+    <x:String x:Key="None">Yok</x:String>
+    <x:String x:Key="Switch">Anahtar</x:String>
 
     <!--  Navigation  -->
     <x:String x:Key="AlbumPage">Albümler</x:String>
@@ -133,7 +136,7 @@
     <x:String x:Key="UnknownGenre">Bilinmeyen tür</x:String>
 
     <!--  Album  -->
-    <x:String x:Key="AlbumNumDesc">{0} albüm</x:String>
+    <x:String x:Key="AlbumNumDesc">{0} albüm(ler)</x:String>
     <x:String x:Key="UnknownAlbum">Bilinmeyen albüm</x:String>
     <x:String x:Key="AlbumIntro">Albüm hakkında</x:String>
     <x:String x:Key="AlbumIntroEmpty">Açıklama yok.</x:String>
@@ -273,7 +276,6 @@
     <x:String x:Key="MainNavOpenPaneLength">Gezinme menüsü genişliği</x:String>
     <x:String x:Key="MainNavOpenPaneLengthDesc">Gezinme menüsü açıkken panel genişliğini ayarlar</x:String>
     <x:String x:Key="PlayingPage">Oynatma sayfası</x:String>
-    <x:String x:Key="NoBackground">Yok</x:String>
     <x:String x:Key="TrackCover">Parça kapağı</x:String>
     <x:String x:Key="MainWallpaper">Ana pencere duvar kağıdı</x:String>
     <x:String x:Key="WallpaperOpacity">Duvar kağıdı saydamlığı</x:String>
@@ -295,8 +297,8 @@
     <x:String x:Key="AutoPlayDesc">Başlatıldıktan sonra otomatik oynat</x:String>
     <x:String x:Key="SMTC">SMTC entegrasyonu</x:String>
     <x:String x:Key="SMTCDesc">Windows Sistem Medya Taşıma Kontrolleri (SMTC)</x:String>
-    <x:String x:Key="AndroidEnableMediaButtonEvent">Medya düğmelerini etkinleştir</x:String>
-    <x:String x:Key="AndroidEnableMediaButtonEventDesc">Medya düğmeleriyle oynatmayı kontrol et (örn. kulaklık düğmeleri)</x:String>
+    <x:String x:Key="AndroidMediaButtonEvent">Medya düğmelerini etkinleştir</x:String>
+    <x:String x:Key="AndroidMediaButtonEventDesc">Medya düğmeleriyle oynatmayı kontrol et (örn. kulaklık düğmeleri)</x:String>
     <x:String x:Key="AndroidAudioFocus">Özel ses odağı</x:String>
     <x:String x:Key="AndroidAudioFocusDesc">Diğer uygulamalarla aynı anda çalmaz. Sistem kısıtlamaları nedeniyle çalışmayabilir</x:String>
     <x:String x:Key="TrackClickAction">Parça tıklama eylemi</x:String>
@@ -327,9 +329,7 @@
     <x:String x:Key="AboutLogCacheClearDesc">Temizlemek için tıklayın</x:String>
     <x:String x:Key="AboutOpenSourceIntro">Aşağıdaki açık kaynak bileşenleri kullanır:</x:String>
     <x:String x:Key="SpectrumSetting">Spektrum</x:String>
-    <x:String x:Key="SpectrumVisible">Görünür</x:String>
-    <x:String x:Key="SpectrumUI">Spektrum arayüzü</x:String>
-    <x:String x:Key="SpectrumUpdateSpeed">Güncelleme hızı</x:String>
+    <x:String x:Key="SpectrumRefreshTime">Yenileme aralığı (ms)</x:String>
     <x:String x:Key="SpectrumBarCornerRadius">Çubuk köşe yarıçapı</x:String>
     <x:String x:Key="SpectrumBarWidth">Çubuk genişliği</x:String>
     <x:String x:Key="SpectrumBarSpacing">Çubuk aralığı</x:String>
@@ -343,6 +343,7 @@
     <x:String x:Key="SpectrumNoiseFloorDesc">Bu değerin altındaki spektrum verilerini filtreler</x:String>
     <x:String x:Key="SpectrumSmoothFactor">Yumuşatma faktörü</x:String>
     <x:String x:Key="SpectrumSmoothFactorDesc">Yumuşatma faktörü, daha yüksek değerler daha güçlü yumuşatma etkisi</x:String>
+    <x:String x:Key="SpectrumTips">Spektrum görselleştiricisini etkinleştirmek pil tüketimini artırabilir</x:String>
     <x:String x:Key="LyricSetting">Şarkı sözleri</x:String>
     <x:String x:Key="LyricNormalOpacity">Saydamlık (normal)</x:String>
     <x:String x:Key="LyricHighlightGlow">Parlama (vurgulu)</x:String>
@@ -380,6 +381,11 @@
     <x:String x:Key="TrackEditTitle">Parça meta verilerini düzenle</x:String>
     <x:String x:Key="AlbumEditTitle">Albüm meta verilerini düzenle</x:String>
     <x:String x:Key="NoticeTitle">📢 Önemli değişiklikler</x:String>
+    <x:String x:Key="SleepTimerTitle">Uyku zamanlayıcısı</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEnd">Zamanlayıcıyı geçerli parça bitene kadar uzat</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEndDesc">Uzatma etkinleştiğinde geri sayımın önünde "+" işareti görünür, örn.: +01:50&#xA;Zamanlayıcı zaten uzatılmışsa, parça değiştirmek onu otomatik olarak o parça bitene kadar yeniden uzatır</x:String>
+    <x:String x:Key="SleepTimerStart">Zamanlayıcıyı başlat</x:String>
+    <x:String x:Key="SleepTimerStop">Zamanlayıcıyı durdur</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Mini pencere</x:String>
@@ -410,17 +416,24 @@
     <x:String x:Key="Lyric">Şarkı sözleri</x:String>
     <x:String x:Key="LyricLoading">Sözler yükleniyor...</x:String>
     <x:String x:Key="LyricNone">Söz yok</x:String>
-    <x:String x:Key="DesktopLyric">Masaüstü şarkı sözleri</x:String>
+    <x:String x:Key="DesktopLyric">Masaüstü sözleri</x:String>
+    <x:String x:Key="LyricEmbedded">Gömülü</x:String>
+    <x:String x:Key="LyricFile">Dosya</x:String>
 
     <!--  Playing  -->
-    <x:String x:Key="TrackBitRate">{0} Kbps</x:String>
-    <x:String x:Key="TrackSampleRate">{0} kHz</x:String>
-    <x:String x:Key="TrackBitsPerSample">{0} bit</x:String>
-    <x:String x:Key="NextTrackTitle">Sonraki parça: {0}</x:String>
-    <x:String x:Key="RepeatAll">Tümünü tekrarla</x:String>
-    <x:String x:Key="RepeatOne">Birini tekrarla</x:String>
-    <x:String x:Key="Shuffle">Karıştır</x:String>
-    <x:String x:Key="RepeatOff">Tekrar kapalı</x:String>
+    <x:String x:Key="PlayingTrackBitRate">{0} Kbps</x:String>
+    <x:String x:Key="PlayingTrackSampleRate">{0} kHz</x:String>
+    <x:String x:Key="PlayingTrackBitsPerSample">{0} bit</x:String>
+    <x:String x:Key="PlayingNextTrackTitle">Sonraki parça: {0}</x:String>
+    <x:String x:Key="PlayingKeepScreenOn">Ekranı açık tut</x:String>
+    <x:String x:Key="PlayingImmersiveMode">İmmersif mod</x:String>
+    <x:String x:Key="PlayingEqualizer">Ekolayzer</x:String>
+    <x:String x:Key="PlayingStatisticTime">Son oynatma</x:String>
+    <x:String x:Key="PlayingStatisticCount">Oynatma sayısı</x:String>
+    <x:String x:Key="PlayingStatisticTimeSecond">{0} sn önce</x:String>
+    <x:String x:Key="PlayingStatisticTimeMinute">{0} dk önce</x:String>
+    <x:String x:Key="PlayingStatisticTimeHour">{0} sa önce</x:String>
+    <x:String x:Key="PlayingStatisticTimeDay">{0} gün önce</x:String>
 
     <!--  Language  -->
     <x:String x:Key="zh-CN">Basitleştirilmiş Çince</x:String>
@@ -497,6 +510,8 @@
     <x:String x:Key="TipsTrackEmpty0">Parça yok. Taramak için dosya veya klasörleri buraya sürükleyin</x:String>
     <x:String x:Key="TipsTrackEmpty1">Veya şuraya gidin</x:String>
     <x:String x:Key="TipsTrackEmpty2">klasör eklemek için</x:String>
+    <x:String x:Key="TipsAndroidTrackEmpty1">Parça yok. Şuraya gidin</x:String>
+    <x:String x:Key="TipsAndroidTrackEmpty2">klasör eklemek için</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">Taramak için bırakın</x:String>
     <x:String x:Key="TipsAddTracksResult">{0} parça eklendi</x:String>
     <x:String x:Key="TipsAlbumIntroInput">Albüm açıklamasını girin</x:String>
