@@ -11,7 +11,7 @@
     <x:String x:Key="Cancel">Cancel</x:String>
     <x:String x:Key="Back">Back</x:String>
     <x:String x:Key="Quit">Quit</x:String>
-    <x:String x:Key="Default">(Default)</x:String>
+    <x:String x:Key="Default">Default</x:String>
     <x:String x:Key="Ascend">Ascend</x:String>
     <x:String x:Key="Descend">Descend</x:String>
     <x:String x:Key="Order">Order</x:String>
@@ -37,7 +37,7 @@
     <x:String x:Key="Delete">Delete</x:String>
     <x:String x:Key="Remove">Remove</x:String>
     <x:String x:Key="Rename">Rename</x:String>
-    <x:String x:Key="ExportAsFile">Export to txt</x:String>
+    <x:String x:Key="Reset">Reset</x:String>
     <x:String x:Key="FollowSystem">Follow system</x:String>
     <x:String x:Key="Colons">:</x:String>
     <x:String x:Key="SortBy">Sort by</x:String>
@@ -81,6 +81,7 @@
     <x:String x:Key="Global">Global</x:String>
     <x:String x:Key="BlurRadius">Blur radius</x:String>
     <x:String x:Key="Wallpaper">Wallpaper</x:String>
+    <x:String x:Key="Preset">Preset</x:String>
     <x:String x:Key="Custom">Custom</x:String>
     <x:String x:Key="Version">Version</x:String>
     <x:String x:Key="Enabled">Enabled</x:String>
@@ -98,6 +99,44 @@
     <x:String x:Key="Apply">Apply</x:String>
     <x:String x:Key="None">None</x:String>
     <x:String x:Key="Switch">Switch</x:String>
+    <x:String x:Key="Auto">Auto</x:String>
+    <x:String x:Key="Manual">Manual</x:String>
+
+    <!-- EQ -->
+    <x:String x:Key="Flat">Flat</x:String>
+    <x:String x:Key="PopClassic">Pop (Classic)</x:String>
+    <x:String x:Key="PopModern">Pop (Modern)</x:String>
+    <x:String x:Key="Rock">Rock</x:String>
+    <x:String x:Key="Jazz">Jazz</x:String>
+    <x:String x:Key="ClassicalWarm">Classical (Warm)</x:String>
+    <x:String x:Key="ClassicalFlat">Classical (Flat)</x:String>
+    <x:String x:Key="Dance">Dance</x:String>
+    <x:String x:Key="Electronic">Electronic</x:String>
+    <x:String x:Key="HipHop">Hip Hop</x:String>
+    <x:String x:Key="Metal">Metal</x:String>
+    <x:String x:Key="Reggae">Reggae</x:String>
+    <x:String x:Key="Acoustic">Acoustic</x:String>
+    <x:String x:Key="BassBoost">Bass Boost</x:String>
+    <x:String x:Key="TrebleBoost">Treble Boost</x:String>
+    <x:String x:Key="VocalBoostMale">Vocal Boost (Male)</x:String>
+    <x:String x:Key="VocalBoostFemale">Vocal Boost (Female)</x:String>
+
+    <!--  Reverb  -->
+    <x:String x:Key="SoftRoom">Soft Room</x:String>
+    <x:String x:Key="Room">Room</x:String>
+    <x:String x:Key="LivingRoom">Living Room</x:String>
+    <x:String x:Key="Bathroom">Bathroom</x:String>
+    <x:String x:Key="StoneRoom">Stone Room</x:String>
+    <x:String x:Key="Auditorium">Auditorium</x:String>
+    <x:String x:Key="ConcertHall">Concert Hall</x:String>
+    <x:String x:Key="Cave">Cave</x:String>
+    <x:String x:Key="Hallway">Hallway</x:String>
+    <x:String x:Key="StoneCorridor">Stone Corridor</x:String>
+    <x:String x:Key="CarpetedHallway">Carpeted Hallway</x:String>
+    <x:String x:Key="Quarry">Quarry</x:String>
+    <x:String x:Key="Arena">Arena</x:String>
+    <x:String x:Key="Hangar">Hangar</x:String>
+    <x:String x:Key="ParkingGarage">Parking Garage</x:String>
 
     <!--  Navigation  -->
     <x:String x:Key="AlbumPage">Albums</x:String>
@@ -143,7 +182,7 @@
     <x:String x:Key="AlbumYear">Year</x:String>
     <x:String x:Key="AlbumArtists">Album artists</x:String>
     <x:String x:Key="AlbumPerformers">Collaboration artists</x:String>
-    <x:String x:Key="DiscNumber">CD {0}</x:String>
+    <x:String x:Key="AlbumDiscNumber">CD {0}</x:String>
     <x:String x:Key="AlbumUseFirstTrackThumbnail">Use the cover of the first track as the album cover</x:String>
     <x:String x:Key="AlbumReplaceAllTarcksThumbnail">Replace the cover of all tracks in the album with the album cover</x:String>
     <x:String x:Key="AlbumSyncMetadata">Sync album metadata to all tracks in the album</x:String>
@@ -174,6 +213,11 @@
     <x:String x:Key="PlaylistExportTitle">Export playlist</x:String>
     <x:String x:Key="PlaylistsExportPath">Playlists export path: {0}</x:String>
     <x:String x:Key="PlaylistExportSummary">Export summary</x:String>
+    <x:String x:Key="PlaylistExportFile">Export track list</x:String>
+    <x:String x:Key="PlaylistExportTrackFiles">Export track files</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageGathering">Gathering tracks from the playlist</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageCopying">Copying track files</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageDone">Track file export completed</x:String>
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
@@ -206,11 +250,11 @@
     <x:String x:Key="Error">Error</x:String>
 
     <!--  Setting  -->
-    <x:String x:Key="UIDesc">Window transparency effect, Custom fonts, Wallpaper, Navigation menu</x:String>
     <x:String x:Key="NavMenuDesc">Visibility control, order adjustment, default page settings</x:String>
     <x:String x:Key="CollectionDesc">Folders, Separators</x:String>
-    <x:String x:Key="EffectDesc">Equaliser, Effects</x:String>
+    <x:String x:Key="UIDesc">Window transparency effect, Custom fonts, Wallpaper, Navigation menu</x:String>
     <x:String x:Key="LangDesc">System language, Switch language</x:String>
+    <x:String x:Key="EffectDesc">Equaliser, Reverb</x:String>
     <x:String x:Key="PlayControlDesc">Auto-play, Shuffle play</x:String>
     <x:String x:Key="AdvancedDesc">Garbage collection</x:String>
     <x:String x:Key="AboutDesc">Version info, Bug report, Log cache</x:String>
@@ -293,6 +337,29 @@
     <x:String x:Key="TranslationContributorsDesc">View the list of contributors who helped improve translations</x:String>
     <x:String x:Key="HelpImproveTranslation">Help Improve Translation</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">Found a translation issue? Feel free to submit a PR</x:String>
+    <x:String x:Key="EffectEQ">Equalizer</x:String>
+    <x:String x:Key="EffectEQPreampMode">Preamp Attenuation Mode</x:String>
+    <x:String x:Key="EffectEQPreampModeDesc">Pre-lowers the overall level before equaliser processing to prevent signal overload and clipping after boosting</x:String>
+    <x:String x:Key="EffectEQPreampModeAutoDesc">Automatically calculates the attenuation based on the maximum gain of the current EQ curve, ensuring the signal never exceeds 0 dBFS</x:String>
+    <x:String x:Key="EffectEQPreampModeManualDesc">Manually specify the gain&#xA;Too little may cause clipping distortion; too much makes the volume too low</x:String>
+    <x:String x:Key="EffectEQPreampModeOffDesc">No pre-attenuation is applied&#xA;When EQ boosts are large, the signal may exceed 0 dBFS and cause digital clipping, heard as buzzing, crackling, or muddy sound. Recommended only when the source peaks are very low</x:String>
+    <x:String x:Key="EffectEQPreampDB">Preamp Attenuation</x:String>
+    <x:String x:Key="EffectEQPreampDBDesc">Lower values reduce the overall volume but make distortion less likely</x:String>
+    <x:String x:Key="EffectEQCurPreampDB">Current Preamp Attenuation</x:String>
+    <x:String x:Key="EffectReplayGain">ReplayGain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">Scans tracks for their REPLAYGAIN_TRACK_GAIN and REPLAYGAIN_ALBUM_GAIN tags and adjusts the volume based on the tag values</x:String>
+    <x:String x:Key="EffectReverb">Reverb</x:String>
+    <x:String x:Key="EffectReverbDesc">Makes the sound more spatial, as if in different environments</x:String>
+    <x:String x:Key="EffectReverbRoomSize">Room Size</x:String>
+    <x:String x:Key="EffectReverbRoomSizeDesc">Controls the size of the simulated space&#xA;Higher values produce longer reverb tails and a more spacious feel</x:String>
+    <x:String x:Key="EffectReverbDamping">Damping</x:String>
+    <x:String x:Key="EffectReverbDampingDesc">The degree to which the simulated space absorbs high frequencies&#xA;Higher values make the reverb sound softer and darker</x:String>
+    <x:String x:Key="EffectReverbWetVolume">Reverb Level</x:String>
+    <x:String x:Key="EffectReverbWetVolumeDesc">Controls the proportion of reverb in the total volume&#xA;Higher values make the spatial effect more pronounced</x:String>
+    <x:String x:Key="EffectReverbWidth">Stereo Width</x:String>
+    <x:String x:Key="EffectReverbWidthDesc">Controls how widely the reverb is spread across the left and right channels&#xA;Higher values create a stronger enveloping feel</x:String>
+    <x:String x:Key="EffectReverbPredelay">Predelay (ms)</x:String>
+    <x:String x:Key="EffectReverbPredelayDesc">Controls the time interval between the direct sound and the start of the reverb&#xA;A longer predelay makes the source sound farther away and the dry signal clearer; a shorter predelay blends the reverb in sooner</x:String>
     <x:String x:Key="AutoPlay">Auto play</x:String>
     <x:String x:Key="AutoPlayDesc">Auto play after launch</x:String>
     <x:String x:Key="SMTC">SMTC integration</x:String>
@@ -386,6 +453,7 @@
     <x:String x:Key="SleepTimerExtendToTrackEndDesc">After the extension takes effect, a "+" sign will appear before the countdown, e.g.: +01:50&#xA;If the timer is already extended, switching tracks will automatically extend it again until that track finishes</x:String>
     <x:String x:Key="SleepTimerStart">Start timer</x:String>
     <x:String x:Key="SleepTimerStop">Stop timer</x:String>
+    <x:String x:Key="TaskDialogTitle">Tasks</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Mini Window</x:String>
@@ -427,7 +495,6 @@
     <x:String x:Key="PlayingNextTrackTitle">Next track: {0}</x:String>
     <x:String x:Key="PlayingKeepScreenOn">Keep screen on</x:String>
     <x:String x:Key="PlayingImmersiveMode">Immersive mode</x:String>
-    <x:String x:Key="PlayingEqualizer">Equalizer</x:String>
     <x:String x:Key="PlayingStatisticTime">Last played</x:String>
     <x:String x:Key="PlayingStatisticCount">Play count</x:String>
     <x:String x:Key="PlayingStatisticTimeSecond">{0}s ago</x:String>
@@ -465,6 +532,8 @@
     <x:String x:Key="ToastPlaylistImportFail">Failed to import playlist {1} from file {0}</x:String>
     <x:String x:Key="ToastPlaylistExportSucc">Successfully exported playlist {0} to file {1}</x:String>
     <x:String x:Key="ToastPlaylistExportFail">Failed to export playlist {0} to file {1}</x:String>
+    <x:String x:Key="ToastPlaylistExportTrackFilesSucc">Track file export task added. Click the task button in the top-right corner to view task progress</x:String>
+    <x:String x:Key="ToastPlaylistExportTrackFilesFail">Error exporting track files from the playlist. Please check the log file</x:String>
     <x:String x:Key="ToastPlaylistInvalid">Playlist is invalid</x:String>
     <x:String x:Key="ToastPlaylistEmpty">Playlist is empty</x:String>
     <x:String x:Key="ToastPlaylistNameExists">A playlist with the same name already exists</x:String>
@@ -498,6 +567,9 @@
     <x:String x:Key="ToastAlbumTrackMetadataUpdateFail">Failed to update track metadata in the album, please check the log file for more information</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateFail">Failed to update album metadata, please check the log file for more information</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateSucc">Album metadata updated successfully</x:String>
+    <x:String x:Key="ToastEffectRenameExists">Name already exists</x:String>
+    <x:String x:Key="ToastEffectRenameSucc">Rename succeeded</x:String>
+    <x:String x:Key="ToastEffectRenameFail">Rename failed</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">Initialising...</x:String>
@@ -528,6 +600,7 @@
     <x:String x:Key="TipsWallpaper">Using a custom wallpaper may cause text to be difficult to read if the contrast between the text and the background is not strong.&#xA;Adjust the opacity or switch between light and dark themes to improve readability.</x:String>
     <x:String x:Key="TipsCueTrackEdit">This track comes from a CUE file, metadata cannot be modified. Please edit the CUE file directly.</x:String>
     <x:String x:Key="TipsCueAlbumEdit">This album contains tracks from CUE files, metadata cannot be modified. Please edit the CUE file directly.</x:String>
+    <x:String x:Key="TipsEffectNameInput">Enter new name</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">Version 0.10.0.0 fixes the issue where the end of tracks was prematurely truncated (usually less than 1 second). The cache duration precision has been upgraded from seconds to milliseconds.</x:String>
@@ -541,10 +614,11 @@
     <x:String x:Key="NoticePart3Text3"> and click </x:String>
     <x:String x:Key="NoticePart3Bold3">Scan Now</x:String>
     <x:String x:Key="NoticePart3Text4">.</x:String>
-    <x:String x:Key="NoticePart5">Sorry for any inconvenience. Thank you for your understanding and support!</x:String>
+    <x:String x:Key="NoticePart5">Sorry for any inconvenience. Many thanks for the understanding and support!</x:String>
 
     <!--  Misc  -->
     <x:String x:Key="SendLogMail">Send report</x:String>
     <x:String x:Key="AppLaunchFail">App launch fail</x:String>
     <x:String x:Key="ServiceInitFail">Error occurred in the {0}!</x:String>
+    <x:String x:Key="ClearAllEndedTasks">Clear all ended tasks</x:String>
 </ResourceDictionary>

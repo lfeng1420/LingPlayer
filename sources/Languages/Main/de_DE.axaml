@@ -11,7 +11,7 @@
     <x:String x:Key="Cancel">Abbrechen</x:String>
     <x:String x:Key="Back">Zurück</x:String>
     <x:String x:Key="Quit">Beenden</x:String>
-    <x:String x:Key="Default">(Standard)</x:String>
+    <x:String x:Key="Default">Standard</x:String>
     <x:String x:Key="Ascend">Aufsteigend</x:String>
     <x:String x:Key="Descend">Absteigend</x:String>
     <x:String x:Key="Order">Reihenfolge</x:String>
@@ -37,7 +37,7 @@
     <x:String x:Key="Delete">Löschen</x:String>
     <x:String x:Key="Remove">Entfernen</x:String>
     <x:String x:Key="Rename">Umbenennen</x:String>
-    <x:String x:Key="ExportAsFile">Als txt exportieren</x:String>
+    <x:String x:Key="Reset">Zurücksetzen</x:String>
     <x:String x:Key="FollowSystem">System folgen</x:String>
     <x:String x:Key="Colons">:</x:String>
     <x:String x:Key="SortBy">Sortieren nach</x:String>
@@ -81,6 +81,7 @@
     <x:String x:Key="Global">Global</x:String>
     <x:String x:Key="BlurRadius">Weichzeichner-Radius</x:String>
     <x:String x:Key="Wallpaper">Hintergrundbild</x:String>
+    <x:String x:Key="Preset">Voreinstellung</x:String>
     <x:String x:Key="Custom">Benutzerdefiniert</x:String>
     <x:String x:Key="Version">Version</x:String>
     <x:String x:Key="Enabled">Aktiviert</x:String>
@@ -98,6 +99,44 @@
     <x:String x:Key="Apply">Anwenden</x:String>
     <x:String x:Key="None">Kein</x:String>
     <x:String x:Key="Switch">Schalter</x:String>
+    <x:String x:Key="Auto">Automatisch</x:String>
+    <x:String x:Key="Manual">Manuell</x:String>
+
+    <!-- EQ -->
+    <x:String x:Key="Flat">Linear</x:String>
+    <x:String x:Key="PopClassic">Pop (Klassisch)</x:String>
+    <x:String x:Key="PopModern">Pop (Modern)</x:String>
+    <x:String x:Key="Rock">Rock</x:String>
+    <x:String x:Key="Jazz">Jazz</x:String>
+    <x:String x:Key="ClassicalWarm">Klassik (Warm)</x:String>
+    <x:String x:Key="ClassicalFlat">Klassik (Linear)</x:String>
+    <x:String x:Key="Dance">Dance</x:String>
+    <x:String x:Key="Electronic">Elektronik</x:String>
+    <x:String x:Key="HipHop">Hip-Hop</x:String>
+    <x:String x:Key="Metal">Metal</x:String>
+    <x:String x:Key="Reggae">Reggae</x:String>
+    <x:String x:Key="Acoustic">Akustik</x:String>
+    <x:String x:Key="BassBoost">Bass-Verstärkung</x:String>
+    <x:String x:Key="TrebleBoost">Höhen-Verstärkung</x:String>
+    <x:String x:Key="VocalBoostMale">Stimmen-Verstärkung (Männlich)</x:String>
+    <x:String x:Key="VocalBoostFemale">Stimmen-Verstärkung (Weiblich)</x:String>
+
+    <!--  Reverb  -->
+    <x:String x:Key="SoftRoom">Weicher Raum</x:String>
+    <x:String x:Key="Room">Zimmer</x:String>
+    <x:String x:Key="LivingRoom">Wohnzimmer</x:String>
+    <x:String x:Key="Bathroom">Badezimmer</x:String>
+    <x:String x:Key="StoneRoom">Steinraum</x:String>
+    <x:String x:Key="Auditorium">Auditorium</x:String>
+    <x:String x:Key="ConcertHall">Konzerthalle</x:String>
+    <x:String x:Key="Cave">Höhle</x:String>
+    <x:String x:Key="Hallway">Flur</x:String>
+    <x:String x:Key="StoneCorridor">Steinkorridor</x:String>
+    <x:String x:Key="CarpetedHallway">Teppichflur</x:String>
+    <x:String x:Key="Quarry">Steinbruch</x:String>
+    <x:String x:Key="Arena">Arena</x:String>
+    <x:String x:Key="Hangar">Hangar</x:String>
+    <x:String x:Key="ParkingGarage">Parkhaus</x:String>
 
     <!--  Navigation  -->
     <x:String x:Key="AlbumPage">Alben</x:String>
@@ -143,7 +182,7 @@
     <x:String x:Key="AlbumYear">Albumjahr</x:String>
     <x:String x:Key="AlbumArtists">Albumkünstler</x:String>
     <x:String x:Key="AlbumPerformers">Gastkünstler</x:String>
-    <x:String x:Key="DiscNumber">CD {0}</x:String>
+    <x:String x:Key="AlbumDiscNumber">CD {0}</x:String>
     <x:String x:Key="AlbumUseFirstTrackThumbnail">Cover des ersten Titels als Albumcover verwenden</x:String>
     <x:String x:Key="AlbumReplaceAllTarcksThumbnail">Cover aller Titel im Album durch Albumcover ersetzen</x:String>
     <x:String x:Key="AlbumSyncMetadata">Album-Metadaten mit allen Titeln synchronisieren</x:String>
@@ -174,6 +213,11 @@
     <x:String x:Key="PlaylistExportTitle">Wiedergabeliste exportieren</x:String>
     <x:String x:Key="PlaylistsExportPath">Exportpfad: {0}</x:String>
     <x:String x:Key="PlaylistExportSummary">Exportzusammenfassung</x:String>
+    <x:String x:Key="PlaylistExportFile">Titelliste exportieren</x:String>
+    <x:String x:Key="PlaylistExportTrackFiles">Titeldateien exportieren</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageGathering">Titel der Wiedergabeliste werden gesammelt</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageCopying">Titeldateien werden kopiert</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageDone">Export der Titeldateien abgeschlossen</x:String>
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
@@ -206,11 +250,11 @@
     <x:String x:Key="Error">Fehler</x:String>
 
     <!--  Setting  -->
-    <x:String x:Key="UIDesc">Fenstertransparenz, Schriftarten, Hintergrund, Menü</x:String>
     <x:String x:Key="NavMenuDesc">Sichtbarkeit, Reihenfolge, Standardseite</x:String>
     <x:String x:Key="CollectionDesc">Ordner, Trennzeichen</x:String>
-    <x:String x:Key="EffectDesc">Equalizer, Effekte</x:String>
+    <x:String x:Key="UIDesc">Fenstertransparenz, Schriftarten, Hintergrund, Menü</x:String>
     <x:String x:Key="LangDesc">Systemsprache, Sprachwechsel</x:String>
+    <x:String x:Key="EffectDesc">Equalizer, Nachhall</x:String>
     <x:String x:Key="PlayControlDesc">Auto-Wiedergabe, Zufallswiedergabe</x:String>
     <x:String x:Key="AdvancedDesc">Garbage Collection</x:String>
     <x:String x:Key="AboutDesc">Version, Feedback, Log-Cache</x:String>
@@ -293,6 +337,29 @@
     <x:String x:Key="TranslationContributorsDesc">Liste der Mitwirkenden, die die Übersetzung verbessert haben</x:String>
     <x:String x:Key="HelpImproveTranslation">Übersetzung verbessern</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">Übersetzungsproblem gefunden? PR willkommen</x:String>
+    <x:String x:Key="EffectEQ">Equalizer</x:String>
+    <x:String x:Key="EffectEQPreampMode">Preamp-Absenkungsmodus</x:String>
+    <x:String x:Key="EffectEQPreampModeDesc">Senkt den Gesamtpegel vor der Equalizer-Verarbeitung ab, um Übersteuerung und Verzerrungen durch Anhebungen zu vermeiden</x:String>
+    <x:String x:Key="EffectEQPreampModeAutoDesc">Berechnet die Absenkung automatisch anhand der maximalen Verstärkung der aktuellen EQ-Kurve und stellt sicher, dass das Signal 0 dBFS nicht überschreitet</x:String>
+    <x:String x:Key="EffectEQPreampModeManualDesc">Verstärkung manuell festlegen&#xA;Ein zu kleiner Wert kann zu Clipping führen, ein zu großer Wert macht die Lautstärke zu leise</x:String>
+    <x:String x:Key="EffectEQPreampModeOffDesc">Es wird keine Vorab-Absenkung vorgenommen&#xA;Bei starken EQ-Anhebungen kann das Signal 0 dBFS überschreiten und digitales Clipping verursachen, das sich als Brummen, Knacken oder Dumpfheit bemerkbar macht. Nur empfehlenswert, wenn die Quellpegel sehr niedrig sind</x:String>
+    <x:String x:Key="EffectEQPreampDB">Preamp-Absenkung</x:String>
+    <x:String x:Key="EffectEQPreampDBDesc">Niedrigere Werte verringern die Gesamtlautstärke, beugen aber Verzerrungen besser vor</x:String>
+    <x:String x:Key="EffectEQCurPreampDB">Aktuelle Preamp-Absenkung</x:String>
+    <x:String x:Key="EffectReplayGain">ReplayGain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">Sucht in den Titeln nach den Tags REPLAYGAIN_TRACK_GAIN und REPLAYGAIN_ALBUM_GAIN und passt die Lautstärke entsprechend an</x:String>
+    <x:String x:Key="EffectReverb">Hall</x:String>
+    <x:String x:Key="EffectReverbDesc">Verleiht dem Klang mehr Raumgefühl, als wären Sie in einer anderen Umgebung</x:String>
+    <x:String x:Key="EffectReverbRoomSize">Raumgröße</x:String>
+    <x:String x:Key="EffectReverbRoomSizeDesc">Steuert die Größe des simulierten Raums&#xA;Höhere Werte erzeugen längere Hallfahnen und einen räumlicheren Eindruck</x:String>
+    <x:String x:Key="EffectReverbDamping">Dämpfung</x:String>
+    <x:String x:Key="EffectReverbDampingDesc">Absorption hoher Frequenzen durch den simulierten Raum&#xA;Höhere Werte machen den Hall weicher und dunkler</x:String>
+    <x:String x:Key="EffectReverbWetVolume">Hallanteil</x:String>
+    <x:String x:Key="EffectReverbWetVolumeDesc">Steuert den Anteil des Halls am Gesamtklang&#xA;Höhere Werte machen den räumlichen Effekt deutlicher</x:String>
+    <x:String x:Key="EffectReverbWidth">Stereobreite</x:String>
+    <x:String x:Key="EffectReverbWidthDesc">Steuert die Verteilung des Halls zwischen linkem und rechtem Kanal&#xA;Höhere Werte erzeugen ein stärkeres Raumgefühl</x:String>
+    <x:String x:Key="EffectReverbPredelay">Vorverzögerung (ms)</x:String>
+    <x:String x:Key="EffectReverbPredelayDesc">Steuert das Zeitintervall zwischen dem Direktschall und dem Beginn des Halls&#xA;Eine längere Vorverzögerung lässt die Schallquelle weiter entfernt klingen und das Direktsignal klarer; eine kürzere Vorverzögerung lässt den Hall früher einblenden</x:String>
     <x:String x:Key="AutoPlay">Auto-Wiedergabe</x:String>
     <x:String x:Key="AutoPlayDesc">Nach dem Start automatisch abspielen</x:String>
     <x:String x:Key="SMTC">SMTC-Integration</x:String>
@@ -386,6 +453,7 @@
     <x:String x:Key="SleepTimerExtendToTrackEndDesc">Nachdem die Verlängerung aktiv wurde, erscheint ein „+"-Zeichen vor dem Countdown, z. B.: +01:50&#xA;Wurde der Timer bereits verlängert, wird er beim Titelwechsel automatisch erneut bis zum Ende des Titels verlängert</x:String>
     <x:String x:Key="SleepTimerStart">Timer starten</x:String>
     <x:String x:Key="SleepTimerStop">Timer stoppen</x:String>
+    <x:String x:Key="TaskDialogTitle">Aufgaben</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Minifenster</x:String>
@@ -427,7 +495,6 @@
     <x:String x:Key="PlayingNextTrackTitle">Nächster Titel: {0}</x:String>
     <x:String x:Key="PlayingKeepScreenOn">Bildschirm anlassen</x:String>
     <x:String x:Key="PlayingImmersiveMode">Immersiver Modus</x:String>
-    <x:String x:Key="PlayingEqualizer">Equalizer</x:String>
     <x:String x:Key="PlayingStatisticTime">Letzte Wiedergabe</x:String>
     <x:String x:Key="PlayingStatisticCount">Wiedergaben</x:String>
     <x:String x:Key="PlayingStatisticTimeSecond">vor {0} Sek.</x:String>
@@ -465,6 +532,8 @@
     <x:String x:Key="ToastPlaylistImportFail">Import von {1} aus {0} fehlgeschlagen</x:String>
     <x:String x:Key="ToastPlaylistExportSucc">Wiedergabeliste {0} nach {1} exportiert</x:String>
     <x:String x:Key="ToastPlaylistExportFail">Export von {0} nach {1} fehlgeschlagen</x:String>
+    <x:String x:Key="ToastPlaylistExportTrackFilesSucc">Titeldatei-Export-Aufgabe hinzugefügt. Klicken Sie oben rechts auf die Aufgabenschaltfläche, um den Fortschritt zu sehen</x:String>
+    <x:String x:Key="ToastPlaylistExportTrackFilesFail">Fehler beim Exportieren der Titeldateien aus der Wiedergabeliste. Bitte überprüfen Sie die Logdatei</x:String>
     <x:String x:Key="ToastPlaylistInvalid">Ungültige Wiedergabeliste</x:String>
     <x:String x:Key="ToastPlaylistEmpty">Wiedergabeliste ist leer</x:String>
     <x:String x:Key="ToastPlaylistNameExists">Name existiert bereits</x:String>
@@ -498,6 +567,9 @@
     <x:String x:Key="ToastAlbumTrackMetadataUpdateFail">Fehler beim Aktualisieren der Album-Titel-Metadaten, siehe Log</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateFail">Fehler beim Aktualisieren der Album-Metadaten, siehe Log</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateSucc">Album-Metadaten aktualisiert</x:String>
+    <x:String x:Key="ToastEffectRenameExists">Name bereits vorhanden</x:String>
+    <x:String x:Key="ToastEffectRenameSucc">Umbenennung erfolgreich</x:String>
+    <x:String x:Key="ToastEffectRenameFail">Umbenennung fehlgeschlagen</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">Initialisierung...</x:String>
@@ -528,23 +600,25 @@
     <x:String x:Key="TipsWallpaper">Benutzerdefinierte Hintergründe können die Lesbarkeit beeinträchtigen. Deckkraft anpassen oder Design wechseln.</x:String>
     <x:String x:Key="TipsCueTrackEdit">Titel stammt aus CUE-Datei, Metadaten können nicht geändert werden. CUE direkt bearbeiten.</x:String>
     <x:String x:Key="TipsCueAlbumEdit">Album enthält CUE-Titel, Metadaten können nicht geändert werden. CUE direkt bearbeiten.</x:String>
+    <x:String x:Key="TipsEffectNameInput">Neuen Namen eingeben</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">Version 0.10.0.0 behebt das Problem, dass Track-Enden vorzeitig abgeschnitten wurden (normalerweise weniger als 1 Sekunde). Die Cache-Dauerpräzision wurde von Sekunden auf Millisekunden aktualisiert.</x:String>
     <x:String x:Key="NoticePart2Prefix">Damit die Korrektur wirksam wird, ist ein „</x:String>
     <x:String x:Key="NoticePart2Bold">Vollständiger Scan</x:String>
     <x:String x:Key="NoticePart2Suffix">" erforderlich, um die Daueraufzeichnungen aller Tracks zu aktualisieren.</x:String>
-    <x:String x:Key="NoticePart3Text1">Klicken Sie auf die Schaltfläche unten, um den vollständigen Scan zu starten, oder gehen Sie zu </x:String>
+    <x:String x:Key="NoticePart3Text1">Den vollständigen Scan über die Schaltfläche unten starten oder unter </x:String>
     <x:String x:Key="NoticePart3Bold1">Einstellungen -> Bibliothek</x:String>
-    <x:String x:Key="NoticePart3Text2">, aktivieren Sie </x:String>
+    <x:String x:Key="NoticePart3Text2"> den Schalter </x:String>
     <x:String x:Key="NoticePart3Bold2">Vollständiger Scan</x:String>
-    <x:String x:Key="NoticePart3Text3"> und klicken Sie auf </x:String>
+    <x:String x:Key="NoticePart3Text3"> aktivieren und auf </x:String>
     <x:String x:Key="NoticePart3Bold3">Jetzt scannen</x:String>
-    <x:String x:Key="NoticePart3Text4">.</x:String>
-    <x:String x:Key="NoticePart5">Entschuldigung für die Unannehmlichkeiten. Vielen Dank für Ihr Verständnis und Ihre Unterstützung!</x:String>
+    <x:String x:Key="NoticePart3Text4"> klicken.</x:String>
+    <x:String x:Key="NoticePart5">Entschuldigung für die Unannehmlichkeiten. Vielen Dank für das Verständnis und die Unterstützung!</x:String>
 
     <!--  Misc  -->
     <x:String x:Key="SendLogMail">Log senden</x:String>
     <x:String x:Key="AppLaunchFail">App-Start fehlgeschlagen</x:String>
     <x:String x:Key="ServiceInitFail">{0}-Initialisierung fehlgeschlagen</x:String>
+    <x:String x:Key="ClearAllEndedTasks">Alle beendeten Aufgaben löschen</x:String>
 </ResourceDictionary>

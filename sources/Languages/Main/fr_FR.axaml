@@ -11,7 +11,7 @@
     <x:String x:Key="Cancel">Annuler</x:String>
     <x:String x:Key="Back">Retour</x:String>
     <x:String x:Key="Quit">Quitter</x:String>
-    <x:String x:Key="Default">(Par défaut)</x:String>
+    <x:String x:Key="Default">Par défaut</x:String>
     <x:String x:Key="Ascend">Croissant</x:String>
     <x:String x:Key="Descend">Décroissant</x:String>
     <x:String x:Key="Order">Ordre</x:String>
@@ -37,7 +37,7 @@
     <x:String x:Key="Delete">Supprimer</x:String>
     <x:String x:Key="Remove">Retirer</x:String>
     <x:String x:Key="Rename">Renommer</x:String>
-    <x:String x:Key="ExportAsFile">Exporter en txt</x:String>
+    <x:String x:Key="Reset">Réinitialiser</x:String>
     <x:String x:Key="FollowSystem">Suivre le système</x:String>
     <x:String x:Key="Colons">:</x:String>
     <x:String x:Key="SortBy">Trier par</x:String>
@@ -81,6 +81,7 @@
     <x:String x:Key="Global">Global</x:String>
     <x:String x:Key="BlurRadius">Rayon de flou</x:String>
     <x:String x:Key="Wallpaper">Fond d'écran</x:String>
+    <x:String x:Key="Preset">Préréglage</x:String>
     <x:String x:Key="Custom">Personnalisé</x:String>
     <x:String x:Key="Version">Version</x:String>
     <x:String x:Key="Enabled">Activé</x:String>
@@ -98,6 +99,44 @@
     <x:String x:Key="Apply">Appliquer</x:String>
     <x:String x:Key="None">Aucun</x:String>
     <x:String x:Key="Switch">Interrupteur</x:String>
+    <x:String x:Key="Auto">Automatique</x:String>
+    <x:String x:Key="Manual">Manuel</x:String>
+
+    <!-- EQ -->
+    <x:String x:Key="Flat">Plat</x:String>
+    <x:String x:Key="PopClassic">Pop (Classique)</x:String>
+    <x:String x:Key="PopModern">Pop (Moderne)</x:String>
+    <x:String x:Key="Rock">Rock</x:String>
+    <x:String x:Key="Jazz">Jazz</x:String>
+    <x:String x:Key="ClassicalWarm">Classique (Chaleureux)</x:String>
+    <x:String x:Key="ClassicalFlat">Classique (Plat)</x:String>
+    <x:String x:Key="Dance">Dance</x:String>
+    <x:String x:Key="Electronic">Électro</x:String>
+    <x:String x:Key="HipHop">Hip-Hop</x:String>
+    <x:String x:Key="Metal">Metal</x:String>
+    <x:String x:Key="Reggae">Reggae</x:String>
+    <x:String x:Key="Acoustic">Acoustique</x:String>
+    <x:String x:Key="BassBoost">Amplification des basses</x:String>
+    <x:String x:Key="TrebleBoost">Amplification des aigus</x:String>
+    <x:String x:Key="VocalBoostMale">Amplification vocale (Homme)</x:String>
+    <x:String x:Key="VocalBoostFemale">Amplification vocale (Femme)</x:String>
+
+    <!--  Reverb  -->
+    <x:String x:Key="SoftRoom">Salle feutrée</x:String>
+    <x:String x:Key="Room">Pièce</x:String>
+    <x:String x:Key="LivingRoom">Salon</x:String>
+    <x:String x:Key="Bathroom">Salle de bain</x:String>
+    <x:String x:Key="StoneRoom">Pièce en pierre</x:String>
+    <x:String x:Key="Auditorium">Auditorium</x:String>
+    <x:String x:Key="ConcertHall">Salle de concert</x:String>
+    <x:String x:Key="Cave">Grotte</x:String>
+    <x:String x:Key="Hallway">Couloir</x:String>
+    <x:String x:Key="StoneCorridor">Couloir en pierre</x:String>
+    <x:String x:Key="CarpetedHallway">Couloir moquetté</x:String>
+    <x:String x:Key="Quarry">Carrière</x:String>
+    <x:String x:Key="Arena">Arène</x:String>
+    <x:String x:Key="Hangar">Hangar</x:String>
+    <x:String x:Key="ParkingGarage">Parking</x:String>
 
     <!--  Navigation  -->
     <x:String x:Key="AlbumPage">Albums</x:String>
@@ -143,7 +182,7 @@
     <x:String x:Key="AlbumYear">Année de l'album</x:String>
     <x:String x:Key="AlbumArtists">Artistes de l'album</x:String>
     <x:String x:Key="AlbumPerformers">Artistes en collaboration</x:String>
-    <x:String x:Key="DiscNumber">CD {0}</x:String>
+    <x:String x:Key="AlbumDiscNumber">CD {0}</x:String>
     <x:String x:Key="AlbumUseFirstTrackThumbnail">Utiliser la pochette de la première piste comme pochette d'album</x:String>
     <x:String x:Key="AlbumReplaceAllTarcksThumbnail">Remplacer les pochettes de toutes les pistes par la pochette d'album</x:String>
     <x:String x:Key="AlbumSyncMetadata">Synchroniser les métadonnées de l'album avec toutes les pistes</x:String>
@@ -174,6 +213,11 @@
     <x:String x:Key="PlaylistExportTitle">Exporter la playlist</x:String>
     <x:String x:Key="PlaylistsExportPath">Chemin d'export : {0}</x:String>
     <x:String x:Key="PlaylistExportSummary">Résumé de l'exportation</x:String>
+    <x:String x:Key="PlaylistExportFile">Exporter la liste des pistes</x:String>
+    <x:String x:Key="PlaylistExportTrackFiles">Exporter les fichiers des pistes</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageGathering">Collecte des pistes de la playlist en cours</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageCopying">Copie des fichiers de pistes en cours</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageDone">Export des fichiers de pistes terminé</x:String>
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
@@ -206,11 +250,11 @@
     <x:String x:Key="Error">Erreur</x:String>
 
     <!--  Setting  -->
-    <x:String x:Key="UIDesc">Transparence, polices, fond d'écran, menu</x:String>
     <x:String x:Key="NavMenuDesc">Visibilité, ordre, page par défaut</x:String>
     <x:String x:Key="CollectionDesc">Dossiers, séparateurs</x:String>
-    <x:String x:Key="EffectDesc">Égaliseur, effets</x:String>
+    <x:String x:Key="UIDesc">Transparence, polices, fond d'écran, menu</x:String>
     <x:String x:Key="LangDesc">Langue système, changer de langue</x:String>
+    <x:String x:Key="EffectDesc">Égaliseur, réverbération</x:String>
     <x:String x:Key="PlayControlDesc">Lecture automatique, lecture aléatoire</x:String>
     <x:String x:Key="AdvancedDesc">Nettoyage mémoire</x:String>
     <x:String x:Key="AboutDesc">Version, signalement, cache des logs</x:String>
@@ -293,6 +337,29 @@
     <x:String x:Key="TranslationContributorsDesc">Voir la liste des contributeurs ayant participé à l'amélioration des traductions</x:String>
     <x:String x:Key="HelpImproveTranslation">Aider à améliorer la traduction</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">Un problème de traduction ? Envoyez une PR</x:String>
+    <x:String x:Key="EffectEQ">Égaliseur</x:String>
+    <x:String x:Key="EffectEQPreampMode">Mode d'atténuation du préampli</x:String>
+    <x:String x:Key="EffectEQPreampModeDesc">Abaisse le niveau global avant le traitement de l'égaliseur afin d'éviter la surcharge et l'écrêtage après amplification</x:String>
+    <x:String x:Key="EffectEQPreampModeAutoDesc">Calcule automatiquement l'atténuation en fonction du gain maximal de la courbe d'égalisation actuelle, garantissant que le signal ne dépasse pas 0 dBFS</x:String>
+    <x:String x:Key="EffectEQPreampModeManualDesc">Spécifiez manuellement le gain&#xA;Une valeur trop faible peut provoquer de l'écrêtage ; une valeur trop élevée rend le volume trop bas</x:String>
+    <x:String x:Key="EffectEQPreampModeOffDesc">Aucune atténuation préalable&#xA;Lorsque les amplifications de l'égaliseur sont importantes, le signal peut dépasser 0 dBFS et provoquer un écrêtage numérique, se traduisant par des bourdonnements, des craquements ou un son boueux. Recommandé uniquement lorsque les crêtes de la source sont très basses</x:String>
+    <x:String x:Key="EffectEQPreampDB">Atténuation du préampli</x:String>
+    <x:String x:Key="EffectEQPreampDBDesc">Plus la valeur est basse, plus le volume global est faible, mais moins il y a de distorsion</x:String>
+    <x:String x:Key="EffectEQCurPreampDB">Atténuation actuelle du préampli</x:String>
+    <x:String x:Key="EffectReplayGain">ReplayGain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">Analyse les balises REPLAYGAIN_TRACK_GAIN et REPLAYGAIN_ALBUM_GAIN des morceaux et ajuste le volume en fonction de leurs valeurs</x:String>
+    <x:String x:Key="EffectReverb">Réverbération</x:String>
+    <x:String x:Key="EffectReverbDesc">Donne au son plus de spatialité, comme si vous étiez dans un environnement différent</x:String>
+    <x:String x:Key="EffectReverbRoomSize">Taille de pièce</x:String>
+    <x:String x:Key="EffectReverbRoomSizeDesc">Contrôle la taille de l'espace simulé&#xA;Plus la valeur est élevée, plus la queue de réverbération est longue et la sensation d'espace ample</x:String>
+    <x:String x:Key="EffectReverbDamping">Amortissement</x:String>
+    <x:String x:Key="EffectReverbDampingDesc">Absorption des aigus par l'espace simulé&#xA;Plus la valeur est élevée, plus la réverbération est douce et sombre</x:String>
+    <x:String x:Key="EffectReverbWetVolume">Niveau de réverbération</x:String>
+    <x:String x:Key="EffectReverbWetVolumeDesc">Contrôle la part du son de réverbération dans le volume total&#xA;Plus la valeur est élevée, plus l'effet spatial est marqué</x:String>
+    <x:String x:Key="EffectReverbWidth">Largeur stéréo</x:String>
+    <x:String x:Key="EffectReverbWidthDesc">Contrôle la répartition de la réverbération entre les canaux gauche et droit&#xA;Plus la valeur est élevée, plus la sensation d'enveloppement est forte</x:String>
+    <x:String x:Key="EffectReverbPredelay">Pré-délai (ms)</x:String>
+    <x:String x:Key="EffectReverbPredelayDesc">Contrôle l'intervalle de temps entre le son direct et le début de la réverbération&#xA;Un pré-délai plus long fait paraître la source plus éloignée et rend le son sec plus clair ; un pré-délai plus court intègre la réverbération plus tôt</x:String>
     <x:String x:Key="AutoPlay">Lecture automatique</x:String>
     <x:String x:Key="AutoPlayDesc">Lecture automatique après le lancement</x:String>
     <x:String x:Key="SMTC">Intégration SMTC</x:String>
@@ -313,7 +380,7 @@
     <x:String x:Key="ShuffleByFolder">Aléatoire par dossier</x:String>
     <x:String x:Key="ShuffleByFolderDesc">Grouper par dossier, puis mélanger les groupes</x:String>
     <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">Déclencher le GC après changement de page</x:String>
-    <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">Lorsqu'activé, déclenche le ramasse-miettes après le changement de page pour libérer de la mémoire&#xA;Étant donné que le GC suspend les threads, désactivez cette option si vous rencontrez des saccades de lecture</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">Lorsqu'activé, déclenche le ramasse-miettes après le changement de page pour libérer de la mémoire&#xA;Étant donné que le GC suspend les threads, désactiver cette option en cas de saccades de lecture</x:String>
     <x:String x:Key="AdvancedForceGC">Forcer le ramasse-miettes</x:String>
     <x:String x:Key="AdvancedForceGCDesc">Cette opération peut affecter significativement les performances de l'application. Recommandé uniquement en cas d'utilisation mémoire élevée</x:String>
     <x:String x:Key="AboutVersion">Version</x:String>
@@ -386,6 +453,7 @@
     <x:String x:Key="SleepTimerExtendToTrackEndDesc">Une fois la prolongation activée, un signe « + » apparaît avant le compte à rebours, par ex. : +01:50&#xA;Si la minuterie est déjà prolongée, changer de piste la prolongera automatiquement jusqu'à la fin de cette piste</x:String>
     <x:String x:Key="SleepTimerStart">Démarrer la minuterie</x:String>
     <x:String x:Key="SleepTimerStop">Arrêter la minuterie</x:String>
+    <x:String x:Key="TaskDialogTitle">Tâches</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Mini-fenêtre</x:String>
@@ -427,7 +495,6 @@
     <x:String x:Key="PlayingNextTrackTitle">Piste suivante: {0}</x:String>
     <x:String x:Key="PlayingKeepScreenOn">Écran toujours allumé</x:String>
     <x:String x:Key="PlayingImmersiveMode">Mode immersif</x:String>
-    <x:String x:Key="PlayingEqualizer">Égaliseur</x:String>
     <x:String x:Key="PlayingStatisticTime">Dernière lecture</x:String>
     <x:String x:Key="PlayingStatisticCount">Lectures</x:String>
     <x:String x:Key="PlayingStatisticTimeSecond">il y a {0} s</x:String>
@@ -465,6 +532,8 @@
     <x:String x:Key="ToastPlaylistImportFail">Échec de l'import de {1} depuis {0}</x:String>
     <x:String x:Key="ToastPlaylistExportSucc">Playlist {0} exportée vers {1}</x:String>
     <x:String x:Key="ToastPlaylistExportFail">Échec de l'export de {0} vers {1}</x:String>
+    <x:String x:Key="ToastPlaylistExportTrackFilesSucc">Tâche d'export des fichiers de pistes ajoutée. Cliquez sur le bouton des tâches en haut à droite pour voir l'avancement</x:String>
+    <x:String x:Key="ToastPlaylistExportTrackFilesFail">Erreur lors de l'export des fichiers de pistes de la playlist. Vérifiez le fichier log</x:String>
     <x:String x:Key="ToastPlaylistInvalid">Playlist invalide</x:String>
     <x:String x:Key="ToastPlaylistEmpty">Playlist vide</x:String>
     <x:String x:Key="ToastPlaylistNameExists">Une playlist portant ce nom existe déjà</x:String>
@@ -498,6 +567,9 @@
     <x:String x:Key="ToastAlbumTrackMetadataUpdateFail">Échec de mise à jour des métadonnées des pistes de l'album, voir le log</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateFail">Échec de mise à jour des métadonnées de l'album, voir le log</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateSucc">Métadonnées de l'album mises à jour</x:String>
+    <x:String x:Key="ToastEffectRenameExists">Le nom existe déjà</x:String>
+    <x:String x:Key="ToastEffectRenameSucc">Renommage réussi</x:String>
+    <x:String x:Key="ToastEffectRenameFail">Échec du renommage</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">Initialisation...</x:String>
@@ -527,7 +599,8 @@
     <x:String x:Key="TipsSeparator">Les séparateurs analysent plusieurs artistes/genres. Sélectionnez-en un pour personnaliser l'affichage.</x:String>
     <x:String x:Key="TipsWallpaper">Un fond personnalisé peut réduire la lisibilité. Ajustez l'opacité ou changez de thème.</x:String>
     <x:String x:Key="TipsCueTrackEdit">Piste issue d'un fichier CUE, métadonnées non modifiables. Modifiez le fichier CUE directement.</x:String>
-    <x:String x:Key="TipsCueAlbumEdit">Album contenant des pistes CUE, métadonnées non modifiables. Modifiez le fichier CUE directement.</x:String>
+   <x:String x:Key="TipsCueAlbumEdit">Album contenant des pistes CUE, métadonnées non modifiables. Modifiez le fichier CUE directement.</x:String>
+    <x:String x:Key="TipsEffectNameInput">Entrez un nouveau nom</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">La version 0.10.0.0 corrige le problème de troncature prématurée de la fin des pistes (généralement moins d'1 seconde). La précision du cache de durée est passée des secondes aux millisecondes.</x:String>
@@ -541,10 +614,11 @@
     <x:String x:Key="NoticePart3Text3"> puis cliquez sur </x:String>
     <x:String x:Key="NoticePart3Bold3">Analyser maintenant</x:String>
     <x:String x:Key="NoticePart3Text4">.</x:String>
-    <x:String x:Key="NoticePart5">Toutes nos excuses pour ce désagrément. Merci de votre compréhension et de votre soutien !</x:String>
+    <x:String x:Key="NoticePart5">Toutes nos excuses pour ce désagrément. Merci pour la compréhension et le soutien !</x:String>
 
     <!--  Misc  -->
     <x:String x:Key="SendLogMail">Envoyer le log</x:String>
     <x:String x:Key="AppLaunchFail">Échec du lancement</x:String>
     <x:String x:Key="ServiceInitFail">Échec d'initialisation de {0}</x:String>
+    <x:String x:Key="ClearAllEndedTasks">Effacer toutes les tâches terminées</x:String>
 </ResourceDictionary>

@@ -11,7 +11,7 @@
     <x:String x:Key="Cancel">キャンセル</x:String>
     <x:String x:Key="Back">戻る</x:String>
     <x:String x:Key="Quit">終了</x:String>
-    <x:String x:Key="Default">（デフォルト）</x:String>
+    <x:String x:Key="Default">デフォルト</x:String>
     <x:String x:Key="Ascend">昇順</x:String>
     <x:String x:Key="Descend">降順</x:String>
     <x:String x:Key="Order">順序</x:String>
@@ -37,7 +37,7 @@
     <x:String x:Key="Delete">削除</x:String>
     <x:String x:Key="Remove">除去</x:String>
     <x:String x:Key="Rename">名前変更</x:String>
-    <x:String x:Key="ExportAsFile">txtファイルにエクスポート</x:String>
+    <x:String x:Key="Reset">リセット</x:String>
     <x:String x:Key="FollowSystem">システムに従う</x:String>
     <x:String x:Key="Colons">：</x:String>
     <x:String x:Key="SortBy">並べ替え</x:String>
@@ -81,6 +81,7 @@
     <x:String x:Key="Global">グローバル</x:String>
     <x:String x:Key="BlurRadius">ぼかし半径</x:String>
     <x:String x:Key="Wallpaper">壁紙</x:String>
+    <x:String x:Key="Preset">プリセット</x:String>
     <x:String x:Key="Custom">カスタム</x:String>
     <x:String x:Key="Version">バージョン</x:String>
     <x:String x:Key="Enabled">有効</x:String>
@@ -98,6 +99,44 @@
     <x:String x:Key="Apply">適用</x:String>
     <x:String x:Key="None">なし</x:String>
     <x:String x:Key="Switch">スイッチ</x:String>
+    <x:String x:Key="Auto">自動</x:String>
+    <x:String x:Key="Manual">手動</x:String>
+
+    <!-- EQ -->
+    <x:String x:Key="Flat">フラット</x:String>
+    <x:String x:Key="PopClassic">ポップ（クラシック）</x:String>
+    <x:String x:Key="PopModern">ポップ（モダン）</x:String>
+    <x:String x:Key="Rock">ロック</x:String>
+    <x:String x:Key="Jazz">ジャズ</x:String>
+    <x:String x:Key="ClassicalWarm">クラシック（ウォーム）</x:String>
+    <x:String x:Key="ClassicalFlat">クラシック（フラット）</x:String>
+    <x:String x:Key="Dance">ダンス</x:String>
+    <x:String x:Key="Electronic">エレクトロニック</x:String>
+    <x:String x:Key="HipHop">ヒップホップ</x:String>
+    <x:String x:Key="Metal">メタル</x:String>
+    <x:String x:Key="Reggae">レゲエ</x:String>
+    <x:String x:Key="Acoustic">アコースティック</x:String>
+    <x:String x:Key="BassBoost">低音ブースト</x:String>
+    <x:String x:Key="TrebleBoost">高音ブースト</x:String>
+    <x:String x:Key="VocalBoostMale">ボーカルブースト（男性）</x:String>
+    <x:String x:Key="VocalBoostFemale">ボーカルブースト（女性）</x:String>
+
+    <!--  Reverb  -->
+    <x:String x:Key="SoftRoom">ソフトルーム</x:String>
+    <x:String x:Key="Room">ルーム</x:String>
+    <x:String x:Key="LivingRoom">リビングルーム</x:String>
+    <x:String x:Key="Bathroom">浴室</x:String>
+    <x:String x:Key="StoneRoom">石の部屋</x:String>
+    <x:String x:Key="Auditorium">講堂</x:String>
+    <x:String x:Key="ConcertHall">コンサートホール</x:String>
+    <x:String x:Key="Cave">洞窟</x:String>
+    <x:String x:Key="Hallway">廊下</x:String>
+    <x:String x:Key="StoneCorridor">石の廊下</x:String>
+    <x:String x:Key="CarpetedHallway">カーペット敷きの廊下</x:String>
+    <x:String x:Key="Quarry">採石場</x:String>
+    <x:String x:Key="Arena">アリーナ</x:String>
+    <x:String x:Key="Hangar">格納庫</x:String>
+    <x:String x:Key="ParkingGarage">駐車場</x:String>
 
     <!--  Navigation  -->
     <x:String x:Key="AlbumPage">アルバム</x:String>
@@ -143,7 +182,7 @@
     <x:String x:Key="AlbumYear">アルバム年</x:String>
     <x:String x:Key="AlbumArtists">アルバムアーティスト</x:String>
     <x:String x:Key="AlbumPerformers">コラボアーティスト</x:String>
-    <x:String x:Key="DiscNumber">CD {0}</x:String>
+    <x:String x:Key="AlbumDiscNumber">CD {0}</x:String>
     <x:String x:Key="AlbumUseFirstTrackThumbnail">最初の曲のカバーをアルバムカバーとして使用</x:String>
     <x:String x:Key="AlbumReplaceAllTarcksThumbnail">アルバム内の全曲のカバーをアルバムカバーに置き換え</x:String>
     <x:String x:Key="AlbumSyncMetadata">アルバムメタデータをアルバム内の全曲に同期</x:String>
@@ -174,6 +213,11 @@
     <x:String x:Key="PlaylistExportTitle">プレイリストをエクスポート</x:String>
     <x:String x:Key="PlaylistsExportPath">エクスポートパス：{0}</x:String>
     <x:String x:Key="PlaylistExportSummary">エクスポート概要</x:String>
+    <x:String x:Key="PlaylistExportFile">曲リストをエクスポート</x:String>
+    <x:String x:Key="PlaylistExportTrackFiles">曲ファイルをエクスポート</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageGathering">プレイリストの曲を収集中</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageCopying">曲ファイルをコピー中</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageDone">曲ファイルのエクスポートが完了しました</x:String>
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
@@ -206,11 +250,11 @@
     <x:String x:Key="Error">エラー</x:String>
 
     <!--  Setting  -->
-    <x:String x:Key="UIDesc">ウィンドウ透明効果、カスタムフォント、壁紙、ナビゲーションメニュー</x:String>
     <x:String x:Key="NavMenuDesc">表示制御、順序調整、デフォルトページ設定</x:String>
     <x:String x:Key="CollectionDesc">フォルダー、区切り文字</x:String>
-    <x:String x:Key="EffectDesc">イコライザー、音響効果</x:String>
+    <x:String x:Key="UIDesc">ウィンドウ透明効果、カスタムフォント、壁紙、ナビゲーションメニュー</x:String>
     <x:String x:Key="LangDesc">システム言語、言語切替</x:String>
+    <x:String x:Key="EffectDesc">イコライザー、残響</x:String>
     <x:String x:Key="PlayControlDesc">自動再生、シャッフル再生</x:String>
     <x:String x:Key="AdvancedDesc">ガベージコレクション</x:String>
     <x:String x:Key="AboutDesc">バージョン情報、問題報告、ログキャッシュ</x:String>
@@ -293,6 +337,29 @@
     <x:String x:Key="TranslationContributorsDesc">翻訳の改善に参加した貢献者リストを表示</x:String>
     <x:String x:Key="HelpImproveTranslation">翻訳の改善に協力</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">翻訳の問題を見つけましたか？PRを提出してください</x:String>
+    <x:String x:Key="EffectEQ">イコライザ</x:String>
+    <x:String x:Key="EffectEQPreampMode">プリアンプ減衰モード</x:String>
+    <x:String x:Key="EffectEQPreampModeDesc">イコライザー処理の前に全体レベルを下げ、ブースト後の信号過負荷と歪みを防ぎます</x:String>
+    <x:String x:Key="EffectEQPreampModeAutoDesc">現在のイコライザーカーブの最大ゲインに基づいて減衰量を自動計算し、信号が 0 dBFS を超えないようにします</x:String>
+    <x:String x:Key="EffectEQPreampModeManualDesc">ゲインを手動で指定します&#xA;小さすぎるとクリッピング歪みの原因になり、大きすぎると音量が小さくなります</x:String>
+    <x:String x:Key="EffectEQPreampModeOffDesc">事前減衰を行いません&#xA;イコライザーのブーストが大きい場合、信号が 0 dBFS を超えてデジタルクリッピングが発生し、ブーンという音、割れ、濁りとして聞こえることがあります。音源のピークが非常に低い場合のみ使用をおすすめします</x:String>
+    <x:String x:Key="EffectEQPreampDB">プリアンプ減衰量</x:String>
+    <x:String x:Key="EffectEQPreampDBDesc">数値が小さいほど全体の音量は下がりますが、歪みにくくなります</x:String>
+    <x:String x:Key="EffectEQCurPreampDB">現在のプリアンプ減衰量</x:String>
+    <x:String x:Key="EffectReplayGain">ReplayGain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">曲の REPLAYGAIN_TRACK_GAIN および REPLAYGAIN_ALBUM_GAIN タグをスキャンし、タグの値に基づいて音量を調整します</x:String>
+    <x:String x:Key="EffectReverb">リバーブ</x:String>
+    <x:String x:Key="EffectReverbDesc">サウンドに空間感を与え、まるで異なる環境にいるかのようにします</x:String>
+    <x:String x:Key="EffectReverbRoomSize">ルームサイズ</x:String>
+    <x:String x:Key="EffectReverbRoomSizeDesc">シミュレートする空間の大きさを制御します&#xA;値が大きいほどリバーブの残響が長く、より広大な空間感が得られます</x:String>
+    <x:String x:Key="EffectReverbDamping">ダンピング</x:String>
+    <x:String x:Key="EffectReverbDampingDesc">シミュレート空間による高音の吸収度合い&#xA;値が高いほどリバーブ音が柔らかく落ち着いた音色になります</x:String>
+    <x:String x:Key="EffectReverbWetVolume">リバーブ強度</x:String>
+    <x:String x:Key="EffectReverbWetVolumeDesc">全体の音量に占めるリバーブ音の割合を制御します&#xA;値が高いほど空間効果がより明確になります</x:String>
+    <x:String x:Key="EffectReverbWidth">ステレオ幅</x:String>
+    <x:String x:Key="EffectReverbWidthDesc">左右チャンネルへのリバーブの分布範囲を制御します&#xA;値が高いほど空間に包まれる感覚が強くなります</x:String>
+    <x:String x:Key="EffectReverbPredelay">プリディレイ時間（ミリ秒）</x:String>
+    <x:String x:Key="EffectReverbPredelayDesc">直接音とリバーブの開始との間の時間間隔を制御します&#xA;プリディレイが長いほど音源は遠くに聞こえ、ドライ音もクリアになります。プリディレイが短いほどリバーブが早く馴染みます</x:String>
     <x:String x:Key="AutoPlay">自動再生</x:String>
     <x:String x:Key="AutoPlayDesc">アプリ起動後に自動で再生を開始します</x:String>
     <x:String x:Key="SMTC">SMTC統合</x:String>
@@ -386,6 +453,7 @@
     <x:String x:Key="SleepTimerExtendToTrackEndDesc">延長が有効になると、カウントダウンの前に「+」記号が表示されます。例：+01:50&#xA;すでに延長されている状態で曲を切り替えると、その曲の再生が終わるまで自動的に再延長されます</x:String>
     <x:String x:Key="SleepTimerStart">タイマー開始</x:String>
     <x:String x:Key="SleepTimerStop">タイマー停止</x:String>
+    <x:String x:Key="TaskDialogTitle">タスク</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">ミニウィンドウ</x:String>
@@ -427,7 +495,6 @@
     <x:String x:Key="PlayingNextTrackTitle">次の曲：{0}</x:String>
     <x:String x:Key="PlayingKeepScreenOn">画面常時点灯</x:String>
     <x:String x:Key="PlayingImmersiveMode">没入モード</x:String>
-    <x:String x:Key="PlayingEqualizer">イコライザ</x:String>
     <x:String x:Key="PlayingStatisticTime">最終再生</x:String>
     <x:String x:Key="PlayingStatisticCount">再生回数</x:String>
     <x:String x:Key="PlayingStatisticTimeSecond">{0}秒前</x:String>
@@ -465,6 +532,8 @@
     <x:String x:Key="ToastPlaylistImportFail">ファイル {0} からプレイリスト {1} のインポートに失敗しました</x:String>
     <x:String x:Key="ToastPlaylistExportSucc">プレイリスト {0} をファイル {1} にエクスポートしました</x:String>
     <x:String x:Key="ToastPlaylistExportFail">プレイリスト {0} のファイル {1} へのエクスポートに失敗しました</x:String>
+    <x:String x:Key="ToastPlaylistExportTrackFilesSucc">曲ファイルエクスポートタスクが追加されました。右上のタスクボタンをクリックしてタスクの進行状況を確認できます</x:String>
+    <x:String x:Key="ToastPlaylistExportTrackFilesFail">プレイリストの曲ファイルのエクスポート中にエラーが発生しました。ログファイルを確認してください</x:String>
     <x:String x:Key="ToastPlaylistInvalid">無効なプレイリストです</x:String>
     <x:String x:Key="ToastPlaylistEmpty">プレイリストが空です</x:String>
     <x:String x:Key="ToastPlaylistNameExists">同じ名前のプレイリストが既に存在します</x:String>
@@ -498,6 +567,9 @@
     <x:String x:Key="ToastAlbumTrackMetadataUpdateFail">アルバム曲メタデータの更新に失敗しました。詳細はログファイルをご確認ください</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateFail">アルバムメタデータの更新に失敗しました。詳細はログファイルをご確認ください</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateSucc">アルバムメタデータを更新しました</x:String>
+    <x:String x:Key="ToastEffectRenameExists">名前は既に存在します</x:String>
+    <x:String x:Key="ToastEffectRenameSucc">名前を変更しました</x:String>
+    <x:String x:Key="ToastEffectRenameFail">名前の変更に失敗しました</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">初期化中</x:String>
@@ -528,6 +600,7 @@
     <x:String x:Key="TipsWallpaper">カスタム壁紙を使用すると、テキストと背景のコントラストが弱くて識別しにくい場合があります。&#xA;透明度を調整するか、テーマ（ライト/ダーク）を切り替えることで最適な効果が得られます。</x:String>
     <x:String x:Key="TipsCueTrackEdit">この曲は CUE ファイルから生成されています。メタデータの変更はサポートされていません。CUE ファイルを直接編集してください。</x:String>
     <x:String x:Key="TipsCueAlbumEdit">このアルバムには CUE ファイルから生成された曲が含まれています。メタデータの変更はサポートされていません。CUE ファイルを直接編集してください。</x:String>
+    <x:String x:Key="TipsEffectNameInput">新しい名前を入力</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">0.10.0.0 バージョンでは、曲の終わりが途中で切断される問題（通常1秒未満）が修正されました。これはキャッシュの時間長精度が秒からミリ秒にアップグレードされたためです。</x:String>
@@ -547,4 +620,5 @@
     <x:String x:Key="SendLogMail">ログメールを送信</x:String>
     <x:String x:Key="AppLaunchFail">アプリの起動に失敗しました</x:String>
     <x:String x:Key="ServiceInitFail">{0} の初期化に失敗しました</x:String>
+    <x:String x:Key="ClearAllEndedTasks">終了したすべてのタスクを削除</x:String>
 </ResourceDictionary>

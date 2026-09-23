@@ -11,7 +11,7 @@
     <x:String x:Key="Cancel">取消</x:String>
     <x:String x:Key="Back">返回</x:String>
     <x:String x:Key="Quit">退出</x:String>
-    <x:String x:Key="Default">（預設）</x:String>
+    <x:String x:Key="Default">預設</x:String>
     <x:String x:Key="Ascend">升序</x:String>
     <x:String x:Key="Descend">降序</x:String>
     <x:String x:Key="Order">順序</x:String>
@@ -37,7 +37,7 @@
     <x:String x:Key="Delete">刪除</x:String>
     <x:String x:Key="Remove">移除</x:String>
     <x:String x:Key="Rename">重新命名</x:String>
-    <x:String x:Key="ExportAsFile">匯出為txt檔案</x:String>
+    <x:String x:Key="Reset">重設</x:String>
     <x:String x:Key="FollowSystem">跟隨系統</x:String>
     <x:String x:Key="Colons">：</x:String>
     <x:String x:Key="SortBy">排序依據</x:String>
@@ -81,10 +81,11 @@
     <x:String x:Key="Global">全域</x:String>
     <x:String x:Key="BlurRadius">模糊半徑</x:String>
     <x:String x:Key="Wallpaper">桌布</x:String>
+    <x:String x:Key="Preset">預設</x:String>
     <x:String x:Key="Custom">自訂</x:String>
     <x:String x:Key="Version">版本</x:String>
-    <x:String x:Key="Enabled">啟用</x:String>
-    <x:String x:Key="Disabled">停用</x:String>
+    <x:String x:Key="Enabled">已啟用</x:String>
+    <x:String x:Key="Disabled">已停用</x:String>
     <x:String x:Key="Email">電子郵件</x:String>
     <x:String x:Key="WIP">開發中</x:String>
     <x:String x:Key="FullScreen">全螢幕</x:String>
@@ -98,6 +99,44 @@
     <x:String x:Key="Apply">套用</x:String>
     <x:String x:Key="None">無</x:String>
     <x:String x:Key="Switch">開關</x:String>
+    <x:String x:Key="Auto">自動</x:String>
+    <x:String x:Key="Manual">手動</x:String>
+
+    <!-- EQ -->
+    <x:String x:Key="Flat">平直</x:String>
+    <x:String x:Key="PopClassic">流行（經典）</x:String>
+    <x:String x:Key="PopModern">流行（現代）</x:String>
+    <x:String x:Key="Rock">搖滾</x:String>
+    <x:String x:Key="Jazz">爵士</x:String>
+    <x:String x:Key="ClassicalWarm">古典（溫暖）</x:String>
+    <x:String x:Key="ClassicalFlat">古典（還原）</x:String>
+    <x:String x:Key="Dance">舞曲</x:String>
+    <x:String x:Key="Electronic">電子</x:String>
+    <x:String x:Key="HipHop">嘻哈</x:String>
+    <x:String x:Key="Metal">金屬</x:String>
+    <x:String x:Key="Reggae">雷鬼</x:String>
+    <x:String x:Key="Acoustic">原聲</x:String>
+    <x:String x:Key="BassBoost">低音增強</x:String>
+    <x:String x:Key="TrebleBoost">高音增強</x:String>
+    <x:String x:Key="VocalBoostMale">男聲增強</x:String>
+    <x:String x:Key="VocalBoostFemale">女聲增強</x:String>
+
+    <!--  Reverb  -->
+    <x:String x:Key="SoftRoom">軟墊房</x:String>
+    <x:String x:Key="Room">房間</x:String>
+    <x:String x:Key="LivingRoom">客廳</x:String>
+    <x:String x:Key="Bathroom">浴室</x:String>
+    <x:String x:Key="StoneRoom">石頭房間</x:String>
+    <x:String x:Key="Auditorium">禮堂</x:String>
+    <x:String x:Key="ConcertHall">音樂廳</x:String>
+    <x:String x:Key="Cave">洞穴</x:String>
+    <x:String x:Key="Hallway">走廊</x:String>
+    <x:String x:Key="StoneCorridor">石頭走廊</x:String>
+    <x:String x:Key="CarpetedHallway">鋪地毯的走廊</x:String>
+    <x:String x:Key="Quarry">採石場</x:String>
+    <x:String x:Key="Arena">競技場</x:String>
+    <x:String x:Key="Hangar">飛機棚</x:String>
+    <x:String x:Key="ParkingGarage">停車場</x:String>
 
     <!--  Navigation  -->
     <x:String x:Key="AlbumPage">專輯</x:String>
@@ -143,7 +182,7 @@
     <x:String x:Key="AlbumYear">專輯年份</x:String>
     <x:String x:Key="AlbumArtists">專輯藝術家</x:String>
     <x:String x:Key="AlbumPerformers">合作藝術家</x:String>
-    <x:String x:Key="DiscNumber">CD {0}</x:String>
+    <x:String x:Key="AlbumDiscNumber">CD {0}</x:String>
     <x:String x:Key="AlbumUseFirstTrackThumbnail">使用第一首歌曲的封面作為專輯封面</x:String>
     <x:String x:Key="AlbumReplaceAllTarcksThumbnail">將專輯內的所有歌曲封面替換為專輯封面</x:String>
     <x:String x:Key="AlbumSyncMetadata">同步專輯中繼資料到專輯內的所有歌曲</x:String>
@@ -174,6 +213,11 @@
     <x:String x:Key="PlaylistExportTitle">匯出播放清單</x:String>
     <x:String x:Key="PlaylistsExportPath">匯出路徑：{0}</x:String>
     <x:String x:Key="PlaylistExportSummary">匯出彙總</x:String>
+    <x:String x:Key="PlaylistExportFile">匯出歌曲清單</x:String>
+    <x:String x:Key="PlaylistExportTrackFiles">匯出歌曲檔案</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageGathering">正在收集播放清單中的歌曲</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageCopying">正在複製歌曲檔案</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageDone">匯出歌曲檔案完成</x:String>
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
@@ -206,11 +250,11 @@
     <x:String x:Key="Error">錯誤</x:String>
 
     <!--  Setting  -->
-    <x:String x:Key="UIDesc">視窗透明效果、自訂字型、桌布、導航選單</x:String>
     <x:String x:Key="NavMenuDesc">可見性控制、順序調整、預設頁面設定</x:String>
     <x:String x:Key="CollectionDesc">資料夾、分隔符</x:String>
-    <x:String x:Key="EffectDesc">等化器、音效</x:String>
+    <x:String x:Key="UIDesc">視窗透明效果、自訂字型、桌布、導航選單</x:String>
     <x:String x:Key="LangDesc">系統語言、切換語言</x:String>
+    <x:String x:Key="EffectDesc">等化器、殘響</x:String>
     <x:String x:Key="PlayControlDesc">自動播放、隨機播放</x:String>
     <x:String x:Key="AdvancedDesc">垃圾回收</x:String>
     <x:String x:Key="AboutDesc">版本資訊、問題回報、日誌快取</x:String>
@@ -293,6 +337,29 @@
     <x:String x:Key="TranslationContributorsDesc">檢視參與翻譯改進的貢獻者名單</x:String>
     <x:String x:Key="HelpImproveTranslation">協助改進翻譯</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">發現翻譯問題？歡迎提交 PR</x:String>
+    <x:String x:Key="EffectEQ">均衡器</x:String>
+    <x:String x:Key="EffectEQPreampMode">前置衰減模式</x:String>
+    <x:String x:Key="EffectEQPreampModeDesc">在均衡器處理前預先降低整體電平，防止提升後訊號過載失真</x:String>
+    <x:String x:Key="EffectEQPreampModeAutoDesc">根據目前均衡器曲線的最大增益自動計算衰減量，保證訊號不超過 0 dBFS</x:String>
+    <x:String x:Key="EffectEQPreampModeManualDesc">手動指定增益量&#xA;設定過小可能導致削波失真，設定過大則音量偏小</x:String>
+    <x:String x:Key="EffectEQPreampModeOffDesc">不做任何前置衰減&#xA;均衡器提升較大時，訊號可能超過 0 dBFS 導致數位削波，聽感上會出現嗡嗡聲、破音、渾濁，僅建議在音源峰值很低時使用</x:String>
+    <x:String x:Key="EffectEQPreampDB">前置衰減量</x:String>
+    <x:String x:Key="EffectEQPreampDBDesc">數值越小，整體音量越低，但越不容易失真</x:String>
+    <x:String x:Key="EffectEQCurPreampDB">目前前置衰減量</x:String>
+    <x:String x:Key="EffectReplayGain">回放增益</x:String>
+    <x:String x:Key="EffectReplayGainDesc">掃描歌曲的 REPLAYGAIN_TRACK_GAIN 和 REPLAYGAIN_ALBUM_GAIN 標籤，根據標籤值調整音量大小</x:String>
+    <x:String x:Key="EffectReverb">殘響</x:String>
+    <x:String x:Key="EffectReverbDesc">讓聲音更有空間感，彷彿置身不同環境</x:String>
+    <x:String x:Key="EffectReverbRoomSize">房間大小</x:String>
+    <x:String x:Key="EffectReverbRoomSizeDesc">控制模擬空間的大小&#xA;數值越大，殘響尾音越長，空間感越宏大</x:String>
+    <x:String x:Key="EffectReverbDamping">阻尼</x:String>
+    <x:String x:Key="EffectReverbDampingDesc">模擬空間對高頻聲音的吸收程度&#xA;數值越高，殘響聲音越柔和、暗沉</x:String>
+    <x:String x:Key="EffectReverbWetVolume">殘響強度</x:String>
+    <x:String x:Key="EffectReverbWetVolumeDesc">控制殘響聲在總音量中的占比&#xA;數值越高，空間效果越明顯</x:String>
+    <x:String x:Key="EffectReverbWidth">立體聲寬度</x:String>
+    <x:String x:Key="EffectReverbWidthDesc">控制殘響在左右聲道的分布範圍&#xA;數值越高，空間包覆感越強</x:String>
+    <x:String x:Key="EffectReverbPredelay">預延遲時間（毫秒）</x:String>
+    <x:String x:Key="EffectReverbPredelayDesc">控制直達聲與殘響開始之間的時間間隔&#xA;預延遲時間越長，聲源聽起來越遠，乾聲也更清晰；預延遲時間越短，殘響融合得越早</x:String>
     <x:String x:Key="AutoPlay">自動播放</x:String>
     <x:String x:Key="AutoPlayDesc">啟動應用程式後自動開始播放</x:String>
     <x:String x:Key="SMTC">SMTC整合</x:String>
@@ -386,6 +453,7 @@
     <x:String x:Key="SleepTimerExtendToTrackEndDesc">延長生效後，倒數計時前將顯示「+」符號，例如：+01:50&#xA;已處於延長狀態時切換歌曲，將自動重新延長至該歌曲播放完成</x:String>
     <x:String x:Key="SleepTimerStart">開始計時</x:String>
     <x:String x:Key="SleepTimerStop">停止計時</x:String>
+    <x:String x:Key="TaskDialogTitle">任務</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Mini視窗</x:String>
@@ -427,7 +495,6 @@
     <x:String x:Key="PlayingNextTrackTitle">下一首：{0}</x:String>
     <x:String x:Key="PlayingKeepScreenOn">螢幕常亮</x:String>
     <x:String x:Key="PlayingImmersiveMode">沉浸模式</x:String>
-    <x:String x:Key="PlayingEqualizer">均衡器</x:String>
     <x:String x:Key="PlayingStatisticTime">最近播放</x:String>
     <x:String x:Key="PlayingStatisticCount">播放次數</x:String>
     <x:String x:Key="PlayingStatisticTimeSecond">{0} 秒前</x:String>
@@ -465,6 +532,8 @@
     <x:String x:Key="ToastPlaylistImportFail">從檔案 {0} 匯入播放清單 {1} 失敗</x:String>
     <x:String x:Key="ToastPlaylistExportSucc">成功匯出播放清單 {0} 到檔案 {1}</x:String>
     <x:String x:Key="ToastPlaylistExportFail">匯出播放清單 {0} 到檔案 {1} 失敗</x:String>
+    <x:String x:Key="ToastPlaylistExportTrackFilesSucc">已加入歌曲檔案匯出任務，可點擊右上角任務按鈕查看任務進度</x:String>
+    <x:String x:Key="ToastPlaylistExportTrackFilesFail">匯出播放清單中的歌曲檔案時發生錯誤，請檢查日誌檔案</x:String>
     <x:String x:Key="ToastPlaylistInvalid">播放清單無效</x:String>
     <x:String x:Key="ToastPlaylistEmpty">播放清單是空的</x:String>
     <x:String x:Key="ToastPlaylistNameExists">已存在同名播放清單</x:String>
@@ -498,6 +567,9 @@
     <x:String x:Key="ToastAlbumTrackMetadataUpdateFail">專輯歌曲中繼資料更新失敗，請查閱日誌檔案獲取更多資訊</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateFail">專輯中繼資料更新失敗，請查閱日誌檔案獲取更多資訊</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateSucc">專輯中繼資料更新成功</x:String>
+    <x:String x:Key="ToastEffectRenameExists">名稱已存在</x:String>
+    <x:String x:Key="ToastEffectRenameSucc">重新命名成功</x:String>
+    <x:String x:Key="ToastEffectRenameFail">重新命名失敗</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">正在初始化</x:String>
@@ -528,6 +600,7 @@
     <x:String x:Key="TipsWallpaper">使用自訂桌布時可能出現文字與背景對比度不強烈導致難以辨識的情況。&#xA;適度調整不透明度或切換主題（淺色/深色）以獲得最佳效果。</x:String>
     <x:String x:Key="TipsCueTrackEdit">此歌曲來源於 CUE 檔案，暫不支援修改中繼資料，請直接編輯 CUE 檔案。</x:String>
     <x:String x:Key="TipsCueAlbumEdit">此專輯包含來源於 CUE 檔案的歌曲，暫不支援修改中繼資料，請直接編輯 CUE 檔案。</x:String>
+    <x:String x:Key="TipsEffectNameInput">輸入新名稱</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">0.10.0.0 版本修復了歌曲末尾被提前截斷的問題（通常少於1秒）。這是因為快取時長精度已從 秒 升級為 毫秒。</x:String>
@@ -547,4 +620,5 @@
     <x:String x:Key="SendLogMail">傳送日誌郵件</x:String>
     <x:String x:Key="AppLaunchFail">應用程式啟動失敗</x:String>
     <x:String x:Key="ServiceInitFail">{0} 初始化失敗</x:String>
+    <x:String x:Key="ClearAllEndedTasks">清除所有已結束任務</x:String>
 </ResourceDictionary>

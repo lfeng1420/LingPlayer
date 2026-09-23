@@ -11,7 +11,7 @@
     <x:String x:Key="Cancel">Отмена</x:String>
     <x:String x:Key="Back">Назад</x:String>
     <x:String x:Key="Quit">Выход</x:String>
-    <x:String x:Key="Default">(По умолчанию)</x:String>
+    <x:String x:Key="Default">По умолчанию</x:String>
     <x:String x:Key="Ascend">По возрастанию</x:String>
     <x:String x:Key="Descend">По убыванию</x:String>
     <x:String x:Key="Order">Порядок</x:String>
@@ -37,7 +37,7 @@
     <x:String x:Key="Delete">Удалить</x:String>
     <x:String x:Key="Remove">Убрать</x:String>
     <x:String x:Key="Rename">Переименовать</x:String>
-    <x:String x:Key="ExportAsFile">Экспорт в txt</x:String>
+    <x:String x:Key="Reset">Сбросить</x:String>
     <x:String x:Key="FollowSystem">Как в системе</x:String>
     <x:String x:Key="Colons">:</x:String>
     <x:String x:Key="SortBy">Сортировка</x:String>
@@ -81,6 +81,7 @@
     <x:String x:Key="Global">Глобально</x:String>
     <x:String x:Key="BlurRadius">Радиус размытия</x:String>
     <x:String x:Key="Wallpaper">Обои</x:String>
+    <x:String x:Key="Preset">Пресет</x:String>
     <x:String x:Key="Custom">Свой</x:String>
     <x:String x:Key="Version">Версия</x:String>
     <x:String x:Key="Enabled">Включено</x:String>
@@ -98,6 +99,44 @@
     <x:String x:Key="Apply">Применить</x:String>
     <x:String x:Key="None">Нет</x:String>
     <x:String x:Key="Switch">Переключатель</x:String>
+    <x:String x:Key="Auto">Авто</x:String>
+    <x:String x:Key="Manual">Вручную</x:String>
+
+    <!-- EQ -->
+    <x:String x:Key="Flat">Линейный</x:String>
+    <x:String x:Key="PopClassic">Поп (Классический)</x:String>
+    <x:String x:Key="PopModern">Поп (Современный)</x:String>
+    <x:String x:Key="Rock">Рок</x:String>
+    <x:String x:Key="Jazz">Джаз</x:String>
+    <x:String x:Key="ClassicalWarm">Классика (Тёплая)</x:String>
+    <x:String x:Key="ClassicalFlat">Классика (Линейная)</x:String>
+    <x:String x:Key="Dance">Дэнс</x:String>
+    <x:String x:Key="Electronic">Электроника</x:String>
+    <x:String x:Key="HipHop">Хип-хоп</x:String>
+    <x:String x:Key="Metal">Метал</x:String>
+    <x:String x:Key="Reggae">Регги</x:String>
+    <x:String x:Key="Acoustic">Акустика</x:String>
+    <x:String x:Key="BassBoost">Усиление басов</x:String>
+    <x:String x:Key="TrebleBoost">Усиление высоких частот</x:String>
+    <x:String x:Key="VocalBoostMale">Усиление вокала (Мужской)</x:String>
+    <x:String x:Key="VocalBoostFemale">Усиление вокала (Женский)</x:String>
+
+    <!--  Reverb  -->
+    <x:String x:Key="SoftRoom">Мягкая комната</x:String>
+    <x:String x:Key="Room">Комната</x:String>
+    <x:String x:Key="LivingRoom">Гостиная</x:String>
+    <x:String x:Key="Bathroom">Ванная</x:String>
+    <x:String x:Key="StoneRoom">Каменная комната</x:String>
+    <x:String x:Key="Auditorium">Актовый зал</x:String>
+    <x:String x:Key="ConcertHall">Концертный зал</x:String>
+    <x:String x:Key="Cave">Пещера</x:String>
+    <x:String x:Key="Hallway">Коридор</x:String>
+    <x:String x:Key="StoneCorridor">Каменный коридор</x:String>
+    <x:String x:Key="CarpetedHallway">Коридор с ковровым покрытием</x:String>
+    <x:String x:Key="Quarry">Карьер</x:String>
+    <x:String x:Key="Arena">Арена</x:String>
+    <x:String x:Key="Hangar">Ангар</x:String>
+    <x:String x:Key="ParkingGarage">Паркинг</x:String>
 
     <!--  Navigation  -->
     <x:String x:Key="AlbumPage">Альбомы</x:String>
@@ -143,7 +182,7 @@
     <x:String x:Key="AlbumYear">Год альбома</x:String>
     <x:String x:Key="AlbumArtists">Исполнители альбома</x:String>
     <x:String x:Key="AlbumPerformers">Приглашённые исполнители</x:String>
-    <x:String x:Key="DiscNumber">CD {0}</x:String>
+    <x:String x:Key="AlbumDiscNumber">CD {0}</x:String>
     <x:String x:Key="AlbumUseFirstTrackThumbnail">Использовать обложку первого трека как обложку альбома</x:String>
     <x:String x:Key="AlbumReplaceAllTarcksThumbnail">Заменить обложки всех треков альбома на обложку альбома</x:String>
     <x:String x:Key="AlbumSyncMetadata">Синхронизировать метаданные альбома со всеми треками</x:String>
@@ -174,6 +213,11 @@
     <x:String x:Key="PlaylistExportTitle">Экспорт плейлиста</x:String>
     <x:String x:Key="PlaylistsExportPath">Путь: {0}</x:String>
     <x:String x:Key="PlaylistExportSummary">Сводка экспорта</x:String>
+    <x:String x:Key="PlaylistExportFile">Экспортировать список треков</x:String>
+    <x:String x:Key="PlaylistExportTrackFiles">Экспортировать файлы треков</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageGathering">Сбор треков из плейлиста</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageCopying">Копирование файлов треков</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageDone">Экспорт файлов треков завершён</x:String>
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
@@ -206,11 +250,11 @@
     <x:String x:Key="Error">Ошибка</x:String>
 
     <!--  Setting  -->
-    <x:String x:Key="UIDesc">Непрозрачность окна, шрифты, обои, меню</x:String>
     <x:String x:Key="NavMenuDesc">Видимость, порядок, страница по умолчанию</x:String>
     <x:String x:Key="CollectionDesc">Папки, разделители</x:String>
-    <x:String x:Key="EffectDesc">Эквалайзер, эффекты</x:String>
+    <x:String x:Key="UIDesc">Непрозрачность окна, шрифты, обои, меню</x:String>
     <x:String x:Key="LangDesc">Язык системы, смена языка</x:String>
+    <x:String x:Key="EffectDesc">Эквалайзер, реверберация</x:String>
     <x:String x:Key="PlayControlDesc">Автовоспроизведение, перемешивание</x:String>
     <x:String x:Key="AdvancedDesc">Сборка мусора</x:String>
     <x:String x:Key="AboutDesc">Версия, отзывы, кэш</x:String>
@@ -293,6 +337,29 @@
     <x:String x:Key="TranslationContributorsDesc">Список участников, помогавших улучшить перевод</x:String>
     <x:String x:Key="HelpImproveTranslation">Помочь с переводом</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">Нашли ошибку в переводе? Отправьте PR</x:String>
+    <x:String x:Key="EffectEQ">Эквалайзер</x:String>
+    <x:String x:Key="EffectEQPreampMode">Режим предварительного ослабления</x:String>
+    <x:String x:Key="EffectEQPreampModeDesc">Заранее снижает общий уровень перед обработкой эквалайзером, предотвращая перегрузку и искажения после усиления</x:String>
+    <x:String x:Key="EffectEQPreampModeAutoDesc">Автоматически рассчитывает ослабление по максимальному усилению текущей кривой эквалайзера, гарантируя, что сигнал не превысит 0 dBFS</x:String>
+    <x:String x:Key="EffectEQPreampModeManualDesc">Вручную задайте усиление&#xA;Слишком малое значение может вызвать клиппинг, слишком большое — тихий звук</x:String>
+    <x:String x:Key="EffectEQPreampModeOffDesc">Предварительное ослабление не применяется&#xA;При сильном усилении эквалайзера сигнал может превысить 0 dBFS и вызвать цифровой клиппинг, который слышен как гул, треск или мутный звук. Рекомендуется только при очень низких пиках источника</x:String>
+    <x:String x:Key="EffectEQPreampDB">Величина предварительного ослабления</x:String>
+    <x:String x:Key="EffectEQPreampDBDesc">Чем меньше значение, тем ниже общая громкость, но тем меньше вероятность искажений</x:String>
+    <x:String x:Key="EffectEQCurPreampDB">Текущее предварительное ослабление</x:String>
+    <x:String x:Key="EffectReplayGain">ReplayGain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">Сканирует теги REPLAYGAIN_TRACK_GAIN и REPLAYGAIN_ALBUM_GAIN у песен и изменяет громкость в соответствии с их значениями</x:String>
+    <x:String x:Key="EffectReverb">Реверберация</x:String>
+    <x:String x:Key="EffectReverbDesc">Придаёт звуку большую пространственность, словно вы находитесь в другой обстановке</x:String>
+    <x:String x:Key="EffectReverbRoomSize">Размер помещения</x:String>
+    <x:String x:Key="EffectReverbRoomSizeDesc">Управляет размером имитируемого пространства&#xA;Чем выше значение, тем длиннее хвост реверберации и масштабнее ощущение пространства</x:String>
+    <x:String x:Key="EffectReverbDamping">Демпфирование</x:String>
+    <x:String x:Key="EffectReverbDampingDesc">Степень поглощения высоких частот имитируемым пространством&#xA;Чем выше значение, тем мягче и темнее звучание реверберации</x:String>
+    <x:String x:Key="EffectReverbWetVolume">Уровень реверберации</x:String>
+    <x:String x:Key="EffectReverbWetVolumeDesc">Управляет долей звука реверберации в общей громкости&#xA;Чем выше значение, тем заметнее пространственный эффект</x:String>
+    <x:String x:Key="EffectReverbWidth">Ширина стерео</x:String>
+    <x:String x:Key="EffectReverbWidthDesc">Управляет распределением реверберации между левым и правым каналами&#xA;Чем выше значение, тем сильнее ощущение объёмного звучания</x:String>
+    <x:String x:Key="EffectReverbPredelay">Время предзадержки (мс)</x:String>
+    <x:String x:Key="EffectReverbPredelayDesc">Управляет интервалом времени между прямым звуком и началом реверберации&#xA;Чем длиннее предзадержка, тем дальше кажется источник звука и чище сухой сигнал; чем короче предзадержка, тем раньше вплетается реверберация</x:String>
     <x:String x:Key="AutoPlay">Автовоспроизведение</x:String>
     <x:String x:Key="AutoPlayDesc">Начинать воспроизведение после открытия приложения</x:String>
     <x:String x:Key="SMTC">Интеграция SMTC</x:String>
@@ -386,6 +453,7 @@
     <x:String x:Key="SleepTimerExtendToTrackEndDesc">После активации продления перед обратным отсчётом появится знак «+», например: +01:50&#xA;Если таймер уже продлён, переключение трека автоматически продлит его до конца этого трека</x:String>
     <x:String x:Key="SleepTimerStart">Запустить таймер</x:String>
     <x:String x:Key="SleepTimerStop">Остановить таймер</x:String>
+    <x:String x:Key="TaskDialogTitle">Задачи</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Мини-окно</x:String>
@@ -427,7 +495,6 @@
     <x:String x:Key="PlayingNextTrackTitle">Далее: {0}</x:String>
     <x:String x:Key="PlayingKeepScreenOn">Не выключать экран</x:String>
     <x:String x:Key="PlayingImmersiveMode">Иммерсивный режим</x:String>
-    <x:String x:Key="PlayingEqualizer">Эквалайзер</x:String>
     <x:String x:Key="PlayingStatisticTime">Последнее воспроизведение</x:String>
     <x:String x:Key="PlayingStatisticCount">Воспроизведения</x:String>
     <x:String x:Key="PlayingStatisticTimeSecond">{0} с назад</x:String>
@@ -465,6 +532,8 @@
     <x:String x:Key="ToastPlaylistImportFail">Ошибка импорта {1} из {0}</x:String>
     <x:String x:Key="ToastPlaylistExportSucc">Плейлист {0} экспортирован в {1}</x:String>
     <x:String x:Key="ToastPlaylistExportFail">Ошибка экспорта {0} в {1}</x:String>
+    <x:String x:Key="ToastPlaylistExportTrackFilesSucc">Добавлена задача экспорта файлов треков. Нажмите кнопку задач в правом верхнем углу, чтобы увидеть ход выполнения</x:String>
+    <x:String x:Key="ToastPlaylistExportTrackFilesFail">Ошибка при экспорте файлов треков из плейлиста. Проверьте файл лога</x:String>
     <x:String x:Key="ToastPlaylistInvalid">Неверный плейлист</x:String>
     <x:String x:Key="ToastPlaylistEmpty">Пустой плейлист</x:String>
     <x:String x:Key="ToastPlaylistNameExists">Плейлист с таким именем уже существует</x:String>
@@ -498,6 +567,9 @@
     <x:String x:Key="ToastAlbumTrackMetadataUpdateFail">Ошибка обновления метаданных треков альбома, см. лог</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateFail">Ошибка обновления метаданных альбома, см. лог</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateSucc">Метаданные альбома обновлены</x:String>
+    <x:String x:Key="ToastEffectRenameExists">Имя уже существует</x:String>
+    <x:String x:Key="ToastEffectRenameSucc">Переименование выполнено</x:String>
+    <x:String x:Key="ToastEffectRenameFail">Ошибка переименования</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">Инициализация...</x:String>
@@ -528,6 +600,7 @@
     <x:String x:Key="TipsWallpaper">Использование пользовательских обоев может привести к снижению видимости текста, если контраст между текстом и фоном будет недостаточным.&#xA;Настройте непрозрачность или переключайтесь между светлыми и темными темами, чтобы улучшить видимость текста.</x:String>
     <x:String x:Key="TipsCueTrackEdit">Этот трек взят из файла CUE, метаданные не могут быть изменены. Пожалуйста, отредактируйте файл CUE напрямую.</x:String>
     <x:String x:Key="TipsCueAlbumEdit">Этот альбом содержит треки из файлов CUE, метаданные не могут быть изменены. Пожалуйста, отредактируйте файл CUE напрямую.</x:String>
+    <x:String x:Key="TipsEffectNameInput">Введите новое имя</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">Версия 0.10.0.0 исправляет проблему преждевременного обрезания конца треков (обычно менее 1 секунды). Точность длительности в кэше обновлена с секунд до миллисекунд.</x:String>
@@ -547,4 +620,5 @@
     <x:String x:Key="SendLogMail">Отправить лог</x:String>
     <x:String x:Key="AppLaunchFail">Ошибка запуска</x:String>
     <x:String x:Key="ServiceInitFail">Ошибка инициализации {0}</x:String>
+    <x:String x:Key="ClearAllEndedTasks">Очистить все завершенные задачи</x:String>
 </ResourceDictionary>

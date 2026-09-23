@@ -11,7 +11,7 @@
     <x:String x:Key="Cancel">İptal</x:String>
     <x:String x:Key="Back">Geri</x:String>
     <x:String x:Key="Quit">Çıkış</x:String>
-    <x:String x:Key="Default">(Varsayılan)</x:String>
+    <x:String x:Key="Default">Varsayılan</x:String>
     <x:String x:Key="Ascend">Artan</x:String>
     <x:String x:Key="Descend">Azalan</x:String>
     <x:String x:Key="Order">Sıralama</x:String>
@@ -37,7 +37,7 @@
     <x:String x:Key="Delete">Sil</x:String>
     <x:String x:Key="Remove">Kaldır</x:String>
     <x:String x:Key="Rename">Yeniden adlandır</x:String>
-    <x:String x:Key="ExportAsFile">Txt olarak dışa aktar</x:String>
+    <x:String x:Key="Reset">Sıfırla</x:String>
     <x:String x:Key="FollowSystem">Sistemi takip et</x:String>
     <x:String x:Key="Colons">:</x:String>
     <x:String x:Key="SortBy">Sırala</x:String>
@@ -81,6 +81,7 @@
     <x:String x:Key="Global">Genel</x:String>
     <x:String x:Key="BlurRadius">Bulanıklık yarıçapı</x:String>
     <x:String x:Key="Wallpaper">Duvar kağıdı</x:String>
+    <x:String x:Key="Preset">Hazır ayar</x:String>
     <x:String x:Key="Custom">Özel</x:String>
     <x:String x:Key="Version">Sürüm</x:String>
     <x:String x:Key="Enabled">Etkin</x:String>
@@ -98,6 +99,44 @@
     <x:String x:Key="Apply">Uygula</x:String>
     <x:String x:Key="None">Yok</x:String>
     <x:String x:Key="Switch">Anahtar</x:String>
+    <x:String x:Key="Auto">Otomatik</x:String>
+    <x:String x:Key="Manual">Manuel</x:String>
+
+    <!-- EQ -->
+    <x:String x:Key="Flat">Düz</x:String>
+    <x:String x:Key="PopClassic">Pop (Klasik)</x:String>
+    <x:String x:Key="PopModern">Pop (Modern)</x:String>
+    <x:String x:Key="Rock">Rock</x:String>
+    <x:String x:Key="Jazz">Caz</x:String>
+    <x:String x:Key="ClassicalWarm">Klasik (Sıcak)</x:String>
+    <x:String x:Key="ClassicalFlat">Klasik (Düz)</x:String>
+    <x:String x:Key="Dance">Dans</x:String>
+    <x:String x:Key="Electronic">Elektronik</x:String>
+    <x:String x:Key="HipHop">Hip Hop</x:String>
+    <x:String x:Key="Metal">Metal</x:String>
+    <x:String x:Key="Reggae">Reggae</x:String>
+    <x:String x:Key="Acoustic">Akustik</x:String>
+    <x:String x:Key="BassBoost">Bas yükseltme</x:String>
+    <x:String x:Key="TrebleBoost">Tiz yükseltme</x:String>
+    <x:String x:Key="VocalBoostMale">Vokal yükseltme (Erkek)</x:String>
+    <x:String x:Key="VocalBoostFemale">Vokal yükseltme (Kadın)</x:String>
+
+    <!--  Reverb  -->
+    <x:String x:Key="SoftRoom">Yumuşak oda</x:String>
+    <x:String x:Key="Room">Oda</x:String>
+    <x:String x:Key="LivingRoom">Oturma odası</x:String>
+    <x:String x:Key="Bathroom">Banyo</x:String>
+    <x:String x:Key="StoneRoom">Taş oda</x:String>
+    <x:String x:Key="Auditorium">Konferans salonu</x:String>
+    <x:String x:Key="ConcertHall">Konser salonu</x:String>
+    <x:String x:Key="Cave">Mağara</x:String>
+    <x:String x:Key="Hallway">Koridor</x:String>
+    <x:String x:Key="StoneCorridor">Taş koridor</x:String>
+    <x:String x:Key="CarpetedHallway">Halı döşeli koridor</x:String>
+    <x:String x:Key="Quarry">Taş ocağı</x:String>
+    <x:String x:Key="Arena">Arena</x:String>
+    <x:String x:Key="Hangar">Hangar</x:String>
+    <x:String x:Key="ParkingGarage">Otopark</x:String>
 
     <!--  Navigation  -->
     <x:String x:Key="AlbumPage">Albümler</x:String>
@@ -143,7 +182,7 @@
     <x:String x:Key="AlbumYear">Albüm yılı</x:String>
     <x:String x:Key="AlbumArtists">Albüm sanatçıları</x:String>
     <x:String x:Key="AlbumPerformers">Konuk sanatçılar</x:String>
-    <x:String x:Key="DiscNumber">CD {0}</x:String>
+    <x:String x:Key="AlbumDiscNumber">CD {0}</x:String>
     <x:String x:Key="AlbumUseFirstTrackThumbnail">İlk parçanın kapağını albüm kapağı olarak kullan</x:String>
     <x:String x:Key="AlbumReplaceAllTarcksThumbnail">Tüm parçaların kapağını albüm kapağıyla değiştir</x:String>
     <x:String x:Key="AlbumSyncMetadata">Albüm meta verilerini tüm parçalarla senkronize et</x:String>
@@ -174,6 +213,11 @@
     <x:String x:Key="PlaylistExportTitle">Çalma listesini dışa aktar</x:String>
     <x:String x:Key="PlaylistsExportPath">Dışa aktarma yolu: {0}</x:String>
     <x:String x:Key="PlaylistExportSummary">Dışa aktarma özeti</x:String>
+    <x:String x:Key="PlaylistExportFile">Parça listesini dışa aktar</x:String>
+    <x:String x:Key="PlaylistExportTrackFiles">Parça dosyalarını dışa aktar</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageGathering">Çalma listesindeki parçalar toplanıyor</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageCopying">Parça dosyaları kopyalanıyor</x:String>
+    <x:String x:Key="PlaylistExportTrackFilesStageDone">Parça dosyaları dışa aktarımı tamamlandı</x:String>
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
@@ -206,11 +250,11 @@
     <x:String x:Key="Error">Hata</x:String>
 
     <!--  Setting  -->
-    <x:String x:Key="UIDesc">Pencere saydamlığı, yazı tipleri, duvar kağıdı, menü</x:String>
     <x:String x:Key="NavMenuDesc">Görünürlük, sıralama, varsayılan sayfa</x:String>
     <x:String x:Key="CollectionDesc">Klasörler, ayraçlar</x:String>
-    <x:String x:Key="EffectDesc">Ekolayzır, efektler</x:String>
+    <x:String x:Key="UIDesc">Pencere saydamlığı, yazı tipleri, duvar kağıdı, menü</x:String>
     <x:String x:Key="LangDesc">Sistem dili, dil değiştirme</x:String>
+    <x:String x:Key="EffectDesc">Ekolayzır, yankı</x:String>
     <x:String x:Key="PlayControlDesc">Otomatik oynatma, karışık oynatma</x:String>
     <x:String x:Key="AdvancedDesc">Çöp toplama</x:String>
     <x:String x:Key="AboutDesc">Sürüm, hata bildirimi, günlük önbelleği</x:String>
@@ -293,6 +337,29 @@
     <x:String x:Key="TranslationContributorsDesc">Çevirilerin iyileştirilmesine yardımcı olan katkıda bulunanların listesini görüntüleyin</x:String>
     <x:String x:Key="HelpImproveTranslation">Çeviriyi İyileştirmeye Yardımcı Olun</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">Çeviri hatası mı bulundu? PR gönderin</x:String>
+    <x:String x:Key="EffectEQ">Ekolayzer</x:String>
+    <x:String x:Key="EffectEQPreampMode">Preamp zayıflatma modu</x:String>
+    <x:String x:Key="EffectEQPreampModeDesc">Ekolayzer işlemi öncesinde genel seviyeyi düşürerek yükseltme sonrası sinyal aşırı yüklenmesini ve bozulmayı önler</x:String>
+    <x:String x:Key="EffectEQPreampModeAutoDesc">Zayıflatma miktarını mevcut ekolayzer eğrisinin maksimum kazancına göre otomatik hesaplayarak sinyalin 0 dBFS'yi aşmamasını sağlar</x:String>
+    <x:String x:Key="EffectEQPreampModeManualDesc">Kazancı elle belirtin&#xA;Çok düşük değer kırpılma bozulmasına neden olabilir, çok yüksek değer sesi fazla kısar</x:String>
+    <x:String x:Key="EffectEQPreampModeOffDesc">Ön zayıflatma uygulanmaz&#xA;Büyük ekolayzer yükseltmelerinde sinyal 0 dBFS'yi aşabilir ve uğultu, çatırdama veya bulanık ses olarak duyulan dijital kırpılmaya neden olabilir. Yalnızca kaynak tepe değerleri çok düşükse önerilir</x:String>
+    <x:String x:Key="EffectEQPreampDB">Preamp zayıflatma miktarı</x:String>
+    <x:String x:Key="EffectEQPreampDBDesc">Değer ne kadar düşükse genel ses o kadar alçalır, ancak bozulma olasılığı da azalır</x:String>
+    <x:String x:Key="EffectEQCurPreampDB">Mevcut preamp zayıflatma miktarı</x:String>
+    <x:String x:Key="EffectReplayGain">ReplayGain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">Şarkıların REPLAYGAIN_TRACK_GAIN ve REPLAYGAIN_ALBUM_GAIN etiketlerini tarar ve etiket değerlerine göre ses düzeyini ayarlar</x:String>
+    <x:String x:Key="EffectReverb">Yankı</x:String>
+    <x:String x:Key="EffectReverbDesc">Sese daha fazla mekân hissi verir, sanki farklı bir ortamdaymışsınız gibi</x:String>
+    <x:String x:Key="EffectReverbRoomSize">Oda boyutu</x:String>
+    <x:String x:Key="EffectReverbRoomSizeDesc">Simüle edilen alanın boyutunu kontrol eder&#xA;Değer arttıkça yankı kuyruğu uzar ve mekan hissi daha görkemli hale gelir</x:String>
+    <x:String x:Key="EffectReverbDamping">Sönümleme</x:String>
+    <x:String x:Key="EffectReverbDampingDesc">Simüle edilen alanın yüksek frekanslı sesleri emme derecesi&#xA;Değer arttıkça yankı sesi daha yumuşak ve koyu olur</x:String>
+    <x:String x:Key="EffectReverbWetVolume">Yankı düzeyi</x:String>
+    <x:String x:Key="EffectReverbWetVolumeDesc">Yankı sesinin toplam ses düzeyindeki oranını kontrol eder&#xA;Değer arttıkça mekansal etki daha belirgin olur</x:String>
+    <x:String x:Key="EffectReverbWidth">Stereo genişliği</x:String>
+    <x:String x:Key="EffectReverbWidthDesc">Yankının sol ve sağ kanallardaki dağılım aralığını kontrol eder&#xA;Değer arttıkça mekanla çevrelenme hissi güçlenir</x:String>
+    <x:String x:Key="EffectReverbPredelay">Ön gecikme süresi (ms)</x:String>
+    <x:String x:Key="EffectReverbPredelayDesc">Doğrudan ses ile yankının başlangıcı arasındaki zaman aralığını kontrol eder&#xA;Ön gecikme uzadıkça ses kaynağı daha uzak duyulur ve kuru ses daha net olur; ön gecikme kısaldıkça yankı daha erken harmanlanır</x:String>
     <x:String x:Key="AutoPlay">Otomatik oynatma</x:String>
     <x:String x:Key="AutoPlayDesc">Başlatıldıktan sonra otomatik oynat</x:String>
     <x:String x:Key="SMTC">SMTC entegrasyonu</x:String>
@@ -313,7 +380,7 @@
     <x:String x:Key="ShuffleByFolder">Klasöre göre karıştır</x:String>
     <x:String x:Key="ShuffleByFolderDesc">Klasöre göre grupla ve grupları karıştır</x:String>
     <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">Sayfa değiştirdikten sonra GC'yi tetikle</x:String>
-    <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">Etkinleştirildiğinde, bellek boşaltmak için sayfa değişiminden sonra çöp toplamayı tetikler&#xA;GC iş parçacıklarını duraklattığından, oynatmada takılma yaşarsanız bu seçeneği devre dışı bırakın</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">Etkinleştirildiğinde, bellek boşaltmak için sayfa değişiminden sonra çöp toplamayı tetikler&#xA;GC iş parçacıklarını duraklattığından, oynatmada takılma olması durumunda bu seçenek devre dışı bırakılmalıdır</x:String>
     <x:String x:Key="AdvancedForceGC">Çöp toplamayı zorla</x:String>
     <x:String x:Key="AdvancedForceGCDesc">Bu işlem uygulama performansını önemli ölçüde etkileyebilir. Yalnızca bellek kullanımı yüksek olduğunda önerilir</x:String>
     <x:String x:Key="AboutVersion">Sürüm</x:String>
@@ -386,6 +453,7 @@
     <x:String x:Key="SleepTimerExtendToTrackEndDesc">Uzatma etkinleştiğinde geri sayımın önünde "+" işareti görünür, örn.: +01:50&#xA;Zamanlayıcı zaten uzatılmışsa, parça değiştirmek onu otomatik olarak o parça bitene kadar yeniden uzatır</x:String>
     <x:String x:Key="SleepTimerStart">Zamanlayıcıyı başlat</x:String>
     <x:String x:Key="SleepTimerStop">Zamanlayıcıyı durdur</x:String>
+    <x:String x:Key="TaskDialogTitle">Görevler</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Mini pencere</x:String>
@@ -427,7 +495,6 @@
     <x:String x:Key="PlayingNextTrackTitle">Sonraki parça: {0}</x:String>
     <x:String x:Key="PlayingKeepScreenOn">Ekranı açık tut</x:String>
     <x:String x:Key="PlayingImmersiveMode">İmmersif mod</x:String>
-    <x:String x:Key="PlayingEqualizer">Ekolayzer</x:String>
     <x:String x:Key="PlayingStatisticTime">Son oynatma</x:String>
     <x:String x:Key="PlayingStatisticCount">Oynatma sayısı</x:String>
     <x:String x:Key="PlayingStatisticTimeSecond">{0} sn önce</x:String>
@@ -465,6 +532,8 @@
     <x:String x:Key="ToastPlaylistImportFail">{1} listesi {0} dosyasından içe aktarılamadı</x:String>
     <x:String x:Key="ToastPlaylistExportSucc">{0} listesi {1} dosyasına dışa aktarıldı</x:String>
     <x:String x:Key="ToastPlaylistExportFail">{0} listesi {1} dosyasına dışa aktarılamadı</x:String>
+    <x:String x:Key="ToastPlaylistExportTrackFilesSucc">Parça dosyaları dışa aktarma görevi eklendi. Görev ilerlemesini görmek için sağ üst köşedeki görev düğmesine tıklayın</x:String>
+    <x:String x:Key="ToastPlaylistExportTrackFilesFail">Çalma listesindeki parça dosyaları dışa aktarılırken hata oluştu. Lütfen günlük dosyasını kontrol edin</x:String>
     <x:String x:Key="ToastPlaylistInvalid">Geçersiz çalma listesi</x:String>
     <x:String x:Key="ToastPlaylistEmpty">Çalma listesi boş</x:String>
     <x:String x:Key="ToastPlaylistNameExists">Bu ada sahip bir çalma listesi zaten var</x:String>
@@ -498,6 +567,9 @@
     <x:String x:Key="ToastAlbumTrackMetadataUpdateFail">Albümdeki parça meta verileri güncellenemedi, günlük dosyasını kontrol edin</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateFail">Albüm meta verileri güncellenemedi, günlük dosyasını kontrol edin</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateSucc">Albüm meta verileri güncellendi</x:String>
+    <x:String x:Key="ToastEffectRenameExists">Ad zaten mevcut</x:String>
+    <x:String x:Key="ToastEffectRenameSucc">Yeniden adlandırma başarılı</x:String>
+    <x:String x:Key="ToastEffectRenameFail">Yeniden adlandırma başarısız</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">Başlatılıyor...</x:String>
@@ -528,6 +600,7 @@
     <x:String x:Key="TipsWallpaper">Özel duvar kağıdı okunabilirliği azaltabilir. Saydamlığı ayarlayın veya tema değiştirin.</x:String>
     <x:String x:Key="TipsCueTrackEdit">Bu parça CUE dosyasından geliyor, meta veriler değiştirilemez. CUE dosyasını doğrudan düzenleyin.</x:String>
     <x:String x:Key="TipsCueAlbumEdit">Bu albüm CUE dosyalarından parçalar içeriyor, meta veriler değiştirilemez. CUE dosyasını doğrudan düzenleyin.</x:String>
+    <x:String x:Key="TipsEffectNameInput">Yeni ad girin</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">0.10.0.0 sürümü, parçaların sonunun erken kesilmesi sorununu (genellikle 1 saniyeden az) düzeltir. Önbellek süre hassasiyeti saniyeden milisaniyeye yükseltildi.</x:String>
@@ -541,10 +614,11 @@
     <x:String x:Key="NoticePart3Text3"> anahtarını açın ve </x:String>
     <x:String x:Key="NoticePart3Bold3">Şimdi tara</x:String>
     <x:String x:Key="NoticePart3Text4"> düğmesine tıklayın.</x:String>
-    <x:String x:Key="NoticePart5">Rahatsızlıktan dolayı özür dileriz. Anlayışınız ve desteğiniz için teşekkür ederiz!</x:String>
+    <x:String x:Key="NoticePart5">Rahatsızlıktan dolayı özür dileriz. Anlayış ve destek için teşekkür ederiz!</x:String>
 
     <!--  Misc  -->
     <x:String x:Key="SendLogMail">Günlük gönder</x:String>
     <x:String x:Key="AppLaunchFail">Uygulama başlatılamadı</x:String>
     <x:String x:Key="ServiceInitFail">{0} başlatılamadı</x:String>
+    <x:String x:Key="ClearAllEndedTasks">Tüm biten görevleri temizle</x:String>
 </ResourceDictionary>
