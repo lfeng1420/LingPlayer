@@ -93,7 +93,6 @@
     <x:String x:Key="AcrylicBlur">아크릴 블러</x:String>
     <x:String x:Key="Blur">블러</x:String>
     <x:String x:Key="Transparent">투명</x:String>
-    <x:String x:Key="GradientFlow">동적 그라데이션</x:String>
     <x:String x:Key="Misc">기타</x:String>
     <x:String x:Key="EditMetadata">메타데이터 편집</x:String>
     <x:String x:Key="Apply">적용</x:String>
@@ -101,6 +100,7 @@
     <x:String x:Key="Switch">스위치</x:String>
     <x:String x:Key="Auto">자동</x:String>
     <x:String x:Key="Manual">수동</x:String>
+    <x:String x:Key="Separator">구분자</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">플랫</x:String>
@@ -156,7 +156,7 @@
     <x:String x:Key="PlayingQueuePage">재생 대기열</x:String>
     <x:String x:Key="UISettingPage">UI</x:String>
     <x:String x:Key="NavMenuSettingPage">탐색 메뉴</x:String>
-    <x:String x:Key="CollectionSettingPage">라이브러리</x:String>
+    <x:String x:Key="LibrarySettingPage">라이브러리</x:String>
     <x:String x:Key="EffectSettingPage">오디오 효과</x:String>
     <x:String x:Key="LangSettingPage">언어</x:String>
     <x:String x:Key="PlayControlSettingPage">재생 제어</x:String>
@@ -229,7 +229,7 @@
     <x:String x:Key="StatPlayTrackNum">재생 곡 수</x:String>
     <x:String x:Key="StatSkipTrackNum">건너뛴 곡 수</x:String>
     <x:String x:Key="StatTimePeriod">기간별 통계</x:String>
-    <x:String x:Key="StatCollection">라이브러리 통계</x:String>
+    <x:String x:Key="StatLibrary">라이브러리 통계</x:String>
     <x:String x:Key="StatNoData">데이터 없음</x:String>
     <x:String x:Key="StatWaiting">대기 중：</x:String>
     <x:String x:Key="StatFinished">기록됨：</x:String>
@@ -250,31 +250,37 @@
     <x:String x:Key="Error">오류</x:String>
 
     <!--  Setting  -->
-    <x:String x:Key="NavMenuDesc">가시성 제어, 순서 조정, 기본 페이지 설정</x:String>
-    <x:String x:Key="CollectionDesc">폴더, 구분자</x:String>
-    <x:String x:Key="UIDesc">창 투명 효과, 사용자 정의 글꼴, 배경 화면, 탐색 메뉴</x:String>
-    <x:String x:Key="LangDesc">시스템 언어, 언어 전환</x:String>
-    <x:String x:Key="EffectDesc">이퀄라이저, 잔향</x:String>
-    <x:String x:Key="PlayControlDesc">자동 재생, 무작위 재생</x:String>
-    <x:String x:Key="AdvancedDesc">가비지 컬렉션</x:String>
-    <x:String x:Key="AboutDesc">버전 정보, 문제 신고, 로그 캐시</x:String>
-    <x:String x:Key="ExcludeBelowDurationTracks">설정된 길이 이하의 곡 제외</x:String>
-    <x:String x:Key="ScanNow">지금 스캔</x:String>
-    <x:String x:Key="FullScan">전체 스캔</x:String>
-    <x:String x:Key="IncludedFolders">포함 폴더</x:String>
-    <x:String x:Key="ExcludedFolders">제외된 폴더</x:String>
-    <x:String x:Key="Separator">구분자</x:String>
-    <x:String x:Key="Separators">구분자</x:String>
-    <x:String x:Key="SeparatorsDesc">곡 정보에서 여러 아티스트와 장르를 구문 분석하는 데 사용됩니다</x:String>
-    <x:String x:Key="CollaboratorArtistsVisible">아티스트 페이지에 협업 아티스트 표시</x:String>
-    <x:String x:Key="CollaboratorArtistsVisibleDesc">활성화하면 협업 아티스트가 아티스트 목록에 표시됩니다</x:String>
-    <x:String x:Key="FolderHierachyView">폴더 계층 보기</x:String>
+    <x:String x:Key="LibrarySettingDesc">폴터, 스캔 옵션</x:String>
+    <x:String x:Key="UISettingDesc">창 투명 효과, 사용자 정의 글꼴, 배경 화면, 탐색 메뉴</x:String>
+    <x:String x:Key="NavMenuSettingDesc">가시성 제어, 순서 조정, 기본 페이지 설정</x:String>
+    <x:String x:Key="LangSettingDesc">시스템 언어, 언어 전환</x:String>
+    <x:String x:Key="EffectSettingDesc">이퀄라이저, 잔향</x:String>
+    <x:String x:Key="PlayControlSettingDesc">자동 재생, 무작위 재생</x:String>
+    <x:String x:Key="AdvancedSettingDesc">가비지 컬렉션</x:String>
+    <x:String x:Key="AboutSettingDesc">버전 정보, 문제 신고, 로그 캐시</x:String>
+    <x:String x:Key="LibraryExcludeBelowDurationTracks">설정된 길이 이하의 곡 제외</x:String>
+    <x:String x:Key="LibraryScanNow">지금 스캔</x:String>
+    <x:String x:Key="LibraryFullScan">전체 스캔</x:String>
+    <x:String x:Key="LibraryFullScanDesc">활성화하면 스캔 시 파일 변경 확인을 건너뛰고 모든 음악 파일을 강제로 다시 읽습니다&#xA;메타데이터는 변경되었지만 파일 변경이 감지되지 않는 경우에 적합합니다</x:String>
+    <x:String x:Key="LibraryIncludedFolders">포함 폴더</x:String>
+    <x:String x:Key="LibraryExcludedFolders">제외된 폴더</x:String>
+    <x:String x:Key="LibraryScanOptions">스캔 옵션</x:String>
+    <x:String x:Key="LibrarySeparators">구분자</x:String>
+    <x:String x:Key="LibrarySeparatorsDesc">곡 정보에서 여러 아티스트와 장르를 구문 분석하는 데 사용됩니다</x:String>
+    <x:String x:Key="LibraryUseArtistsAsAlbumArtists">앨범 아티스트가 없을 때 아티스트 사용</x:String>
+    <x:String x:Key="LibraryUseArtistsAsAlbumArtistsDesc">활성화하면 곡에 앨범 아티스트가 없을 때 해당 아티스트를 앨범 아티스트로 자동 사용합니다</x:String>
+    <x:String x:Key="LibraryPickArtistAsAlbumArtistNum">선택할 앨범 아티스트 수</x:String>
+    <x:String x:Key="LibraryPickArtistAsAlbumArtistNumDesc">앨범 아티스트가 없을 때 각 아티스트가 앨범 내 곡에 등장하는 횟수가 많은 순서대로 정렬하여 지정된 수만큼 해당 앨범의 아티스트로 선택합니다&#xA;0으로 설정하면 모든 아티스트가 선택됩니다</x:String>
+    <x:String x:Key="LibraryAlbumTracksRequireSameYear">곡의 연도가 다르면 여러 앨범 생성</x:String>
+    <x:String x:Key="LibraryAlbumTracksRequireSameYearDesc">활성화하면 앨범 내 곡의 연도가 다를 경우 연도별로 같은 이름의 여러 앨범으로 분할됩니다</x:String>
+    <x:String x:Key="LibraryScanThreads">스캔 스레드 수</x:String>
+    <x:String x:Key="LibraryScanThreadsDesc">음악 파일 스캔에 사용할 스레드 수&#xA;값이 클수록 스캔이 빠르지만 더 많은 CPU를 사용합니다</x:String>
     <x:String x:Key="Theme">테마</x:String>
     <x:String x:Key="ThemeLight">라이트</x:String>
     <x:String x:Key="ThemeDark">다크</x:String>
     <x:String x:Key="ThemeFollowSystem">시스템 따르기</x:String>
     <x:String x:Key="TransparencyEffect">창 투명 효과</x:String>
-    <x:String x:Key="TransparencyEffectDesc">효과는 메인 창과 미니 창에 적용됩니다&#xA;일부 효과는 현재 플랫폼에서 지원되지 않을 수 있습니다</x:String>
+    <x:String x:Key="TransparencyEffectSettingDesc">효과는 메인 창과 미니 창에 적용됩니다&#xA;일부 효과는 현재 플랫폼에서 지원되지 않을 수 있습니다</x:String>
     <x:String x:Key="WindowsRenderType">렌더링 모드</x:String>
     <x:String x:Key="WindowsRenderTypeDesc">화면 깜빡임, 표시 이상 등의 렌더링 문제가 발생하면 렌더링 모드 변경을 시도하세요&#xA;렌더링 모드 변경 후 앱을 다시 시작해야 적용됩니다</x:String>
     <x:String x:Key="WindowsRenderDefault">자동</x:String>
@@ -321,6 +327,7 @@
     <x:String x:Key="MainNavOpenPaneLengthDesc">탐색 메뉴가 펼쳐진 상태의 패널 너비를 조정합니다</x:String>
     <x:String x:Key="PlayingPage">재생 화면</x:String>
     <x:String x:Key="TrackCover">곡 커버</x:String>
+    <x:String x:Key="GradientFlow">동적 그라데이션</x:String>
     <x:String x:Key="MainWallpaper">메인 창 배경 화면</x:String>
     <x:String x:Key="WallpaperOpacity">배경 화면 투명도</x:String>
     <x:String x:Key="OverlayLightOpacity">오버레이 투명도（라이트 테마）</x:String>
@@ -329,6 +336,9 @@
     <x:String x:Key="PlayingOverlayOpacityDesc">오버레이는 다크 테마에서 너무 밝은 배경을 어둡게 하고, 라이트 테마에서 너무 어두운 배경을 밝게 하여 텍스트 가독성을 향상시킵니다</x:String>
     <x:String x:Key="JumpBarOverlayLightOpacity">점프 바 오버레이 불투명도（라이트 테마）</x:String>
     <x:String x:Key="JumpBarOverlayDarkOpacity">점프 바 오버레이 불투명도（다크 테마）</x:String>
+    <x:String x:Key="CollaboratorArtistsVisible">아티스트 페이지에 협업 아티스트 표시</x:String>
+    <x:String x:Key="CollaboratorArtistsVisibleDesc">활성화하면 협업 아티스트가 아티스트 목록에 표시됩니다</x:String>
+    <x:String x:Key="FolderHierachyView">폴더 계층 보기</x:String>
     <x:String x:Key="HomeNavMenuItem">시작 시 기본 표시 페이지</x:String>
     <x:String x:Key="HomeNavMenuItemDesc">위의 탐색 메뉴 항목을 클릭하여 기본 표시 페이지를 전환합니다</x:String>
     <x:String x:Key="SystemLang">시스템 언어</x:String>
@@ -577,7 +587,7 @@
     <x:String x:Key="TipsScanStage">곡 스캔 중 {0}</x:String>
     <x:String x:Key="TipsParseStage">곡 분석 중 {0}/{1}</x:String>
     <x:String x:Key="TipsAlbumStage">{0}개 앨범 그룹에서 분석 중：앨범 {1} / 아티스트 {2}</x:String>
-    <x:String x:Key="TipsDoneStage">스캔 완료：{0}곡, {1}개 앨범, {2}명 아티스트 업데이트됨</x:String>
+    <x:String x:Key="TipsDoneStage">{0}곡, {1}개 앨범, {2}명의 아티스트 업데이트됨</x:String>
     <x:String x:Key="TipsFailStage">스캔 실패，자세한 내용은 로그 파일을 확인하세요</x:String>
     <x:String x:Key="TipsTrackEmpty0">곡이 없습니다. 파일 또는 폴더를 여기에 끌어다 놓아 스캔이 가능합니다</x:String>
     <x:String x:Key="TipsTrackEmpty1">또는 이동</x:String>

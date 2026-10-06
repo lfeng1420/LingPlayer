@@ -93,7 +93,6 @@
     <x:String x:Key="AcrylicBlur">壓克力模糊</x:String>
     <x:String x:Key="Blur">模糊</x:String>
     <x:String x:Key="Transparent">透明</x:String>
-    <x:String x:Key="GradientFlow">動態漸層</x:String>
     <x:String x:Key="Misc">雜項</x:String>
     <x:String x:Key="EditMetadata">編輯中繼資料</x:String>
     <x:String x:Key="Apply">套用</x:String>
@@ -101,6 +100,7 @@
     <x:String x:Key="Switch">開關</x:String>
     <x:String x:Key="Auto">自動</x:String>
     <x:String x:Key="Manual">手動</x:String>
+    <x:String x:Key="Separator">分隔符</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">平直</x:String>
@@ -156,7 +156,7 @@
     <x:String x:Key="PlayingQueuePage">播放佇列</x:String>
     <x:String x:Key="UISettingPage">使用者介面</x:String>
     <x:String x:Key="NavMenuSettingPage">導航選單</x:String>
-    <x:String x:Key="CollectionSettingPage">音樂庫</x:String>
+    <x:String x:Key="LibrarySettingPage">音樂庫</x:String>
     <x:String x:Key="EffectSettingPage">音訊音效</x:String>
     <x:String x:Key="LangSettingPage">語言</x:String>
     <x:String x:Key="PlayControlSettingPage">播放控制</x:String>
@@ -229,7 +229,7 @@
     <x:String x:Key="StatPlayTrackNum">播放歌曲數</x:String>
     <x:String x:Key="StatSkipTrackNum">跳過歌曲數</x:String>
     <x:String x:Key="StatTimePeriod">時段統計</x:String>
-    <x:String x:Key="StatCollection">音樂庫統計</x:String>
+    <x:String x:Key="StatLibrary">音樂庫統計</x:String>
     <x:String x:Key="StatNoData">暫無資料</x:String>
     <x:String x:Key="StatWaiting">等待：</x:String>
     <x:String x:Key="StatFinished">已記錄：</x:String>
@@ -250,31 +250,37 @@
     <x:String x:Key="Error">錯誤</x:String>
 
     <!--  Setting  -->
-    <x:String x:Key="NavMenuDesc">可見性控制、順序調整、預設頁面設定</x:String>
-    <x:String x:Key="CollectionDesc">資料夾、分隔符</x:String>
-    <x:String x:Key="UIDesc">視窗透明效果、自訂字型、桌布、導航選單</x:String>
-    <x:String x:Key="LangDesc">系統語言、切換語言</x:String>
-    <x:String x:Key="EffectDesc">等化器、殘響</x:String>
-    <x:String x:Key="PlayControlDesc">自動播放、隨機播放</x:String>
-    <x:String x:Key="AdvancedDesc">垃圾回收</x:String>
-    <x:String x:Key="AboutDesc">版本資訊、問題回報、日誌快取</x:String>
-    <x:String x:Key="ExcludeBelowDurationTracks">排除設定時長以下的歌曲</x:String>
-    <x:String x:Key="ScanNow">立即掃描</x:String>
-    <x:String x:Key="FullScan">完整掃描</x:String>
-    <x:String x:Key="IncludedFolders">包含的資料夾</x:String>
-    <x:String x:Key="ExcludedFolders">已排除的資料夾</x:String>
-    <x:String x:Key="Separator">分隔符</x:String>
-    <x:String x:Key="Separators">分隔符</x:String>
-    <x:String x:Key="SeparatorsDesc">用於解析歌曲資訊中的多個藝術家和流派</x:String>
-    <x:String x:Key="CollaboratorArtistsVisible">在藝術家頁面中顯示參與創作藝術家</x:String>
-    <x:String x:Key="CollaboratorArtistsVisibleDesc">啟用後，參與創作的藝術家將顯示在藝術家列表中</x:String>
-    <x:String x:Key="FolderHierachyView">資料夾層級檢視</x:String>
+    <x:String x:Key="LibrarySettingDesc">資料夾、掃描選項</x:String>
+    <x:String x:Key="UISettingDesc">視窗透明效果、自訂字型、桌布、導航選單</x:String>
+    <x:String x:Key="NavMenuSettingDesc">可見性控制、順序調整、預設頁面設定</x:String>
+    <x:String x:Key="LangSettingDesc">系統語言、切換語言</x:String>
+    <x:String x:Key="EffectSettingDesc">等化器、殘響</x:String>
+    <x:String x:Key="PlayControlSettingDesc">自動播放、隨機播放</x:String>
+    <x:String x:Key="AdvancedSettingDesc">垃圾回收</x:String>
+    <x:String x:Key="AboutSettingDesc">版本資訊、問題回報、日誌快取</x:String>
+    <x:String x:Key="LibraryExcludeBelowDurationTracks">排除設定時長以下的歌曲</x:String>
+    <x:String x:Key="LibraryScanNow">立即掃描</x:String>
+    <x:String x:Key="LibraryFullScan">完整掃描</x:String>
+    <x:String x:Key="LibraryFullScanDesc">開啟後，掃描過程將跳過檔案變動檢查，強制重新讀取所有歌曲檔案&#xA;適用於中繼資料已變更但檔案變動未被識別的場景</x:String>
+    <x:String x:Key="LibraryIncludedFolders">包含的資料夾</x:String>
+    <x:String x:Key="LibraryExcludedFolders">已排除的資料夾</x:String>
+    <x:String x:Key="LibraryScanOptions">掃描選項</x:String>
+    <x:String x:Key="LibrarySeparators">分隔符</x:String>
+    <x:String x:Key="LibrarySeparatorsDesc">用於解析歌曲資訊中的多個藝術家和流派</x:String>
+    <x:String x:Key="LibraryUseArtistsAsAlbumArtists">缺少專輯藝術家時使用藝術家</x:String>
+    <x:String x:Key="LibraryUseArtistsAsAlbumArtistsDesc">開啟後，當歌曲缺少專輯藝術家時，則自動使用其藝術家作為專輯藝術家</x:String>
+    <x:String x:Key="LibraryPickArtistAsAlbumArtistNum">選取專輯藝術家數量</x:String>
+    <x:String x:Key="LibraryPickArtistAsAlbumArtistNumDesc">當缺少專輯藝術家時，按各藝術家在該專輯歌曲中的出現次數由高到低排序，選取指定數量作為該專輯的藝術家&#xA;設定為 0 時，則選取全部藝術家</x:String>
+    <x:String x:Key="LibraryAlbumTracksRequireSameYear">歌曲年份不同時產生多張專輯</x:String>
+    <x:String x:Key="LibraryAlbumTracksRequireSameYearDesc">開啟後，若專輯內歌曲的年份不同，將按年份拆分為多張同名專輯</x:String>
+    <x:String x:Key="LibraryScanThreads">掃描執行緒數</x:String>
+    <x:String x:Key="LibraryScanThreadsDesc">掃描音樂檔案時使用的執行緒數&#xA;數值越大掃描速度越快，但會佔用更多 CPU 資源</x:String>
     <x:String x:Key="Theme">主題</x:String>
     <x:String x:Key="ThemeLight">淺色</x:String>
     <x:String x:Key="ThemeDark">深色</x:String>
     <x:String x:Key="ThemeFollowSystem">跟隨系統</x:String>
     <x:String x:Key="TransparencyEffect">視窗透明效果</x:String>
-    <x:String x:Key="TransparencyEffectDesc">效果將應用於主視窗和mini視窗&#xA;請注意某些效果可能不受當前平台支援</x:String>
+    <x:String x:Key="TransparencyEffectSettingDesc">效果將應用於主視窗和mini視窗&#xA;請注意某些效果可能不受當前平台支援</x:String>
     <x:String x:Key="WindowsRenderType">渲染模式</x:String>
     <x:String x:Key="WindowsRenderTypeDesc">如果遇到介面閃爍、顯示異常等渲染問題，請嘗試更換渲染模式&#xA;更換渲染模式後需要重新啟動應用程式以生效</x:String>
     <x:String x:Key="WindowsRenderDefault">自適應</x:String>
@@ -321,6 +327,7 @@
     <x:String x:Key="MainNavOpenPaneLengthDesc">調整導航選單展開狀態下的面板寬度</x:String>
     <x:String x:Key="PlayingPage">播放介面</x:String>
     <x:String x:Key="TrackCover">歌曲封面</x:String>
+    <x:String x:Key="GradientFlow">動態漸層</x:String>
     <x:String x:Key="MainWallpaper">主視窗桌布</x:String>
     <x:String x:Key="WallpaperOpacity">桌布不透明度</x:String>
     <x:String x:Key="OverlayLightOpacity">疊加層不透明度（淺色主題）</x:String>
@@ -329,6 +336,9 @@
     <x:String x:Key="PlayingOverlayOpacityDesc">疊加層用於在深色主題下壓暗過亮的背景，在淺色主題下提亮過暗的背景，以提升文字的可讀性</x:String>
     <x:String x:Key="JumpBarOverlayLightOpacity">跳轉欄疊加層不透明度（淺色主題）</x:String>
     <x:String x:Key="JumpBarOverlayDarkOpacity">跳轉欄疊加層不透明度（深色主題）</x:String>
+    <x:String x:Key="CollaboratorArtistsVisible">在藝術家頁面中顯示參與創作藝術家</x:String>
+    <x:String x:Key="CollaboratorArtistsVisibleDesc">開啟後，參與創作的藝術家將顯示在藝術家列表中</x:String>
+    <x:String x:Key="FolderHierachyView">資料夾層級檢視</x:String>
     <x:String x:Key="HomeNavMenuItem">啟動時預設顯示頁面</x:String>
     <x:String x:Key="HomeNavMenuItemDesc">點擊上方的導航選單項可切換預設顯示頁面</x:String>
     <x:String x:Key="SystemLang">系統語言</x:String>
@@ -577,7 +587,7 @@
     <x:String x:Key="TipsScanStage">正在掃描歌曲 {0}</x:String>
     <x:String x:Key="TipsParseStage">正在解析歌曲 {0}/{1}</x:String>
     <x:String x:Key="TipsAlbumStage">正在從 {0} 個專輯分組解析：專輯 {1} / 藝術家 {2}</x:String>
-    <x:String x:Key="TipsDoneStage">掃描完成：已更新 {0} 首歌曲，{1} 張專輯，{2} 位藝術家</x:String>
+    <x:String x:Key="TipsDoneStage">已更新 {0} 首歌曲，{1} 張專輯，{2} 位藝術家</x:String>
     <x:String x:Key="TipsFailStage">掃描失敗，請查閱日誌檔案獲取更多資訊</x:String>
     <x:String x:Key="TipsTrackEmpty0">暫無歌曲，拖放檔案或資料夾到此處掃描</x:String>
     <x:String x:Key="TipsTrackEmpty1">或跳轉到</x:String>

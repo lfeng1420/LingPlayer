@@ -93,7 +93,6 @@
     <x:String x:Key="AcrylicBlur">Acryl-Weichzeichnung</x:String>
     <x:String x:Key="Blur">Weichzeichnung</x:String>
     <x:String x:Key="Transparent">Transparent</x:String>
-    <x:String x:Key="GradientFlow">Dyn. Farbverlauf</x:String>
     <x:String x:Key="Misc">Sonstiges</x:String>
     <x:String x:Key="EditMetadata">Metadaten bearbeiten</x:String>
     <x:String x:Key="Apply">Anwenden</x:String>
@@ -101,6 +100,7 @@
     <x:String x:Key="Switch">Schalter</x:String>
     <x:String x:Key="Auto">Automatisch</x:String>
     <x:String x:Key="Manual">Manuell</x:String>
+    <x:String x:Key="Separator">Trennzeichen</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">Linear</x:String>
@@ -156,7 +156,7 @@
     <x:String x:Key="PlayingQueuePage">Warteschlange</x:String>
     <x:String x:Key="UISettingPage">UI</x:String>
     <x:String x:Key="NavMenuSettingPage">Navigationsmenü</x:String>
-    <x:String x:Key="CollectionSettingPage">Bibliothek</x:String>
+    <x:String x:Key="LibrarySettingPage">Bibliothek</x:String>
     <x:String x:Key="EffectSettingPage">Effekte</x:String>
     <x:String x:Key="LangSettingPage">Sprache</x:String>
     <x:String x:Key="PlayControlSettingPage">Wiedergabe</x:String>
@@ -229,7 +229,7 @@
     <x:String x:Key="StatPlayTrackNum">Gespielte Titel</x:String>
     <x:String x:Key="StatSkipTrackNum">Übersprungene Titel</x:String>
     <x:String x:Key="StatTimePeriod">Zeitraum-Statistik</x:String>
-    <x:String x:Key="StatCollection">Bibliotheksstatistik</x:String>
+    <x:String x:Key="StatLibrary">Bibliotheksstatistik</x:String>
     <x:String x:Key="StatNoData">Keine Daten</x:String>
     <x:String x:Key="StatWaiting">Warte:</x:String>
     <x:String x:Key="StatFinished">Aufgezeichnet:</x:String>
@@ -250,31 +250,37 @@
     <x:String x:Key="Error">Fehler</x:String>
 
     <!--  Setting  -->
-    <x:String x:Key="NavMenuDesc">Sichtbarkeit, Reihenfolge, Standardseite</x:String>
-    <x:String x:Key="CollectionDesc">Ordner, Trennzeichen</x:String>
-    <x:String x:Key="UIDesc">Fenstertransparenz, Schriftarten, Hintergrund, Menü</x:String>
-    <x:String x:Key="LangDesc">Systemsprache, Sprachwechsel</x:String>
-    <x:String x:Key="EffectDesc">Equalizer, Nachhall</x:String>
-    <x:String x:Key="PlayControlDesc">Auto-Wiedergabe, Zufallswiedergabe</x:String>
-    <x:String x:Key="AdvancedDesc">Garbage Collection</x:String>
-    <x:String x:Key="AboutDesc">Version, Feedback, Log-Cache</x:String>
-    <x:String x:Key="ExcludeBelowDurationTracks">Titel unter festgelegter Dauer ausschließen</x:String>
-    <x:String x:Key="ScanNow">Jetzt scannen</x:String>
-    <x:String x:Key="FullScan">Vollständiger Scan</x:String>
-    <x:String x:Key="IncludedFolders">Eingeschlossene Ordner</x:String>
-    <x:String x:Key="ExcludedFolders">Ausgeschlossene Ordner</x:String>
-    <x:String x:Key="Separator">Trennzeichen</x:String>
-    <x:String x:Key="Separators">Trennzeichen</x:String>
-    <x:String x:Key="SeparatorsDesc">Zum Parsen mehrerer Künstler und Genres in Titelinformationen</x:String>
-    <x:String x:Key="CollaboratorArtistsVisible">Gastkünstler auf Künstlerseite anzeigen</x:String>
-    <x:String x:Key="CollaboratorArtistsVisibleDesc">Wenn aktiviert, erscheinen Gastkünstler in der Künstlerliste</x:String>
-    <x:String x:Key="FolderHierachyView">Ordnerhierarchie</x:String>
+    <x:String x:Key="LibrarySettingDesc">Ordner, Scan-Optionen</x:String>
+    <x:String x:Key="UISettingDesc">Fenstertransparenz, Schriftarten, Hintergrund, Menü</x:String>
+    <x:String x:Key="NavMenuSettingDesc">Sichtbarkeit, Reihenfolge, Standardseite</x:String>
+    <x:String x:Key="LangSettingDesc">Systemsprache, Sprachwechsel</x:String>
+    <x:String x:Key="EffectSettingDesc">Equalizer, Nachhall</x:String>
+    <x:String x:Key="PlayControlSettingDesc">Auto-Wiedergabe, Zufallswiedergabe</x:String>
+    <x:String x:Key="AdvancedSettingDesc">Garbage Collection</x:String>
+    <x:String x:Key="AboutSettingDesc">Version, Feedback, Log-Cache</x:String>
+    <x:String x:Key="LibraryExcludeBelowDurationTracks">Titel unter festgelegter Dauer ausschließen</x:String>
+    <x:String x:Key="LibraryScanNow">Jetzt scannen</x:String>
+    <x:String x:Key="LibraryFullScan">Vollständiger Scan</x:String>
+    <x:String x:Key="LibraryFullScanDesc">Wenn aktiviert, überspringt der Scan die Prüfung auf Dateiänderungen und liest alle Musikdateien erneut ein&#xA;Geeignet, wenn Metadaten geändert wurden, Dateiänderungen aber nicht erkannt wurden</x:String>
+    <x:String x:Key="LibraryIncludedFolders">Eingeschlossene Ordner</x:String>
+    <x:String x:Key="LibraryExcludedFolders">Ausgeschlossene Ordner</x:String>
+    <x:String x:Key="LibraryScanOptions">Scan-Optionen</x:String>
+    <x:String x:Key="LibrarySeparators">Trennzeichen</x:String>
+    <x:String x:Key="LibrarySeparatorsDesc">Zum Parsen mehrerer Künstler und Genres in Titelinformationen</x:String>
+    <x:String x:Key="LibraryUseArtistsAsAlbumArtists">Künstler verwenden, wenn Albumkünstler fehlt</x:String>
+    <x:String x:Key="LibraryUseArtistsAsAlbumArtistsDesc">Wenn aktiviert, wird bei fehlendem Albumkünstler automatisch der Künstler als Albumkünstler verwendet</x:String>
+    <x:String x:Key="LibraryPickArtistAsAlbumArtistNum">Anzahl der auszuwählenden Albumkünstler</x:String>
+    <x:String x:Key="LibraryPickArtistAsAlbumArtistNumDesc">Wenn der Albumkünstler fehlt, werden die Künstler nach ihrer Häufigkeit in den Titeln des Albums sortiert und die angegebene Anzahl als Albumkünstler ausgewählt&#xA;Bei 0 werden alle Künstler ausgewählt</x:String>
+    <x:String x:Key="LibraryAlbumTracksRequireSameYear">Mehrere Alben erstellen, wenn Titel unterschiedliche Jahre haben</x:String>
+    <x:String x:Key="LibraryAlbumTracksRequireSameYearDesc">Wenn aktiviert, werden Titel mit unterschiedlichen Jahren in mehrere gleichnamige Alben nach Jahr aufgeteilt</x:String>
+    <x:String x:Key="LibraryScanThreads">Scan-Threads</x:String>
+    <x:String x:Key="LibraryScanThreadsDesc">Anzahl der Threads beim Scannen von Musikdateien&#xA;Höhere Werte scannen schneller, beanspruchen aber mehr CPU</x:String>
     <x:String x:Key="Theme">Design</x:String>
     <x:String x:Key="ThemeLight">Hell</x:String>
     <x:String x:Key="ThemeDark">Dunkel</x:String>
     <x:String x:Key="ThemeFollowSystem">System folgen</x:String>
     <x:String x:Key="TransparencyEffect">Transparenzeffekt</x:String>
-    <x:String x:Key="TransparencyEffectDesc">Wird auf das Haupt- und Minifenster angewendet. Einige Effekte werden möglicherweise nicht auf der aktuellen Plattform unterstützt</x:String>
+    <x:String x:Key="TransparencyEffectSettingDesc">Wird auf das Haupt- und Minifenster angewendet. Einige Effekte werden möglicherweise nicht auf der aktuellen Plattform unterstützt</x:String>
     <x:String x:Key="WindowsRenderType">Rendermodus</x:String>
     <x:String x:Key="WindowsRenderTypeDesc">Bei Anzeigeproblemen den Rendermodus wechseln. Ein Neustart ist erforderlich</x:String>
     <x:String x:Key="WindowsRenderDefault">Adaptiv</x:String>
@@ -321,6 +327,7 @@
     <x:String x:Key="MainNavOpenPaneLengthDesc">Breite des geöffneten Navigationsmenüs</x:String>
     <x:String x:Key="PlayingPage">Abspielseite</x:String>
     <x:String x:Key="TrackCover">Titelcover</x:String>
+    <x:String x:Key="GradientFlow">Dyn. Farbverlauf</x:String>
     <x:String x:Key="MainWallpaper">Hintergrund Hauptfenster</x:String>
     <x:String x:Key="WallpaperOpacity">Hintergrund-Deckkraft</x:String>
     <x:String x:Key="OverlayLightOpacity">Overlay-Deckkraft (hell)</x:String>
@@ -329,6 +336,9 @@
     <x:String x:Key="PlayingOverlayOpacityDesc">Overlay dunkelt helle Hintergründe im dunklen Design ab und hellt dunkle im hellen Design auf</x:String>
     <x:String x:Key="JumpBarOverlayLightOpacity">Sprungleisten-Overlay-Deckkraft für helles Design</x:String>
     <x:String x:Key="JumpBarOverlayDarkOpacity">Sprungleisten-Overlay-Deckkraft für dunkles Design</x:String>
+    <x:String x:Key="CollaboratorArtistsVisible">Gastkünstler auf Künstlerseite anzeigen</x:String>
+    <x:String x:Key="CollaboratorArtistsVisibleDesc">Wenn aktiviert, erscheinen Gastkünstler in der Künstlerliste</x:String>
+    <x:String x:Key="FolderHierachyView">Ordnerhierarchie</x:String>
     <x:String x:Key="HomeNavMenuItem">Standardseite beim Start</x:String>
     <x:String x:Key="HomeNavMenuItemDesc">Menüpunkt anklicken, um die Standardseite zu wechseln</x:String>
     <x:String x:Key="SystemLang">Systemsprache</x:String>
@@ -577,7 +587,7 @@
     <x:String x:Key="TipsScanStage">Scanne Titel {0}</x:String>
     <x:String x:Key="TipsParseStage">Parse Titel {0}/{1}</x:String>
     <x:String x:Key="TipsAlbumStage">Parse {0} Albumgruppen: Album {1} / Künstler {2}</x:String>
-    <x:String x:Key="TipsDoneStage">Scan abgeschlossen: {0} Titel, {1} Alben, {2} Künstler aktualisiert</x:String>
+    <x:String x:Key="TipsDoneStage">{0} Titel, {1} Alben, {2} Künstler aktualisiert</x:String>
     <x:String x:Key="TipsFailStage">Scan fehlgeschlagen, siehe Log</x:String>
     <x:String x:Key="TipsTrackEmpty0">Keine Titel. Dateien oder Ordner zum Scannen hierher ziehen</x:String>
     <x:String x:Key="TipsTrackEmpty1">Oder gehe zu</x:String>

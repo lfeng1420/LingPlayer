@@ -93,7 +93,6 @@
     <x:String x:Key="AcrylicBlur">Rozmycie akrylowe</x:String>
     <x:String x:Key="Blur">Rozmycie</x:String>
     <x:String x:Key="Transparent">Przezroczysty</x:String>
-    <x:String x:Key="GradientFlow">Dynamiczny gradient</x:String>
     <x:String x:Key="Misc">Różne</x:String>
     <x:String x:Key="EditMetadata">Edytuj metadane</x:String>
     <x:String x:Key="Apply">Zastosuj</x:String>
@@ -101,6 +100,7 @@
     <x:String x:Key="Switch">Przełącznik</x:String>
     <x:String x:Key="Auto">Automatyczny</x:String>
     <x:String x:Key="Manual">Ręczny</x:String>
+    <x:String x:Key="Separator">Separator</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">Płaski</x:String>
@@ -156,7 +156,7 @@
     <x:String x:Key="PlayingQueuePage">Kolejka odtwarzania</x:String>
     <x:String x:Key="UISettingPage">Interfejs</x:String>
     <x:String x:Key="NavMenuSettingPage">Menu nawigacji</x:String>
-    <x:String x:Key="CollectionSettingPage">Biblioteka</x:String>
+    <x:String x:Key="LibrarySettingPage">Biblioteka</x:String>
     <x:String x:Key="EffectSettingPage">Efekty</x:String>
     <x:String x:Key="LangSettingPage">Język</x:String>
     <x:String x:Key="PlayControlSettingPage">Sterowanie odtwarzaniem</x:String>
@@ -229,7 +229,7 @@
     <x:String x:Key="StatPlayTrackNum">Odtworzone utwory</x:String>
     <x:String x:Key="StatSkipTrackNum">Pominięte utwory</x:String>
     <x:String x:Key="StatTimePeriod">Statystyki okresowe</x:String>
-    <x:String x:Key="StatCollection">Statystyki biblioteki</x:String>
+    <x:String x:Key="StatLibrary">Statystyki biblioteki</x:String>
     <x:String x:Key="StatNoData">Brak danych</x:String>
     <x:String x:Key="StatWaiting">Oczekiwanie:</x:String>
     <x:String x:Key="StatFinished">Zapisano:</x:String>
@@ -250,31 +250,37 @@
     <x:String x:Key="Error">Błąd</x:String>
 
     <!--  Setting  -->
-    <x:String x:Key="NavMenuDesc">Widoczność, kolejność, strona domyślna</x:String>
-    <x:String x:Key="CollectionDesc">Foldery, separatory</x:String>
-    <x:String x:Key="UIDesc">Przezroczystość, czcionki, tapeta, menu</x:String>
-    <x:String x:Key="LangDesc">Język systemowy, zmiana języka</x:String>
-    <x:String x:Key="EffectDesc">Korektor graficzny, pogłos</x:String>
-    <x:String x:Key="PlayControlDesc">Autoodtwarzanie, odtwarzanie losowe</x:String>
-    <x:String x:Key="AdvancedDesc">Odśmiecanie pamięci</x:String>
-    <x:String x:Key="AboutDesc">Wersja, zgłaszanie błędów, pamięć podręczna logów</x:String>
-    <x:String x:Key="ExcludeBelowDurationTracks">Wyklucz utwory poniżej ustawionego czasu trwania</x:String>
-    <x:String x:Key="ScanNow">Skanuj teraz</x:String>
-    <x:String x:Key="FullScan">Pełne skanowanie</x:String>
-    <x:String x:Key="IncludedFolders">Dołączone foldery</x:String>
-    <x:String x:Key="ExcludedFolders">Wykluczone foldery</x:String>
-    <x:String x:Key="Separator">Separator</x:String>
-    <x:String x:Key="Separators">Separatory</x:String>
-    <x:String x:Key="SeparatorsDesc">Używane do analizowania wielu artystów i gatunków w informacjach o utworach</x:String>
-    <x:String x:Key="CollaboratorArtistsVisible">Pokaż artystów gościnnych na liście</x:String>
-    <x:String x:Key="CollaboratorArtistsVisibleDesc">Po włączeniu artyści gościnni pojawią się na liście artystów</x:String>
-    <x:String x:Key="FolderHierachyView">Widok hierarchii folderów</x:String>
+    <x:String x:Key="LibrarySettingDesc">Foldery, opcje skanowania</x:String>
+    <x:String x:Key="UISettingDesc">Przezroczystość, czcionki, tapeta, menu</x:String>
+    <x:String x:Key="NavMenuSettingDesc">Widoczność, kolejność, strona domyślna</x:String>
+    <x:String x:Key="LangSettingDesc">Język systemowy, zmiana języka</x:String>
+    <x:String x:Key="EffectSettingDesc">Korektor graficzny, pogłos</x:String>
+    <x:String x:Key="PlayControlSettingDesc">Autoodtwarzanie, odtwarzanie losowe</x:String>
+    <x:String x:Key="AdvancedSettingDesc">Odśmiecanie pamięci</x:String>
+    <x:String x:Key="AboutSettingDesc">Wersja, zgłaszanie błędów, pamięć podręczna logów</x:String>
+    <x:String x:Key="LibraryExcludeBelowDurationTracks">Wyklucz utwory poniżej ustawionego czasu trwania</x:String>
+    <x:String x:Key="LibraryScanNow">Skanuj teraz</x:String>
+    <x:String x:Key="LibraryFullScan">Pełne skanowanie</x:String>
+    <x:String x:Key="LibraryFullScanDesc">Po włączeniu skanowanie pomija sprawdzanie zmian w plikach i wymusza ponowne odczytanie wszystkich plików muzycznych&#xA;Przydatne, gdy metadane uległy zmianie, ale zmiany w plikach nie zostały wykryte</x:String>
+    <x:String x:Key="LibraryIncludedFolders">Dołączone foldery</x:String>
+    <x:String x:Key="LibraryExcludedFolders">Wykluczone foldery</x:String>
+    <x:String x:Key="LibraryScanOptions">Opcje skanowania</x:String>
+    <x:String x:Key="LibrarySeparators">Separatory</x:String>
+    <x:String x:Key="LibrarySeparatorsDesc">Używane do analizowania wielu artystów i gatunków w informacjach o utworach</x:String>
+    <x:String x:Key="LibraryUseArtistsAsAlbumArtists">Używaj artysty, gdy brak artysty albumu</x:String>
+    <x:String x:Key="LibraryUseArtistsAsAlbumArtistsDesc">Po włączeniu, jeśli utwór nie ma artysty albumu, jego artysta jest automatycznie używany jako artysta albumu</x:String>
+    <x:String x:Key="LibraryPickArtistAsAlbumArtistNum">Liczba wybieranych artystów albumu</x:String>
+    <x:String x:Key="LibraryPickArtistAsAlbumArtistNumDesc">Gdy brak artysty albumu, artyści są szeregowani według częstotliwości występowania w utworach albumu, od najczęstszej, a wybrana liczba jest używana jako artyści albumu&#xA;Ustawienie 0 powoduje wybranie wszystkich artystów</x:String>
+    <x:String x:Key="LibraryAlbumTracksRequireSameYear">Generuj wiele albumów, gdy utwory mają różne lata</x:String>
+    <x:String x:Key="LibraryAlbumTracksRequireSameYearDesc">Po włączeniu, jeśli utwory w albumie mają różne lata, zostaną podzielone na wiele albumów o tej samej nazwie według roku</x:String>
+    <x:String x:Key="LibraryScanThreads">Liczba wątków skanowania</x:String>
+    <x:String x:Key="LibraryScanThreadsDesc">Liczba wątków używanych podczas skanowania plików muzycznych&#xA;Wyższe wartości przyspieszają skanowanie, ale zużywają więcej CPU</x:String>
     <x:String x:Key="Theme">Motyw</x:String>
     <x:String x:Key="ThemeLight">Jasny</x:String>
     <x:String x:Key="ThemeDark">Ciemny</x:String>
     <x:String x:Key="ThemeFollowSystem">Zgodnie z systemem</x:String>
     <x:String x:Key="TransparencyEffect">Efekt przezroczystości</x:String>
-    <x:String x:Key="TransparencyEffectDesc">Dotyczy okna głównego i mini okna. Niektóre efekty mogą nie być obsługiwane na tej platformie</x:String>
+    <x:String x:Key="TransparencyEffectSettingDesc">Dotyczy okna głównego i mini okna. Niektóre efekty mogą nie być obsługiwane na tej platformie</x:String>
     <x:String x:Key="WindowsRenderType">Tryb renderowania</x:String>
     <x:String x:Key="WindowsRenderTypeDesc">W przypadku problemów z wyświetlaniem spróbuj zmienić tryb. Wymagane ponowne uruchomienie</x:String>
     <x:String x:Key="WindowsRenderDefault">Adaptacyjny</x:String>
@@ -321,6 +327,7 @@
     <x:String x:Key="MainNavOpenPaneLengthDesc">Szerokość panelu nawigacji po otwarciu</x:String>
     <x:String x:Key="PlayingPage">Strona odtwarzania</x:String>
     <x:String x:Key="TrackCover">Okładka utworu</x:String>
+    <x:String x:Key="GradientFlow">Dynamiczny gradient</x:String>
     <x:String x:Key="MainWallpaper">Tapeta okna głównego</x:String>
     <x:String x:Key="WallpaperOpacity">Przezroczystość tapety</x:String>
     <x:String x:Key="OverlayLightOpacity">Przezroczystość nakładki (jasny)</x:String>
@@ -329,6 +336,9 @@
     <x:String x:Key="PlayingOverlayOpacityDesc">Nakładka przyciemnia jasne tła w ciemnym motywie i rozjaśnia ciemne w jasnym</x:String>
     <x:String x:Key="JumpBarOverlayLightOpacity">Krycie nakładki paska skoku dla jasnego motywu</x:String>
     <x:String x:Key="JumpBarOverlayDarkOpacity">Krycie nakładki paska skoku dla ciemnego motywu</x:String>
+    <x:String x:Key="CollaboratorArtistsVisible">Pokaż artystów gościnnych na liście</x:String>
+    <x:String x:Key="CollaboratorArtistsVisibleDesc">Po włączeniu artyści gościnni pojawią się na liście artystów</x:String>
+    <x:String x:Key="FolderHierachyView">Widok hierarchii folderów</x:String>
     <x:String x:Key="HomeNavMenuItem">Domyślna strona przy uruchamianiu</x:String>
     <x:String x:Key="HomeNavMenuItemDesc">Kliknij element menu, aby zmienić domyślną stronę</x:String>
     <x:String x:Key="SystemLang">Język systemowy</x:String>
@@ -577,7 +587,7 @@
     <x:String x:Key="TipsScanStage">Skanowanie utworów {0}</x:String>
     <x:String x:Key="TipsParseStage">Analizowanie utworów {0}/{1}</x:String>
     <x:String x:Key="TipsAlbumStage">Analizowanie {0} grup albumów: Album {1} / Artysta {2}</x:String>
-    <x:String x:Key="TipsDoneStage">Skanowanie zakończone: {0} utworów, {1} albumów, {2} artystów</x:String>
+    <x:String x:Key="TipsDoneStage">Zaktualizowano {0} utworów, {1} albumów, {2} artystów</x:String>
     <x:String x:Key="TipsFailStage">Skanowanie nie powiodło się, sprawdź log</x:String>
     <x:String x:Key="TipsTrackEmpty0">Brak utworów. Przeciągnij pliki lub foldery tutaj, aby przeskanować</x:String>
     <x:String x:Key="TipsTrackEmpty1">Lub przejdź do</x:String>

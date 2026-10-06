@@ -93,7 +93,6 @@
     <x:String x:Key="AcrylicBlur">Akrilik bulanıklık</x:String>
     <x:String x:Key="Blur">Bulanıklık</x:String>
     <x:String x:Key="Transparent">Saydam</x:String>
-    <x:String x:Key="GradientFlow">Dinamik gradyan</x:String>
     <x:String x:Key="Misc">Diğer</x:String>
     <x:String x:Key="EditMetadata">Meta verileri düzenle</x:String>
     <x:String x:Key="Apply">Uygula</x:String>
@@ -101,6 +100,7 @@
     <x:String x:Key="Switch">Anahtar</x:String>
     <x:String x:Key="Auto">Otomatik</x:String>
     <x:String x:Key="Manual">Manuel</x:String>
+    <x:String x:Key="Separator">Ayraç</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">Düz</x:String>
@@ -156,7 +156,7 @@
     <x:String x:Key="PlayingQueuePage">Çalma kuyruğu</x:String>
     <x:String x:Key="UISettingPage">Arayüz</x:String>
     <x:String x:Key="NavMenuSettingPage">Gezinme Menüsü</x:String>
-    <x:String x:Key="CollectionSettingPage">Kitaplık</x:String>
+    <x:String x:Key="LibrarySettingPage">Kitaplık</x:String>
     <x:String x:Key="EffectSettingPage">Efektler</x:String>
     <x:String x:Key="LangSettingPage">Dil</x:String>
     <x:String x:Key="PlayControlSettingPage">Oynatma Kontrolü</x:String>
@@ -229,7 +229,7 @@
     <x:String x:Key="StatPlayTrackNum">Çalınan parçalar</x:String>
     <x:String x:Key="StatSkipTrackNum">Atlanan parçalar</x:String>
     <x:String x:Key="StatTimePeriod">Dönem istatistikleri</x:String>
-    <x:String x:Key="StatCollection">Kitaplık istatistikleri</x:String>
+    <x:String x:Key="StatLibrary">Kitaplık istatistikleri</x:String>
     <x:String x:Key="StatNoData">Veri yok</x:String>
     <x:String x:Key="StatWaiting">Bekleniyor:</x:String>
     <x:String x:Key="StatFinished">Kaydedildi:</x:String>
@@ -250,31 +250,37 @@
     <x:String x:Key="Error">Hata</x:String>
 
     <!--  Setting  -->
-    <x:String x:Key="NavMenuDesc">Görünürlük, sıralama, varsayılan sayfa</x:String>
-    <x:String x:Key="CollectionDesc">Klasörler, ayraçlar</x:String>
-    <x:String x:Key="UIDesc">Pencere saydamlığı, yazı tipleri, duvar kağıdı, menü</x:String>
-    <x:String x:Key="LangDesc">Sistem dili, dil değiştirme</x:String>
-    <x:String x:Key="EffectDesc">Ekolayzır, yankı</x:String>
-    <x:String x:Key="PlayControlDesc">Otomatik oynatma, karışık oynatma</x:String>
-    <x:String x:Key="AdvancedDesc">Çöp toplama</x:String>
-    <x:String x:Key="AboutDesc">Sürüm, hata bildirimi, günlük önbelleği</x:String>
-    <x:String x:Key="ExcludeBelowDurationTracks">Ayarlanan sürenin altındaki parçaları hariç tut</x:String>
-    <x:String x:Key="ScanNow">Şimdi tara</x:String>
-    <x:String x:Key="FullScan">Tam tarama</x:String>
-    <x:String x:Key="IncludedFolders">Dahil edilen klasörler</x:String>
-    <x:String x:Key="ExcludedFolders">Hariç tutulan klasörler</x:String>
-    <x:String x:Key="Separator">Ayraç</x:String>
-    <x:String x:Key="Separators">Ayraçlar</x:String>
-    <x:String x:Key="SeparatorsDesc">Parça bilgilerindeki birden çok sanatçı ve türü ayrıştırmak için kullanılır</x:String>
-    <x:String x:Key="CollaboratorArtistsVisible">Konuk sanatçıları listede göster</x:String>
-    <x:String x:Key="CollaboratorArtistsVisibleDesc">Etkinleştirildiğinde, konuk sanatçılar sanatçı listesinde görünür</x:String>
-    <x:String x:Key="FolderHierachyView">Klasör hiyerarşi görünümü</x:String>
+    <x:String x:Key="LibrarySettingDesc">Klasörler, tarama seçenekleri</x:String>
+    <x:String x:Key="UISettingDesc">Pencere saydamlığı, yazı tipleri, duvar kağıdı, menü</x:String>
+    <x:String x:Key="NavMenuSettingDesc">Görünürlük, sıralama, varsayılan sayfa</x:String>
+    <x:String x:Key="LangSettingDesc">Sistem dili, dil değiştirme</x:String>
+    <x:String x:Key="EffectSettingDesc">Ekolayzır, yankı</x:String>
+    <x:String x:Key="PlayControlSettingDesc">Otomatik oynatma, karışık oynatma</x:String>
+    <x:String x:Key="AdvancedSettingDesc">Çöp toplama</x:String>
+    <x:String x:Key="AboutSettingDesc">Sürüm, hata bildirimi, günlük önbelleği</x:String>
+    <x:String x:Key="LibraryExcludeBelowDurationTracks">Ayarlanan sürenin altındaki parçaları hariç tut</x:String>
+    <x:String x:Key="LibraryScanNow">Şimdi tara</x:String>
+    <x:String x:Key="LibraryFullScan">Tam tarama</x:String>
+    <x:String x:Key="LibraryFullScanDesc">Etkinleştirildiğinde tarama dosya değişikliği kontrolünü atlar ve tüm müzik dosyalarını zorla yeniden okur&#xA;Meta verilerin değiştiği ancak dosya değişikliklerinin algılanmadığı durumlar için uygundur</x:String>
+    <x:String x:Key="LibraryIncludedFolders">Dahil edilen klasörler</x:String>
+    <x:String x:Key="LibraryExcludedFolders">Hariç tutulan klasörler</x:String>
+    <x:String x:Key="LibraryScanOptions">Tarama seçenekleri</x:String>
+    <x:String x:Key="LibrarySeparators">Ayraçlar</x:String>
+    <x:String x:Key="LibrarySeparatorsDesc">Parça bilgilerindeki birden çok sanatçı ve türü ayrıştırmak için kullanılır</x:String>
+    <x:String x:Key="LibraryUseArtistsAsAlbumArtists">Albüm sanatçısı olmadığında sanatçıyı kullan</x:String>
+    <x:String x:Key="LibraryUseArtistsAsAlbumArtistsDesc">Etkinleştirildiğinde, parçanın albüm sanatçısı eksikse sanatçısı otomatik olarak albüm sanatçısı olarak kullanılır</x:String>
+    <x:String x:Key="LibraryPickArtistAsAlbumArtistNum">Seçilecek albüm sanatçısı sayısı</x:String>
+    <x:String x:Key="LibraryPickArtistAsAlbumArtistNumDesc">Albüm sanatçısı eksik olduğunda, sanatçılar albümdeki parçalarda görünme sıklıklarına göre çoktan aza sıralanır ve belirtilen sayı albümün sanatçıları olarak seçilir&#xA;0 olarak ayarlandığında tüm sanatçılar seçilir</x:String>
+    <x:String x:Key="LibraryAlbumTracksRequireSameYear">Parçalar farklı yıllara sahipse birden fazla albüm oluştur</x:String>
+    <x:String x:Key="LibraryAlbumTracksRequireSameYearDesc">Etkinleştirildiğinde, bir albümdeki parçaların yılları farklıysa yıla göre aynı adlı birden fazla albüme ayrılır</x:String>
+    <x:String x:Key="LibraryScanThreads">Tarama iş parçacığı sayısı</x:String>
+    <x:String x:Key="LibraryScanThreadsDesc">Müzik dosyaları taranırken kullanılacak iş parçacığı sayısı&#xA;Yüksek değerler taramayı hızlandırır ancak daha fazla CPU kullanır</x:String>
     <x:String x:Key="Theme">Tema</x:String>
     <x:String x:Key="ThemeLight">Açık</x:String>
     <x:String x:Key="ThemeDark">Koyu</x:String>
     <x:String x:Key="ThemeFollowSystem">Sistemi takip et</x:String>
     <x:String x:Key="TransparencyEffect">Saydamlık efekti</x:String>
-    <x:String x:Key="TransparencyEffectDesc">Ana pencere ve mini pencereye uygulanır. Bazı efektler bu platformda desteklenmeyebilir</x:String>
+    <x:String x:Key="TransparencyEffectSettingDesc">Ana pencere ve mini pencereye uygulanır. Bazı efektler bu platformda desteklenmeyebilir</x:String>
     <x:String x:Key="WindowsRenderType">İşleme modu</x:String>
     <x:String x:Key="WindowsRenderTypeDesc">Görüntü sorunları durumunda işleme modunu değiştirmeyi deneyin. Değişiklik için yeniden başlatma gerekir</x:String>
     <x:String x:Key="WindowsRenderDefault">Uyarlanabilir</x:String>
@@ -321,6 +327,7 @@
     <x:String x:Key="MainNavOpenPaneLengthDesc">Gezinme menüsü açıkken panel genişliğini ayarlar</x:String>
     <x:String x:Key="PlayingPage">Oynatma sayfası</x:String>
     <x:String x:Key="TrackCover">Parça kapağı</x:String>
+    <x:String x:Key="GradientFlow">Dinamik gradyan</x:String>
     <x:String x:Key="MainWallpaper">Ana pencere duvar kağıdı</x:String>
     <x:String x:Key="WallpaperOpacity">Duvar kağıdı saydamlığı</x:String>
     <x:String x:Key="OverlayLightOpacity">Kaplama saydamlığı (açık)</x:String>
@@ -329,6 +336,9 @@
     <x:String x:Key="PlayingOverlayOpacityDesc">Kaplama, koyu temada aşırı parlak arka planları karartır, açık temada aşırı koyu arka planları aydınlatır</x:String>
     <x:String x:Key="JumpBarOverlayLightOpacity">Atlama çubuğu kaplama opaklığı açık tema için</x:String>
     <x:String x:Key="JumpBarOverlayDarkOpacity">Atlama çubuğu kaplama opaklığı koyu tema için</x:String>
+    <x:String x:Key="CollaboratorArtistsVisible">Konuk sanatçıları listede göster</x:String>
+    <x:String x:Key="CollaboratorArtistsVisibleDesc">Etkinleştirildiğinde, konuk sanatçılar sanatçı listesinde görünür</x:String>
+    <x:String x:Key="FolderHierachyView">Klasör hiyerarşi görünümü</x:String>
     <x:String x:Key="HomeNavMenuItem">Başlangıçta varsayılan sayfa</x:String>
     <x:String x:Key="HomeNavMenuItemDesc">Varsayılan sayfayı değiştirmek için yukarıdaki menü öğesine tıklayın</x:String>
     <x:String x:Key="SystemLang">Sistem dili</x:String>
@@ -577,7 +587,7 @@
     <x:String x:Key="TipsScanStage">Parçalar taranıyor {0}</x:String>
     <x:String x:Key="TipsParseStage">Parçalar ayrıştırılıyor {0}/{1}</x:String>
     <x:String x:Key="TipsAlbumStage">{0} albüm grubu ayrıştırılıyor: Albüm {1} / Sanatçı {2}</x:String>
-    <x:String x:Key="TipsDoneStage">Tarama tamamlandı: {0} parça, {1} albüm, {2} sanatçı güncellendi</x:String>
+    <x:String x:Key="TipsDoneStage">{0} parça, {1} albüm, {2} sanatçı güncellendi</x:String>
     <x:String x:Key="TipsFailStage">Tarama başarısız, günlük dosyasını kontrol edin</x:String>
     <x:String x:Key="TipsTrackEmpty0">Parça yok. Taramak için dosya veya klasörleri buraya sürükleyin</x:String>
     <x:String x:Key="TipsTrackEmpty1">Veya şuraya gidin</x:String>
