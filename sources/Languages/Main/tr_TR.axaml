@@ -360,7 +360,7 @@
     <x:String x:Key="EffectFadingSeek">Arama</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">Manuel parça değişimi</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
-    <x:String x:Key="EffectReplayGainDesc">Etkinleştirildiğinde oynatma sesi, ses dosyalarındaki etiket bilgisine göre otomatik ayarlanır&#xA;Ses dosyalarının ReplayGain etiketleri içermesi gerekir</x:String>
+    <x:String x:Key="EffectReplayGainDesc">Etkinleştirildiğinde, ses dosyalarına gömülü Replay Gain etiketlerine göre oynatma sesini otomatik ayarlar&#xA;Ses dosyalarında Replay Gain etiketleri gereklidir</x:String>
     <x:String x:Key="EffectReplayGainMode">Kazanç modu</x:String>
     <x:String x:Key="EffectEQ">Ekolayzer</x:String>
     <x:String x:Key="EffectEQPreampMode">Preamp zayıflatma modu</x:String>

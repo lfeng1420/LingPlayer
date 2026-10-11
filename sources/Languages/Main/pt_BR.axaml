@@ -360,7 +360,7 @@
     <x:String x:Key="EffectFadingSeek">Buscar</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">Mudança manual de faixa</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
-    <x:String x:Key="EffectReplayGainDesc">Quando ativado, o volume de reprodução é ajustado automaticamente com base nas informações de tags nos arquivos de áudio&#xA;Requer que os arquivos de áudio contenham tags ReplayGain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">Quando ativado, ajusta automaticamente o volume de reprodução com base nas tags Replay Gain incorporadas aos arquivos de áudio&#xA;Tags Replay Gain são necessárias nos arquivos de áudio</x:String>
     <x:String x:Key="EffectReplayGainMode">Modo de ganho</x:String>
     <x:String x:Key="EffectEQ">Equalizador</x:String>
     <x:String x:Key="EffectEQPreampMode">Modo de atenuação do pré-amplificador</x:String>

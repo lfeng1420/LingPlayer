@@ -360,7 +360,7 @@
     <x:String x:Key="EffectFadingSeek">Saut</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">Changement manuel de piste</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
-    <x:String x:Key="EffectReplayGainDesc">Lorsque activé, le volume de lecture est automatiquement ajusté selon les informations des balises dans les fichiers audio&#xA;Nécessite que les fichiers audio contiennent déjà des balises ReplayGain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">Une fois activé, ajuste automatiquement le volume de lecture en fonction des balises Replay Gain intégrées aux fichiers audio&#xA;Des balises Replay Gain sont requises dans les fichiers audio</x:String>
     <x:String x:Key="EffectReplayGainMode">Mode de gain</x:String>
     <x:String x:Key="EffectEQ">Égaliseur</x:String>
     <x:String x:Key="EffectEQPreampMode">Mode d'atténuation du préampli</x:String>

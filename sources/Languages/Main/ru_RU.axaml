@@ -360,7 +360,7 @@
     <x:String x:Key="EffectFadingSeek">Перемотка</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">Ручная смена трека</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
-    <x:String x:Key="EffectReplayGainDesc">При включении громкость воспроизведения автоматически корректируется на основе тегов в аудиофайлах&#xA;Требуется, чтобы аудиофайлы содержали теги ReplayGain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">При включении автоматически регулирует громкость воспроизведения на основе тегов Replay Gain, встроенных в аудиофайлы&#xA;Требуются теги Replay Gain в аудиофайлах</x:String>
     <x:String x:Key="EffectReplayGainMode">Режим усиления</x:String>
     <x:String x:Key="EffectEQ">Эквалайзер</x:String>
     <x:String x:Key="EffectEQPreampMode">Режим предварительного ослабления</x:String>

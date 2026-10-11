@@ -360,7 +360,7 @@
     <x:String x:Key="EffectFadingSeek">Seek</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">Manual track change</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
-    <x:String x:Key="EffectReplayGainDesc">When enabled, playback volume is automatically adjusted based on tag information in the audio files&#xA;Requires the audio files to contain ReplayGain tags</x:String>
+    <x:String x:Key="EffectReplayGainDesc">When enabled, automatically adjusts playback volume based on Replay Gain tags embedded in the audio files&#xA;Replay Gain tags are required in the audio files</x:String>
     <x:String x:Key="EffectReplayGainMode">Gain mode</x:String>
     <x:String x:Key="EffectEQ">Equalizer</x:String>
     <x:String x:Key="EffectEQPreampMode">Preamp Attenuation Mode</x:String>

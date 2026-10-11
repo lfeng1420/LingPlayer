@@ -360,7 +360,7 @@
     <x:String x:Key="EffectFadingSeek">跳转</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">手动切歌</x:String>
     <x:String x:Key="EffectReplayGain">回放增益</x:String>
-    <x:String x:Key="EffectReplayGainDesc">开启后，将根据音频文件中的标签信息，自动调整播放音量&#xA;需要音频文件已包含 ReplayGain 标签</x:String>
+    <x:String x:Key="EffectReplayGainDesc">开启后，将根据音频文件中内嵌的 Replay Gain 标签自动调整播放音量&#xA;需要音频文件包含 Replay Gain 标签</x:String>
     <x:String x:Key="EffectReplayGainMode">增益模式</x:String>
     <x:String x:Key="EffectEQ">均衡器</x:String>
     <x:String x:Key="EffectEQPreampMode">前置衰减模式</x:String>

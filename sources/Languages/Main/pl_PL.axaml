@@ -360,7 +360,7 @@
     <x:String x:Key="EffectFadingSeek">Przewijanie</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">Ręczna zmiana utworu</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
-    <x:String x:Key="EffectReplayGainDesc">Po włączeniu głośność odtwarzania jest automatycznie dostosowywana na podstawie informacji o znacznikach w plikach audio&#xA;Wymaga, aby pliki audio zawierały znaczniki ReplayGain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">Po włączeniu automatycznie dostosowuje głośność odtwarzania na podstawie znaczników Replay Gain osadzonych w plikach audio&#xA;Znaczniki Replay Gain są wymagane w plikach audio</x:String>
     <x:String x:Key="EffectReplayGainMode">Tryb wzmocnienia</x:String>
     <x:String x:Key="EffectEQ">Korektor</x:String>
     <x:String x:Key="EffectEQPreampMode">Tryb tłumienia przedwzmacniacza</x:String>

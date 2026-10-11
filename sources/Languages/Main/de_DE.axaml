@@ -360,7 +360,7 @@
     <x:String x:Key="EffectFadingSeek">Sprung</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">Manueller Titelwechsel</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
-    <x:String x:Key="EffectReplayGainDesc">Wenn aktiviert, wird die Wiedergabelautstärke automatisch anhand der Tag-Informationen in den Audiodateien angepasst&#xA;Die Audiodateien müssen bereits ReplayGain-Tags enthalten</x:String>
+    <x:String x:Key="EffectReplayGainDesc">Wenn aktiviert, wird die Wiedergabelautstärke automatisch anhand der in die Audiodateien eingebetteten Replay-Gain-Tags angepasst&#xA;Replay-Gain-Tags sind in den Audiodateien erforderlich</x:String>
     <x:String x:Key="EffectReplayGainMode">Verstärkungsmodus</x:String>
     <x:String x:Key="EffectEQ">Equalizer</x:String>
     <x:String x:Key="EffectEQPreampMode">Preamp-Absenkungsmodus</x:String>

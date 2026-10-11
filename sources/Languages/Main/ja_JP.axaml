@@ -360,7 +360,7 @@
     <x:String x:Key="EffectFadingSeek">シーク</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">手動トラック切り替え</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
-    <x:String x:Key="EffectReplayGainDesc">有効にすると、オーディオファイルのタグ情報に基づいて再生音量を自動調整します&#xA;オーディオファイルに ReplayGain タグが含まれている必要があります</x:String>
+    <x:String x:Key="EffectReplayGainDesc">有効にすると、オーディオファイルに埋め込まれた Replay Gain タグに基づいて再生音量を自動調整します&#xA;オーディオファイルに Replay Gain タグが必要です</x:String>
     <x:String x:Key="EffectReplayGainMode">ゲインモード</x:String>
     <x:String x:Key="EffectEQ">イコライザ</x:String>
     <x:String x:Key="EffectEQPreampMode">プリアンプ減衰モード</x:String>
