@@ -19,6 +19,7 @@
     <x:String x:Key="Name">이름</x:String>
     <x:String x:Key="Artist">아티스트</x:String>
     <x:String x:Key="Album">앨범</x:String>
+    <x:String x:Key="Track">트랙</x:String>
     <x:String x:Key="DiscNo">디스크 번호</x:String>
     <x:String x:Key="TrackNo">트랙 번호</x:String>
     <x:String x:Key="Size">크기</x:String>
@@ -77,6 +78,9 @@
     <x:String x:Key="Minute">분</x:String>
     <x:String x:Key="Minutes">분</x:String>
     <x:String x:Key="Second">초</x:String>
+    <x:String x:Key="Millisecond">밀리초</x:String>
+    <x:String x:Key="SecondText">{0} 초</x:String>
+    <x:String x:Key="MillisecondText">{0} 밀리초</x:String>
     <x:String x:Key="Explore">탐색</x:String>
     <x:String x:Key="Global">전역</x:String>
     <x:String x:Key="BlurRadius">블러 반경</x:String>
@@ -101,6 +105,8 @@
     <x:String x:Key="Auto">자동</x:String>
     <x:String x:Key="Manual">수동</x:String>
     <x:String x:Key="Separator">구분자</x:String>
+    <x:String x:Key="Gain">게인</x:String>
+    <x:String x:Key="Peak">피크</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">플랫</x:String>
@@ -157,7 +163,7 @@
     <x:String x:Key="UISettingPage">UI</x:String>
     <x:String x:Key="NavMenuSettingPage">탐색 메뉴</x:String>
     <x:String x:Key="LibrarySettingPage">라이브러리</x:String>
-    <x:String x:Key="EffectSettingPage">오디오 효과</x:String>
+    <x:String x:Key="EffectSettingPage">오디오 및 효과</x:String>
     <x:String x:Key="LangSettingPage">언어</x:String>
     <x:String x:Key="PlayControlSettingPage">재생 제어</x:String>
     <x:String x:Key="AdvancedSettingPage">고급 설정</x:String>
@@ -254,7 +260,7 @@
     <x:String x:Key="UISettingDesc">창 투명 효과, 사용자 정의 글꼴, 배경 화면, 탐색 메뉴</x:String>
     <x:String x:Key="NavMenuSettingDesc">가시성 제어, 순서 조정, 기본 페이지 설정</x:String>
     <x:String x:Key="LangSettingDesc">시스템 언어, 언어 전환</x:String>
-    <x:String x:Key="EffectSettingDesc">이퀄라이저, 잔향</x:String>
+    <x:String x:Key="EffectSettingDesc">페이드 인/아웃, Replay Gain, 이퀄라이저, 리버브</x:String>
     <x:String x:Key="PlayControlSettingDesc">자동 재생, 무작위 재생</x:String>
     <x:String x:Key="AdvancedSettingDesc">가비지 컬렉션</x:String>
     <x:String x:Key="AboutSettingDesc">버전 정보, 문제 신고, 로그 캐시</x:String>
@@ -347,6 +353,15 @@
     <x:String x:Key="TranslationContributorsDesc">번역 개선에 참여한 기여자 목록 보기</x:String>
     <x:String x:Key="HelpImproveTranslation">번역 개선 돕기</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">번역 문제가 발견되었나요？PR 제출</x:String>
+    <x:String x:Key="EffectFading">페이드 인/아웃</x:String>
+    <x:String x:Key="EffectFadingInTime">페이드 인 시간</x:String>
+    <x:String x:Key="EffectFadingOutTime">페이드 아웃 시간</x:String>
+    <x:String x:Key="EffectFadingPlayPause">재생 / 일시정지</x:String>
+    <x:String x:Key="EffectFadingSeek">탐색</x:String>
+    <x:String x:Key="EffectFadingManualTrackChange">수동 트랙 변경</x:String>
+    <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">활성화하면 오디오 파일의 태그 정보에 따라 재생 음량을 자동으로 조정합니다&#xA;오디오 파일에 ReplayGain 태그가 포함되어 있어야 합니다</x:String>
+    <x:String x:Key="EffectReplayGainMode">게인 모드</x:String>
     <x:String x:Key="EffectEQ">이퀄라이저</x:String>
     <x:String x:Key="EffectEQPreampMode">프리앰프 감쇠 모드</x:String>
     <x:String x:Key="EffectEQPreampModeDesc">이퀄라이저 처리 전 전체 레벨을 미리 낮추어 부스트 후 신호 과부하와 왜곡을 방지합니다</x:String>
@@ -356,8 +371,6 @@
     <x:String x:Key="EffectEQPreampDB">프리앰프 감쇠량</x:String>
     <x:String x:Key="EffectEQPreampDBDesc">값이 작을수록 전체 볼륨은 낮아지지만 왜곡이 발생하기 어렵습니다</x:String>
     <x:String x:Key="EffectEQCurPreampDB">현재 프리앰프 감쇠량</x:String>
-    <x:String x:Key="EffectReplayGain">ReplayGain</x:String>
-    <x:String x:Key="EffectReplayGainDesc">노래의 REPLAYGAIN_TRACK_GAIN 및 REPLAYGAIN_ALBUM_GAIN 태그를 스캔하여 태그 값에 따라 볼륨을 조정합니다</x:String>
     <x:String x:Key="EffectReverb">리버브</x:String>
     <x:String x:Key="EffectReverbDesc">사운드에 공간감을 더해 마치 다른 환경에 있는 것처럼 느껴지게 합니다</x:String>
     <x:String x:Key="EffectReverbRoomSize">공간 크기</x:String>
@@ -368,7 +381,7 @@
     <x:String x:Key="EffectReverbWetVolumeDesc">전체 볼륨에서 리버브 사운드가 차지하는 비율을 제어합니다&#xA;값이 높을수록 공간 효과가 더 뚜렷해집니다</x:String>
     <x:String x:Key="EffectReverbWidth">스테레오 너비</x:String>
     <x:String x:Key="EffectReverbWidthDesc">리버브가 좌우 채널에 분포하는 범위를 제어합니다&#xA;값이 높을수록 공간에 둘러싸이는 느낌이 강해집니다</x:String>
-    <x:String x:Key="EffectReverbPredelay">프리딜레이 시간(밀리초)</x:String>
+    <x:String x:Key="EffectReverbPredelay">프리딜레이 시간</x:String>
     <x:String x:Key="EffectReverbPredelayDesc">직접음과 리버브 시작 사이의 시간 간격을 제어합니다&#xA;프리딜레이가 길수록 음원이 더 멀리 들리고 드라이 사운드도 더 선명해집니다. 프리딜레이가 짧을수록 리버브가 더 빨리 어우러집니다</x:String>
     <x:String x:Key="AutoPlay">자동 재생</x:String>
     <x:String x:Key="AutoPlayDesc">앱 시작 후 자동으로 재생 시작</x:String>
@@ -406,7 +419,7 @@
     <x:String x:Key="AboutLogCacheClearDesc">클릭하여 캐시 삭제</x:String>
     <x:String x:Key="AboutOpenSourceIntro">다음 오픈소스 구성 요소를 사용했습니다：</x:String>
     <x:String x:Key="SpectrumSetting">스펙트럼 설정</x:String>
-    <x:String x:Key="SpectrumRefreshTime">새로고침 간격（밀리초）</x:String>
+    <x:String x:Key="SpectrumRefreshTime">새로고침 간격</x:String>
     <x:String x:Key="SpectrumBarCornerRadius">바 모서리 반경</x:String>
     <x:String x:Key="SpectrumBarWidth">바 너비</x:String>
     <x:String x:Key="SpectrumBarSpacing">바 간격</x:String>

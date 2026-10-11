@@ -19,6 +19,7 @@
     <x:String x:Key="Name">Name</x:String>
     <x:String x:Key="Artist">Artist</x:String>
     <x:String x:Key="Album">Album</x:String>
+    <x:String x:Key="Track">Track</x:String>
     <x:String x:Key="DiscNo">Disc No</x:String>
     <x:String x:Key="TrackNo">Track No</x:String>
     <x:String x:Key="Size">Size</x:String>
@@ -77,6 +78,9 @@
     <x:String x:Key="Minute">min</x:String>
     <x:String x:Key="Minutes">min(s)</x:String>
     <x:String x:Key="Second">s</x:String>
+    <x:String x:Key="Millisecond">ms</x:String>
+    <x:String x:Key="SecondText">{0} s</x:String>
+    <x:String x:Key="MillisecondText">{0} ms</x:String>
     <x:String x:Key="Explore">Explore</x:String>
     <x:String x:Key="Global">Global</x:String>
     <x:String x:Key="BlurRadius">Blur radius</x:String>
@@ -101,6 +105,8 @@
     <x:String x:Key="Auto">Auto</x:String>
     <x:String x:Key="Manual">Manual</x:String>
     <x:String x:Key="Separator">Separator</x:String>
+    <x:String x:Key="Gain">Gain</x:String>
+    <x:String x:Key="Peak">Peak</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">Flat</x:String>
@@ -157,7 +163,7 @@
     <x:String x:Key="UISettingPage">UI</x:String>
     <x:String x:Key="NavMenuSettingPage">Navigation Menu</x:String>
     <x:String x:Key="LibrarySettingPage">Library</x:String>
-    <x:String x:Key="EffectSettingPage">Effect</x:String>
+    <x:String x:Key="EffectSettingPage">Audio &amp; Effects</x:String>
     <x:String x:Key="LangSettingPage">Language</x:String>
     <x:String x:Key="PlayControlSettingPage">Play Control</x:String>
     <x:String x:Key="AdvancedSettingPage">Advanced</x:String>
@@ -254,7 +260,7 @@
     <x:String x:Key="UISettingDesc">Window transparency effect, Custom fonts, Wallpaper, Navigation menu</x:String>
     <x:String x:Key="NavMenuSettingDesc">Visibility control, order adjustment, default page settings</x:String>
     <x:String x:Key="LangSettingDesc">System language, Switch language</x:String>
-    <x:String x:Key="EffectSettingDesc">Equaliser, Reverb</x:String>
+    <x:String x:Key="EffectSettingDesc">Fade in/out, Replay Gain, Equaliser, Reverb</x:String>
     <x:String x:Key="PlayControlSettingDesc">Auto-play, Shuffle play</x:String>
     <x:String x:Key="AdvancedSettingDesc">Garbage collection</x:String>
     <x:String x:Key="AboutSettingDesc">Version info, Bug report, Log cache</x:String>
@@ -347,6 +353,15 @@
     <x:String x:Key="TranslationContributorsDesc">View the list of contributors who helped improve translations</x:String>
     <x:String x:Key="HelpImproveTranslation">Help Improve Translation</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">Found a translation issue? Feel free to submit a PR</x:String>
+    <x:String x:Key="EffectFading">Fade in/out</x:String>
+    <x:String x:Key="EffectFadingInTime">Fade-in time</x:String>
+    <x:String x:Key="EffectFadingOutTime">Fade-out time</x:String>
+    <x:String x:Key="EffectFadingPlayPause">Play / Pause</x:String>
+    <x:String x:Key="EffectFadingSeek">Seek</x:String>
+    <x:String x:Key="EffectFadingManualTrackChange">Manual track change</x:String>
+    <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">When enabled, playback volume is automatically adjusted based on tag information in the audio files&#xA;Requires the audio files to contain ReplayGain tags</x:String>
+    <x:String x:Key="EffectReplayGainMode">Gain mode</x:String>
     <x:String x:Key="EffectEQ">Equalizer</x:String>
     <x:String x:Key="EffectEQPreampMode">Preamp Attenuation Mode</x:String>
     <x:String x:Key="EffectEQPreampModeDesc">Pre-lowers the overall level before equaliser processing to prevent signal overload and clipping after boosting</x:String>
@@ -356,8 +371,6 @@
     <x:String x:Key="EffectEQPreampDB">Preamp Attenuation</x:String>
     <x:String x:Key="EffectEQPreampDBDesc">Lower values reduce the overall volume but make distortion less likely</x:String>
     <x:String x:Key="EffectEQCurPreampDB">Current Preamp Attenuation</x:String>
-    <x:String x:Key="EffectReplayGain">ReplayGain</x:String>
-    <x:String x:Key="EffectReplayGainDesc">Scans tracks for their REPLAYGAIN_TRACK_GAIN and REPLAYGAIN_ALBUM_GAIN tags and adjusts the volume based on the tag values</x:String>
     <x:String x:Key="EffectReverb">Reverb</x:String>
     <x:String x:Key="EffectReverbDesc">Makes the sound more spatial, as if in different environments</x:String>
     <x:String x:Key="EffectReverbRoomSize">Room Size</x:String>
@@ -368,7 +381,7 @@
     <x:String x:Key="EffectReverbWetVolumeDesc">Controls the proportion of reverb in the total volume&#xA;Higher values make the spatial effect more pronounced</x:String>
     <x:String x:Key="EffectReverbWidth">Stereo Width</x:String>
     <x:String x:Key="EffectReverbWidthDesc">Controls how widely the reverb is spread across the left and right channels&#xA;Higher values create a stronger enveloping feel</x:String>
-    <x:String x:Key="EffectReverbPredelay">Predelay (ms)</x:String>
+    <x:String x:Key="EffectReverbPredelay">Predelay</x:String>
     <x:String x:Key="EffectReverbPredelayDesc">Controls the time interval between the direct sound and the start of the reverb&#xA;A longer predelay makes the source sound farther away and the dry signal clearer; a shorter predelay blends the reverb in sooner</x:String>
     <x:String x:Key="AutoPlay">Auto play</x:String>
     <x:String x:Key="AutoPlayDesc">Auto play after launch</x:String>
@@ -406,7 +419,7 @@
     <x:String x:Key="AboutLogCacheClearDesc">Click to clear the log cache</x:String>
     <x:String x:Key="AboutOpenSourceIntro">uses the following open source components:</x:String>
     <x:String x:Key="SpectrumSetting">Spectrum Setting</x:String>
-    <x:String x:Key="SpectrumRefreshTime">Refresh Interval (ms)</x:String>
+    <x:String x:Key="SpectrumRefreshTime">Refresh Interval</x:String>
     <x:String x:Key="SpectrumBarCornerRadius">Bar Corner Radius</x:String>
     <x:String x:Key="SpectrumBarWidth">Bar Width</x:String>
     <x:String x:Key="SpectrumBarSpacing">Bar Spacing</x:String>

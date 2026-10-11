@@ -19,6 +19,7 @@
     <x:String x:Key="Name">Ad</x:String>
     <x:String x:Key="Artist">Sanatçı</x:String>
     <x:String x:Key="Album">Albüm</x:String>
+    <x:String x:Key="Track">Parça</x:String>
     <x:String x:Key="DiscNo">Disk No</x:String>
     <x:String x:Key="TrackNo">Parça No</x:String>
     <x:String x:Key="Size">Boyut</x:String>
@@ -77,6 +78,9 @@
     <x:String x:Key="Minute">dk</x:String>
     <x:String x:Key="Minutes">dk</x:String>
     <x:String x:Key="Second">sn</x:String>
+    <x:String x:Key="Millisecond">ms</x:String>
+    <x:String x:Key="SecondText">{0} sn</x:String>
+    <x:String x:Key="MillisecondText">{0} ms</x:String>
     <x:String x:Key="Explore">Gözat</x:String>
     <x:String x:Key="Global">Genel</x:String>
     <x:String x:Key="BlurRadius">Bulanıklık yarıçapı</x:String>
@@ -101,6 +105,8 @@
     <x:String x:Key="Auto">Otomatik</x:String>
     <x:String x:Key="Manual">Manuel</x:String>
     <x:String x:Key="Separator">Ayraç</x:String>
+    <x:String x:Key="Gain">Kazanç</x:String>
+    <x:String x:Key="Peak">Tepe</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">Düz</x:String>
@@ -157,7 +163,7 @@
     <x:String x:Key="UISettingPage">Arayüz</x:String>
     <x:String x:Key="NavMenuSettingPage">Gezinme Menüsü</x:String>
     <x:String x:Key="LibrarySettingPage">Kitaplık</x:String>
-    <x:String x:Key="EffectSettingPage">Efektler</x:String>
+    <x:String x:Key="EffectSettingPage">Ses ve efektler</x:String>
     <x:String x:Key="LangSettingPage">Dil</x:String>
     <x:String x:Key="PlayControlSettingPage">Oynatma Kontrolü</x:String>
     <x:String x:Key="AdvancedSettingPage">Gelişmiş</x:String>
@@ -254,7 +260,7 @@
     <x:String x:Key="UISettingDesc">Pencere saydamlığı, yazı tipleri, duvar kağıdı, menü</x:String>
     <x:String x:Key="NavMenuSettingDesc">Görünürlük, sıralama, varsayılan sayfa</x:String>
     <x:String x:Key="LangSettingDesc">Sistem dili, dil değiştirme</x:String>
-    <x:String x:Key="EffectSettingDesc">Ekolayzır, yankı</x:String>
+    <x:String x:Key="EffectSettingDesc">Geçiş, Replay Gain, Ekolayzır, Yankı</x:String>
     <x:String x:Key="PlayControlSettingDesc">Otomatik oynatma, karışık oynatma</x:String>
     <x:String x:Key="AdvancedSettingDesc">Çöp toplama</x:String>
     <x:String x:Key="AboutSettingDesc">Sürüm, hata bildirimi, günlük önbelleği</x:String>
@@ -347,6 +353,15 @@
     <x:String x:Key="TranslationContributorsDesc">Çevirilerin iyileştirilmesine yardımcı olan katkıda bulunanların listesini görüntüleyin</x:String>
     <x:String x:Key="HelpImproveTranslation">Çeviriyi İyileştirmeye Yardımcı Olun</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">Çeviri hatası mı bulundu? PR gönderin</x:String>
+    <x:String x:Key="EffectFading">Geçiş</x:String>
+    <x:String x:Key="EffectFadingInTime">Açılış süresi</x:String>
+    <x:String x:Key="EffectFadingOutTime">Kapanış süresi</x:String>
+    <x:String x:Key="EffectFadingPlayPause">Oynat / Duraklat</x:String>
+    <x:String x:Key="EffectFadingSeek">Arama</x:String>
+    <x:String x:Key="EffectFadingManualTrackChange">Manuel parça değişimi</x:String>
+    <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">Etkinleştirildiğinde oynatma sesi, ses dosyalarındaki etiket bilgisine göre otomatik ayarlanır&#xA;Ses dosyalarının ReplayGain etiketleri içermesi gerekir</x:String>
+    <x:String x:Key="EffectReplayGainMode">Kazanç modu</x:String>
     <x:String x:Key="EffectEQ">Ekolayzer</x:String>
     <x:String x:Key="EffectEQPreampMode">Preamp zayıflatma modu</x:String>
     <x:String x:Key="EffectEQPreampModeDesc">Ekolayzer işlemi öncesinde genel seviyeyi düşürerek yükseltme sonrası sinyal aşırı yüklenmesini ve bozulmayı önler</x:String>
@@ -356,8 +371,6 @@
     <x:String x:Key="EffectEQPreampDB">Preamp zayıflatma miktarı</x:String>
     <x:String x:Key="EffectEQPreampDBDesc">Değer ne kadar düşükse genel ses o kadar alçalır, ancak bozulma olasılığı da azalır</x:String>
     <x:String x:Key="EffectEQCurPreampDB">Mevcut preamp zayıflatma miktarı</x:String>
-    <x:String x:Key="EffectReplayGain">ReplayGain</x:String>
-    <x:String x:Key="EffectReplayGainDesc">Şarkıların REPLAYGAIN_TRACK_GAIN ve REPLAYGAIN_ALBUM_GAIN etiketlerini tarar ve etiket değerlerine göre ses düzeyini ayarlar</x:String>
     <x:String x:Key="EffectReverb">Yankı</x:String>
     <x:String x:Key="EffectReverbDesc">Sese daha fazla mekân hissi verir, sanki farklı bir ortamdaymışsınız gibi</x:String>
     <x:String x:Key="EffectReverbRoomSize">Oda boyutu</x:String>
@@ -368,7 +381,7 @@
     <x:String x:Key="EffectReverbWetVolumeDesc">Yankı sesinin toplam ses düzeyindeki oranını kontrol eder&#xA;Değer arttıkça mekansal etki daha belirgin olur</x:String>
     <x:String x:Key="EffectReverbWidth">Stereo genişliği</x:String>
     <x:String x:Key="EffectReverbWidthDesc">Yankının sol ve sağ kanallardaki dağılım aralığını kontrol eder&#xA;Değer arttıkça mekanla çevrelenme hissi güçlenir</x:String>
-    <x:String x:Key="EffectReverbPredelay">Ön gecikme süresi (ms)</x:String>
+    <x:String x:Key="EffectReverbPredelay">Ön gecikme süresi</x:String>
     <x:String x:Key="EffectReverbPredelayDesc">Doğrudan ses ile yankının başlangıcı arasındaki zaman aralığını kontrol eder&#xA;Ön gecikme uzadıkça ses kaynağı daha uzak duyulur ve kuru ses daha net olur; ön gecikme kısaldıkça yankı daha erken harmanlanır</x:String>
     <x:String x:Key="AutoPlay">Otomatik oynatma</x:String>
     <x:String x:Key="AutoPlayDesc">Başlatıldıktan sonra otomatik oynat</x:String>
@@ -406,7 +419,7 @@
     <x:String x:Key="AboutLogCacheClearDesc">Temizlemek için tıklayın</x:String>
     <x:String x:Key="AboutOpenSourceIntro">Aşağıdaki açık kaynak bileşenleri kullanır:</x:String>
     <x:String x:Key="SpectrumSetting">Spektrum</x:String>
-    <x:String x:Key="SpectrumRefreshTime">Yenileme aralığı (ms)</x:String>
+    <x:String x:Key="SpectrumRefreshTime">Yenileme aralığı</x:String>
     <x:String x:Key="SpectrumBarCornerRadius">Çubuk köşe yarıçapı</x:String>
     <x:String x:Key="SpectrumBarWidth">Çubuk genişliği</x:String>
     <x:String x:Key="SpectrumBarSpacing">Çubuk aralığı</x:String>

@@ -19,6 +19,7 @@
     <x:String x:Key="Name">名称</x:String>
     <x:String x:Key="Artist">艺术家</x:String>
     <x:String x:Key="Album">专辑</x:String>
+    <x:String x:Key="Track">音轨</x:String>
     <x:String x:Key="DiscNo">碟号</x:String>
     <x:String x:Key="TrackNo">音轨号</x:String>
     <x:String x:Key="Size">大小</x:String>
@@ -77,6 +78,9 @@
     <x:String x:Key="Minute">分</x:String>
     <x:String x:Key="Minutes">分钟</x:String>
     <x:String x:Key="Second">秒</x:String>
+    <x:String x:Key="Millisecond">毫秒</x:String>
+    <x:String x:Key="SecondText">{0} 秒</x:String>
+    <x:String x:Key="MillisecondText">{0} 毫秒</x:String>
     <x:String x:Key="Explore">浏览</x:String>
     <x:String x:Key="Global">全局</x:String>
     <x:String x:Key="BlurRadius">模糊半径</x:String>
@@ -101,6 +105,8 @@
     <x:String x:Key="Auto">自动</x:String>
     <x:String x:Key="Manual">手动</x:String>
     <x:String x:Key="Separator">分隔符</x:String>
+    <x:String x:Key="Gain">增益</x:String>
+    <x:String x:Key="Peak">峰值</x:String>
 
     <!--  EQ  -->
     <x:String x:Key="Flat">平直</x:String>
@@ -254,7 +260,7 @@
     <x:String x:Key="UISettingDesc">窗口透明效果、自定义字体、壁纸、导航菜单</x:String>
     <x:String x:Key="NavMenuSettingDesc">可见性控制、顺序调整、默认页面设置</x:String>
     <x:String x:Key="LangSettingDesc">系统语言、切换语言</x:String>
-    <x:String x:Key="EffectSettingDesc">均衡器、混响</x:String>
+    <x:String x:Key="EffectSettingDesc">淡入淡出、回放增益、均衡器、混响</x:String>
     <x:String x:Key="PlayControlSettingDesc">自动播放、随机播放</x:String>
     <x:String x:Key="AdvancedSettingDesc">垃圾回收</x:String>
     <x:String x:Key="AboutSettingDesc">版本信息、问题反馈、日志缓存</x:String>
@@ -347,6 +353,15 @@
     <x:String x:Key="TranslationContributorsDesc">查看参与翻译改进的贡献者名单</x:String>
     <x:String x:Key="HelpImproveTranslation">帮助改进翻译</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">发现翻译问题？欢迎提交 PR</x:String>
+    <x:String x:Key="EffectFading">淡入淡出</x:String>
+    <x:String x:Key="EffectFadingInTime">淡入时间</x:String>
+    <x:String x:Key="EffectFadingOutTime">淡出时间</x:String>
+    <x:String x:Key="EffectFadingPlayPause">播放 / 暂停</x:String>
+    <x:String x:Key="EffectFadingSeek">跳转</x:String>
+    <x:String x:Key="EffectFadingManualTrackChange">手动切歌</x:String>
+    <x:String x:Key="EffectReplayGain">回放增益</x:String>
+    <x:String x:Key="EffectReplayGainDesc">开启后，将根据音频文件中的标签信息，自动调整播放音量&#xA;需要音频文件已包含 ReplayGain 标签</x:String>
+    <x:String x:Key="EffectReplayGainMode">增益模式</x:String>
     <x:String x:Key="EffectEQ">均衡器</x:String>
     <x:String x:Key="EffectEQPreampMode">前置衰减模式</x:String>
     <x:String x:Key="EffectEQPreampModeDesc">在均衡器处理前预先降低整体电平，防止提升后信号过载失真</x:String>
@@ -356,8 +371,6 @@
     <x:String x:Key="EffectEQPreampDB">前置衰减量</x:String>
     <x:String x:Key="EffectEQPreampDBDesc">数值越小，整体音量越低，但越不容易失真</x:String>
     <x:String x:Key="EffectEQCurPreampDB">当前前置衰减量</x:String>
-    <x:String x:Key="EffectReplayGain">回放增益</x:String>
-    <x:String x:Key="EffectReplayGainDesc">扫描歌曲的 REPLAYGAIN_TRACK_GAIN 和 REPLAYGAIN_ALBUM_GAIN 标签，根据标签值调整音量大小</x:String>
     <x:String x:Key="EffectReverb">混响</x:String>
     <x:String x:Key="EffectReverbDesc">让声音更有空间感，仿佛置身不同环境</x:String>
     <x:String x:Key="EffectReverbRoomSize">房间大小</x:String>
@@ -368,7 +381,7 @@
     <x:String x:Key="EffectReverbWetVolumeDesc">控制混响声在总音量中的占比&#xA;数值越高，空间效果越明显</x:String>
     <x:String x:Key="EffectReverbWidth">立体声宽度</x:String>
     <x:String x:Key="EffectReverbWidthDesc">控制混响在左右声道的分布范围&#xA;数值越高，空间包裹感越强</x:String>
-    <x:String x:Key="EffectReverbPredelay">预延迟时间（毫秒）</x:String>
+    <x:String x:Key="EffectReverbPredelay">预延迟时间</x:String>
     <x:String x:Key="EffectReverbPredelayDesc">控制直达声与混响开始之间的时间间隔&#xA;预延迟时间越长，声源听起来越远，干声也更清晰；预延迟时间越短，混响融合得越早</x:String>
     <x:String x:Key="AutoPlay">自动播放</x:String>
     <x:String x:Key="AutoPlayDesc">启动应用后自动开始播放</x:String>
@@ -406,7 +419,7 @@
     <x:String x:Key="AboutLogCacheClearDesc">点击清除缓存</x:String>
     <x:String x:Key="AboutOpenSourceIntro">使用了以下开源组件：</x:String>
     <x:String x:Key="SpectrumSetting">频谱设置</x:String>
-    <x:String x:Key="SpectrumRefreshTime">刷新间隔（毫秒）</x:String>
+    <x:String x:Key="SpectrumRefreshTime">刷新间隔</x:String>
     <x:String x:Key="SpectrumBarCornerRadius">频谱条圆角半径</x:String>
     <x:String x:Key="SpectrumBarWidth">频谱条宽度</x:String>
     <x:String x:Key="SpectrumBarSpacing">频谱条间距</x:String>

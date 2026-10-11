@@ -19,6 +19,7 @@
     <x:String x:Key="Name">Имя</x:String>
     <x:String x:Key="Artist">Исполнитель</x:String>
     <x:String x:Key="Album">Альбом</x:String>
+    <x:String x:Key="Track">Трек</x:String>
     <x:String x:Key="DiscNo">Номер диска</x:String>
     <x:String x:Key="TrackNo">Номер трека</x:String>
     <x:String x:Key="Size">Размер</x:String>
@@ -77,6 +78,9 @@
     <x:String x:Key="Minute">мин</x:String>
     <x:String x:Key="Minutes">мин</x:String>
     <x:String x:Key="Second">сек</x:String>
+    <x:String x:Key="Millisecond">мс</x:String>
+    <x:String x:Key="SecondText">{0} сек</x:String>
+    <x:String x:Key="MillisecondText">{0} мс</x:String>
     <x:String x:Key="Explore">Обзор</x:String>
     <x:String x:Key="Global">Глобально</x:String>
     <x:String x:Key="BlurRadius">Радиус размытия</x:String>
@@ -101,6 +105,8 @@
     <x:String x:Key="Auto">Авто</x:String>
     <x:String x:Key="Manual">Вручную</x:String>
     <x:String x:Key="Separator">Разделитель</x:String>
+    <x:String x:Key="Gain">Усиление</x:String>
+    <x:String x:Key="Peak">Пик</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">Линейный</x:String>
@@ -157,7 +163,7 @@
     <x:String x:Key="UISettingPage">Интерфейс</x:String>
     <x:String x:Key="NavMenuSettingPage">Меню навигации</x:String>
     <x:String x:Key="LibrarySettingPage">Библиотека</x:String>
-    <x:String x:Key="EffectSettingPage">Аудиоэффекты</x:String>
+    <x:String x:Key="EffectSettingPage">Аудио и эффекты</x:String>
     <x:String x:Key="LangSettingPage">Язык</x:String>
     <x:String x:Key="PlayControlSettingPage">Управление</x:String>
     <x:String x:Key="AdvancedSettingPage">Дополнительно</x:String>
@@ -254,7 +260,7 @@
     <x:String x:Key="UISettingDesc">Непрозрачность окна, шрифты, обои, меню</x:String>
     <x:String x:Key="NavMenuSettingDesc">Видимость, порядок, страница по умолчанию</x:String>
     <x:String x:Key="LangSettingDesc">Язык системы, смена языка</x:String>
-    <x:String x:Key="EffectSettingDesc">Эквалайзер, реверберация</x:String>
+    <x:String x:Key="EffectSettingDesc">Плавный переход, Replay Gain, Эквалайзер, Реверберация</x:String>
     <x:String x:Key="PlayControlSettingDesc">Автовоспроизведение, перемешивание</x:String>
     <x:String x:Key="AdvancedSettingDesc">Сборка мусора</x:String>
     <x:String x:Key="AboutSettingDesc">Версия, отзывы, кэш</x:String>
@@ -347,6 +353,15 @@
     <x:String x:Key="TranslationContributorsDesc">Список участников, помогавших улучшить перевод</x:String>
     <x:String x:Key="HelpImproveTranslation">Помочь с переводом</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">Нашли ошибку в переводе? Отправьте PR</x:String>
+    <x:String x:Key="EffectFading">Плавный переход</x:String>
+    <x:String x:Key="EffectFadingInTime">Время плавного входа</x:String>
+    <x:String x:Key="EffectFadingOutTime">Время плавного выхода</x:String>
+    <x:String x:Key="EffectFadingPlayPause">Воспр. / Пауза</x:String>
+    <x:String x:Key="EffectFadingSeek">Перемотка</x:String>
+    <x:String x:Key="EffectFadingManualTrackChange">Ручная смена трека</x:String>
+    <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">При включении громкость воспроизведения автоматически корректируется на основе тегов в аудиофайлах&#xA;Требуется, чтобы аудиофайлы содержали теги ReplayGain</x:String>
+    <x:String x:Key="EffectReplayGainMode">Режим усиления</x:String>
     <x:String x:Key="EffectEQ">Эквалайзер</x:String>
     <x:String x:Key="EffectEQPreampMode">Режим предварительного ослабления</x:String>
     <x:String x:Key="EffectEQPreampModeDesc">Заранее снижает общий уровень перед обработкой эквалайзером, предотвращая перегрузку и искажения после усиления</x:String>
@@ -356,8 +371,6 @@
     <x:String x:Key="EffectEQPreampDB">Величина предварительного ослабления</x:String>
     <x:String x:Key="EffectEQPreampDBDesc">Чем меньше значение, тем ниже общая громкость, но тем меньше вероятность искажений</x:String>
     <x:String x:Key="EffectEQCurPreampDB">Текущее предварительное ослабление</x:String>
-    <x:String x:Key="EffectReplayGain">ReplayGain</x:String>
-    <x:String x:Key="EffectReplayGainDesc">Сканирует теги REPLAYGAIN_TRACK_GAIN и REPLAYGAIN_ALBUM_GAIN у песен и изменяет громкость в соответствии с их значениями</x:String>
     <x:String x:Key="EffectReverb">Реверберация</x:String>
     <x:String x:Key="EffectReverbDesc">Придаёт звуку большую пространственность, словно вы находитесь в другой обстановке</x:String>
     <x:String x:Key="EffectReverbRoomSize">Размер помещения</x:String>
@@ -368,7 +381,7 @@
     <x:String x:Key="EffectReverbWetVolumeDesc">Управляет долей звука реверберации в общей громкости&#xA;Чем выше значение, тем заметнее пространственный эффект</x:String>
     <x:String x:Key="EffectReverbWidth">Ширина стерео</x:String>
     <x:String x:Key="EffectReverbWidthDesc">Управляет распределением реверберации между левым и правым каналами&#xA;Чем выше значение, тем сильнее ощущение объёмного звучания</x:String>
-    <x:String x:Key="EffectReverbPredelay">Время предзадержки (мс)</x:String>
+    <x:String x:Key="EffectReverbPredelay">Время предзадержки</x:String>
     <x:String x:Key="EffectReverbPredelayDesc">Управляет интервалом времени между прямым звуком и началом реверберации&#xA;Чем длиннее предзадержка, тем дальше кажется источник звука и чище сухой сигнал; чем короче предзадержка, тем раньше вплетается реверберация</x:String>
     <x:String x:Key="AutoPlay">Автовоспроизведение</x:String>
     <x:String x:Key="AutoPlayDesc">Начинать воспроизведение после открытия приложения</x:String>
@@ -406,7 +419,7 @@
     <x:String x:Key="AboutLogCacheClearDesc">Нажмите для очистки</x:String>
     <x:String x:Key="AboutOpenSourceIntro">Используются компоненты:</x:String>
     <x:String x:Key="SpectrumSetting">Настройки спектра</x:String>
-    <x:String x:Key="SpectrumRefreshTime">Интервал обновления (мс)</x:String>
+    <x:String x:Key="SpectrumRefreshTime">Интервал обновления</x:String>
     <x:String x:Key="SpectrumBarCornerRadius">Скругление столбцов</x:String>
     <x:String x:Key="SpectrumBarWidth">Ширина столбца</x:String>
     <x:String x:Key="SpectrumBarSpacing">Интервал</x:String>

@@ -19,6 +19,7 @@
     <x:String x:Key="Name">Nome</x:String>
     <x:String x:Key="Artist">Artista</x:String>
     <x:String x:Key="Album">Álbum</x:String>
+    <x:String x:Key="Track">Faixa</x:String>
     <x:String x:Key="DiscNo">Nº do disco</x:String>
     <x:String x:Key="TrackNo">Nº da faixa</x:String>
     <x:String x:Key="Size">Tamanho</x:String>
@@ -77,6 +78,9 @@
     <x:String x:Key="Minute">min</x:String>
     <x:String x:Key="Minutes">min</x:String>
     <x:String x:Key="Second">s</x:String>
+    <x:String x:Key="Millisecond">ms</x:String>
+    <x:String x:Key="SecondText">{0} s</x:String>
+    <x:String x:Key="MillisecondText">{0} ms</x:String>
     <x:String x:Key="Explore">Explorar</x:String>
     <x:String x:Key="Global">Global</x:String>
     <x:String x:Key="BlurRadius">Raio de desfoque</x:String>
@@ -101,6 +105,8 @@
     <x:String x:Key="Auto">Automático</x:String>
     <x:String x:Key="Manual">Manual</x:String>
     <x:String x:Key="Separator">Separador</x:String>
+    <x:String x:Key="Gain">Ganho</x:String>
+    <x:String x:Key="Peak">Pico</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">Plano</x:String>
@@ -157,7 +163,7 @@
     <x:String x:Key="UISettingPage">Interface</x:String>
     <x:String x:Key="NavMenuSettingPage">Menu de navegação</x:String>
     <x:String x:Key="LibrarySettingPage">Biblioteca</x:String>
-    <x:String x:Key="EffectSettingPage">Efeitos</x:String>
+    <x:String x:Key="EffectSettingPage">Áudio e efeitos</x:String>
     <x:String x:Key="LangSettingPage">Idioma</x:String>
     <x:String x:Key="PlayControlSettingPage">Controles de reprodução</x:String>
     <x:String x:Key="AdvancedSettingPage">Avançado</x:String>
@@ -254,7 +260,7 @@
     <x:String x:Key="UISettingDesc">Transparência, fontes, papel de parede, menu</x:String>
     <x:String x:Key="NavMenuSettingDesc">Visibilidade, ordem, página padrão</x:String>
     <x:String x:Key="LangSettingDesc">Idioma do sistema, trocar idioma</x:String>
-    <x:String x:Key="EffectSettingDesc">Equalizador, reverberação</x:String>
+    <x:String x:Key="EffectSettingDesc">Fade, Replay Gain, Equalizador, Reverberação</x:String>
     <x:String x:Key="PlayControlSettingDesc">Reprodução automática, aleatória</x:String>
     <x:String x:Key="AdvancedSettingDesc">Coleta de lixo</x:String>
     <x:String x:Key="AboutSettingDesc">Versão, relatar bugs, cache de logs</x:String>
@@ -347,6 +353,15 @@
     <x:String x:Key="TranslationContributorsDesc">Ver a lista de contribuidores que ajudaram a melhorar as traduções</x:String>
     <x:String x:Key="HelpImproveTranslation">Ajudar a melhorar a tradução</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">Encontrado um problema de tradução? Enviar um PR</x:String>
+    <x:String x:Key="EffectFading">Fade</x:String>
+    <x:String x:Key="EffectFadingInTime">Tempo de fade in</x:String>
+    <x:String x:Key="EffectFadingOutTime">Tempo de fade out</x:String>
+    <x:String x:Key="EffectFadingPlayPause">Reproduzir / Pausar</x:String>
+    <x:String x:Key="EffectFadingSeek">Buscar</x:String>
+    <x:String x:Key="EffectFadingManualTrackChange">Mudança manual de faixa</x:String>
+    <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">Quando ativado, o volume de reprodução é ajustado automaticamente com base nas informações de tags nos arquivos de áudio&#xA;Requer que os arquivos de áudio contenham tags ReplayGain</x:String>
+    <x:String x:Key="EffectReplayGainMode">Modo de ganho</x:String>
     <x:String x:Key="EffectEQ">Equalizador</x:String>
     <x:String x:Key="EffectEQPreampMode">Modo de atenuação do pré-amplificador</x:String>
     <x:String x:Key="EffectEQPreampModeDesc">Reduz o nível geral antes do processamento do equalizador para evitar sobrecarga e distorção após os reforços</x:String>
@@ -356,8 +371,6 @@
     <x:String x:Key="EffectEQPreampDB">Atenuação do pré-amplificador</x:String>
     <x:String x:Key="EffectEQPreampDBDesc">Valores menores reduzem o volume geral, mas dificultam a distorção</x:String>
     <x:String x:Key="EffectEQCurPreampDB">Atenuação atual do pré-amplificador</x:String>
-    <x:String x:Key="EffectReplayGain">ReplayGain</x:String>
-    <x:String x:Key="EffectReplayGainDesc">Verifica as tags REPLAYGAIN_TRACK_GAIN e REPLAYGAIN_ALBUM_GAIN das músicas e ajusta o volume com base nesses valores</x:String>
     <x:String x:Key="EffectReverb">Reverberação</x:String>
     <x:String x:Key="EffectReverbDesc">Dá ao som mais sensação espacial, como se estivesse em um ambiente diferente</x:String>
     <x:String x:Key="EffectReverbRoomSize">Tamanho da sala</x:String>
@@ -368,7 +381,7 @@
     <x:String x:Key="EffectReverbWetVolumeDesc">Controla a proporção do som de reverberação no volume total&#xA;Quanto maior o valor, mais perceptível é o efeito espacial</x:String>
     <x:String x:Key="EffectReverbWidth">Largura estéreo</x:String>
     <x:String x:Key="EffectReverbWidthDesc">Controla a distribuição da reverberação entre os canais esquerdo e direito&#xA;Quanto maior o valor, maior a sensação de envolvimento</x:String>
-    <x:String x:Key="EffectReverbPredelay">Pré-delay (ms)</x:String>
+    <x:String x:Key="EffectReverbPredelay">Pré-delay</x:String>
     <x:String x:Key="EffectReverbPredelayDesc">Controla o intervalo de tempo entre o som direto e o início da reverberação&#xA;Um pré-delay mais longo faz a fonte soar mais distante e mantém o som seco mais claro; um pré-delay mais curto integra a reverberação mais cedo</x:String>
     <x:String x:Key="AutoPlay">Reprodução automática</x:String>
     <x:String x:Key="AutoPlayDesc">Iniciar reprodução automaticamente após abrir</x:String>
@@ -406,7 +419,7 @@
     <x:String x:Key="AboutLogCacheClearDesc">Clique para limpar o cache</x:String>
     <x:String x:Key="AboutOpenSourceIntro">Usa os seguintes componentes de código aberto:</x:String>
     <x:String x:Key="SpectrumSetting">Espectro</x:String>
-    <x:String x:Key="SpectrumRefreshTime">Intervalo de atualização (ms)</x:String>
+    <x:String x:Key="SpectrumRefreshTime">Intervalo de atualização</x:String>
     <x:String x:Key="SpectrumBarCornerRadius">Arredondamento das barras</x:String>
     <x:String x:Key="SpectrumBarWidth">Largura das barras</x:String>
     <x:String x:Key="SpectrumBarSpacing">Espaçamento das barras</x:String>

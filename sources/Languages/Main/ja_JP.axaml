@@ -19,6 +19,7 @@
     <x:String x:Key="Name">名前</x:String>
     <x:String x:Key="Artist">アーティスト</x:String>
     <x:String x:Key="Album">アルバム</x:String>
+    <x:String x:Key="Track">トラック</x:String>
     <x:String x:Key="DiscNo">ディスク番号</x:String>
     <x:String x:Key="TrackNo">トラック番号</x:String>
     <x:String x:Key="Size">サイズ</x:String>
@@ -77,6 +78,9 @@
     <x:String x:Key="Minute">分</x:String>
     <x:String x:Key="Minutes">分</x:String>
     <x:String x:Key="Second">秒</x:String>
+    <x:String x:Key="Millisecond">ミリ秒</x:String>
+    <x:String x:Key="SecondText">{0} 秒</x:String>
+    <x:String x:Key="MillisecondText">{0} ミリ秒</x:String>
     <x:String x:Key="Explore">閲覧</x:String>
     <x:String x:Key="Global">グローバル</x:String>
     <x:String x:Key="BlurRadius">ぼかし半径</x:String>
@@ -101,6 +105,8 @@
     <x:String x:Key="Auto">自動</x:String>
     <x:String x:Key="Manual">手動</x:String>
     <x:String x:Key="Separator">区切り文字</x:String>
+    <x:String x:Key="Gain">ゲイン</x:String>
+    <x:String x:Key="Peak">ピーク</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">フラット</x:String>
@@ -157,7 +163,7 @@
     <x:String x:Key="UISettingPage">UI</x:String>
     <x:String x:Key="NavMenuSettingPage">ナビゲーションメニュー</x:String>
     <x:String x:Key="LibrarySettingPage">ライブラリ</x:String>
-    <x:String x:Key="EffectSettingPage">オーディオ効果</x:String>
+    <x:String x:Key="EffectSettingPage">オーディオと効果</x:String>
     <x:String x:Key="LangSettingPage">言語</x:String>
     <x:String x:Key="PlayControlSettingPage">再生制御</x:String>
     <x:String x:Key="AdvancedSettingPage">詳細設定</x:String>
@@ -254,7 +260,7 @@
     <x:String x:Key="UISettingDesc">ウィンドウ透明効果、カスタムフォント、壁紙、ナビゲーションメニュー</x:String>
     <x:String x:Key="NavMenuSettingDesc">表示制御、順序調整、デフォルトページ設定</x:String>
     <x:String x:Key="LangSettingDesc">システム言語、言語切替</x:String>
-    <x:String x:Key="EffectSettingDesc">イコライザー、残響</x:String>
+    <x:String x:Key="EffectSettingDesc">フェードイン/アウト、Replay Gain、イコライザー、リバーブ</x:String>
     <x:String x:Key="PlayControlSettingDesc">自動再生、シャッフル再生</x:String>
     <x:String x:Key="AdvancedSettingDesc">ガベージコレクション</x:String>
     <x:String x:Key="AboutSettingDesc">バージョン情報、問題報告、ログキャッシュ</x:String>
@@ -347,6 +353,15 @@
     <x:String x:Key="TranslationContributorsDesc">翻訳の改善に参加した貢献者リストを表示</x:String>
     <x:String x:Key="HelpImproveTranslation">翻訳の改善に協力</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">翻訳の問題を見つけましたか？PRを提出してください</x:String>
+    <x:String x:Key="EffectFading">フェードイン/アウト</x:String>
+    <x:String x:Key="EffectFadingInTime">フェードイン時間</x:String>
+    <x:String x:Key="EffectFadingOutTime">フェードアウト時間</x:String>
+    <x:String x:Key="EffectFadingPlayPause">再生 / 一時停止</x:String>
+    <x:String x:Key="EffectFadingSeek">シーク</x:String>
+    <x:String x:Key="EffectFadingManualTrackChange">手動トラック切り替え</x:String>
+    <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
+    <x:String x:Key="EffectReplayGainDesc">有効にすると、オーディオファイルのタグ情報に基づいて再生音量を自動調整します&#xA;オーディオファイルに ReplayGain タグが含まれている必要があります</x:String>
+    <x:String x:Key="EffectReplayGainMode">ゲインモード</x:String>
     <x:String x:Key="EffectEQ">イコライザ</x:String>
     <x:String x:Key="EffectEQPreampMode">プリアンプ減衰モード</x:String>
     <x:String x:Key="EffectEQPreampModeDesc">イコライザー処理の前に全体レベルを下げ、ブースト後の信号過負荷と歪みを防ぎます</x:String>
@@ -356,8 +371,6 @@
     <x:String x:Key="EffectEQPreampDB">プリアンプ減衰量</x:String>
     <x:String x:Key="EffectEQPreampDBDesc">数値が小さいほど全体の音量は下がりますが、歪みにくくなります</x:String>
     <x:String x:Key="EffectEQCurPreampDB">現在のプリアンプ減衰量</x:String>
-    <x:String x:Key="EffectReplayGain">ReplayGain</x:String>
-    <x:String x:Key="EffectReplayGainDesc">曲の REPLAYGAIN_TRACK_GAIN および REPLAYGAIN_ALBUM_GAIN タグをスキャンし、タグの値に基づいて音量を調整します</x:String>
     <x:String x:Key="EffectReverb">リバーブ</x:String>
     <x:String x:Key="EffectReverbDesc">サウンドに空間感を与え、まるで異なる環境にいるかのようにします</x:String>
     <x:String x:Key="EffectReverbRoomSize">ルームサイズ</x:String>
@@ -368,7 +381,7 @@
     <x:String x:Key="EffectReverbWetVolumeDesc">全体の音量に占めるリバーブ音の割合を制御します&#xA;値が高いほど空間効果がより明確になります</x:String>
     <x:String x:Key="EffectReverbWidth">ステレオ幅</x:String>
     <x:String x:Key="EffectReverbWidthDesc">左右チャンネルへのリバーブの分布範囲を制御します&#xA;値が高いほど空間に包まれる感覚が強くなります</x:String>
-    <x:String x:Key="EffectReverbPredelay">プリディレイ時間（ミリ秒）</x:String>
+    <x:String x:Key="EffectReverbPredelay">プリディレイ時間</x:String>
     <x:String x:Key="EffectReverbPredelayDesc">直接音とリバーブの開始との間の時間間隔を制御します&#xA;プリディレイが長いほど音源は遠くに聞こえ、ドライ音もクリアになります。プリディレイが短いほどリバーブが早く馴染みます</x:String>
     <x:String x:Key="AutoPlay">自動再生</x:String>
     <x:String x:Key="AutoPlayDesc">アプリ起動後に自動で再生を開始します</x:String>
@@ -406,7 +419,7 @@
     <x:String x:Key="AboutLogCacheClearDesc">クリックしてキャッシュをクリア</x:String>
     <x:String x:Key="AboutOpenSourceIntro">以下のオープンソースコンポーネントを使用しています：</x:String>
     <x:String x:Key="SpectrumSetting">スペクトラム設定</x:String>
-    <x:String x:Key="SpectrumRefreshTime">更新間隔（ミリ秒）</x:String>
+    <x:String x:Key="SpectrumRefreshTime">更新間隔</x:String>
     <x:String x:Key="SpectrumBarCornerRadius">バーの角丸半径</x:String>
     <x:String x:Key="SpectrumBarWidth">バー幅</x:String>
     <x:String x:Key="SpectrumBarSpacing">バー間隔</x:String>
