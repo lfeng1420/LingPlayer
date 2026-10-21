@@ -7,6 +7,7 @@
     <x:String x:Key="No">Hayır</x:String>
     <x:String x:Key="On">Açık</x:String>
     <x:String x:Key="Off">Kapalı</x:String>
+    <x:String x:Key="Save">Kaydet</x:String>
     <x:String x:Key="OK">Tamam</x:String>
     <x:String x:Key="Cancel">İptal</x:String>
     <x:String x:Key="Back">Geri</x:String>
@@ -41,19 +42,19 @@
     <x:String x:Key="Reset">Sıfırla</x:String>
     <x:String x:Key="FollowSystem">Sistemi takip et</x:String>
     <x:String x:Key="Colons">:</x:String>
-    <x:String x:Key="SortBy">Sırala</x:String>
+    <x:String x:Key="SortBy">Sıralama ölçütü</x:String>
     <x:String x:Key="UnknownError">Bilinmeyen hata</x:String>
     <x:String x:Key="Fast">Hızlı</x:String>
     <x:String x:Key="Normal">Normal</x:String>
     <x:String x:Key="Slow">Yavaş</x:String>
     <x:String x:Key="FontSize">Yazı tipi boyutu</x:String>
     <x:String x:Key="FontWeight">Yazı tipi kalınlığı</x:String>
-    <x:String x:Key="Opacity">Saydamlık</x:String>
+    <x:String x:Key="Opacity">Opaklık</x:String>
     <x:String x:Key="TextAlignment">Metin hizalama</x:String>
     <x:String x:Key="Left">Sol</x:String>
     <x:String x:Key="Center">Orta</x:String>
     <x:String x:Key="Right">Sağ</x:String>
-    <x:String x:Key="Thin">İnce</x:String>
+    <x:String x:Key="Thin">Çok ince</x:String>
     <x:String x:Key="UltraLight">Ultra ince</x:String>
     <x:String x:Key="Light">İnce</x:String>
     <x:String x:Key="Regular">Normal</x:String>
@@ -72,7 +73,7 @@
     <x:String x:Key="SampleRate">Örnekleme hızı</x:String>
     <x:String x:Key="BitsPerSample">Bit derinliği</x:String>
     <x:String x:Key="Today">Bugün</x:String>
-    <x:String x:Key="Week">Hafta</x:String>
+    <x:String x:Key="Week">Bu hafta</x:String>
     <x:String x:Key="Total">Toplam</x:String>
     <x:String x:Key="Hour">sa</x:String>
     <x:String x:Key="Minute">dk</x:String>
@@ -107,6 +108,7 @@
     <x:String x:Key="Separator">Ayraç</x:String>
     <x:String x:Key="Gain">Kazanç</x:String>
     <x:String x:Key="Peak">Tepe</x:String>
+    <x:String x:Key="Base64">Base64</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">Düz</x:String>
@@ -172,7 +174,8 @@
     <x:String x:Key="StatTrackPage">Parça Sıralaması</x:String>
     <x:String x:Key="StatAlbumPage">Albüm Sıralaması</x:String>
     <x:String x:Key="StatArtistPage">Sanatçı Sıralaması</x:String>
-    <x:String x:Key="ImageCornerSettingPage">Görüntü Köşe Gücü</x:String>
+    <x:String x:Key="ImageCornerSettingPage">Resim köşe yuvarlaklığı</x:String>
+    <x:String x:Key="LyricSettingPage">Şarkı sözleri</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Parça bilgisi</x:String>
@@ -257,9 +260,10 @@
 
     <!--  Setting  -->
     <x:String x:Key="LibrarySettingDesc">Klasörler, tarama seçenekleri</x:String>
-    <x:String x:Key="UISettingDesc">Pencere saydamlığı, yazı tipleri, duvar kağıdı, menü</x:String>
+    <x:String x:Key="UISettingDesc">Pencere saydamlık efekti, yazı tipleri, duvar kağıdı, menü</x:String>
     <x:String x:Key="NavMenuSettingDesc">Görünürlük, sıralama, varsayılan sayfa</x:String>
     <x:String x:Key="LangSettingDesc">Sistem dili, dil değiştirme</x:String>
+    <x:String x:Key="LyricSettingDesc">Söz kaynakları, ağ API'leri</x:String>
     <x:String x:Key="EffectSettingDesc">Geçiş, Replay Gain, Ekolayzır, Yankı</x:String>
     <x:String x:Key="PlayControlSettingDesc">Otomatik oynatma, karışık oynatma</x:String>
     <x:String x:Key="AdvancedSettingDesc">Çöp toplama</x:String>
@@ -286,9 +290,9 @@
     <x:String x:Key="ThemeDark">Koyu</x:String>
     <x:String x:Key="ThemeFollowSystem">Sistemi takip et</x:String>
     <x:String x:Key="TransparencyEffect">Saydamlık efekti</x:String>
-    <x:String x:Key="TransparencyEffectSettingDesc">Ana pencere ve mini pencereye uygulanır. Bazı efektler bu platformda desteklenmeyebilir</x:String>
+    <x:String x:Key="TransparencyEffectSettingDesc">Ana pencere ve mini pencereye uygulanır.&#xA;Bazı efektler bu platformda desteklenmeyebilir</x:String>
     <x:String x:Key="WindowsRenderType">İşleme modu</x:String>
-    <x:String x:Key="WindowsRenderTypeDesc">Görüntü sorunları durumunda işleme modunu değiştirmeyi deneyin. Değişiklik için yeniden başlatma gerekir</x:String>
+    <x:String x:Key="WindowsRenderTypeDesc">Görüntü sorunları durumunda işleme modunu değiştirmeyi deneyin.&#xA;Değişiklik için yeniden başlatma gerekir</x:String>
     <x:String x:Key="WindowsRenderDefault">Uyarlanabilir</x:String>
     <x:String x:Key="WindowsRenderDefaultDesc">Sisteme göre uygun işleme modunu otomatik seçer</x:String>
     <x:String x:Key="WindowsRenderAngleEgl">Angle EGL</x:String>
@@ -327,7 +331,7 @@
     <x:String x:Key="ImageCornerStrengthArtistMediumDesc">Sanatçılar (ızgara görünümü)</x:String>
     <x:String x:Key="ImageCornerStrengthArtistLarge">Büyük sanatçı resmi köşe yuvarlaklığı</x:String>
     <x:String x:Key="ImageCornerStrengthArtistLargeDesc">Sanatçı detay sayfası</x:String>
-    <x:String x:Key="ImageCornerStrengthPlayingCover">Oynatılan kapak köşe yuvarlaklığı</x:String>
+    <x:String x:Key="ImageCornerStrengthPlayingCover">Oynatma sayfası kapak köşe yuvarlaklığı</x:String>
     <x:String x:Key="PlayControlAlwaysVisible">Oynatma kontrolleri her zaman görünür</x:String>
     <x:String x:Key="MainNavOpenPaneLength">Gezinme menüsü genişliği</x:String>
     <x:String x:Key="MainNavOpenPaneLengthDesc">Gezinme menüsü açıkken panel genişliğini ayarlar</x:String>
@@ -335,13 +339,13 @@
     <x:String x:Key="TrackCover">Parça kapağı</x:String>
     <x:String x:Key="GradientFlow">Dinamik gradyan</x:String>
     <x:String x:Key="MainWallpaper">Ana pencere duvar kağıdı</x:String>
-    <x:String x:Key="WallpaperOpacity">Duvar kağıdı saydamlığı</x:String>
-    <x:String x:Key="OverlayLightOpacity">Kaplama saydamlığı (açık)</x:String>
-    <x:String x:Key="OverlayDarkOpacity">Kaplama saydamlığı (koyu)</x:String>
+    <x:String x:Key="WallpaperOpacity">Duvar kağıdı opaklığı</x:String>
+    <x:String x:Key="OverlayLightOpacity">Kaplama opaklığı (açık)</x:String>
+    <x:String x:Key="OverlayDarkOpacity">Kaplama opaklığı (koyu)</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">Kaplama, açık temada metin okunabilirliğini artırır. Çok düşük değer metni okunmaz hale getirebilir</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">Kaplama, koyu temada aşırı parlak arka planları karartır, açık temada aşırı koyu arka planları aydınlatır</x:String>
-    <x:String x:Key="JumpBarOverlayLightOpacity">Atlama çubuğu kaplama opaklığı açık tema için</x:String>
-    <x:String x:Key="JumpBarOverlayDarkOpacity">Atlama çubuğu kaplama opaklığı koyu tema için</x:String>
+    <x:String x:Key="JumpBarOverlayLightOpacity">Atlama çubuğu kaplama opaklığı (açık)</x:String>
+    <x:String x:Key="JumpBarOverlayDarkOpacity">Atlama çubuğu kaplama opaklığı (koyu)</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">Konuk sanatçıları listede göster</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">Etkinleştirildiğinde, konuk sanatçılar sanatçı listesinde görünür</x:String>
     <x:String x:Key="FolderHierachyView">Klasör hiyerarşi görünümü</x:String>
@@ -354,10 +358,10 @@
     <x:String x:Key="HelpImproveTranslation">Çeviriyi İyileştirmeye Yardımcı Olun</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">Çeviri hatası mı bulundu? PR gönderin</x:String>
     <x:String x:Key="EffectFading">Geçiş</x:String>
-    <x:String x:Key="EffectFadingInTime">Açılış süresi</x:String>
-    <x:String x:Key="EffectFadingOutTime">Kapanış süresi</x:String>
+    <x:String x:Key="EffectFadingInTime">Yumuşak giriş süresi</x:String>
+    <x:String x:Key="EffectFadingOutTime">Yumuşak çıkış süresi</x:String>
     <x:String x:Key="EffectFadingPlayPause">Oynat / Duraklat</x:String>
-    <x:String x:Key="EffectFadingSeek">Arama</x:String>
+    <x:String x:Key="EffectFadingSeek">Sarma</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">Manuel parça değişimi</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
     <x:String x:Key="EffectReplayGainDesc">Etkinleştirildiğinde, ses dosyalarına gömülü Replay Gain etiketlerine göre oynatma sesini otomatik ayarlar&#xA;Ses dosyalarında Replay Gain etiketleri gereklidir</x:String>
@@ -389,7 +393,7 @@
     <x:String x:Key="SMTCDesc">Windows Sistem Medya Taşıma Kontrolleri (SMTC)</x:String>
     <x:String x:Key="AndroidMediaButtonEvent">Medya düğmelerini etkinleştir</x:String>
     <x:String x:Key="AndroidMediaButtonEventDesc">Medya düğmeleriyle oynatmayı kontrol et (örn. kulaklık düğmeleri)</x:String>
-    <x:String x:Key="AndroidAudioFocus">Özel ses odağı</x:String>
+    <x:String x:Key="AndroidAudioFocus">Ses odağını devral</x:String>
     <x:String x:Key="AndroidAudioFocusDesc">Diğer uygulamalarla aynı anda çalmaz. Sistem kısıtlamaları nedeniyle çalışmayabilir</x:String>
     <x:String x:Key="TrackClickAction">Parça tıklama eylemi</x:String>
     <x:String x:Key="TrackClickActionDesc">Listedeki parçalara tıklarken çalmanın yanında yapılacak ek eylem</x:String>
@@ -435,13 +439,13 @@
     <x:String x:Key="SpectrumSmoothFactorDesc">Yumuşatma faktörü, daha yüksek değerler daha güçlü yumuşatma etkisi</x:String>
     <x:String x:Key="SpectrumTips">Spektrum görselleştiricisini etkinleştirmek pil tüketimini artırabilir</x:String>
     <x:String x:Key="LyricSetting">Şarkı sözleri</x:String>
-    <x:String x:Key="LyricNormalOpacity">Saydamlık (normal)</x:String>
+    <x:String x:Key="LyricNormalOpacity">Opaklık (normal)</x:String>
     <x:String x:Key="LyricHighlightGlow">Parlama (vurgulu)</x:String>
     <x:String x:Key="DesktopLyricSetting">Masaüstü şarkı sözleri</x:String>
     <x:String x:Key="DesktopLyricDoubleLine">Çift satır sözler</x:String>
     <x:String x:Key="DesktopLyricNormalColor">Normal renk</x:String>
     <x:String x:Key="DesktopLyricSelectedColor">Vurgu rengi</x:String>
-    <x:String x:Key="MiniWindowOverlayOpacity">Kaplama saydamlığı</x:String>
+    <x:String x:Key="MiniWindowOverlayOpacity">Kaplama opaklığı</x:String>
     <x:String x:Key="MiniWindowOverlayOpacityDesc">Metin okunabilirliğini artırmak için</x:String>
     <x:String x:Key="MiniWindowShowInTaskbar">Görev çubuğunda göster</x:String>
 
@@ -510,6 +514,38 @@
     <x:String x:Key="DesktopLyric">Masaüstü sözleri</x:String>
     <x:String x:Key="LyricEmbedded">Gömülü</x:String>
     <x:String x:Key="LyricFile">Dosya</x:String>
+    <x:String x:Key="LyricNetwork">Ağ</x:String>
+    <x:String x:Key="LyricSource">Söz kaynağı</x:String>
+    <x:String x:Key="LyricSearch">Şarkı sözü ara</x:String>
+    <x:String x:Key="LyricApi">API listesi</x:String>
+    <x:String x:Key="LyricApiNew">Yeni API</x:String>
+    <x:String x:Key="LyricApiBase">Temel ayarlar</x:String>
+    <x:String x:Key="LyricApiRequestList">İstek listesi</x:String>
+    <x:String x:Key="LyricApiTest">API testi</x:String>
+    <x:String x:Key="LyricApiTestInputParams">Giriş parametreleri</x:String>
+    <x:String x:Key="LyricApiTestUsePlayingTrackParams">Çalan parçanın bilgilerini kullan</x:String>
+    <x:String x:Key="LyricApiTestRun">Testi çalıştır</x:String>
+    <x:String x:Key="LyricApiTestResult">Test sonucu</x:String>
+    <x:String x:Key="LyricApiTestSucc">Test başarılı</x:String>
+    <x:String x:Key="LyricApiTestFail">Test başarısız</x:String>
+    <x:String x:Key="LyricApiRequestNew">İstek ekle</x:String>
+    <x:String x:Key="LyricApiRequestEdit">İsteği düzenle</x:String>
+    <x:String x:Key="LyricApiName">API adı</x:String>
+    <x:String x:Key="LyricApiUrl">URL</x:String>
+    <x:String x:Key="LyricApiGet">GET</x:String>
+    <x:String x:Key="LyricApiPost">POST</x:String>
+    <x:String x:Key="LyricApiContentType">İçerik türü</x:String>
+    <x:String x:Key="LyricApiHeaders">Başlıklar</x:String>
+    <x:String x:Key="LyricApiParams">Parametreler</x:String>
+    <x:String x:Key="LyricApiExtractVars">Değişkenleri ayıkla</x:String>
+    <x:String x:Key="LyricApiDecoderType">Çözücü türü</x:String>
+    <x:String x:Key="LyricApiDecryptorType">Şifre çözücü türü</x:String>
+    <x:String x:Key="LyricApiDecryptorDefault">Varsayılan</x:String>
+    <x:String x:Key="LyricApiDecryptorKrc">Krc (KuGou)</x:String>
+    <x:String x:Key="LyricApiDecryptorQrc">Qrc (QQ Music)</x:String>
+    <x:String x:Key="LyricApiTimeout">Zaman aşımı</x:String>
+    <x:String x:Key="LyricApiFinalPath">Çıktı yolu</x:String>
+    <x:String x:Key="LyricApiFinalPathDesc">Şarkı sözü metninin son isteğin yanıtındaki konumunu belirtir, örn. lrc.lyric, data.content, songs[0].lyric&#xA;Boşsa, tüm yanıt şarkı sözü olarak kabul edilir</x:String>
 
     <!--  Playing  -->
     <x:String x:Key="PlayingTrackBitRate">{0} Kbps</x:String>
@@ -543,10 +579,10 @@
     <!--  Toast  -->
     <x:String x:Key="ToastTrackFileNotFound">Parça dosyası bulunamadı: {0}</x:String>
     <x:String x:Key="ToastTrackLoadFailed">Yükleme başarısız: {0}, dosya biçimi desteklenmiyor olabilir</x:String>
-    <x:String x:Key="ToastTrackPlaying">Parça zaten çalıyor</x:String>
-    <x:String x:Key="ToastAlbumSaveThumbnailFail">Albüm kapağı kaydedilemedi</x:String>
+    <x:String x:Key="ToastTrackPlaying">Parça zaten çalınıyor</x:String>
+    <x:String x:Key="ToastAlbumSaveThumbnailFail">Albüm kapağı kaydedilemedi, seçilen resim dosyası desteklenmiyor olabilir</x:String>
     <x:String x:Key="ToastAlbumSaveSucc">Albüm bilgileri kaydedildi</x:String>
-    <x:String x:Key="ToastArtistSaveThumbnailFail">Sanatçı resmi kaydedilemedi</x:String>
+    <x:String x:Key="ToastArtistSaveThumbnailFail">Sanatçı resmi kaydedilemedi, seçilen resim dosyası desteklenmiyor olabilir</x:String>
     <x:String x:Key="ToastArtistSaveSucc">Sanatçı bilgileri kaydedildi</x:String>
     <x:String x:Key="ToastPlaylistRenameSucc">Çalma listesi yeniden adlandırıldı</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">Yeni çalma listesi {0} oluşturuldu</x:String>
@@ -579,7 +615,7 @@
     <x:String x:Key="ToastOpenFolderFail">{0} klasörü açılamadı, günlük dosyasını kontrol edin</x:String>
     <x:String x:Key="ToastOneDriveLoginFail">OneDrive oturumu açılamadı</x:String>
     <x:String x:Key="ToastOneDriveLoginSucc">OneDrive oturumu açıldı</x:String>
-    <x:String x:Key="ToastOneDriveLogout">{0} OneDrive hesabı kapatıldı</x:String>
+    <x:String x:Key="ToastOneDriveLogout">{0} OneDrive oturumu kapatıldı</x:String>
     <x:String x:Key="ToastOneDriveNoAccount">OneDrive hesabı yok</x:String>
     <x:String x:Key="ToastForceGCResult">Zorunlu GC tamamlandı, {0} bellek serbest bırakıldı</x:String>
     <x:String x:Key="ToastArtistExists">{0} sanatçısı zaten var</x:String>
@@ -593,6 +629,9 @@
     <x:String x:Key="ToastEffectRenameExists">Ad zaten mevcut</x:String>
     <x:String x:Key="ToastEffectRenameSucc">Yeniden adlandırma başarılı</x:String>
     <x:String x:Key="ToastEffectRenameFail">Yeniden adlandırma başarısız</x:String>
+    <x:String x:Key="ToastLyricApiFillNameFirst">Önce API adını girin</x:String>
+    <x:String x:Key="ToastLyricApiAddFail">Şarkı sözü API'si eklenemedi</x:String>
+    <x:String x:Key="ToastLyricApiCopyVarNameSucc">Değişken adı kopyalandı</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">Başlatılıyor...</x:String>
@@ -619,11 +658,20 @@
     <x:String x:Key="TipsSearch">Parça, albüm, sanatçı, çalma listesi ara</x:String>
     <x:String x:Key="TipsNavMenuItem">Menü öğelerini yeniden sıralamak için sürükleyin</x:String>
     <x:String x:Key="TipsSeparatorInput">Ayracı girin</x:String>
-    <x:String x:Key="TipsSeparator">Ayraçlar birden çok sanatçı/türü ayrıştırmak için kullanılır. Görüntülemeyi özelleştirmek için seçin.</x:String>
-    <x:String x:Key="TipsWallpaper">Özel duvar kağıdı okunabilirliği azaltabilir. Saydamlığı ayarlayın veya tema değiştirin.</x:String>
+    <x:String x:Key="TipsSeparator">Ayraçlar birden çok sanatçı/türü ayrıştırmak için kullanılır.&#xA;Görüntülemeyi özelleştirmek için seçin.</x:String>
+    <x:String x:Key="TipsWallpaper">Özel duvar kağıdı okunabilirliği azaltabilir.&#xA;Opaklığı ayarlayın veya tema değiştirin.</x:String>
     <x:String x:Key="TipsCueTrackEdit">Bu parça CUE dosyasından geliyor, meta veriler değiştirilemez. CUE dosyasını doğrudan düzenleyin.</x:String>
     <x:String x:Key="TipsCueAlbumEdit">Bu albüm CUE dosyalarından parçalar içeriyor, meta veriler değiştirilemez. CUE dosyasını doğrudan düzenleyin.</x:String>
     <x:String x:Key="TipsEffectNameInput">Yeni ad girin</x:String>
+    <x:String x:Key="LyricSourceDragSortTips">Arama sırasını ayarlamak için sürükleyin</x:String>
+    <x:String x:Key="LyricApiDragSortTips">Çağrı sırasını ayarlamak için sürükleyin</x:String>
+    <x:String x:Key="TipsLyricApiNameEmpty">API adı boş olamaz</x:String>
+    <x:String x:Key="TipsLyricApiNameExists">API adı zaten var</x:String>
+    <x:String x:Key="TipsLyricApiUrlEmpty">URL boş</x:String>
+    <x:String x:Key="TipsLyricApiUrlInvalid">Geçersiz URL</x:String>
+    <x:String x:Key="TipsLyricApiExtractVarsEmpty">Ayıklanacak değişken listesi boş olamaz</x:String>
+    <x:String x:Key="TipsLyricSearching">Aranıyor...</x:String>
+    <x:String x:Key="TipsLyricApiRequestParams">Kullanılabilir değişkenler (kopyalamak için tıklayın):</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">0.10.0.0 sürümü, parçaların sonunun erken kesilmesi sorununu (genellikle 1 saniyeden az) düzeltir. Önbellek süre hassasiyeti saniyeden milisaniyeye yükseltildi.</x:String>
@@ -640,7 +688,7 @@
     <x:String x:Key="NoticePart5">Rahatsızlıktan dolayı özür dileriz. Anlayış ve destek için teşekkür ederiz!</x:String>
 
     <!--  Misc  -->
-    <x:String x:Key="SendLogMail">Günlük gönder</x:String>
+    <x:String x:Key="SendLogMail">Günlüğü e-postayla gönder</x:String>
     <x:String x:Key="AppLaunchFail">Uygulama başlatılamadı</x:String>
     <x:String x:Key="ServiceInitFail">{0} başlatılamadı</x:String>
     <x:String x:Key="ClearAllEndedTasks">Tüm biten görevleri temizle</x:String>

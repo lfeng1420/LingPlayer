@@ -7,6 +7,7 @@
     <x:String x:Key="No">いいえ</x:String>
     <x:String x:Key="On">オン</x:String>
     <x:String x:Key="Off">オフ</x:String>
+    <x:String x:Key="Save">保存</x:String>
     <x:String x:Key="OK">OK</x:String>
     <x:String x:Key="Cancel">キャンセル</x:String>
     <x:String x:Key="Back">戻る</x:String>
@@ -69,7 +70,7 @@
     <x:String x:Key="MimeType">フォーマット</x:String>
     <x:String x:Key="FileSize">ファイルサイズ</x:String>
     <x:String x:Key="BitRate">ビットレート</x:String>
-    <x:String x:Key="SampleRate">サンプルレート</x:String>
+    <x:String x:Key="SampleRate">サンプリングレート</x:String>
     <x:String x:Key="BitsPerSample">ビット深度</x:String>
     <x:String x:Key="Today">今日</x:String>
     <x:String x:Key="Week">今週</x:String>
@@ -107,6 +108,7 @@
     <x:String x:Key="Separator">区切り文字</x:String>
     <x:String x:Key="Gain">ゲイン</x:String>
     <x:String x:Key="Peak">ピーク</x:String>
+    <x:String x:Key="Base64">Base64</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">フラット</x:String>
@@ -172,7 +174,8 @@
     <x:String x:Key="StatTrackPage">曲ランキング</x:String>
     <x:String x:Key="StatAlbumPage">アルバムランキング</x:String>
     <x:String x:Key="StatArtistPage">アーティストランキング</x:String>
-    <x:String x:Key="ImageCornerSettingPage">画像の角の強度</x:String>
+    <x:String x:Key="ImageCornerSettingPage">画像の角丸の強さ</x:String>
+    <x:String x:Key="LyricSettingPage">歌詞</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">曲情報</x:String>
@@ -260,6 +263,7 @@
     <x:String x:Key="UISettingDesc">ウィンドウ透明効果、カスタムフォント、壁紙、ナビゲーションメニュー</x:String>
     <x:String x:Key="NavMenuSettingDesc">表示制御、順序調整、デフォルトページ設定</x:String>
     <x:String x:Key="LangSettingDesc">システム言語、言語切替</x:String>
+    <x:String x:Key="LyricSettingDesc">歌詞ソース、ネットワーク API</x:String>
     <x:String x:Key="EffectSettingDesc">フェードイン/アウト、Replay Gain、イコライザー、リバーブ</x:String>
     <x:String x:Key="PlayControlSettingDesc">自動再生、シャッフル再生</x:String>
     <x:String x:Key="AdvancedSettingDesc">ガベージコレクション</x:String>
@@ -312,7 +316,7 @@
     <x:String x:Key="TrayMenuDesc">無効にすると、メインウィンドウを閉じるとアプリが終了します</x:String>
     <x:String x:Key="TaskbarTitle">タスクバーに現在再生中の曲を表示</x:String>
     <x:String x:Key="TaskbarTitleDesc">デフォルト表示形式：タイトル - アーティスト</x:String>
-    <x:String x:Key="ImageCornerStrength">画像の角丸サイズ</x:String>
+    <x:String x:Key="ImageCornerStrength">画像の角丸の強さ</x:String>
     <x:String x:Key="ImageCornerStrengthDesc">曲・アルバム・アーティスト画像の角丸サイズをカスタマイズ</x:String>
     <x:String x:Key="ImageCornerStrengthTips">値が小さいほどシャープに、大きいほど丸くなります</x:String>
     <x:String x:Key="ImageCornerStrengthSmall">小サイズ画像の角丸サイズ</x:String>
@@ -425,7 +429,7 @@
     <x:String x:Key="SpectrumBarSpacing">バー間隔</x:String>
     <x:String x:Key="SpectrumPeakCornerRadius">ピークインジケーターの角丸半径</x:String>
     <x:String x:Key="SpectrumPeakHeight">ピークインジケーターの高さ</x:String>
-    <x:String x:Key="SpectrumPeakFallDelay">ピーク落下遅延（ミリ秒）</x:String>
+    <x:String x:Key="SpectrumPeakFallDelay">ピークインジケーターの落下遅延（ミリ秒）</x:String>
     <x:String x:Key="SpectrumDynamicProcess">動的処理</x:String>
     <x:String x:Key="SpectrumMinDB">最小dB値</x:String>
     <x:String x:Key="SpectrumMinDBDesc">対数振幅スペクトル変換後の許容最小デシベル値を制御します</x:String>
@@ -455,18 +459,18 @@
     <x:String x:Key="FolderExcludeConfirmContent">以下のフォルダーを除外リストに追加しますか？除外後、そのフォルダーまたはサブフォルダーに属する曲はライブラリから削除されます。この操作でファイルが削除されることはありません。&#xA;{0}</x:String>
     <x:String x:Key="PlaylistDeleteTitle">プレイリストを削除</x:String>
     <x:String x:Key="PlaylistDeleteContent">以下のプレイリストを削除しますか？この操作は永久的に削除され、復元できません。&#xA;{0}</x:String>
-    <x:String x:Key="PlaylistTrackRemoveTitle">曲を削除</x:String>
-    <x:String x:Key="PlaylistTrackRemoveContent">プレイリスト {0} から曲 {1} を削除しますか？</x:String>
-    <x:String x:Key="PlaylistTracksRemoveTitle">複数の曲を削除</x:String>
-    <x:String x:Key="PlaylistTracksRemoveContent">プレイリスト {0} から選択した曲を削除しますか？</x:String>
+    <x:String x:Key="PlaylistTrackRemoveTitle">曲を除去</x:String>
+    <x:String x:Key="PlaylistTrackRemoveContent">プレイリスト {0} から曲 {1} を除去しますか？</x:String>
+    <x:String x:Key="PlaylistTracksRemoveTitle">複数の曲を除去</x:String>
+    <x:String x:Key="PlaylistTracksRemoveContent">プレイリスト {0} から選択した曲を除去しますか？</x:String>
     <x:String x:Key="TrackRemoveTitle">曲を削除</x:String>
     <x:String x:Key="TrackRemoveContent">曲 {0} を削除しますか？この操作でローカルの曲ファイルは削除されません。</x:String>
     <x:String x:Key="TracksRemoveTitle">複数の曲を削除</x:String>
     <x:String x:Key="TracksRemoveContent">選択した曲を削除しますか？この操作でローカルの曲ファイルは削除されません。</x:String>
-    <x:String x:Key="AlbumRemoveTitle">アルバムを削除</x:String>
-    <x:String x:Key="AlbumRemoveContent">アルバム {0} を削除しますか？この操作はアルバムとすべての編集内容を永久的に削除し、復元できません。</x:String>
-    <x:String x:Key="ArtistRemoveTitle">アーティストを削除</x:String>
-    <x:String x:Key="ArtistRemoveContent">アーティスト {0} を削除しますか？この操作はアーティストとすべての編集内容を永久的に削除し、復元できません。</x:String>
+    <x:String x:Key="AlbumRemoveTitle">アルバムを除去</x:String>
+    <x:String x:Key="AlbumRemoveContent">アルバム {0} を除去しますか？この操作はアルバムとすべての編集内容を永久的に削除し、復元できません。</x:String>
+    <x:String x:Key="ArtistRemoveTitle">アーティストを除去</x:String>
+    <x:String x:Key="ArtistRemoveContent">アーティスト {0} を除去しますか？この操作はアーティストとすべての編集内容を永久的に削除し、復元できません。</x:String>
     <x:String x:Key="TrackScanTitle">曲をスキャン</x:String>
     <x:String x:Key="TrackEditTitle">曲メタデータを編集</x:String>
     <x:String x:Key="AlbumEditTitle">アルバムメタデータを編集</x:String>
@@ -510,6 +514,38 @@
     <x:String x:Key="DesktopLyric">デスクトップ歌詞</x:String>
     <x:String x:Key="LyricEmbedded">埋め込み</x:String>
     <x:String x:Key="LyricFile">ファイル</x:String>
+    <x:String x:Key="LyricNetwork">ネットワーク</x:String>
+    <x:String x:Key="LyricSource">歌詞ソース</x:String>
+    <x:String x:Key="LyricSearch">歌詞検索</x:String>
+    <x:String x:Key="LyricApi">API 一覧</x:String>
+    <x:String x:Key="LyricApiNew">新規 API</x:String>
+    <x:String x:Key="LyricApiBase">基本設定</x:String>
+    <x:String x:Key="LyricApiRequestList">リクエスト一覧</x:String>
+    <x:String x:Key="LyricApiTest">API テスト</x:String>
+    <x:String x:Key="LyricApiTestInputParams">入力パラメータ</x:String>
+    <x:String x:Key="LyricApiTestUsePlayingTrackParams">現在再生中の曲の情報を使用</x:String>
+    <x:String x:Key="LyricApiTestRun">テスト実行</x:String>
+    <x:String x:Key="LyricApiTestResult">テスト結果</x:String>
+    <x:String x:Key="LyricApiTestSucc">テスト成功</x:String>
+    <x:String x:Key="LyricApiTestFail">テスト失敗</x:String>
+    <x:String x:Key="LyricApiRequestNew">リクエストを追加</x:String>
+    <x:String x:Key="LyricApiRequestEdit">リクエストを編集</x:String>
+    <x:String x:Key="LyricApiName">API 名</x:String>
+    <x:String x:Key="LyricApiUrl">URL</x:String>
+    <x:String x:Key="LyricApiGet">GET</x:String>
+    <x:String x:Key="LyricApiPost">POST</x:String>
+    <x:String x:Key="LyricApiContentType">コンテンツタイプ</x:String>
+    <x:String x:Key="LyricApiHeaders">ヘッダー</x:String>
+    <x:String x:Key="LyricApiParams">パラメータ</x:String>
+    <x:String x:Key="LyricApiExtractVars">変数を抽出</x:String>
+    <x:String x:Key="LyricApiDecoderType">デコーダーの種類</x:String>
+    <x:String x:Key="LyricApiDecryptorType">復号方式の種類</x:String>
+    <x:String x:Key="LyricApiDecryptorDefault">デフォルト</x:String>
+    <x:String x:Key="LyricApiDecryptorKrc">Krc（KuGou）</x:String>
+    <x:String x:Key="LyricApiDecryptorQrc">Qrc（QQ Music）</x:String>
+    <x:String x:Key="LyricApiTimeout">タイムアウト</x:String>
+    <x:String x:Key="LyricApiFinalPath">出力パス</x:String>
+    <x:String x:Key="LyricApiFinalPathDesc">最後のリクエストのレスポンス内で歌詞テキストの位置を指定します。例: lrc.lyric、data.content、songs[0].lyric&#xA;空の場合、レスポンス全体が歌詞として扱われます</x:String>
 
     <!--  Playing  -->
     <x:String x:Key="PlayingTrackBitRate">{0} Kbps</x:String>
@@ -518,7 +554,7 @@
     <x:String x:Key="PlayingNextTrackTitle">次の曲：{0}</x:String>
     <x:String x:Key="PlayingKeepScreenOn">画面常時点灯</x:String>
     <x:String x:Key="PlayingImmersiveMode">没入モード</x:String>
-    <x:String x:Key="PlayingStatisticTime">最終再生</x:String>
+    <x:String x:Key="PlayingStatisticTime">最近再生</x:String>
     <x:String x:Key="PlayingStatisticCount">再生回数</x:String>
     <x:String x:Key="PlayingStatisticTimeSecond">{0}秒前</x:String>
     <x:String x:Key="PlayingStatisticTimeMinute">{0}分前</x:String>
@@ -570,7 +606,7 @@
     <x:String x:Key="ToastTrackAddToPlaylist">{0} をプレイリスト {1} に追加しました</x:String>
     <x:String x:Key="ToastTracksAddToPlaylist">{0} 曲をプレイリスト {1} に追加しました</x:String>
     <x:String x:Key="ToastTrackAddToPlaylistFail">曲をプレイリストに追加できませんでした</x:String>
-    <x:String x:Key="ToastTrackRemove">{0} 曲を削除しました</x:String>
+    <x:String x:Key="ToastTrackRemove">{0} 曲を除去しました</x:String>
     <x:String x:Key="ToastPluginEnableFail">プラグイン {0} の有効化に失敗しました。詳細はログファイルをご確認ください</x:String>
     <x:String x:Key="ToastPluginEnableSucc">プラグイン {0} を有効化しました</x:String>
     <x:String x:Key="ToastPluginDisable">プラグイン {0} を無効化しました</x:String>
@@ -593,6 +629,9 @@
     <x:String x:Key="ToastEffectRenameExists">名前は既に存在します</x:String>
     <x:String x:Key="ToastEffectRenameSucc">名前を変更しました</x:String>
     <x:String x:Key="ToastEffectRenameFail">名前の変更に失敗しました</x:String>
+    <x:String x:Key="ToastLyricApiFillNameFirst">先に API 名を入力してください</x:String>
+    <x:String x:Key="ToastLyricApiAddFail">歌詞 API の追加に失敗しました</x:String>
+    <x:String x:Key="ToastLyricApiCopyVarNameSucc">変数名をコピーしました</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">初期化中</x:String>
@@ -624,6 +663,15 @@
     <x:String x:Key="TipsCueTrackEdit">この曲は CUE ファイルから生成されています。メタデータの変更はサポートされていません。CUE ファイルを直接編集してください。</x:String>
     <x:String x:Key="TipsCueAlbumEdit">このアルバムには CUE ファイルから生成された曲が含まれています。メタデータの変更はサポートされていません。CUE ファイルを直接編集してください。</x:String>
     <x:String x:Key="TipsEffectNameInput">新しい名前を入力</x:String>
+    <x:String x:Key="LyricSourceDragSortTips">ドラッグで検索順序を調整</x:String>
+    <x:String x:Key="LyricApiDragSortTips">ドラッグで呼び出し順序を調整</x:String>
+    <x:String x:Key="TipsLyricApiNameEmpty">API 名は空にできません</x:String>
+    <x:String x:Key="TipsLyricApiNameExists">API 名は既に存在します</x:String>
+    <x:String x:Key="TipsLyricApiUrlEmpty">URL が空です</x:String>
+    <x:String x:Key="TipsLyricApiUrlInvalid">無効な URL です</x:String>
+    <x:String x:Key="TipsLyricApiExtractVarsEmpty">抽出する変数のリストは空にできません</x:String>
+    <x:String x:Key="TipsLyricSearching">検索中...</x:String>
+    <x:String x:Key="TipsLyricApiRequestParams">使用可能な変数（クリックでコピー）：</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">0.10.0.0 バージョンでは、曲の終わりが途中で切断される問題（通常1秒未満）が修正されました。これはキャッシュの時間長精度が秒からミリ秒にアップグレードされたためです。</x:String>

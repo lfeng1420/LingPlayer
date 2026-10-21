@@ -7,6 +7,7 @@
     <x:String x:Key="No">Nie</x:String>
     <x:String x:Key="On">Wł.</x:String>
     <x:String x:Key="Off">Wył.</x:String>
+    <x:String x:Key="Save">Zapisz</x:String>
     <x:String x:Key="OK">OK</x:String>
     <x:String x:Key="Cancel">Anuluj</x:String>
     <x:String x:Key="Back">Wstecz</x:String>
@@ -48,7 +49,7 @@
     <x:String x:Key="Slow">Wolno</x:String>
     <x:String x:Key="FontSize">Rozmiar czcionki</x:String>
     <x:String x:Key="FontWeight">Grubość czcionki</x:String>
-    <x:String x:Key="Opacity">Przezroczystość</x:String>
+    <x:String x:Key="Opacity">Krycie</x:String>
     <x:String x:Key="TextAlignment">Wyrównanie tekstu</x:String>
     <x:String x:Key="Left">Do lewej</x:String>
     <x:String x:Key="Center">Do środka</x:String>
@@ -72,7 +73,7 @@
     <x:String x:Key="SampleRate">Częst. próbkowania</x:String>
     <x:String x:Key="BitsPerSample">Głębia bitowa</x:String>
     <x:String x:Key="Today">Dzisiaj</x:String>
-    <x:String x:Key="Week">Tydzień</x:String>
+    <x:String x:Key="Week">W tym tygodniu</x:String>
     <x:String x:Key="Total">Razem</x:String>
     <x:String x:Key="Hour">godz.</x:String>
     <x:String x:Key="Minute">min</x:String>
@@ -107,6 +108,7 @@
     <x:String x:Key="Separator">Separator</x:String>
     <x:String x:Key="Gain">Wzmocnienie</x:String>
     <x:String x:Key="Peak">Szczyt</x:String>
+    <x:String x:Key="Base64">Base64</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">Płaski</x:String>
@@ -172,16 +174,17 @@
     <x:String x:Key="StatTrackPage">Ranking utworów</x:String>
     <x:String x:Key="StatAlbumPage">Ranking albumów</x:String>
     <x:String x:Key="StatArtistPage">Ranking artystów</x:String>
-    <x:String x:Key="ImageCornerSettingPage">Siła narożników obrazu</x:String>
+    <x:String x:Key="ImageCornerSettingPage">Zaokrąglenie obrazów</x:String>
+    <x:String x:Key="LyricSettingPage">Teksty piosenek</x:String>
     
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Informacje o utworze</x:String>
-    <x:String x:Key="TrackNumDesc">{0} utwór(-y)</x:String>
+    <x:String x:Key="TrackNumDesc">Utworów: {0}</x:String>
     <x:String x:Key="RevealInExplorer">Pokaż w Eksploratorze</x:String>
     <x:String x:Key="UnknownGenre">Nieznany gatunek</x:String>
 
     <!--  Album  -->
-    <x:String x:Key="AlbumNumDesc">{0} albumy(-ów)</x:String>
+    <x:String x:Key="AlbumNumDesc">Albumów: {0}</x:String>
     <x:String x:Key="UnknownAlbum">Nieznany album</x:String>
     <x:String x:Key="AlbumIntro">O albumie</x:String>
     <x:String x:Key="AlbumIntroEmpty">Brak opisu.</x:String>
@@ -257,9 +260,10 @@
 
     <!--  Setting  -->
     <x:String x:Key="LibrarySettingDesc">Foldery, opcje skanowania</x:String>
-    <x:String x:Key="UISettingDesc">Przezroczystość, czcionki, tapeta, menu</x:String>
+    <x:String x:Key="UISettingDesc">Efekt przezroczystości, czcionki, tapeta, menu</x:String>
     <x:String x:Key="NavMenuSettingDesc">Widoczność, kolejność, strona domyślna</x:String>
     <x:String x:Key="LangSettingDesc">Język systemowy, zmiana języka</x:String>
+    <x:String x:Key="LyricSettingDesc">Źródła tekstów, API sieciowe</x:String>
     <x:String x:Key="EffectSettingDesc">Płynne przejście, Replay Gain, Korektor, Pogłos</x:String>
     <x:String x:Key="PlayControlSettingDesc">Autoodtwarzanie, odtwarzanie losowe</x:String>
     <x:String x:Key="AdvancedSettingDesc">Odśmiecanie pamięci</x:String>
@@ -286,9 +290,9 @@
     <x:String x:Key="ThemeDark">Ciemny</x:String>
     <x:String x:Key="ThemeFollowSystem">Zgodnie z systemem</x:String>
     <x:String x:Key="TransparencyEffect">Efekt przezroczystości</x:String>
-    <x:String x:Key="TransparencyEffectSettingDesc">Dotyczy okna głównego i mini okna. Niektóre efekty mogą nie być obsługiwane na tej platformie</x:String>
+    <x:String x:Key="TransparencyEffectSettingDesc">Dotyczy okna głównego i mini okna.&#xA;Niektóre efekty mogą nie być obsługiwane na tej platformie</x:String>
     <x:String x:Key="WindowsRenderType">Tryb renderowania</x:String>
-    <x:String x:Key="WindowsRenderTypeDesc">W przypadku problemów z wyświetlaniem spróbuj zmienić tryb. Wymagane ponowne uruchomienie</x:String>
+    <x:String x:Key="WindowsRenderTypeDesc">W przypadku problemów z wyświetlaniem spróbuj zmienić tryb.&#xA;Wymagane ponowne uruchomienie</x:String>
     <x:String x:Key="WindowsRenderDefault">Adaptacyjny</x:String>
     <x:String x:Key="WindowsRenderDefaultDesc">Automatycznie wybiera odpowiedni tryb renderowania</x:String>
     <x:String x:Key="WindowsRenderAngleEgl">Angle EGL</x:String>
@@ -335,9 +339,9 @@
     <x:String x:Key="TrackCover">Okładka utworu</x:String>
     <x:String x:Key="GradientFlow">Dynamiczny gradient</x:String>
     <x:String x:Key="MainWallpaper">Tapeta okna głównego</x:String>
-    <x:String x:Key="WallpaperOpacity">Przezroczystość tapety</x:String>
-    <x:String x:Key="OverlayLightOpacity">Przezroczystość nakładki (jasny)</x:String>
-    <x:String x:Key="OverlayDarkOpacity">Przezroczystość nakładki (ciemny)</x:String>
+    <x:String x:Key="WallpaperOpacity">Krycie tapety</x:String>
+    <x:String x:Key="OverlayLightOpacity">Krycie nakładki (jasny)</x:String>
+    <x:String x:Key="OverlayDarkOpacity">Krycie nakładki (ciemny)</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">Nakładka poprawia czytelność w jasnym motywie. Zbyt niska wartość utrudnia czytanie</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">Nakładka przyciemnia jasne tła w ciemnym motywie i rozjaśnia ciemne w jasnym</x:String>
     <x:String x:Key="JumpBarOverlayLightOpacity">Krycie nakładki paska skoku dla jasnego motywu</x:String>
@@ -435,13 +439,13 @@
     <x:String x:Key="SpectrumSmoothFactorDesc">Współczynnik wygładzania, wyższe wartości = silniejszy efekt</x:String>
     <x:String x:Key="SpectrumTips">Włączenie wizualizera spektrum może zwiększyć zużycie baterii</x:String>
     <x:String x:Key="LyricSetting">Teksty piosenek</x:String>
-    <x:String x:Key="LyricNormalOpacity">Przezroczystość (normalny)</x:String>
+    <x:String x:Key="LyricNormalOpacity">Krycie (normalny)</x:String>
     <x:String x:Key="LyricHighlightGlow">Poświata (podświetlony)</x:String>
     <x:String x:Key="DesktopLyricSetting">Teksty na pulpicie</x:String>
     <x:String x:Key="DesktopLyricDoubleLine">Teksty w dwóch wierszach</x:String>
     <x:String x:Key="DesktopLyricNormalColor">Kolor normalny</x:String>
     <x:String x:Key="DesktopLyricSelectedColor">Kolor podświetlenia</x:String>
-    <x:String x:Key="MiniWindowOverlayOpacity">Przezroczystość nakładki</x:String>
+    <x:String x:Key="MiniWindowOverlayOpacity">Krycie nakładki</x:String>
     <x:String x:Key="MiniWindowOverlayOpacityDesc">Do poprawy czytelności tekstu</x:String>
     <x:String x:Key="MiniWindowShowInTaskbar">Pokaż na pasku zadań</x:String>
 
@@ -499,7 +503,7 @@
     <x:String x:Key="AlbumInfo">Album: {0}</x:String>
     <x:String x:Key="ArtistInfo">Artysta(-ści): {0}</x:String>
     <x:String x:Key="AlbumArtistInfo">Artysta(-ści) albumu: {0}</x:String>
-    <x:String x:Key="AlbumPerformerInfo">Wykonawca(-cy): {0}</x:String>
+    <x:String x:Key="AlbumPerformerInfo">Artyści gościnni: {0}</x:String>
     <x:String x:Key="GenreInfo">Gatunek(-ki): {0}</x:String>
     <x:String x:Key="ViewArtists">Zobacz artystów</x:String>
 
@@ -510,6 +514,38 @@
     <x:String x:Key="DesktopLyric">Teksty na pulpicie</x:String>
     <x:String x:Key="LyricEmbedded">Osadzone</x:String>
     <x:String x:Key="LyricFile">Plik</x:String>
+    <x:String x:Key="LyricNetwork">Sieć</x:String>
+    <x:String x:Key="LyricSource">Źródło tekstów</x:String>
+    <x:String x:Key="LyricSearch">Wyszukiwanie tekstów</x:String>
+    <x:String x:Key="LyricApi">Lista API</x:String>
+    <x:String x:Key="LyricApiNew">Nowe API</x:String>
+    <x:String x:Key="LyricApiBase">Ustawienia podstawowe</x:String>
+    <x:String x:Key="LyricApiRequestList">Lista żądań</x:String>
+    <x:String x:Key="LyricApiTest">Test API</x:String>
+    <x:String x:Key="LyricApiTestInputParams">Parametry wejściowe</x:String>
+    <x:String x:Key="LyricApiTestUsePlayingTrackParams">Użyj informacji z aktualnie odtwarzanego utworu</x:String>
+    <x:String x:Key="LyricApiTestRun">Uruchom test</x:String>
+    <x:String x:Key="LyricApiTestResult">Wynik testu</x:String>
+    <x:String x:Key="LyricApiTestSucc">Test udany</x:String>
+    <x:String x:Key="LyricApiTestFail">Test nieudany</x:String>
+    <x:String x:Key="LyricApiRequestNew">Dodaj żądanie</x:String>
+    <x:String x:Key="LyricApiRequestEdit">Edytuj żądanie</x:String>
+    <x:String x:Key="LyricApiName">Nazwa API</x:String>
+    <x:String x:Key="LyricApiUrl">URL</x:String>
+    <x:String x:Key="LyricApiGet">GET</x:String>
+    <x:String x:Key="LyricApiPost">POST</x:String>
+    <x:String x:Key="LyricApiContentType">Typ zawartości</x:String>
+    <x:String x:Key="LyricApiHeaders">Nagłówki</x:String>
+    <x:String x:Key="LyricApiParams">Parametry</x:String>
+    <x:String x:Key="LyricApiExtractVars">Wyodrębnij zmienne</x:String>
+    <x:String x:Key="LyricApiDecoderType">Typ dekodera</x:String>
+    <x:String x:Key="LyricApiDecryptorType">Typ deszyfratora</x:String>
+    <x:String x:Key="LyricApiDecryptorDefault">Domyślny</x:String>
+    <x:String x:Key="LyricApiDecryptorKrc">Krc (KuGou)</x:String>
+    <x:String x:Key="LyricApiDecryptorQrc">Qrc (QQ Music)</x:String>
+    <x:String x:Key="LyricApiTimeout">Limit czasu</x:String>
+    <x:String x:Key="LyricApiFinalPath">Ścieżka wyjściowa</x:String>
+    <x:String x:Key="LyricApiFinalPathDesc">Określa położenie tekstu piosenki w odpowiedzi ostatniego żądania, np. lrc.lyric, data.content, songs[0].lyric&#xA;Jeśli puste, cała odpowiedź jest traktowana jako tekst piosenki</x:String>
 
     <!--  Playing  -->
     <x:String x:Key="PlayingTrackBitRate">{0} Kbps</x:String>
@@ -523,7 +559,7 @@
     <x:String x:Key="PlayingStatisticTimeSecond">{0} s temu</x:String>
     <x:String x:Key="PlayingStatisticTimeMinute">{0} min temu</x:String>
     <x:String x:Key="PlayingStatisticTimeHour">{0} godz. temu</x:String>
-    <x:String x:Key="PlayingStatisticTimeDay">{0} dni temu</x:String>
+    <x:String x:Key="PlayingStatisticTimeDay">{0} dn. temu</x:String>
 
     <!--  Language  -->
     <x:String x:Key="zh-CN">Chiński (uproszczony)</x:String>
@@ -544,14 +580,14 @@
     <x:String x:Key="ToastTrackFileNotFound">Nie znaleziono pliku utworu: {0}</x:String>
     <x:String x:Key="ToastTrackLoadFailed">Błąd ładowania: {0}, format może nie być obsługiwany</x:String>
     <x:String x:Key="ToastTrackPlaying">Utwór jest już odtwarzany</x:String>
-    <x:String x:Key="ToastAlbumSaveThumbnailFail">Nie udało się zapisać okładki albumu</x:String>
+    <x:String x:Key="ToastAlbumSaveThumbnailFail">Nie udało się zapisać okładki albumu, wybrany plik obrazu może być nieobsługiwany</x:String>
     <x:String x:Key="ToastAlbumSaveSucc">Informacje o albumie zapisane</x:String>
-    <x:String x:Key="ToastArtistSaveThumbnailFail">Nie udało się zapisać obrazu artysty</x:String>
+    <x:String x:Key="ToastArtistSaveThumbnailFail">Nie udało się zapisać obrazu artysty, wybrany plik obrazu może być nieobsługiwany</x:String>
     <x:String x:Key="ToastArtistSaveSucc">Informacje o artyście zapisane</x:String>
     <x:String x:Key="ToastPlaylistRenameSucc">Nazwa playlisty zmieniona</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">Nowa playlista {0} utworzona</x:String>
     <x:String x:Key="ToastPlaylistDelete">Playlista usunięta</x:String>
-    <x:String x:Key="ToastPlaylistImportSucc">Playlista {1} zaimportowana z {0}, dodano {2} utwór(-y)</x:String>
+    <x:String x:Key="ToastPlaylistImportSucc">Playlista {1} zaimportowana z {0}, dodano {2} utw.</x:String>
     <x:String x:Key="ToastPlaylistImportFail">Nie udało się zaimportować {1} z {0}</x:String>
     <x:String x:Key="ToastPlaylistExportSucc">Playlista {0} wyeksportowana do {1}</x:String>
     <x:String x:Key="ToastPlaylistExportFail">Nie udało się wyeksportować {0} do {1}</x:String>
@@ -564,13 +600,13 @@
     <x:String x:Key="ToastFolderExists">Folder {0} już istnieje w {1}</x:String>
     <x:String x:Key="ToastFolderAddFail">Błąd podczas dodawania folderu {0}</x:String>
     <x:String x:Key="ToastTrackAddToQueueNext">{0} dodany jako następny</x:String>
-    <x:String x:Key="ToastTracksAddToQueue">{0} utwór(-y) dodany(-e) do kolejki</x:String>
+    <x:String x:Key="ToastTracksAddToQueue">Dodano {0} utw. do kolejki</x:String>
     <x:String x:Key="ToastTrackAddToQueueFail">Nie udało się dodać do kolejki</x:String>
-    <x:String x:Key="ToastTracksReplaceToQueue">Kolejka zastąpiona, {0} utwór(-y)</x:String>
+    <x:String x:Key="ToastTracksReplaceToQueue">Kolejka zastąpiona, {0} utw.</x:String>
     <x:String x:Key="ToastTrackAddToPlaylist">{0} dodany do {1}</x:String>
-    <x:String x:Key="ToastTracksAddToPlaylist">{0} utwór(-y) dodany(-e) do {1}</x:String>
+    <x:String x:Key="ToastTracksAddToPlaylist">Dodano {0} utw. do {1}</x:String>
     <x:String x:Key="ToastTrackAddToPlaylistFail">Nie udało się dodać do playlisty</x:String>
-    <x:String x:Key="ToastTrackRemove">{0} utwór(-y) usunięty(-e)</x:String>
+    <x:String x:Key="ToastTrackRemove">Usunięto {0} utw.</x:String>
     <x:String x:Key="ToastPluginEnableFail">Nie udało się włączyć wtyczki {0}, sprawdź log</x:String>
     <x:String x:Key="ToastPluginEnableSucc">Wtyczka {0} włączona</x:String>
     <x:String x:Key="ToastPluginDisable">Wtyczka {0} wyłączona</x:String>
@@ -593,6 +629,9 @@
     <x:String x:Key="ToastEffectRenameExists">Nazwa już istnieje</x:String>
     <x:String x:Key="ToastEffectRenameSucc">Zmieniono nazwę</x:String>
     <x:String x:Key="ToastEffectRenameFail">Nie udało się zmienić nazwy</x:String>
+    <x:String x:Key="ToastLyricApiFillNameFirst">Najpierw wprowadź nazwę API</x:String>
+    <x:String x:Key="ToastLyricApiAddFail">Nie udało się dodać API tekstów piosenek</x:String>
+    <x:String x:Key="ToastLyricApiCopyVarNameSucc">Skopiowano nazwę zmiennej</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">Inicjalizacja...</x:String>
@@ -608,7 +647,7 @@
     <x:String x:Key="TipsAndroidTrackEmpty1">Brak utworów. Przejdź do</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty2">aby dodać foldery</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">Upuść, aby przeskanować</x:String>
-    <x:String x:Key="TipsAddTracksResult">{0} utwór(-y) dodany(-e)</x:String>
+    <x:String x:Key="TipsAddTracksResult">Dodano {0} utw.</x:String>
     <x:String x:Key="TipsAlbumIntroInput">Wprowadź opis albumu</x:String>
     <x:String x:Key="TipsArtistInput">Wprowadź nazwę artysty</x:String>
     <x:String x:Key="TipsAlbumArtistInput">Wprowadź artystę albumu</x:String>
@@ -619,11 +658,20 @@
     <x:String x:Key="TipsSearch">Szukaj utworów, albumów, artystów, playlist</x:String>
     <x:String x:Key="TipsNavMenuItem">Przeciągnij, aby zmienić kolejność menu</x:String>
     <x:String x:Key="TipsSeparatorInput">Wprowadź separator</x:String>
-    <x:String x:Key="TipsSeparator">Separatory analizują wielu artystów/gatunki. Wybierz, aby dostosować wyświetlanie.</x:String>
-    <x:String x:Key="TipsWallpaper">Niestandardowa tapeta może pogorszyć czytelność. Dostosuj przezroczystość lub zmień motyw.</x:String>
+    <x:String x:Key="TipsSeparator">Separatory analizują wielu artystów/gatunki.&#xA;Wybierz, aby dostosować wyświetlanie.</x:String>
+    <x:String x:Key="TipsWallpaper">Niestandardowa tapeta może pogorszyć czytelność.&#xA;Dostosuj krycie lub zmień motyw.</x:String>
     <x:String x:Key="TipsCueTrackEdit">Utwór z pliku CUE, metadane nie mogą być modyfikowane. Edytuj plik CUE bezpośrednio.</x:String>
     <x:String x:Key="TipsCueAlbumEdit">Album zawiera utwory z CUE, metadane nie mogą być modyfikowane. Edytuj plik CUE bezpośrednio.</x:String>
     <x:String x:Key="TipsEffectNameInput">Wprowadź nową nazwę</x:String>
+    <x:String x:Key="LyricSourceDragSortTips">Przeciągnij, aby zmienić kolejność wyszukiwania</x:String>
+    <x:String x:Key="LyricApiDragSortTips">Przeciągnij, aby zmienić kolejność wywołań</x:String>
+    <x:String x:Key="TipsLyricApiNameEmpty">Nazwa API nie może być pusta</x:String>
+    <x:String x:Key="TipsLyricApiNameExists">Nazwa API już istnieje</x:String>
+    <x:String x:Key="TipsLyricApiUrlEmpty">Adres URL jest pusty</x:String>
+    <x:String x:Key="TipsLyricApiUrlInvalid">Nieprawidłowy adres URL</x:String>
+    <x:String x:Key="TipsLyricApiExtractVarsEmpty">Lista zmiennych do wyodrębnienia nie może być pusta</x:String>
+    <x:String x:Key="TipsLyricSearching">Wyszukiwanie...</x:String>
+    <x:String x:Key="TipsLyricApiRequestParams">Dostępne zmienne (kliknij, aby skopiować):</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">Wersja 0.10.0.0 naprawia problem przedwczesnego obcinania końcówek utworów (zwykle mniej niż 1 sekunda). Dokładność czasu trwania w pamięci podręcznej została zaktualizowana z sekund na milisekundy.</x:String>
@@ -640,7 +688,7 @@
     <x:String x:Key="NoticePart5">Przepraszamy za niedogodności. Dziękujemy za zrozumienie i wsparcie!</x:String>
 
     <!--  Misc  -->
-    <x:String x:Key="SendLogMail">Wyślij log</x:String>
+    <x:String x:Key="SendLogMail">Wyślij log mailem</x:String>
     <x:String x:Key="AppLaunchFail">Nie udało się uruchomić aplikacji</x:String>
     <x:String x:Key="ServiceInitFail">Błąd inicjalizacji {0}</x:String>
     <x:String x:Key="ClearAllEndedTasks">Wyczyść wszystkie zakończone zadania</x:String>

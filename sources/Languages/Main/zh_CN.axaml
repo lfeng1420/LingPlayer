@@ -7,6 +7,7 @@
     <x:String x:Key="No">否</x:String>
     <x:String x:Key="On">开启</x:String>
     <x:String x:Key="Off">关闭</x:String>
+    <x:String x:Key="Save">保存</x:String>
     <x:String x:Key="OK">确定</x:String>
     <x:String x:Key="Cancel">取消</x:String>
     <x:String x:Key="Back">返回</x:String>
@@ -107,6 +108,7 @@
     <x:String x:Key="Separator">分隔符</x:String>
     <x:String x:Key="Gain">增益</x:String>
     <x:String x:Key="Peak">峰值</x:String>
+    <x:String x:Key="Base64">Base64</x:String>
 
     <!--  EQ  -->
     <x:String x:Key="Flat">平直</x:String>
@@ -173,6 +175,7 @@
     <x:String x:Key="StatAlbumPage">专辑排行榜</x:String>
     <x:String x:Key="StatArtistPage">艺术家排行榜</x:String>
     <x:String x:Key="ImageCornerSettingPage">图片圆角强度</x:String>
+    <x:String x:Key="LyricSettingPage">歌词</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">歌曲信息</x:String>
@@ -260,6 +263,7 @@
     <x:String x:Key="UISettingDesc">窗口透明效果、自定义字体、壁纸、导航菜单</x:String>
     <x:String x:Key="NavMenuSettingDesc">可见性控制、顺序调整、默认页面设置</x:String>
     <x:String x:Key="LangSettingDesc">系统语言、切换语言</x:String>
+    <x:String x:Key="LyricSettingDesc">歌词源、网络接口</x:String>
     <x:String x:Key="EffectSettingDesc">淡入淡出、回放增益、均衡器、混响</x:String>
     <x:String x:Key="PlayControlSettingDesc">自动播放、随机播放</x:String>
     <x:String x:Key="AdvancedSettingDesc">垃圾回收</x:String>
@@ -510,6 +514,38 @@
     <x:String x:Key="DesktopLyric">桌面歌词</x:String>
     <x:String x:Key="LyricEmbedded">内嵌</x:String>
     <x:String x:Key="LyricFile">文件</x:String>
+    <x:String x:Key="LyricNetwork">网络</x:String>
+    <x:String x:Key="LyricSource">歌词源</x:String>
+    <x:String x:Key="LyricSearch">歌词搜索</x:String>
+    <x:String x:Key="LyricApi">接口列表</x:String>
+    <x:String x:Key="LyricApiNew">新建接口</x:String>
+    <x:String x:Key="LyricApiBase">基础设置</x:String>
+    <x:String x:Key="LyricApiRequestList">请求列表</x:String>
+    <x:String x:Key="LyricApiTest">接口测试</x:String>
+    <x:String x:Key="LyricApiTestInputParams">输入参数</x:String>
+    <x:String x:Key="LyricApiTestUsePlayingTrackParams">使用当前播放歌曲信息</x:String>
+    <x:String x:Key="LyricApiTestRun">运行测试</x:String>
+    <x:String x:Key="LyricApiTestResult">测试结果</x:String>
+    <x:String x:Key="LyricApiTestSucc">测试成功</x:String>
+    <x:String x:Key="LyricApiTestFail">测试失败</x:String>
+    <x:String x:Key="LyricApiRequestNew">新增请求</x:String>
+    <x:String x:Key="LyricApiRequestEdit">编辑请求</x:String>
+    <x:String x:Key="LyricApiName">接口名称</x:String>
+    <x:String x:Key="LyricApiUrl">地址</x:String>
+    <x:String x:Key="LyricApiGet">GET</x:String>
+    <x:String x:Key="LyricApiPost">POST</x:String>
+    <x:String x:Key="LyricApiContentType">内容类型</x:String>
+    <x:String x:Key="LyricApiHeaders">请求头</x:String>
+    <x:String x:Key="LyricApiParams">参数</x:String>
+    <x:String x:Key="LyricApiExtractVars">提取变量</x:String>
+    <x:String x:Key="LyricApiDecoderType">解码类型</x:String>
+    <x:String x:Key="LyricApiDecryptorType">解密类型</x:String>
+    <x:String x:Key="LyricApiDecryptorDefault">默认</x:String>
+    <x:String x:Key="LyricApiDecryptorKrc">Krc（酷狗音乐）</x:String>
+    <x:String x:Key="LyricApiDecryptorQrc">Qrc（QQ音乐）</x:String>
+    <x:String x:Key="LyricApiTimeout">时限</x:String>
+    <x:String x:Key="LyricApiFinalPath">输出路径</x:String>
+    <x:String x:Key="LyricApiFinalPathDesc">指定歌词文本在最后一个请求返回内容中的位置，例如 lrc.lyric、data.content、songs[0].lyric&#xA;留空则将整个返回内容当作歌词</x:String>
 
     <!--  Playing  -->
     <x:String x:Key="PlayingTrackBitRate">{0} Kbps</x:String>
@@ -593,6 +629,9 @@
     <x:String x:Key="ToastEffectRenameExists">名称已存在</x:String>
     <x:String x:Key="ToastEffectRenameSucc">重命名成功</x:String>
     <x:String x:Key="ToastEffectRenameFail">重命名失败</x:String>
+    <x:String x:Key="ToastLyricApiFillNameFirst">需要先填写接口名称</x:String>
+    <x:String x:Key="ToastLyricApiAddFail">添加歌词接口失败</x:String>
+    <x:String x:Key="ToastLyricApiCopyVarNameSucc">已复制变量名</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">正在初始化</x:String>
@@ -624,6 +663,15 @@
     <x:String x:Key="TipsCueTrackEdit">此歌曲来源于 CUE 文件，暂不支持修改元数据，请直接编辑 CUE 文件。</x:String>
     <x:String x:Key="TipsCueAlbumEdit">此专辑包含来源于 CUE 文件的歌曲，暂不支持修改元数据，请直接编辑 CUE 文件。</x:String>
     <x:String x:Key="TipsEffectNameInput">输入新名称</x:String>
+    <x:String x:Key="LyricSourceDragSortTips">拖拽以调整查找顺序</x:String>
+    <x:String x:Key="LyricApiDragSortTips">拖拽以调整调用顺序</x:String>
+    <x:String x:Key="TipsLyricApiNameEmpty">接口名称不能为空</x:String>
+    <x:String x:Key="TipsLyricApiNameExists">接口名称已存在</x:String>
+    <x:String x:Key="TipsLyricApiUrlEmpty">地址为空</x:String>
+    <x:String x:Key="TipsLyricApiUrlInvalid">地址无效</x:String>
+    <x:String x:Key="TipsLyricApiExtractVarsEmpty">提取变量列表不应为空</x:String>
+    <x:String x:Key="TipsLyricSearching">正在搜索...</x:String>
+    <x:String x:Key="TipsLyricApiRequestParams">可用变量（点击以复制）：</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">0.10.0.0 版本修复了歌曲末尾被截断的问题（通常少于1秒）。这是因为缓存时长精度已从 秒 升级为 毫秒。</x:String>

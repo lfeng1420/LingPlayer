@@ -7,10 +7,11 @@
     <x:String x:Key="No">否</x:String>
     <x:String x:Key="On">開啟</x:String>
     <x:String x:Key="Off">關閉</x:String>
+    <x:String x:Key="Save">儲存</x:String>
     <x:String x:Key="OK">確定</x:String>
     <x:String x:Key="Cancel">取消</x:String>
     <x:String x:Key="Back">返回</x:String>
-    <x:String x:Key="Quit">退出</x:String>
+    <x:String x:Key="Quit">結束</x:String>
     <x:String x:Key="Default">預設</x:String>
     <x:String x:Key="Ascend">升序</x:String>
     <x:String x:Key="Descend">降序</x:String>
@@ -26,7 +27,7 @@
     <x:String x:Key="Duration">時長</x:String>
     <x:String x:Key="Year">年份</x:String>
     <x:String x:Key="Genre">流派</x:String>
-    <x:String x:Key="AddTime">添加時間</x:String>
+    <x:String x:Key="AddTime">新增時間</x:String>
     <x:String x:Key="ModifyTime">修改時間</x:String>
     <x:String x:Key="TrackNum">歌曲數量</x:String>
     <x:String x:Key="AlbumNum">專輯數量</x:String>
@@ -51,7 +52,7 @@
     <x:String x:Key="Opacity">不透明度</x:String>
     <x:String x:Key="TextAlignment">文字對齊</x:String>
     <x:String x:Key="Left">左對齊</x:String>
-    <x:String x:Key="Center">居中對齊</x:String>
+    <x:String x:Key="Center">置中對齊</x:String>
     <x:String x:Key="Right">右對齊</x:String>
     <x:String x:Key="Thin">最細</x:String>
     <x:String x:Key="UltraLight">超細</x:String>
@@ -104,9 +105,10 @@
     <x:String x:Key="Switch">開關</x:String>
     <x:String x:Key="Auto">自動</x:String>
     <x:String x:Key="Manual">手動</x:String>
-    <x:String x:Key="Separator">分隔符</x:String>
+    <x:String x:Key="Separator">分隔符號</x:String>
     <x:String x:Key="Gain">增益</x:String>
     <x:String x:Key="Peak">峰值</x:String>
+    <x:String x:Key="Base64">Base64</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">平直</x:String>
@@ -173,6 +175,7 @@
     <x:String x:Key="StatAlbumPage">專輯排行榜</x:String>
     <x:String x:Key="StatArtistPage">藝術家排行榜</x:String>
     <x:String x:Key="ImageCornerSettingPage">圖片圓角強度</x:String>
+    <x:String x:Key="LyricSettingPage">歌詞</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">歌曲資訊</x:String>
@@ -199,17 +202,17 @@
     <x:String x:Key="ArtistIntro">藝術家介紹</x:String>
     <x:String x:Key="ArtistIntroEmpty">暫無介紹。</x:String>
     <x:String x:Key="PlayArtistAlbums">播放藝術家所有專輯的歌曲</x:String>
-    <x:String x:Key="AddArtistAlbumsToQueue">添加藝術家所有專輯的歌曲到佇列</x:String>
-    <x:String x:Key="AddArtistAlbumsToPlaylist">添加藝術家所有專輯的歌曲到播放清單</x:String>
+    <x:String x:Key="AddArtistAlbumsToQueue">新增藝術家所有專輯的歌曲到佇列</x:String>
+    <x:String x:Key="AddArtistAlbumsToPlaylist">新增藝術家所有專輯的歌曲到播放清單</x:String>
     <x:String x:Key="PlayArtistTracks">播放藝術家的所有歌曲</x:String>
-    <x:String x:Key="AddArtistTracksToQueue">添加藝術家的所有歌曲到佇列</x:String>
-    <x:String x:Key="AddArtistTracksToPlaylist">添加藝術家的所有歌曲到播放清單</x:String>
+    <x:String x:Key="AddArtistTracksToQueue">新增藝術家的所有歌曲到佇列</x:String>
+    <x:String x:Key="AddArtistTracksToPlaylist">新增藝術家的所有歌曲到播放清單</x:String>
     <x:String x:Key="PlaySelectedArtistsAlbums">播放所選藝術家的所有專輯的歌曲</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToQueue">添加所選藝術家的所有專輯的歌曲到佇列</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToPlaylist">添加所選藝術家的所有專輯的歌曲到播放清單</x:String>
+    <x:String x:Key="AddSelectedArtistsAlbumsToQueue">新增所選藝術家的所有專輯的歌曲到佇列</x:String>
+    <x:String x:Key="AddSelectedArtistsAlbumsToPlaylist">新增所選藝術家的所有專輯的歌曲到播放清單</x:String>
     <x:String x:Key="PlaySelectedArtistsTracks">播放所選藝術家的所有歌曲</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToQueue">添加所選藝術家的所有歌曲到佇列</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToPlaylist">添加所選藝術家的所有歌曲到播放清單</x:String>
+    <x:String x:Key="AddSelectedArtistsTracksToQueue">新增所選藝術家的所有歌曲到佇列</x:String>
+    <x:String x:Key="AddSelectedArtistsTracksToPlaylist">新增所選藝術家的所有歌曲到播放清單</x:String>
 
     <!--  Playlist  -->
     <x:String x:Key="PlaylistNew">新建播放清單</x:String>
@@ -228,7 +231,7 @@
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
     <x:String x:Key="TracksInCurFolder">在當前資料夾下的歌曲</x:String>
-    <x:String x:Key="FolderAddToExcludeList">添加到排除列表</x:String>
+    <x:String x:Key="FolderAddToExcludeList">新增到排除列表</x:String>
 
     <!--  Statistics  -->
     <x:String x:Key="StatPlayTime">播放時間</x:String>
@@ -260,7 +263,8 @@
     <x:String x:Key="UISettingDesc">視窗透明效果、自訂字型、桌布、導航選單</x:String>
     <x:String x:Key="NavMenuSettingDesc">可見性控制、順序調整、預設頁面設定</x:String>
     <x:String x:Key="LangSettingDesc">系統語言、切換語言</x:String>
-    <x:String x:Key="EffectSettingDesc">淡入淡出、回放增益、均衡器、殘響</x:String>
+    <x:String x:Key="LyricSettingDesc">歌詞源、網路介面</x:String>
+    <x:String x:Key="EffectSettingDesc">淡入淡出、回放增益、等化器、殘響</x:String>
     <x:String x:Key="PlayControlSettingDesc">自動播放、隨機播放</x:String>
     <x:String x:Key="AdvancedSettingDesc">垃圾回收</x:String>
     <x:String x:Key="AboutSettingDesc">版本資訊、問題回報、日誌快取</x:String>
@@ -271,7 +275,7 @@
     <x:String x:Key="LibraryIncludedFolders">包含的資料夾</x:String>
     <x:String x:Key="LibraryExcludedFolders">已排除的資料夾</x:String>
     <x:String x:Key="LibraryScanOptions">掃描選項</x:String>
-    <x:String x:Key="LibrarySeparators">分隔符</x:String>
+    <x:String x:Key="LibrarySeparators">分隔符號</x:String>
     <x:String x:Key="LibrarySeparatorsDesc">用於解析歌曲資訊中的多個藝術家和流派</x:String>
     <x:String x:Key="LibraryUseArtistsAsAlbumArtists">缺少專輯藝術家時使用藝術家</x:String>
     <x:String x:Key="LibraryUseArtistsAsAlbumArtistsDesc">開啟後，當歌曲缺少專輯藝術家時，則自動使用其藝術家作為專輯藝術家</x:String>
@@ -286,7 +290,7 @@
     <x:String x:Key="ThemeDark">深色</x:String>
     <x:String x:Key="ThemeFollowSystem">跟隨系統</x:String>
     <x:String x:Key="TransparencyEffect">視窗透明效果</x:String>
-    <x:String x:Key="TransparencyEffectSettingDesc">效果將應用於主視窗和mini視窗&#xA;請注意某些效果可能不受當前平台支援</x:String>
+    <x:String x:Key="TransparencyEffectSettingDesc">效果將套用於主視窗和mini視窗&#xA;請注意某些效果可能不受當前平台支援</x:String>
     <x:String x:Key="WindowsRenderType">渲染模式</x:String>
     <x:String x:Key="WindowsRenderTypeDesc">如果遇到介面閃爍、顯示異常等渲染問題，請嘗試更換渲染模式&#xA;更換渲染模式後需要重新啟動應用程式以生效</x:String>
     <x:String x:Key="WindowsRenderDefault">自適應</x:String>
@@ -305,28 +309,28 @@
     <x:String x:Key="MainWindow">主視窗</x:String>
     <x:String x:Key="UIScale">介面縮放</x:String>
     <x:String x:Key="UIScaleDesc">調整介面元素的大小，以適應不同的顯示解析度</x:String>
-    <x:String x:Key="MainWindowPin">視窗固定顯示</x:String>
+    <x:String x:Key="MainWindowPin">視窗置頂顯示</x:String>
     <x:String x:Key="TitleBarButtons">標題列按鈕</x:String>
     <x:String x:Key="TitleBarButtonsDesc">主題、全螢幕、Mini視窗</x:String>
     <x:String x:Key="TrayMenu">關閉主視窗時最小化到系統匣</x:String>
-    <x:String x:Key="TrayMenuDesc">如果停用，關閉主視窗時將退出應用程式</x:String>
+    <x:String x:Key="TrayMenuDesc">如果停用，關閉主視窗時將結束應用程式</x:String>
     <x:String x:Key="TaskbarTitle">工作列標題顯示目前播放歌曲</x:String>
     <x:String x:Key="TaskbarTitleDesc">預設顯示格式：標題 - 藝術家</x:String>
     <x:String x:Key="ImageCornerStrength">圖片圓角強度</x:String>
     <x:String x:Key="ImageCornerStrengthDesc">自訂歌曲封面、專輯封面和藝術家圖片的圓角大小</x:String>
     <x:String x:Key="ImageCornerStrengthTips">數值越小越銳利，越大越圓潤</x:String>
     <x:String x:Key="ImageCornerStrengthSmall">小尺寸圖片圓角強度</x:String>
-    <x:String x:Key="ImageCornerStrengthSmallDesc">應用於：歌曲、專輯（清單檢視）和播放控制等頁面或控制項的圖片</x:String>
+    <x:String x:Key="ImageCornerStrengthSmallDesc">套用於：歌曲、專輯（清單檢視）和播放控制等頁面或控制項的圖片</x:String>
     <x:String x:Key="ImageCornerStrengthMedium">中尺寸圖片圓角強度</x:String>
-    <x:String x:Key="ImageCornerStrengthMediumDesc">應用於：專輯（網格檢視）、專輯編輯和藝術家編輯等頁面的圖片</x:String>
+    <x:String x:Key="ImageCornerStrengthMediumDesc">套用於：專輯（網格檢視）、專輯編輯和藝術家編輯等頁面的圖片</x:String>
     <x:String x:Key="ImageCornerStrengthLarge">大尺寸圖片圓角強度</x:String>
-    <x:String x:Key="ImageCornerStrengthLargeDesc">應用於：專輯詳情頁面的圖片</x:String>
+    <x:String x:Key="ImageCornerStrengthLargeDesc">套用於：專輯詳情頁面的圖片</x:String>
     <x:String x:Key="ImageCornerStrengthArtistSmall">藝術家小尺寸圖片圓角強度</x:String>
-    <x:String x:Key="ImageCornerStrengthArtistSmallDesc">應用於：藝術家（清單檢視）頁面的圖片</x:String>
+    <x:String x:Key="ImageCornerStrengthArtistSmallDesc">套用於：藝術家（清單檢視）頁面的圖片</x:String>
     <x:String x:Key="ImageCornerStrengthArtistMedium">藝術家中尺寸圖片圓角強度</x:String>
-    <x:String x:Key="ImageCornerStrengthArtistMediumDesc">應用於：藝術家（網格檢視）頁面的圖片</x:String>
+    <x:String x:Key="ImageCornerStrengthArtistMediumDesc">套用於：藝術家（網格檢視）頁面的圖片</x:String>
     <x:String x:Key="ImageCornerStrengthArtistLarge">藝術家大尺寸圖片圓角強度</x:String>
-    <x:String x:Key="ImageCornerStrengthArtistLargeDesc">應用於：藝術家詳情頁面的圖片</x:String>
+    <x:String x:Key="ImageCornerStrengthArtistLargeDesc">套用於：藝術家詳情頁面的圖片</x:String>
     <x:String x:Key="ImageCornerStrengthPlayingCover">正在播放頁面歌曲封面圓角強度</x:String>
     <x:String x:Key="PlayControlAlwaysVisible">播放控制按鈕始終可見</x:String>
     <x:String x:Key="MainNavOpenPaneLength">導航列展開寬度</x:String>
@@ -362,12 +366,12 @@
     <x:String x:Key="EffectReplayGain">回放增益</x:String>
     <x:String x:Key="EffectReplayGainDesc">開啟後，將根據音訊檔案中內嵌的 Replay Gain 標籤自動調整播放音量&#xA;需要音訊檔案包含 Replay Gain 標籤</x:String>
     <x:String x:Key="EffectReplayGainMode">增益模式</x:String>
-    <x:String x:Key="EffectEQ">均衡器</x:String>
+    <x:String x:Key="EffectEQ">等化器</x:String>
     <x:String x:Key="EffectEQPreampMode">前置衰減模式</x:String>
-    <x:String x:Key="EffectEQPreampModeDesc">在均衡器處理前預先降低整體電平，防止提升後訊號過載失真</x:String>
-    <x:String x:Key="EffectEQPreampModeAutoDesc">根據目前均衡器曲線的最大增益自動計算衰減量，保證訊號不超過 0 dBFS</x:String>
+    <x:String x:Key="EffectEQPreampModeDesc">在等化器處理前預先降低整體電平，防止提升後訊號過載失真</x:String>
+    <x:String x:Key="EffectEQPreampModeAutoDesc">根據目前等化器曲線的最大增益自動計算衰減量，保證訊號不超過 0 dBFS</x:String>
     <x:String x:Key="EffectEQPreampModeManualDesc">手動指定增益量&#xA;設定過小可能導致削波失真，設定過大則音量偏小</x:String>
-    <x:String x:Key="EffectEQPreampModeOffDesc">不做任何前置衰減&#xA;均衡器提升較大時，訊號可能超過 0 dBFS 導致數位削波，聽感上會出現嗡嗡聲、破音、渾濁，僅建議在音源峰值很低時使用</x:String>
+    <x:String x:Key="EffectEQPreampModeOffDesc">不做任何前置衰減&#xA;等化器提升較大時，訊號可能超過 0 dBFS 導致數位削波，聽感上會出現嗡嗡聲、破音、渾濁，僅建議在音源峰值很低時使用</x:String>
     <x:String x:Key="EffectEQPreampDB">前置衰減量</x:String>
     <x:String x:Key="EffectEQPreampDBDesc">數值越小，整體音量越低，但越不容易失真</x:String>
     <x:String x:Key="EffectEQCurPreampDB">目前前置衰減量</x:String>
@@ -451,8 +455,8 @@
     <x:String x:Key="OpenFolderDialogTitle">選擇資料夾</x:String>
     <x:String x:Key="OpenFileDialogTitle">選擇檔案</x:String>
     <x:String x:Key="OpenSaveFileDialogTitle">選擇儲存檔案位置</x:String>
-    <x:String x:Key="FolderExcludeConfirmTitle">添加資料夾到排除列表</x:String>
-    <x:String x:Key="FolderExcludeConfirmContent">確認將以下資料夾添加到排除列表嗎？排除後將同步移除曲庫中屬於該資料夾或其子資料夾的歌曲，此操作不會刪除歌曲檔案。&#xA;{0}</x:String>
+    <x:String x:Key="FolderExcludeConfirmTitle">新增資料夾到排除列表</x:String>
+    <x:String x:Key="FolderExcludeConfirmContent">確認將以下資料夾新增到排除列表嗎？排除後將同步移除曲庫中屬於該資料夾或其子資料夾的歌曲，此操作不會刪除歌曲檔案。&#xA;{0}</x:String>
     <x:String x:Key="PlaylistDeleteTitle">刪除播放清單</x:String>
     <x:String x:Key="PlaylistDeleteContent">確認刪除以下播放清單嗎？此操作將永久刪除播放清單，且無法復原。&#xA;{0}</x:String>
     <x:String x:Key="PlaylistTrackRemoveTitle">移除歌曲</x:String>
@@ -483,7 +487,7 @@
 
     <!--  Tray menu  -->
     <x:String x:Key="ShowWindow">顯示視窗</x:String>
-    <x:String x:Key="Exit">退出</x:String>
+    <x:String x:Key="Exit">結束</x:String>
     <x:String x:Key="Play">播放</x:String>
     <x:String x:Key="Pause">暫停</x:String>
     <x:String x:Key="PreTrack">上一首</x:String>
@@ -510,6 +514,38 @@
     <x:String x:Key="DesktopLyric">桌面歌詞</x:String>
     <x:String x:Key="LyricEmbedded">內嵌</x:String>
     <x:String x:Key="LyricFile">檔案</x:String>
+    <x:String x:Key="LyricNetwork">網路</x:String>
+    <x:String x:Key="LyricSource">歌詞源</x:String>
+    <x:String x:Key="LyricSearch">歌詞搜尋</x:String>
+    <x:String x:Key="LyricApi">介面列表</x:String>
+    <x:String x:Key="LyricApiNew">新建介面</x:String>
+    <x:String x:Key="LyricApiBase">基礎設定</x:String>
+    <x:String x:Key="LyricApiRequestList">請求列表</x:String>
+    <x:String x:Key="LyricApiTest">介面測試</x:String>
+    <x:String x:Key="LyricApiTestInputParams">輸入參數</x:String>
+    <x:String x:Key="LyricApiTestUsePlayingTrackParams">使用目前播放歌曲資訊</x:String>
+    <x:String x:Key="LyricApiTestRun">執行測試</x:String>
+    <x:String x:Key="LyricApiTestResult">測試結果</x:String>
+    <x:String x:Key="LyricApiTestSucc">測試成功</x:String>
+    <x:String x:Key="LyricApiTestFail">測試失敗</x:String>
+    <x:String x:Key="LyricApiRequestNew">新增請求</x:String>
+    <x:String x:Key="LyricApiRequestEdit">編輯請求</x:String>
+    <x:String x:Key="LyricApiName">介面名稱</x:String>
+    <x:String x:Key="LyricApiUrl">位址</x:String>
+    <x:String x:Key="LyricApiGet">GET</x:String>
+    <x:String x:Key="LyricApiPost">POST</x:String>
+    <x:String x:Key="LyricApiContentType">內容類型</x:String>
+    <x:String x:Key="LyricApiHeaders">請求標頭</x:String>
+    <x:String x:Key="LyricApiParams">參數</x:String>
+    <x:String x:Key="LyricApiExtractVars">提取變數</x:String>
+    <x:String x:Key="LyricApiDecoderType">解碼類型</x:String>
+    <x:String x:Key="LyricApiDecryptorType">解密類型</x:String>
+    <x:String x:Key="LyricApiDecryptorDefault">預設</x:String>
+    <x:String x:Key="LyricApiDecryptorKrc">Krc（酷狗音樂）</x:String>
+    <x:String x:Key="LyricApiDecryptorQrc">Qrc（QQ音樂）</x:String>
+    <x:String x:Key="LyricApiTimeout">時限</x:String>
+    <x:String x:Key="LyricApiFinalPath">輸出路徑</x:String>
+    <x:String x:Key="LyricApiFinalPathDesc">指定歌詞文字在最後一個請求傳回內容中的位置，例如 lrc.lyric、data.content、songs[0].lyric&#xA;留空則將整個傳回內容當作歌詞</x:String>
 
     <!--  Playing  -->
     <x:String x:Key="PlayingTrackBitRate">{0} Kbps</x:String>
@@ -528,17 +564,17 @@
     <!--  Language  -->
     <x:String x:Key="zh-CN">簡體中文</x:String>
     <x:String x:Key="zh-TW">繁體中文</x:String>
-    <x:String x:Key="en-US">英語（美國）</x:String>
+    <x:String x:Key="en-US">英文（美國）</x:String>
     <x:String x:Key="en-GB">英文（英國）</x:String>
-    <x:String x:Key="ja-JP">日語</x:String>
-    <x:String x:Key="ko-KR">韓語</x:String>
-    <x:String x:Key="ru-RU">俄語</x:String>
-    <x:String x:Key="de-DE">德語</x:String>
-    <x:String x:Key="fr-FR">法語</x:String>
-    <x:String x:Key="pt-BR">葡萄牙語（巴西）</x:String>
-    <x:String x:Key="es-ES">西班牙語</x:String>
-    <x:String x:Key="pl-PL">波蘭語</x:String>
-    <x:String x:Key="tr-TR">土耳其語</x:String>
+    <x:String x:Key="ja-JP">日文</x:String>
+    <x:String x:Key="ko-KR">韓文</x:String>
+    <x:String x:Key="ru-RU">俄文</x:String>
+    <x:String x:Key="de-DE">德文</x:String>
+    <x:String x:Key="fr-FR">法文</x:String>
+    <x:String x:Key="pt-BR">葡萄牙文（巴西）</x:String>
+    <x:String x:Key="es-ES">西班牙文</x:String>
+    <x:String x:Key="pl-PL">波蘭文</x:String>
+    <x:String x:Key="tr-TR">土耳其文</x:String>
 
     <!--  Toast  -->
     <x:String x:Key="ToastTrackFileNotFound">歌曲檔案不存在：{0}</x:String>
@@ -551,7 +587,7 @@
     <x:String x:Key="ToastPlaylistRenameSucc">播放清單重新命名成功</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">新建播放清單 {0} 成功</x:String>
     <x:String x:Key="ToastPlaylistDelete">刪除播放清單成功</x:String>
-    <x:String x:Key="ToastPlaylistImportSucc">成功從檔案 {0} 匯入播放清單 {1}，添加了 {2} 首歌曲</x:String>
+    <x:String x:Key="ToastPlaylistImportSucc">成功從檔案 {0} 匯入播放清單 {1}，新增了 {2} 首歌曲</x:String>
     <x:String x:Key="ToastPlaylistImportFail">從檔案 {0} 匯入播放清單 {1} 失敗</x:String>
     <x:String x:Key="ToastPlaylistExportSucc">成功匯出播放清單 {0} 到檔案 {1}</x:String>
     <x:String x:Key="ToastPlaylistExportFail">匯出播放清單 {0} 到檔案 {1} 失敗</x:String>
@@ -560,7 +596,7 @@
     <x:String x:Key="ToastPlaylistInvalid">播放清單無效</x:String>
     <x:String x:Key="ToastPlaylistEmpty">播放清單是空的</x:String>
     <x:String x:Key="ToastPlaylistNameExists">已存在同名播放清單</x:String>
-    <x:String x:Key="ToastPlaylistNameInvalid">包含無效字元: {0}</x:String>
+    <x:String x:Key="ToastPlaylistNameInvalid">包含無效字元：{0}</x:String>
     <x:String x:Key="ToastFolderExists">資料夾 {0} 已存在於 {1} 中</x:String>
     <x:String x:Key="ToastFolderAddFail">新增資料夾 {0} 時出現錯誤</x:String>
     <x:String x:Key="ToastTrackAddToQueueNext">已新增 {0} 到下一首</x:String>
@@ -579,7 +615,7 @@
     <x:String x:Key="ToastOpenFolderFail">開啟所在資料夾 {0} 失敗，請查閱日誌檔案獲取更多資訊</x:String>
     <x:String x:Key="ToastOneDriveLoginFail">OneDrive 登入失敗</x:String>
     <x:String x:Key="ToastOneDriveLoginSucc">OneDrive 登入成功</x:String>
-    <x:String x:Key="ToastOneDriveLogout">OneDrive 帳號 {0} 已退出登入</x:String>
+    <x:String x:Key="ToastOneDriveLogout">OneDrive 帳號 {0} 已登出</x:String>
     <x:String x:Key="ToastOneDriveNoAccount">OneDrive 尚未登入</x:String>
     <x:String x:Key="ToastForceGCResult">強制垃圾回收完成，釋放了 {0} 記憶體</x:String>
     <x:String x:Key="ToastArtistExists">藝術家 {0} 已存在</x:String>
@@ -593,6 +629,9 @@
     <x:String x:Key="ToastEffectRenameExists">名稱已存在</x:String>
     <x:String x:Key="ToastEffectRenameSucc">重新命名成功</x:String>
     <x:String x:Key="ToastEffectRenameFail">重新命名失敗</x:String>
+    <x:String x:Key="ToastLyricApiFillNameFirst">請先填寫介面名稱</x:String>
+    <x:String x:Key="ToastLyricApiAddFail">新增歌詞介面失敗</x:String>
+    <x:String x:Key="ToastLyricApiCopyVarNameSucc">已複製變數名稱</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">正在初始化</x:String>
@@ -618,12 +657,21 @@
     <x:String x:Key="TipsGenreInput">輸入流派</x:String>
     <x:String x:Key="TipsSearch">搜尋歌曲、專輯、藝術家、播放清單</x:String>
     <x:String x:Key="TipsNavMenuItem">拖曳選單項目以調整顯示順序</x:String>
-    <x:String x:Key="TipsSeparatorInput">輸入分隔符</x:String>
-    <x:String x:Key="TipsSeparator">分隔符用於解析歌曲資訊中的多個藝術家和流派。&#xA;選擇一個分隔符以自訂藝術家或流派的顯示方式。</x:String>
+    <x:String x:Key="TipsSeparatorInput">輸入分隔符號</x:String>
+    <x:String x:Key="TipsSeparator">分隔符號用於解析歌曲資訊中的多個藝術家和流派。&#xA;選擇一個分隔符號以自訂藝術家或流派的顯示方式。</x:String>
     <x:String x:Key="TipsWallpaper">使用自訂桌布時可能出現文字與背景對比度不強烈導致難以辨識的情況。&#xA;適度調整不透明度或切換主題（淺色/深色）以獲得最佳效果。</x:String>
     <x:String x:Key="TipsCueTrackEdit">此歌曲來源於 CUE 檔案，暫不支援修改中繼資料，請直接編輯 CUE 檔案。</x:String>
     <x:String x:Key="TipsCueAlbumEdit">此專輯包含來源於 CUE 檔案的歌曲，暫不支援修改中繼資料，請直接編輯 CUE 檔案。</x:String>
     <x:String x:Key="TipsEffectNameInput">輸入新名稱</x:String>
+    <x:String x:Key="LyricSourceDragSortTips">拖曳以調整尋找順序</x:String>
+    <x:String x:Key="LyricApiDragSortTips">拖曳以調整呼叫順序</x:String>
+    <x:String x:Key="TipsLyricApiNameEmpty">介面名稱不能為空</x:String>
+    <x:String x:Key="TipsLyricApiNameExists">介面名稱已存在</x:String>
+    <x:String x:Key="TipsLyricApiUrlEmpty">位址為空</x:String>
+    <x:String x:Key="TipsLyricApiUrlInvalid">位址無效</x:String>
+    <x:String x:Key="TipsLyricApiExtractVarsEmpty">提取變數清單不應為空</x:String>
+    <x:String x:Key="TipsLyricSearching">正在搜尋...</x:String>
+    <x:String x:Key="TipsLyricApiRequestParams">可用變數（點擊以複製）：</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">0.10.0.0 版本修復了歌曲末尾被提前截斷的問題（通常少於1秒）。這是因為快取時長精度已從 秒 升級為 毫秒。</x:String>

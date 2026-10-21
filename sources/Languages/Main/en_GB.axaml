@@ -7,13 +7,14 @@
     <x:String x:Key="No">No</x:String>
     <x:String x:Key="On">On</x:String>
     <x:String x:Key="Off">Off</x:String>
+    <x:String x:Key="Save">Save</x:String>
     <x:String x:Key="OK">OK</x:String>
     <x:String x:Key="Cancel">Cancel</x:String>
     <x:String x:Key="Back">Back</x:String>
     <x:String x:Key="Quit">Quit</x:String>
     <x:String x:Key="Default">Default</x:String>
-    <x:String x:Key="Ascend">Ascend</x:String>
-    <x:String x:Key="Descend">Descend</x:String>
+    <x:String x:Key="Ascend">Ascending</x:String>
+    <x:String x:Key="Descend">Descending</x:String>
     <x:String x:Key="Order">Order</x:String>
     <x:String x:Key="Title">Title</x:String>
     <x:String x:Key="Name">Name</x:String>
@@ -28,8 +29,8 @@
     <x:String x:Key="Genre">Genre</x:String>
     <x:String x:Key="AddTime">Add time</x:String>
     <x:String x:Key="ModifyTime">Modify time</x:String>
-    <x:String x:Key="TrackNum">Track num</x:String>
-    <x:String x:Key="AlbumNum">Album num</x:String>
+    <x:String x:Key="TrackNum">Track count</x:String>
+    <x:String x:Key="AlbumNum">Album count</x:String>
     <x:String x:Key="Current">Current</x:String>
     <x:String x:Key="Choices">Choices</x:String>
     <x:String x:Key="SelectAll">Select all</x:String>
@@ -72,7 +73,7 @@
     <x:String x:Key="SampleRate">Sample rate</x:String>
     <x:String x:Key="BitsPerSample">Bits per sample</x:String>
     <x:String x:Key="Today">Today</x:String>
-    <x:String x:Key="Week">Week</x:String>
+    <x:String x:Key="Week">This week</x:String>
     <x:String x:Key="Total">Total</x:String>
     <x:String x:Key="Hour">h</x:String>
     <x:String x:Key="Minute">min</x:String>
@@ -91,7 +92,7 @@
     <x:String x:Key="Enabled">Enabled</x:String>
     <x:String x:Key="Disabled">Disabled</x:String>
     <x:String x:Key="Email">Email</x:String>
-    <x:String x:Key="WIP">Working in progress</x:String>
+    <x:String x:Key="WIP">Work in progress</x:String>
     <x:String x:Key="FullScreen">Full screen</x:String>
     <x:String x:Key="Mica">Mica</x:String>
     <x:String x:Key="AcrylicBlur">Acrylic blur</x:String>
@@ -107,6 +108,7 @@
     <x:String x:Key="Separator">Separator</x:String>
     <x:String x:Key="Gain">Gain</x:String>
     <x:String x:Key="Peak">Peak</x:String>
+    <x:String x:Key="Base64">Base64</x:String>
 
     <!-- EQ -->
     <x:String x:Key="Flat">Flat</x:String>
@@ -173,6 +175,7 @@
     <x:String x:Key="StatAlbumPage">Album Ranking</x:String>
     <x:String x:Key="StatArtistPage">Artist Ranking</x:String>
     <x:String x:Key="ImageCornerSettingPage">Image Corner Strength</x:String>
+    <x:String x:Key="LyricSettingPage">Lyrics</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Track info</x:String>
@@ -260,6 +263,7 @@
     <x:String x:Key="UISettingDesc">Window transparency effect, Custom fonts, Wallpaper, Navigation menu</x:String>
     <x:String x:Key="NavMenuSettingDesc">Visibility control, order adjustment, default page settings</x:String>
     <x:String x:Key="LangSettingDesc">System language, Switch language</x:String>
+    <x:String x:Key="LyricSettingDesc">Lyrics sources, network APIs</x:String>
     <x:String x:Key="EffectSettingDesc">Fade in/out, Replay Gain, Equaliser, Reverb</x:String>
     <x:String x:Key="PlayControlSettingDesc">Auto-play, Shuffle play</x:String>
     <x:String x:Key="AdvancedSettingDesc">Garbage collection</x:String>
@@ -342,7 +346,7 @@
     <x:String x:Key="PlayingOverlayOpacityDesc">Overlay layer is used to dim overly bright backgrounds in dark themes and brighten overly dark backgrounds in light themes, thereby improving text readability</x:String>
     <x:String x:Key="JumpBarOverlayLightOpacity">Jump bar overlay opacity for light theme</x:String>
     <x:String x:Key="JumpBarOverlayDarkOpacity">Jump bar overlay opacity for dark theme</x:String>
-    <x:String x:Key="CollaboratorArtistsVisible">Show featured artists on artist page</x:String>
+    <x:String x:Key="CollaboratorArtistsVisible">Show collaborating artists on artist page</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">When enabled, artists credited on tracks will also appear in the artist list</x:String>
     <x:String x:Key="FolderHierachyView">Folder hierarchical view</x:String>
     <x:String x:Key="HomeNavMenuItem">Default page displayed at startup</x:String>
@@ -362,7 +366,7 @@
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
     <x:String x:Key="EffectReplayGainDesc">When enabled, automatically adjusts playback volume based on Replay Gain tags embedded in the audio files&#xA;Replay Gain tags are required in the audio files</x:String>
     <x:String x:Key="EffectReplayGainMode">Gain mode</x:String>
-    <x:String x:Key="EffectEQ">Equalizer</x:String>
+    <x:String x:Key="EffectEQ">Equaliser</x:String>
     <x:String x:Key="EffectEQPreampMode">Preamp Attenuation Mode</x:String>
     <x:String x:Key="EffectEQPreampModeDesc">Pre-lowers the overall level before equaliser processing to prevent signal overload and clipping after boosting</x:String>
     <x:String x:Key="EffectEQPreampModeAutoDesc">Automatically calculates the attenuation based on the maximum gain of the current EQ curve, ensuring the signal never exceeds 0 dBFS</x:String>
@@ -411,10 +415,10 @@
     <x:String x:Key="AboutPrivacyPolicy">Privacy policy</x:String>
     <x:String x:Key="AboutUpdateLog">Update log</x:String>
     <x:String x:Key="AboutBugReport">Bug report</x:String>
-    <x:String x:Key="BugReportByMail">Email address</x:String>
+    <x:String x:Key="BugReportByMail">Report by email</x:String>
     <x:String x:Key="BugReportByGithub">GitHub Issues</x:String>
     <x:String x:Key="AboutLogCache">Log cache</x:String>
-    <x:String x:Key="AboutLogCacheLocation">Log location</x:String>
+    <x:String x:Key="AboutLogCacheLocation">Cache location</x:String>
     <x:String x:Key="AboutLogCacheClear">Clear cache</x:String>
     <x:String x:Key="AboutLogCacheClearDesc">Click to clear the log cache</x:String>
     <x:String x:Key="AboutOpenSourceIntro">uses the following open source components:</x:String>
@@ -433,8 +437,8 @@
     <x:String x:Key="SpectrumNoiseFloorDesc">Filters out spectrum data below this value</x:String>
     <x:String x:Key="SpectrumSmoothFactor">Smooth Factor</x:String>
     <x:String x:Key="SpectrumSmoothFactorDesc">Smoothing factor for spectrum data, larger values result in stronger smoothing effects</x:String>
-    <x:String x:Key="SpectrumTips">Enabling the spectrum visualizer may increase battery consumption</x:String>
-    <x:String x:Key="LyricSetting">Lyric Setting</x:String>
+    <x:String x:Key="SpectrumTips">Enabling the spectrum visualiser may increase battery consumption</x:String>
+    <x:String x:Key="LyricSetting">Lyrics Setting</x:String>
     <x:String x:Key="LyricNormalOpacity">Opacity (only for normal state)</x:String>
     <x:String x:Key="LyricHighlightGlow">Glow (only for highlight state)</x:String>
     <x:String x:Key="DesktopLyricSetting">Desktop lyrics setting</x:String>
@@ -499,7 +503,7 @@
     <x:String x:Key="AlbumInfo">Album: {0}</x:String>
     <x:String x:Key="ArtistInfo">Artist(s): {0}</x:String>
     <x:String x:Key="AlbumArtistInfo">Album artist(s): {0}</x:String>
-    <x:String x:Key="AlbumPerformerInfo">Performer(s): {0}</x:String>
+    <x:String x:Key="AlbumPerformerInfo">Collaborating artist(s): {0}</x:String>
     <x:String x:Key="GenreInfo">Genre(s): {0}</x:String>
     <x:String x:Key="ViewArtists">View artists</x:String>
 
@@ -510,6 +514,38 @@
     <x:String x:Key="DesktopLyric">Desktop lyrics</x:String>
     <x:String x:Key="LyricEmbedded">Embedded</x:String>
     <x:String x:Key="LyricFile">File</x:String>
+    <x:String x:Key="LyricNetwork">Network</x:String>
+    <x:String x:Key="LyricSource">Lyrics source</x:String>
+    <x:String x:Key="LyricSearch">Lyrics search</x:String>
+    <x:String x:Key="LyricApi">API list</x:String>
+    <x:String x:Key="LyricApiNew">New API</x:String>
+    <x:String x:Key="LyricApiBase">Basic settings</x:String>
+    <x:String x:Key="LyricApiRequestList">Request list</x:String>
+    <x:String x:Key="LyricApiTest">API test</x:String>
+    <x:String x:Key="LyricApiTestInputParams">Input parameters</x:String>
+    <x:String x:Key="LyricApiTestUsePlayingTrackParams">Use currently playing track info</x:String>
+    <x:String x:Key="LyricApiTestRun">Run test</x:String>
+    <x:String x:Key="LyricApiTestResult">Test result</x:String>
+    <x:String x:Key="LyricApiTestSucc">Test successful</x:String>
+    <x:String x:Key="LyricApiTestFail">Test failed</x:String>
+    <x:String x:Key="LyricApiRequestNew">Add request</x:String>
+    <x:String x:Key="LyricApiRequestEdit">Edit request</x:String>
+    <x:String x:Key="LyricApiName">API name</x:String>
+    <x:String x:Key="LyricApiUrl">URL</x:String>
+    <x:String x:Key="LyricApiGet">GET</x:String>
+    <x:String x:Key="LyricApiPost">POST</x:String>
+    <x:String x:Key="LyricApiContentType">Content type</x:String>
+    <x:String x:Key="LyricApiHeaders">Headers</x:String>
+    <x:String x:Key="LyricApiParams">Parameters</x:String>
+    <x:String x:Key="LyricApiExtractVars">Extract variables</x:String>
+    <x:String x:Key="LyricApiDecoderType">Decoder type</x:String>
+    <x:String x:Key="LyricApiDecryptorType">Decryptor type</x:String>
+    <x:String x:Key="LyricApiDecryptorDefault">Default</x:String>
+    <x:String x:Key="LyricApiDecryptorKrc">Krc (KuGou)</x:String>
+    <x:String x:Key="LyricApiDecryptorQrc">Qrc (QQ Music)</x:String>
+    <x:String x:Key="LyricApiTimeout">Timeout</x:String>
+    <x:String x:Key="LyricApiFinalPath">Output path</x:String>
+    <x:String x:Key="LyricApiFinalPathDesc">Specifies the location of the lyric text within the last request's response, e.g. lrc.lyric, data.content, songs[0].lyric&#xA;If empty, the entire response is treated as lyrics</x:String>
 
     <!--  Playing  -->
     <x:String x:Key="PlayingTrackBitRate">{0} Kbps</x:String>
@@ -545,7 +581,7 @@
     <x:String x:Key="ToastTrackLoadFailed">Failed to load: {0}, the file format may not be supported</x:String>
     <x:String x:Key="ToastTrackPlaying">Track is already playing</x:String>
     <x:String x:Key="ToastAlbumSaveThumbnailFail">Failed to save album cover, the selected image file may not be supported</x:String>
-    <x:String x:Key="ToastAlbumSaveSucc">Album information saved successfully.</x:String>
+    <x:String x:Key="ToastAlbumSaveSucc">Album information saved successfully</x:String>
     <x:String x:Key="ToastArtistSaveThumbnailFail">Failed to save artist cover, the selected image file may not be supported</x:String>
     <x:String x:Key="ToastArtistSaveSucc">Artist information saved successfully</x:String>
     <x:String x:Key="ToastPlaylistRenameSucc">Playlist renamed successfully</x:String>
@@ -580,7 +616,7 @@
     <x:String x:Key="ToastOneDriveLoginFail">Failed to login to OneDrive</x:String>
     <x:String x:Key="ToastOneDriveLoginSucc">Successfully logged in to OneDrive</x:String>
     <x:String x:Key="ToastOneDriveLogout">OneDrive account {0} logged out successfully</x:String>
-    <x:String x:Key="ToastOneDriveNoAccount">OneDrive account not set</x:String>
+    <x:String x:Key="ToastOneDriveNoAccount">Not signed in to OneDrive</x:String>
     <x:String x:Key="ToastForceGCResult">Force garbage collection completed, released {0} memory</x:String>
     <x:String x:Key="ToastArtistExists">Artist {0} already exists</x:String>
     <x:String x:Key="ToastAlbumArtistExists">Album artist {0} already exists</x:String>
@@ -593,6 +629,9 @@
     <x:String x:Key="ToastEffectRenameExists">Name already exists</x:String>
     <x:String x:Key="ToastEffectRenameSucc">Rename succeeded</x:String>
     <x:String x:Key="ToastEffectRenameFail">Rename failed</x:String>
+    <x:String x:Key="ToastLyricApiFillNameFirst">Please fill in the API name first</x:String>
+    <x:String x:Key="ToastLyricApiAddFail">Failed to add lyric API</x:String>
+    <x:String x:Key="ToastLyricApiCopyVarNameSucc">Variable name copied</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">Initialising...</x:String>
@@ -612,7 +651,7 @@
     <x:String x:Key="TipsAlbumIntroInput">Input album introduction</x:String>
     <x:String x:Key="TipsArtistInput">Input artist name</x:String>
     <x:String x:Key="TipsAlbumArtistInput">Input album artist name</x:String>
-    <x:String x:Key="TipsAlbumPerformersInput">Input collaboration artist name</x:String>
+    <x:String x:Key="TipsAlbumPerformersInput">Input collaborating artist name</x:String>
     <x:String x:Key="TipsArtistIntroInput">Input artist introduction</x:String>
     <x:String x:Key="TipsPlaylistNameInput">Input playlist name</x:String>
     <x:String x:Key="TipsGenreInput">Input genre</x:String>
@@ -624,6 +663,15 @@
     <x:String x:Key="TipsCueTrackEdit">This track comes from a CUE file, metadata cannot be modified. Please edit the CUE file directly.</x:String>
     <x:String x:Key="TipsCueAlbumEdit">This album contains tracks from CUE files, metadata cannot be modified. Please edit the CUE file directly.</x:String>
     <x:String x:Key="TipsEffectNameInput">Enter new name</x:String>
+    <x:String x:Key="LyricSourceDragSortTips">Drag to adjust lookup order</x:String>
+    <x:String x:Key="LyricApiDragSortTips">Drag to adjust call order</x:String>
+    <x:String x:Key="TipsLyricApiNameEmpty">API name cannot be empty</x:String>
+    <x:String x:Key="TipsLyricApiNameExists">API name already exists</x:String>
+    <x:String x:Key="TipsLyricApiUrlEmpty">URL is empty</x:String>
+    <x:String x:Key="TipsLyricApiUrlInvalid">Invalid URL</x:String>
+    <x:String x:Key="TipsLyricApiExtractVarsEmpty">Extract variables list cannot be empty</x:String>
+    <x:String x:Key="TipsLyricSearching">Searching...</x:String>
+    <x:String x:Key="TipsLyricApiRequestParams">Available variables (click to copy):</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">Version 0.10.0.0 fixes the issue where the end of tracks was prematurely truncated (usually less than 1 second). The cache duration precision has been upgraded from seconds to milliseconds.</x:String>
@@ -640,8 +688,8 @@
     <x:String x:Key="NoticePart5">Sorry for any inconvenience. Many thanks for the understanding and support!</x:String>
 
     <!--  Misc  -->
-    <x:String x:Key="SendLogMail">Send report</x:String>
+    <x:String x:Key="SendLogMail">Send log via email</x:String>
     <x:String x:Key="AppLaunchFail">App launch fail</x:String>
-    <x:String x:Key="ServiceInitFail">Error occurred in the {0}!</x:String>
+    <x:String x:Key="ServiceInitFail">Failed to initialize the {0}</x:String>
     <x:String x:Key="ClearAllEndedTasks">Clear all ended tasks</x:String>
 </ResourceDictionary>
