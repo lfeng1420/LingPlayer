@@ -109,8 +109,10 @@
     <x:String x:Key="Gain">Усиление</x:String>
     <x:String x:Key="Peak">Пик</x:String>
     <x:String x:Key="Base64">Base64</x:String>
+    <x:String x:Key="CreateDate">Создан: {0}</x:String>
+    <x:String x:Key="ModifyDate">Изменён: {0}</x:String>
 
-    <!-- EQ -->
+    <!--  EQ  -->
     <x:String x:Key="Flat">Линейный</x:String>
     <x:String x:Key="PopClassic">Поп (Классический)</x:String>
     <x:String x:Key="PopModern">Поп (Современный)</x:String>
@@ -153,6 +155,7 @@
     <x:String x:Key="ArtistDetailPage">Исполнитель</x:String>
     <x:String x:Key="FolderPage">Папки</x:String>
     <x:String x:Key="PlaylistPage">Плейлисты</x:String>
+    <x:String x:Key="PlaylistDetailPage">Плейлист</x:String>
     <x:String x:Key="TrackPage">Треки</x:String>
     <x:String x:Key="TrackFavoritePage">Избранное</x:String>
     <x:String x:Key="TrackRecentPage">Недавние</x:String>
@@ -161,7 +164,6 @@
     <x:String x:Key="StatisticPage">Статистика</x:String>
     <x:String x:Key="PluginPage">Плагины</x:String>
     <x:String x:Key="SettingPage">Настройки</x:String>
-    <x:String x:Key="PlayingQueuePage">Очередь</x:String>
     <x:String x:Key="UISettingPage">Интерфейс</x:String>
     <x:String x:Key="NavMenuSettingPage">Меню навигации</x:String>
     <x:String x:Key="LibrarySettingPage">Библиотека</x:String>
@@ -180,12 +182,23 @@
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Инфо о треке</x:String>
     <x:String x:Key="TrackNumDesc">Треков: {0}</x:String>
-    <x:String x:Key="RevealInExplorer">Показать в проводнике</x:String>
-    <x:String x:Key="UnknownGenre">Неизвестный жанр</x:String>
+    <x:String x:Key="TrackRevealInExplorer">Показать в проводнике</x:String>
+    <x:String x:Key="TrackPlaySelection">Воспроизвести выбранное</x:String>
+    <x:String x:Key="TrackAddToPlaylist">Добавить в плейлист</x:String>
+    <x:String x:Key="TrackAddToPlaylists">Добавить в плейлисты</x:String>
+    <x:String x:Key="TrackAddToQueue">Добавить в очередь</x:String>
+    <x:String x:Key="TrackAddToQueueNext">Добавить следующим</x:String>
+    <x:String x:Key="TrackAlbumInfo">Альбом: {0}</x:String>
+    <x:String x:Key="TrackArtistInfo">Исполнитель: {0}</x:String>
+    <x:String x:Key="TrackAlbumArtistInfo">Исполнитель альбома: {0}</x:String>
+    <x:String x:Key="TrackAlbumPerformerInfo">Приглашённые исполнители: {0}</x:String>
+    <x:String x:Key="TrackGenreInfo">Жанр: {0}</x:String>
+    <x:String x:Key="TrackFolderInfo">Папка: {0}</x:String>
+    <x:String x:Key="TrackPlaylistInfo">Плейлист: {0}</x:String>
 
     <!--  Album  -->
     <x:String x:Key="AlbumNumDesc">Альбомов: {0}</x:String>
-    <x:String x:Key="UnknownAlbum">Неизвестный альбом</x:String>
+    <x:String x:Key="AlbumUnknown">Неизвестный альбом</x:String>
     <x:String x:Key="AlbumIntro">Об альбоме</x:String>
     <x:String x:Key="AlbumIntroEmpty">Описания нет</x:String>
     <x:String x:Key="AlbumYear">Год альбома</x:String>
@@ -197,29 +210,32 @@
     <x:String x:Key="AlbumSyncMetadata">Синхронизировать метаданные альбома со всеми треками</x:String>
 
     <!--  Artist  -->
-    <x:String x:Key="UnknownArtist">Неизвестный исполнитель</x:String>
+    <x:String x:Key="ArtistUnknown">Неизвестный исполнитель</x:String>
     <x:String x:Key="ArtistEditTitle">Править исполнителя</x:String>
     <x:String x:Key="ArtistIntro">Об исполнителе</x:String>
     <x:String x:Key="ArtistIntroEmpty">Описания нет</x:String>
-    <x:String x:Key="PlayArtistAlbums">Воспроизвести все треки альбомов исполнителя</x:String>
-    <x:String x:Key="AddArtistAlbumsToQueue">Добавить все треки альбомов исполнителя в очередь</x:String>
-    <x:String x:Key="AddArtistAlbumsToPlaylist">Добавить все треки альбомов исполнителя в плейлист</x:String>
-    <x:String x:Key="PlayArtistTracks">Воспроизвести все треки исполнителя</x:String>
-    <x:String x:Key="AddArtistTracksToQueue">Добавить все треки исполнителя в очередь</x:String>
-    <x:String x:Key="AddArtistTracksToPlaylist">Добавить все треки исполнителя в плейлист</x:String>
-    <x:String x:Key="PlaySelectedArtistsAlbums">Воспроизвести треки альбомов выбранных исполнителей</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToQueue">Добавить треки альбомов выбранных исполнителей в очередь</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToPlaylist">Добавить треки альбомов выбранных исполнителей в плейлист</x:String>
-    <x:String x:Key="PlaySelectedArtistsTracks">Воспроизвести все треки выбранных исполнителей</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToQueue">Добавить все треки выбранных исполнителей в очередь</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToPlaylist">Добавить все треки выбранных исполнителей в плейлист</x:String>
+    <x:String x:Key="ArtistPlayAlbums">Воспроизвести все треки альбомов исполнителя</x:String>
+    <x:String x:Key="ArtistAddAlbumsToQueue">Добавить все треки альбомов исполнителя в очередь</x:String>
+    <x:String x:Key="ArtistAddAlbumsToPlaylist">Добавить все треки альбомов исполнителя в плейлист</x:String>
+    <x:String x:Key="ArtistPlayTracks">Воспроизвести все треки исполнителя</x:String>
+    <x:String x:Key="ArtistAddTracksToQueue">Добавить все треки исполнителя в очередь</x:String>
+    <x:String x:Key="ArtistAddTracksToPlaylist">Добавить все треки исполнителя в плейлист</x:String>
+    <x:String x:Key="ArtistPlaySelectedAlbums">Воспроизвести треки альбомов выбранных исполнителей</x:String>
+    <x:String x:Key="ArtistAddSelectedAlbumsToQueue">Добавить треки альбомов выбранных исполнителей в очередь</x:String>
+    <x:String x:Key="ArtistAddSelectedAlbumsToPlaylist">Добавить треки альбомов выбранных исполнителей в плейлист</x:String>
+    <x:String x:Key="ArtistPlaySelectedTracks">Воспроизвести все треки выбранных исполнителей</x:String>
+    <x:String x:Key="ArtistAddSelectedTracksToQueue">Добавить все треки выбранных исполнителей в очередь</x:String>
+    <x:String x:Key="ArtistAddSelectedTracksToPlaylist">Добавить все треки выбранных исполнителей в плейлист</x:String>
+
+    <!--  Genre  -->
+    <x:String x:Key="GenreUnknown">Неизвестный жанр</x:String>
 
     <!--  Playlist  -->
     <x:String x:Key="PlaylistNew">Новый плейлист</x:String>
     <x:String x:Key="PlaylistRename">Переименовать</x:String>
     <x:String x:Key="PlaylistNumDesc">{0}</x:String>
-    <x:String x:Key="PlaylistImportTitle">Импорт плейлиста</x:String>
-    <x:String x:Key="PlaylistExportTitle">Экспорт плейлиста</x:String>
+    <x:String x:Key="PlaylistImport">Импорт плейлиста</x:String>
+    <x:String x:Key="PlaylistExport">Экспорт плейлиста</x:String>
     <x:String x:Key="PlaylistsExportPath">Путь: {0}</x:String>
     <x:String x:Key="PlaylistExportSummary">Сводка экспорта</x:String>
     <x:String x:Key="PlaylistExportFile">Экспортировать список треков</x:String>
@@ -227,10 +243,12 @@
     <x:String x:Key="PlaylistExportTrackFilesStageGathering">Сбор треков из плейлиста</x:String>
     <x:String x:Key="PlaylistExportTrackFilesStageCopying">Копирование файлов треков</x:String>
     <x:String x:Key="PlaylistExportTrackFilesStageDone">Экспорт файлов треков завершён</x:String>
+    <x:String x:Key="PlaylistAutoGenThumbnail">Автоматически создавать обложку</x:String>
+    <x:String x:Key="PlaylistAutoGenThumbnailDesc">При включении обложка плейлиста создаётся из обложек первых четырёх треков и автоматически обновляется при их изменении</x:String>
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
-    <x:String x:Key="TracksInCurFolder">Треки в папке</x:String>
+    <x:String x:Key="FolderInCurrentTracks">Треки в папке</x:String>
     <x:String x:Key="FolderAddToExcludeList">Добавить в исключения</x:String>
 
     <!--  Statistics  -->
@@ -363,6 +381,7 @@
     <x:String x:Key="EffectFadingPlayPause">Воспр. / Пауза</x:String>
     <x:String x:Key="EffectFadingSeek">Перемотка</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">Ручная смена трека</x:String>
+    <x:String x:Key="EffectFadingNaturalSwitch">Естественный переход</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
     <x:String x:Key="EffectReplayGainDesc">При включении автоматически регулирует громкость воспроизведения на основе тегов Replay Gain, встроенных в аудиофайлы&#xA;Требуются теги Replay Gain в аудиофайлах</x:String>
     <x:String x:Key="EffectReplayGainMode">Режим усиления</x:String>
@@ -481,6 +500,8 @@
     <x:String x:Key="SleepTimerStart">Запустить таймер</x:String>
     <x:String x:Key="SleepTimerStop">Остановить таймер</x:String>
     <x:String x:Key="TaskDialogTitle">Задачи</x:String>
+    <x:String x:Key="PlayingQueueDialogTitle">Очередь</x:String>
+    <x:String x:Key="ViewArtistsTitle">Посмотреть исполнителей</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Мини-окно</x:String>
@@ -494,18 +515,6 @@
     <x:String x:Key="NextTrack">Следующий</x:String>
     <x:String x:Key="DesktopLyricOn">Текст на рабочем столе включен</x:String>
     <x:String x:Key="DesktopLyricOff">Текст на рабочем столе выключен</x:String>
-
-    <!--  Options  -->
-    <x:String x:Key="PlaySelection">Воспроизвести выбранное</x:String>
-    <x:String x:Key="AddToPlaylist">Добавить в плейлист</x:String>
-    <x:String x:Key="AddToQueue">Добавить в очередь</x:String>
-    <x:String x:Key="AddToQueueNext">Добавить следующим</x:String>
-    <x:String x:Key="AlbumInfo">Альбом: {0}</x:String>
-    <x:String x:Key="ArtistInfo">Исполнитель: {0}</x:String>
-    <x:String x:Key="AlbumArtistInfo">Исполнитель альбома: {0}</x:String>
-    <x:String x:Key="AlbumPerformerInfo">Приглашённые исполнители: {0}</x:String>
-    <x:String x:Key="GenreInfo">Жанр: {0}</x:String>
-    <x:String x:Key="ViewArtists">Посмотреть исполнителей</x:String>
 
     <!--  Lyric  -->
     <x:String x:Key="Lyric">Текст песни</x:String>
@@ -523,7 +532,7 @@
     <x:String x:Key="LyricApiRequestList">Список запросов</x:String>
     <x:String x:Key="LyricApiTest">Тест API</x:String>
     <x:String x:Key="LyricApiTestInputParams">Входные параметры</x:String>
-    <x:String x:Key="LyricApiTestUsePlayingTrackParams">Использовать данные текущего трека</x:String>
+    <x:String x:Key="LyricApiTestUsePlayingTrackParams">Использовать текущий трек</x:String>
     <x:String x:Key="LyricApiTestRun">Запустить тест</x:String>
     <x:String x:Key="LyricApiTestResult">Результат теста</x:String>
     <x:String x:Key="LyricApiTestSucc">Тест пройден</x:String>
@@ -540,9 +549,8 @@
     <x:String x:Key="LyricApiExtractVars">Извлечь переменные</x:String>
     <x:String x:Key="LyricApiDecoderType">Тип декодера</x:String>
     <x:String x:Key="LyricApiDecryptorType">Тип дешифратора</x:String>
-    <x:String x:Key="LyricApiDecryptorDefault">По умолчанию</x:String>
     <x:String x:Key="LyricApiDecryptorKrc">Krc (KuGou)</x:String>
-    <x:String x:Key="LyricApiDecryptorQrc">Qrc (QQ Music)</x:String>
+    <x:String x:Key="LyricApiDecryptorQrc">Qrc (QQ)</x:String>
     <x:String x:Key="LyricApiTimeout">Тайм-аут</x:String>
     <x:String x:Key="LyricApiFinalPath">Путь вывода</x:String>
     <x:String x:Key="LyricApiFinalPathDesc">Указывает расположение текста песни в ответе последнего запроса, например lrc.lyric, data.content, songs[0].lyric&#xA;Если пусто, весь ответ считается текстом песни</x:String>
@@ -605,6 +613,7 @@
     <x:String x:Key="ToastTracksReplaceToQueue">Очередь заменена, треков в очереди: {0}</x:String>
     <x:String x:Key="ToastTrackAddToPlaylist">{0} добавлен в {1}</x:String>
     <x:String x:Key="ToastTracksAddToPlaylist">В {1} добавлено треков: {0}</x:String>
+    <x:String x:Key="ToastTracksAddToPlaylists">Добавлено треков: {0} в плейлисты ({1} шт.)</x:String>
     <x:String x:Key="ToastTrackAddToPlaylistFail">Не удалось добавить трек в плейлист</x:String>
     <x:String x:Key="ToastTrackRemove">Убрано треков: {0}</x:String>
     <x:String x:Key="ToastPluginEnableFail">Ошибка включения плагина {0}, см. лог</x:String>
@@ -646,6 +655,7 @@
     <x:String x:Key="TipsTrackEmpty2">для добавления папок</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty1">Нет треков. Перейдите в</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty2">для добавления папок</x:String>
+    <x:String x:Key="TipsPlaylistTrackEmpty">Нет треков. Перетащите файлы или папки сюда, чтобы добавить треки</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">Отпустите для сканирования</x:String>
     <x:String x:Key="TipsAddTracksResult">Добавлено треков: {0}</x:String>
     <x:String x:Key="TipsAlbumIntroInput">Введите описание альбома</x:String>

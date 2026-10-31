@@ -109,8 +109,10 @@
     <x:String x:Key="Gain">Kazanç</x:String>
     <x:String x:Key="Peak">Tepe</x:String>
     <x:String x:Key="Base64">Base64</x:String>
+    <x:String x:Key="CreateDate">Oluşturulma: {0}</x:String>
+    <x:String x:Key="ModifyDate">Değiştirilme: {0}</x:String>
 
-    <!-- EQ -->
+    <!--  EQ  -->
     <x:String x:Key="Flat">Düz</x:String>
     <x:String x:Key="PopClassic">Pop (Klasik)</x:String>
     <x:String x:Key="PopModern">Pop (Modern)</x:String>
@@ -153,6 +155,7 @@
     <x:String x:Key="ArtistDetailPage">Sanatçı</x:String>
     <x:String x:Key="FolderPage">Klasörler</x:String>
     <x:String x:Key="PlaylistPage">Çalma listeleri</x:String>
+    <x:String x:Key="PlaylistDetailPage">Çalma listesi</x:String>
     <x:String x:Key="TrackPage">Parçalar</x:String>
     <x:String x:Key="TrackFavoritePage">Favoriler</x:String>
     <x:String x:Key="TrackRecentPage">Son çalınanlar</x:String>
@@ -161,7 +164,6 @@
     <x:String x:Key="StatisticPage">İstatistikler</x:String>
     <x:String x:Key="PluginPage">Eklentiler</x:String>
     <x:String x:Key="SettingPage">Ayarlar</x:String>
-    <x:String x:Key="PlayingQueuePage">Çalma kuyruğu</x:String>
     <x:String x:Key="UISettingPage">Arayüz</x:String>
     <x:String x:Key="NavMenuSettingPage">Gezinme Menüsü</x:String>
     <x:String x:Key="LibrarySettingPage">Kitaplık</x:String>
@@ -180,12 +182,23 @@
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Parça bilgisi</x:String>
     <x:String x:Key="TrackNumDesc">{0} parça</x:String>
-    <x:String x:Key="RevealInExplorer">Gezginde göster</x:String>
-    <x:String x:Key="UnknownGenre">Bilinmeyen tür</x:String>
+    <x:String x:Key="TrackRevealInExplorer">Gezginde göster</x:String>
+    <x:String x:Key="TrackPlaySelection">Seçimi oynat</x:String>
+    <x:String x:Key="TrackAddToPlaylist">Çalma listesine ekle</x:String>
+    <x:String x:Key="TrackAddToPlaylists">Çalma listelerine ekle</x:String>
+    <x:String x:Key="TrackAddToQueue">Kuyruğa ekle</x:String>
+    <x:String x:Key="TrackAddToQueueNext">Sonrakine ekle</x:String>
+    <x:String x:Key="TrackAlbumInfo">Albüm: {0}</x:String>
+    <x:String x:Key="TrackArtistInfo">Sanatçı(lar): {0}</x:String>
+    <x:String x:Key="TrackAlbumArtistInfo">Albüm sanatçı(ları): {0}</x:String>
+    <x:String x:Key="TrackAlbumPerformerInfo">İcracı(lar): {0}</x:String>
+    <x:String x:Key="TrackGenreInfo">Tür(ler): {0}</x:String>
+    <x:String x:Key="TrackFolderInfo">Klasör: {0}</x:String>
+    <x:String x:Key="TrackPlaylistInfo">Çalma listesi: {0}</x:String>
 
     <!--  Album  -->
     <x:String x:Key="AlbumNumDesc">{0} albüm(ler)</x:String>
-    <x:String x:Key="UnknownAlbum">Bilinmeyen albüm</x:String>
+    <x:String x:Key="AlbumUnknown">Bilinmeyen albüm</x:String>
     <x:String x:Key="AlbumIntro">Albüm hakkında</x:String>
     <x:String x:Key="AlbumIntroEmpty">Açıklama yok.</x:String>
     <x:String x:Key="AlbumYear">Albüm yılı</x:String>
@@ -197,29 +210,32 @@
     <x:String x:Key="AlbumSyncMetadata">Albüm meta verilerini tüm parçalarla senkronize et</x:String>
 
     <!--  Artist  -->
-    <x:String x:Key="UnknownArtist">Bilinmeyen sanatçı</x:String>
+    <x:String x:Key="ArtistUnknown">Bilinmeyen sanatçı</x:String>
     <x:String x:Key="ArtistEditTitle">Sanatçıyı düzenle</x:String>
     <x:String x:Key="ArtistIntro">Sanatçı hakkında</x:String>
     <x:String x:Key="ArtistIntroEmpty">Açıklama yok.</x:String>
-    <x:String x:Key="PlayArtistAlbums">Bu sanatçının albümlerindeki tüm parçaları çal</x:String>
-    <x:String x:Key="AddArtistAlbumsToQueue">Bu sanatçının albümlerindeki tüm parçaları kuyruğa ekle</x:String>
-    <x:String x:Key="AddArtistAlbumsToPlaylist">Bu sanatçının albümlerindeki tüm parçaları listeye ekle</x:String>
-    <x:String x:Key="PlayArtistTracks">Bu sanatçının tüm parçalarını çal</x:String>
-    <x:String x:Key="AddArtistTracksToQueue">Bu sanatçının tüm parçalarını kuyruğa ekle</x:String>
-    <x:String x:Key="AddArtistTracksToPlaylist">Bu sanatçının tüm parçalarını listeye ekle</x:String>
-    <x:String x:Key="PlaySelectedArtistsAlbums">Seçili sanatçıların albümlerindeki tüm parçaları çal</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToQueue">Seçili sanatçıların albümlerindeki tüm parçaları kuyruğa ekle</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToPlaylist">Seçili sanatçıların albümlerindeki tüm parçaları listeye ekle</x:String>
-    <x:String x:Key="PlaySelectedArtistsTracks">Seçili sanatçıların tüm parçalarını çal</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToQueue">Seçili sanatçıların tüm parçalarını kuyruğa ekle</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToPlaylist">Seçili sanatçıların tüm parçalarını listeye ekle</x:String>
+    <x:String x:Key="ArtistPlayAlbums">Bu sanatçının albümlerindeki tüm parçaları çal</x:String>
+    <x:String x:Key="ArtistAddAlbumsToQueue">Bu sanatçının albümlerindeki tüm parçaları kuyruğa ekle</x:String>
+    <x:String x:Key="ArtistAddAlbumsToPlaylist">Bu sanatçının albümlerindeki tüm parçaları listeye ekle</x:String>
+    <x:String x:Key="ArtistPlayTracks">Bu sanatçının tüm parçalarını çal</x:String>
+    <x:String x:Key="ArtistAddTracksToQueue">Bu sanatçının tüm parçalarını kuyruğa ekle</x:String>
+    <x:String x:Key="ArtistAddTracksToPlaylist">Bu sanatçının tüm parçalarını listeye ekle</x:String>
+    <x:String x:Key="ArtistPlaySelectedAlbums">Seçili sanatçıların albümlerindeki tüm parçaları çal</x:String>
+    <x:String x:Key="ArtistAddSelectedAlbumsToQueue">Seçili sanatçıların albümlerindeki tüm parçaları kuyruğa ekle</x:String>
+    <x:String x:Key="ArtistAddSelectedAlbumsToPlaylist">Seçili sanatçıların albümlerindeki tüm parçaları listeye ekle</x:String>
+    <x:String x:Key="ArtistPlaySelectedTracks">Seçili sanatçıların tüm parçalarını çal</x:String>
+    <x:String x:Key="ArtistAddSelectedTracksToQueue">Seçili sanatçıların tüm parçalarını kuyruğa ekle</x:String>
+    <x:String x:Key="ArtistAddSelectedTracksToPlaylist">Seçili sanatçıların tüm parçalarını listeye ekle</x:String>
+
+    <!--  Genre  -->
+    <x:String x:Key="GenreUnknown">Bilinmeyen tür</x:String>
 
     <!--  Playlist  -->
     <x:String x:Key="PlaylistNew">Yeni çalma listesi</x:String>
     <x:String x:Key="PlaylistRename">Listeyi yeniden adlandır</x:String>
     <x:String x:Key="PlaylistNumDesc">{0}</x:String>
-    <x:String x:Key="PlaylistImportTitle">Çalma listesini içe aktar</x:String>
-    <x:String x:Key="PlaylistExportTitle">Çalma listesini dışa aktar</x:String>
+    <x:String x:Key="PlaylistImport">Çalma listesini içe aktar</x:String>
+    <x:String x:Key="PlaylistExport">Çalma listesini dışa aktar</x:String>
     <x:String x:Key="PlaylistsExportPath">Dışa aktarma yolu: {0}</x:String>
     <x:String x:Key="PlaylistExportSummary">Dışa aktarma özeti</x:String>
     <x:String x:Key="PlaylistExportFile">Parça listesini dışa aktar</x:String>
@@ -227,10 +243,12 @@
     <x:String x:Key="PlaylistExportTrackFilesStageGathering">Çalma listesindeki parçalar toplanıyor</x:String>
     <x:String x:Key="PlaylistExportTrackFilesStageCopying">Parça dosyaları kopyalanıyor</x:String>
     <x:String x:Key="PlaylistExportTrackFilesStageDone">Parça dosyaları dışa aktarımı tamamlandı</x:String>
+    <x:String x:Key="PlaylistAutoGenThumbnail">Kapak otomatik oluştur</x:String>
+    <x:String x:Key="PlaylistAutoGenThumbnailDesc">Etkinleştirildiğinde, çalma listesi kapağı ilk dört parçanın kapağından oluşturulur ve bu parçalar değiştiğinde otomatik olarak güncellenir</x:String>
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
-    <x:String x:Key="TracksInCurFolder">Geçerli klasördeki parçalar</x:String>
+    <x:String x:Key="FolderInCurrentTracks">Geçerli klasördeki parçalar</x:String>
     <x:String x:Key="FolderAddToExcludeList">Hariç tutma listesine ekle</x:String>
 
     <!--  Statistics  -->
@@ -363,6 +381,7 @@
     <x:String x:Key="EffectFadingPlayPause">Oynat / Duraklat</x:String>
     <x:String x:Key="EffectFadingSeek">Sarma</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">Manuel parça değişimi</x:String>
+    <x:String x:Key="EffectFadingNaturalSwitch">Doğal geçiş</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
     <x:String x:Key="EffectReplayGainDesc">Etkinleştirildiğinde, ses dosyalarına gömülü Replay Gain etiketlerine göre oynatma sesini otomatik ayarlar&#xA;Ses dosyalarında Replay Gain etiketleri gereklidir</x:String>
     <x:String x:Key="EffectReplayGainMode">Kazanç modu</x:String>
@@ -481,6 +500,8 @@
     <x:String x:Key="SleepTimerStart">Zamanlayıcıyı başlat</x:String>
     <x:String x:Key="SleepTimerStop">Zamanlayıcıyı durdur</x:String>
     <x:String x:Key="TaskDialogTitle">Görevler</x:String>
+    <x:String x:Key="PlayingQueueDialogTitle">Çalma kuyruğu</x:String>
+    <x:String x:Key="ViewArtistsTitle">Sanatçıları gör</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Mini pencere</x:String>
@@ -494,18 +515,6 @@
     <x:String x:Key="NextTrack">Sonraki parça</x:String>
     <x:String x:Key="DesktopLyricOn">Masaüstü sözleri açık</x:String>
     <x:String x:Key="DesktopLyricOff">Masaüstü sözleri kapalı</x:String>
-
-    <!--  Options  -->
-    <x:String x:Key="PlaySelection">Seçimi oynat</x:String>
-    <x:String x:Key="AddToPlaylist">Çalma listesine ekle</x:String>
-    <x:String x:Key="AddToQueue">Kuyruğa ekle</x:String>
-    <x:String x:Key="AddToQueueNext">Sonrakine ekle</x:String>
-    <x:String x:Key="AlbumInfo">Albüm: {0}</x:String>
-    <x:String x:Key="ArtistInfo">Sanatçı(lar): {0}</x:String>
-    <x:String x:Key="AlbumArtistInfo">Albüm sanatçı(ları): {0}</x:String>
-    <x:String x:Key="AlbumPerformerInfo">İcracı(lar): {0}</x:String>
-    <x:String x:Key="GenreInfo">Tür(ler): {0}</x:String>
-    <x:String x:Key="ViewArtists">Sanatçıları gör</x:String>
 
     <!--  Lyric  -->
     <x:String x:Key="Lyric">Şarkı sözleri</x:String>
@@ -523,7 +532,7 @@
     <x:String x:Key="LyricApiRequestList">İstek listesi</x:String>
     <x:String x:Key="LyricApiTest">API testi</x:String>
     <x:String x:Key="LyricApiTestInputParams">Giriş parametreleri</x:String>
-    <x:String x:Key="LyricApiTestUsePlayingTrackParams">Çalan parçanın bilgilerini kullan</x:String>
+    <x:String x:Key="LyricApiTestUsePlayingTrackParams">Çalan parçayı kullan</x:String>
     <x:String x:Key="LyricApiTestRun">Testi çalıştır</x:String>
     <x:String x:Key="LyricApiTestResult">Test sonucu</x:String>
     <x:String x:Key="LyricApiTestSucc">Test başarılı</x:String>
@@ -540,9 +549,8 @@
     <x:String x:Key="LyricApiExtractVars">Değişkenleri ayıkla</x:String>
     <x:String x:Key="LyricApiDecoderType">Çözücü türü</x:String>
     <x:String x:Key="LyricApiDecryptorType">Şifre çözücü türü</x:String>
-    <x:String x:Key="LyricApiDecryptorDefault">Varsayılan</x:String>
     <x:String x:Key="LyricApiDecryptorKrc">Krc (KuGou)</x:String>
-    <x:String x:Key="LyricApiDecryptorQrc">Qrc (QQ Music)</x:String>
+    <x:String x:Key="LyricApiDecryptorQrc">Qrc (QQ)</x:String>
     <x:String x:Key="LyricApiTimeout">Zaman aşımı</x:String>
     <x:String x:Key="LyricApiFinalPath">Çıktı yolu</x:String>
     <x:String x:Key="LyricApiFinalPathDesc">Şarkı sözü metninin son isteğin yanıtındaki konumunu belirtir, örn. lrc.lyric, data.content, songs[0].lyric&#xA;Boşsa, tüm yanıt şarkı sözü olarak kabul edilir</x:String>
@@ -605,6 +613,7 @@
     <x:String x:Key="ToastTracksReplaceToQueue">Kuyruk değiştirildi, {0} parça</x:String>
     <x:String x:Key="ToastTrackAddToPlaylist">{0}, {1} listesine eklendi</x:String>
     <x:String x:Key="ToastTracksAddToPlaylist">{0} parça {1} listesine eklendi</x:String>
+    <x:String x:Key="ToastTracksAddToPlaylists">{0} parça {1} çalma listesine eklendi</x:String>
     <x:String x:Key="ToastTrackAddToPlaylistFail">Parça listeye eklenemedi</x:String>
     <x:String x:Key="ToastTrackRemove">{0} parça kaldırıldı</x:String>
     <x:String x:Key="ToastPluginEnableFail">{0} eklentisi etkinleştirilemedi, günlük dosyasını kontrol edin</x:String>
@@ -646,6 +655,7 @@
     <x:String x:Key="TipsTrackEmpty2">klasör eklemek için</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty1">Parça yok. Şuraya gidin</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty2">klasör eklemek için</x:String>
+    <x:String x:Key="TipsPlaylistTrackEmpty">Parça yok. Eklemek için dosya veya klasörleri buraya sürükleyin</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">Taramak için bırakın</x:String>
     <x:String x:Key="TipsAddTracksResult">{0} parça eklendi</x:String>
     <x:String x:Key="TipsAlbumIntroInput">Albüm açıklamasını girin</x:String>

@@ -109,8 +109,10 @@
     <x:String x:Key="Gain">게인</x:String>
     <x:String x:Key="Peak">피크</x:String>
     <x:String x:Key="Base64">Base64</x:String>
+    <x:String x:Key="CreateDate">생성일: {0}</x:String>
+    <x:String x:Key="ModifyDate">수정일: {0}</x:String>
 
-    <!-- EQ -->
+    <!--  EQ  -->
     <x:String x:Key="Flat">플랫</x:String>
     <x:String x:Key="PopClassic">팝 (클래식)</x:String>
     <x:String x:Key="PopModern">팝 (모던)</x:String>
@@ -153,6 +155,7 @@
     <x:String x:Key="ArtistDetailPage">아티스트</x:String>
     <x:String x:Key="FolderPage">폴더</x:String>
     <x:String x:Key="PlaylistPage">재생목록</x:String>
+    <x:String x:Key="PlaylistDetailPage">재생목록</x:String>
     <x:String x:Key="TrackPage">곡</x:String>
     <x:String x:Key="TrackFavoritePage">좋아요</x:String>
     <x:String x:Key="TrackRecentPage">최근 재생</x:String>
@@ -161,7 +164,6 @@
     <x:String x:Key="StatisticPage">통계</x:String>
     <x:String x:Key="PluginPage">플러그인</x:String>
     <x:String x:Key="SettingPage">설정</x:String>
-    <x:String x:Key="PlayingQueuePage">재생 대기열</x:String>
     <x:String x:Key="UISettingPage">UI</x:String>
     <x:String x:Key="NavMenuSettingPage">탐색 메뉴</x:String>
     <x:String x:Key="LibrarySettingPage">라이브러리</x:String>
@@ -180,12 +182,23 @@
     <!--  Track  -->
     <x:String x:Key="TrackInfo">곡 정보</x:String>
     <x:String x:Key="TrackNumDesc">{0}곡</x:String>
-    <x:String x:Key="RevealInExplorer">탐색기에서 보기</x:String>
-    <x:String x:Key="UnknownGenre">알 수 없는 장르</x:String>
+    <x:String x:Key="TrackRevealInExplorer">탐색기에서 보기</x:String>
+    <x:String x:Key="TrackPlaySelection">선택 항목 재생</x:String>
+    <x:String x:Key="TrackAddToPlaylist">재생목록에 추가</x:String>
+    <x:String x:Key="TrackAddToPlaylists">재생목록에 추가</x:String>
+    <x:String x:Key="TrackAddToQueue">대기열에 추가</x:String>
+    <x:String x:Key="TrackAddToQueueNext">다음에 추가</x:String>
+    <x:String x:Key="TrackAlbumInfo">앨범: {0}</x:String>
+    <x:String x:Key="TrackArtistInfo">아티스트: {0}</x:String>
+    <x:String x:Key="TrackAlbumArtistInfo">앨범 아티스트: {0}</x:String>
+    <x:String x:Key="TrackAlbumPerformerInfo">협업 아티스트: {0}</x:String>
+    <x:String x:Key="TrackGenreInfo">장르: {0}</x:String>
+    <x:String x:Key="TrackFolderInfo">폴더: {0}</x:String>
+    <x:String x:Key="TrackPlaylistInfo">재생목록: {0}</x:String>
 
     <!--  Album  -->
     <x:String x:Key="AlbumNumDesc">{0}개 앨범</x:String>
-    <x:String x:Key="UnknownAlbum">알 수 없는 앨범</x:String>
+    <x:String x:Key="AlbumUnknown">알 수 없는 앨범</x:String>
     <x:String x:Key="AlbumIntro">앨범 소개</x:String>
     <x:String x:Key="AlbumIntroEmpty">소개가 없습니다.</x:String>
     <x:String x:Key="AlbumYear">앨범 연도</x:String>
@@ -197,29 +210,32 @@
     <x:String x:Key="AlbumSyncMetadata">앨범 메타데이터를 앨범 내 모든 곡에 동기화</x:String>
 
     <!--  Artist  -->
-    <x:String x:Key="UnknownArtist">알 수 없는 아티스트</x:String>
+    <x:String x:Key="ArtistUnknown">알 수 없는 아티스트</x:String>
     <x:String x:Key="ArtistEditTitle">아티스트 편집</x:String>
     <x:String x:Key="ArtistIntro">아티스트 소개</x:String>
     <x:String x:Key="ArtistIntroEmpty">소개가 없습니다.</x:String>
-    <x:String x:Key="PlayArtistAlbums">아티스트의 모든 앨범 곡 재생</x:String>
-    <x:String x:Key="AddArtistAlbumsToQueue">아티스트의 모든 앨범 곡을 대기열에 추가</x:String>
-    <x:String x:Key="AddArtistAlbumsToPlaylist">아티스트의 모든 앨범 곡을 재생목록에 추가</x:String>
-    <x:String x:Key="PlayArtistTracks">아티스트의 모든 곡 재생</x:String>
-    <x:String x:Key="AddArtistTracksToQueue">아티스트의 모든 곡을 대기열에 추가</x:String>
-    <x:String x:Key="AddArtistTracksToPlaylist">아티스트의 모든 곡을 재생목록에 추가</x:String>
-    <x:String x:Key="PlaySelectedArtistsAlbums">선택한 아티스트의 모든 앨범 곡 재생</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToQueue">선택한 아티스트의 모든 앨범 곡을 대기열에 추가</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToPlaylist">선택한 아티스트의 모든 앨범 곡을 재생목록에 추가</x:String>
-    <x:String x:Key="PlaySelectedArtistsTracks">선택한 아티스트의 모든 곡 재생</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToQueue">선택한 아티스트의 모든 곡을 대기열에 추가</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToPlaylist">선택한 아티스트의 모든 곡을 재생목록에 추가</x:String>
+    <x:String x:Key="ArtistPlayAlbums">아티스트의 모든 앨범 곡 재생</x:String>
+    <x:String x:Key="ArtistAddAlbumsToQueue">아티스트의 모든 앨범 곡을 대기열에 추가</x:String>
+    <x:String x:Key="ArtistAddAlbumsToPlaylist">아티스트의 모든 앨범 곡을 재생목록에 추가</x:String>
+    <x:String x:Key="ArtistPlayTracks">아티스트의 모든 곡 재생</x:String>
+    <x:String x:Key="ArtistAddTracksToQueue">아티스트의 모든 곡을 대기열에 추가</x:String>
+    <x:String x:Key="ArtistAddTracksToPlaylist">아티스트의 모든 곡을 재생목록에 추가</x:String>
+    <x:String x:Key="ArtistPlaySelectedAlbums">선택한 아티스트의 모든 앨범 곡 재생</x:String>
+    <x:String x:Key="ArtistAddSelectedAlbumsToQueue">선택한 아티스트의 모든 앨범 곡을 대기열에 추가</x:String>
+    <x:String x:Key="ArtistAddSelectedAlbumsToPlaylist">선택한 아티스트의 모든 앨범 곡을 재생목록에 추가</x:String>
+    <x:String x:Key="ArtistPlaySelectedTracks">선택한 아티스트의 모든 곡 재생</x:String>
+    <x:String x:Key="ArtistAddSelectedTracksToQueue">선택한 아티스트의 모든 곡을 대기열에 추가</x:String>
+    <x:String x:Key="ArtistAddSelectedTracksToPlaylist">선택한 아티스트의 모든 곡을 재생목록에 추가</x:String>
+
+    <!--  Genre  -->
+    <x:String x:Key="GenreUnknown">알 수 없는 장르</x:String>
 
     <!--  Playlist  -->
     <x:String x:Key="PlaylistNew">새 재생목록</x:String>
     <x:String x:Key="PlaylistRename">재생목록 이름 변경</x:String>
     <x:String x:Key="PlaylistNumDesc">{0}</x:String>
-    <x:String x:Key="PlaylistImportTitle">재생목록 가져오기</x:String>
-    <x:String x:Key="PlaylistExportTitle">재생목록 내보내기</x:String>
+    <x:String x:Key="PlaylistImport">재생목록 가져오기</x:String>
+    <x:String x:Key="PlaylistExport">재생목록 내보내기</x:String>
     <x:String x:Key="PlaylistsExportPath">내보내기 경로: {0}</x:String>
     <x:String x:Key="PlaylistExportSummary">내보내기 요약</x:String>
     <x:String x:Key="PlaylistExportFile">곡 목록 내보내기</x:String>
@@ -227,10 +243,12 @@
     <x:String x:Key="PlaylistExportTrackFilesStageGathering">재생목록의 곡을 수집하는 중</x:String>
     <x:String x:Key="PlaylistExportTrackFilesStageCopying">곡 파일을 복사하는 중</x:String>
     <x:String x:Key="PlaylistExportTrackFilesStageDone">곡 파일 내보내기 완료</x:String>
+    <x:String x:Key="PlaylistAutoGenThumbnail">커버 자동 생성</x:String>
+    <x:String x:Key="PlaylistAutoGenThumbnailDesc">활성화하면 재생목록의 처음 네 곡 커버로 재생목록 커버를 생성하고, 처음 네 곡이 바뀌면 커버를 자동으로 업데이트합니다</x:String>
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
-    <x:String x:Key="TracksInCurFolder">현재 폴더의 곡</x:String>
+    <x:String x:Key="FolderInCurrentTracks">현재 폴더의 곡</x:String>
     <x:String x:Key="FolderAddToExcludeList">제외 목록에 추가</x:String>
 
     <!--  Statistics  -->
@@ -363,6 +381,7 @@
     <x:String x:Key="EffectFadingPlayPause">재생 / 일시정지</x:String>
     <x:String x:Key="EffectFadingSeek">탐색</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">수동 트랙 변경</x:String>
+    <x:String x:Key="EffectFadingNaturalSwitch">자연스러운 전환</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
     <x:String x:Key="EffectReplayGainDesc">활성화하면 오디오 파일에 내장된 Replay Gain 태그를 기반으로 재생 음량을 자동으로 조정합니다&#xA;오디오 파일에 Replay Gain 태그가 필요합니다</x:String>
     <x:String x:Key="EffectReplayGainMode">게인 모드</x:String>
@@ -481,6 +500,8 @@
     <x:String x:Key="SleepTimerStart">타이머 시작</x:String>
     <x:String x:Key="SleepTimerStop">타이머 중지</x:String>
     <x:String x:Key="TaskDialogTitle">작업</x:String>
+    <x:String x:Key="PlayingQueueDialogTitle">재생 대기열</x:String>
+    <x:String x:Key="ViewArtistsTitle">아티스트 보기</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">미니 창</x:String>
@@ -494,18 +515,6 @@
     <x:String x:Key="NextTrack">다음 곡</x:String>
     <x:String x:Key="DesktopLyricOn">데스크톱 가사 켜짐</x:String>
     <x:String x:Key="DesktopLyricOff">데스크톱 가사 꺼짐</x:String>
-
-    <!--  Options  -->
-    <x:String x:Key="PlaySelection">선택 항목 재생</x:String>
-    <x:String x:Key="AddToPlaylist">재생목록에 추가</x:String>
-    <x:String x:Key="AddToQueue">대기열에 추가</x:String>
-    <x:String x:Key="AddToQueueNext">다음에 추가</x:String>
-    <x:String x:Key="AlbumInfo">앨범: {0}</x:String>
-    <x:String x:Key="ArtistInfo">아티스트: {0}</x:String>
-    <x:String x:Key="AlbumArtistInfo">앨범 아티스트: {0}</x:String>
-    <x:String x:Key="AlbumPerformerInfo">협업 아티스트: {0}</x:String>
-    <x:String x:Key="GenreInfo">장르: {0}</x:String>
-    <x:String x:Key="ViewArtists">아티스트 보기</x:String>
 
     <!--  Lyric  -->
     <x:String x:Key="Lyric">가사</x:String>
@@ -523,7 +532,7 @@
     <x:String x:Key="LyricApiRequestList">요청 목록</x:String>
     <x:String x:Key="LyricApiTest">API 테스트</x:String>
     <x:String x:Key="LyricApiTestInputParams">입력 매개변수</x:String>
-    <x:String x:Key="LyricApiTestUsePlayingTrackParams">현재 재생 중인 곡 정보 사용</x:String>
+    <x:String x:Key="LyricApiTestUsePlayingTrackParams">현재 재생 곡 사용</x:String>
     <x:String x:Key="LyricApiTestRun">테스트 실행</x:String>
     <x:String x:Key="LyricApiTestResult">테스트 결과</x:String>
     <x:String x:Key="LyricApiTestSucc">테스트 성공</x:String>
@@ -540,9 +549,8 @@
     <x:String x:Key="LyricApiExtractVars">변수 추출</x:String>
     <x:String x:Key="LyricApiDecoderType">디코더 유형</x:String>
     <x:String x:Key="LyricApiDecryptorType">복호화기 유형</x:String>
-    <x:String x:Key="LyricApiDecryptorDefault">기본값</x:String>
     <x:String x:Key="LyricApiDecryptorKrc">Krc (KuGou)</x:String>
-    <x:String x:Key="LyricApiDecryptorQrc">Qrc (QQ Music)</x:String>
+    <x:String x:Key="LyricApiDecryptorQrc">Qrc (QQ)</x:String>
     <x:String x:Key="LyricApiTimeout">시간 초과</x:String>
     <x:String x:Key="LyricApiFinalPath">출력 경로</x:String>
     <x:String x:Key="LyricApiFinalPathDesc">마지막 요청의 응답에서 가사 텍스트의 위치를 지정합니다. 예: lrc.lyric, data.content, songs[0].lyric&#xA;비어 있으면 응답 전체를 가사로 간주합니다</x:String>
@@ -605,6 +613,7 @@
     <x:String x:Key="ToastTracksReplaceToQueue">대기열이 교체되었습니다. 현재 {0}곡</x:String>
     <x:String x:Key="ToastTrackAddToPlaylist">{0}을(를) 재생목록 {1}에 추가했습니다</x:String>
     <x:String x:Key="ToastTracksAddToPlaylist">{0}곡을 재생목록 {1}에 추가했습니다</x:String>
+    <x:String x:Key="ToastTracksAddToPlaylists">{0}곡을 {1}개의 재생목록에 추가했습니다</x:String>
     <x:String x:Key="ToastTrackAddToPlaylistFail">곡을 재생목록에 추가하지 못했습니다</x:String>
     <x:String x:Key="ToastTrackRemove">{0}곡을 제거했습니다</x:String>
     <x:String x:Key="ToastPluginEnableFail">플러그인 {0} 활성화 실패, 자세한 내용은 로그 파일을 확인하세요</x:String>
@@ -646,6 +655,7 @@
     <x:String x:Key="TipsTrackEmpty2">하여 폴더 추가</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty1">곡이 없습니다. 이동</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty2">하여 폴더 추가</x:String>
+    <x:String x:Key="TipsPlaylistTrackEmpty">곡이 없습니다. 파일 또는 폴더를 여기에 끌어다 놓아 곡을 추가할 수 있습니다</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">놓으면 곡 파일 스캔</x:String>
     <x:String x:Key="TipsAddTracksResult">{0}곡 추가됨</x:String>
     <x:String x:Key="TipsAlbumIntroInput">앨범 소개 입력</x:String>

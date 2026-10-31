@@ -109,8 +109,10 @@
     <x:String x:Key="Gain">ゲイン</x:String>
     <x:String x:Key="Peak">ピーク</x:String>
     <x:String x:Key="Base64">Base64</x:String>
+    <x:String x:Key="CreateDate">作成日: {0}</x:String>
+    <x:String x:Key="ModifyDate">更新日: {0}</x:String>
 
-    <!-- EQ -->
+    <!--  EQ  -->
     <x:String x:Key="Flat">フラット</x:String>
     <x:String x:Key="PopClassic">ポップ（クラシック）</x:String>
     <x:String x:Key="PopModern">ポップ（モダン）</x:String>
@@ -153,6 +155,7 @@
     <x:String x:Key="ArtistDetailPage">アーティスト</x:String>
     <x:String x:Key="FolderPage">フォルダー</x:String>
     <x:String x:Key="PlaylistPage">プレイリスト</x:String>
+    <x:String x:Key="PlaylistDetailPage">プレイリスト</x:String>
     <x:String x:Key="TrackPage">曲</x:String>
     <x:String x:Key="TrackFavoritePage">お気に入り</x:String>
     <x:String x:Key="TrackRecentPage">最近再生</x:String>
@@ -161,7 +164,6 @@
     <x:String x:Key="StatisticPage">統計</x:String>
     <x:String x:Key="PluginPage">プラグイン</x:String>
     <x:String x:Key="SettingPage">設定</x:String>
-    <x:String x:Key="PlayingQueuePage">再生キュー</x:String>
     <x:String x:Key="UISettingPage">UI</x:String>
     <x:String x:Key="NavMenuSettingPage">ナビゲーションメニュー</x:String>
     <x:String x:Key="LibrarySettingPage">ライブラリ</x:String>
@@ -180,12 +182,23 @@
     <!--  Track  -->
     <x:String x:Key="TrackInfo">曲情報</x:String>
     <x:String x:Key="TrackNumDesc">{0}曲</x:String>
-    <x:String x:Key="RevealInExplorer">エクスプローラーで表示</x:String>
-    <x:String x:Key="UnknownGenre">不明なジャンル</x:String>
+    <x:String x:Key="TrackRevealInExplorer">エクスプローラーで表示</x:String>
+    <x:String x:Key="TrackPlaySelection">選択を再生</x:String>
+    <x:String x:Key="TrackAddToPlaylist">プレイリストに追加</x:String>
+    <x:String x:Key="TrackAddToPlaylists">プレイリストに追加</x:String>
+    <x:String x:Key="TrackAddToQueue">キューに追加</x:String>
+    <x:String x:Key="TrackAddToQueueNext">次に追加</x:String>
+    <x:String x:Key="TrackAlbumInfo">アルバム：{0}</x:String>
+    <x:String x:Key="TrackArtistInfo">アーティスト：{0}</x:String>
+    <x:String x:Key="TrackAlbumArtistInfo">アルバムアーティスト：{0}</x:String>
+    <x:String x:Key="TrackAlbumPerformerInfo">コラボアーティスト：{0}</x:String>
+    <x:String x:Key="TrackGenreInfo">ジャンル：{0}</x:String>
+    <x:String x:Key="TrackFolderInfo">フォルダー：{0}</x:String>
+    <x:String x:Key="TrackPlaylistInfo">プレイリスト：{0}</x:String>
 
     <!--  Album  -->
     <x:String x:Key="AlbumNumDesc">{0}枚のアルバム</x:String>
-    <x:String x:Key="UnknownAlbum">不明なアルバム</x:String>
+    <x:String x:Key="AlbumUnknown">不明なアルバム</x:String>
     <x:String x:Key="AlbumIntro">アルバム紹介</x:String>
     <x:String x:Key="AlbumIntroEmpty">紹介はありません。</x:String>
     <x:String x:Key="AlbumYear">アルバム年</x:String>
@@ -197,29 +210,32 @@
     <x:String x:Key="AlbumSyncMetadata">アルバムメタデータをアルバム内の全曲に同期</x:String>
 
     <!--  Artist  -->
-    <x:String x:Key="UnknownArtist">不明なアーティスト</x:String>
+    <x:String x:Key="ArtistUnknown">不明なアーティスト</x:String>
     <x:String x:Key="ArtistEditTitle">アーティスト編集</x:String>
     <x:String x:Key="ArtistIntro">アーティスト紹介</x:String>
     <x:String x:Key="ArtistIntroEmpty">紹介はありません。</x:String>
-    <x:String x:Key="PlayArtistAlbums">アーティストの全アルバムの曲を再生</x:String>
-    <x:String x:Key="AddArtistAlbumsToQueue">アーティストの全アルバムの曲をキューに追加</x:String>
-    <x:String x:Key="AddArtistAlbumsToPlaylist">アーティストの全アルバムの曲をプレイリストに追加</x:String>
-    <x:String x:Key="PlayArtistTracks">アーティストの全曲を再生</x:String>
-    <x:String x:Key="AddArtistTracksToQueue">アーティストの全曲をキューに追加</x:String>
-    <x:String x:Key="AddArtistTracksToPlaylist">アーティストの全曲をプレイリストに追加</x:String>
-    <x:String x:Key="PlaySelectedArtistsAlbums">選択したアーティストの全アルバムの曲を再生</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToQueue">選択したアーティストの全アルバムの曲をキューに追加</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToPlaylist">選択したアーティストの全アルバムの曲をプレイリストに追加</x:String>
-    <x:String x:Key="PlaySelectedArtistsTracks">選択したアーティストの全曲を再生</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToQueue">選択したアーティストの全曲をキューに追加</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToPlaylist">選択したアーティストの全曲をプレイリストに追加</x:String>
+    <x:String x:Key="ArtistPlayAlbums">アーティストの全アルバムの曲を再生</x:String>
+    <x:String x:Key="ArtistAddAlbumsToQueue">アーティストの全アルバムの曲をキューに追加</x:String>
+    <x:String x:Key="ArtistAddAlbumsToPlaylist">アーティストの全アルバムの曲をプレイリストに追加</x:String>
+    <x:String x:Key="ArtistPlayTracks">アーティストの全曲を再生</x:String>
+    <x:String x:Key="ArtistAddTracksToQueue">アーティストの全曲をキューに追加</x:String>
+    <x:String x:Key="ArtistAddTracksToPlaylist">アーティストの全曲をプレイリストに追加</x:String>
+    <x:String x:Key="ArtistPlaySelectedAlbums">選択したアーティストの全アルバムの曲を再生</x:String>
+    <x:String x:Key="ArtistAddSelectedAlbumsToQueue">選択したアーティストの全アルバムの曲をキューに追加</x:String>
+    <x:String x:Key="ArtistAddSelectedAlbumsToPlaylist">選択したアーティストの全アルバムの曲をプレイリストに追加</x:String>
+    <x:String x:Key="ArtistPlaySelectedTracks">選択したアーティストの全曲を再生</x:String>
+    <x:String x:Key="ArtistAddSelectedTracksToQueue">選択したアーティストの全曲をキューに追加</x:String>
+    <x:String x:Key="ArtistAddSelectedTracksToPlaylist">選択したアーティストの全曲をプレイリストに追加</x:String>
+
+    <!--  Genre  -->
+    <x:String x:Key="GenreUnknown">不明なジャンル</x:String>
 
     <!--  Playlist  -->
     <x:String x:Key="PlaylistNew">新規プレイリスト</x:String>
     <x:String x:Key="PlaylistRename">プレイリスト名変更</x:String>
     <x:String x:Key="PlaylistNumDesc">{0}</x:String>
-    <x:String x:Key="PlaylistImportTitle">プレイリストをインポート</x:String>
-    <x:String x:Key="PlaylistExportTitle">プレイリストをエクスポート</x:String>
+    <x:String x:Key="PlaylistImport">プレイリストをインポート</x:String>
+    <x:String x:Key="PlaylistExport">プレイリストをエクスポート</x:String>
     <x:String x:Key="PlaylistsExportPath">エクスポートパス：{0}</x:String>
     <x:String x:Key="PlaylistExportSummary">エクスポート概要</x:String>
     <x:String x:Key="PlaylistExportFile">曲リストをエクスポート</x:String>
@@ -227,10 +243,12 @@
     <x:String x:Key="PlaylistExportTrackFilesStageGathering">プレイリストの曲を収集中</x:String>
     <x:String x:Key="PlaylistExportTrackFilesStageCopying">曲ファイルをコピー中</x:String>
     <x:String x:Key="PlaylistExportTrackFilesStageDone">曲ファイルのエクスポートが完了しました</x:String>
+    <x:String x:Key="PlaylistAutoGenThumbnail">カバーを自動生成</x:String>
+    <x:String x:Key="PlaylistAutoGenThumbnailDesc">有効にすると、プレイリスト内の最初の4曲のカバーを使用してプレイリストのカバーを生成し、最初の4曲が変わるとカバーを自動的に更新します</x:String>
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
-    <x:String x:Key="TracksInCurFolder">現在のフォルダー内の曲</x:String>
+    <x:String x:Key="FolderInCurrentTracks">現在のフォルダー内の曲</x:String>
     <x:String x:Key="FolderAddToExcludeList">除外リストに追加</x:String>
 
     <!--  Statistics  -->
@@ -363,6 +381,7 @@
     <x:String x:Key="EffectFadingPlayPause">再生 / 一時停止</x:String>
     <x:String x:Key="EffectFadingSeek">シーク</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">手動トラック切り替え</x:String>
+    <x:String x:Key="EffectFadingNaturalSwitch">自然なトランジション</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
     <x:String x:Key="EffectReplayGainDesc">有効にすると、オーディオファイルに埋め込まれた Replay Gain タグに基づいて再生音量を自動調整します&#xA;オーディオファイルに Replay Gain タグが必要です</x:String>
     <x:String x:Key="EffectReplayGainMode">ゲインモード</x:String>
@@ -481,6 +500,8 @@
     <x:String x:Key="SleepTimerStart">タイマー開始</x:String>
     <x:String x:Key="SleepTimerStop">タイマー停止</x:String>
     <x:String x:Key="TaskDialogTitle">タスク</x:String>
+    <x:String x:Key="PlayingQueueDialogTitle">再生キュー</x:String>
+    <x:String x:Key="ViewArtistsTitle">アーティストを表示</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">ミニウィンドウ</x:String>
@@ -494,18 +515,6 @@
     <x:String x:Key="NextTrack">次の曲</x:String>
     <x:String x:Key="DesktopLyricOn">デスクトップ歌詞 有効</x:String>
     <x:String x:Key="DesktopLyricOff">デスクトップ歌詞 無効</x:String>
-
-    <!--  Options  -->
-    <x:String x:Key="PlaySelection">選択を再生</x:String>
-    <x:String x:Key="AddToPlaylist">プレイリストに追加</x:String>
-    <x:String x:Key="AddToQueue">キューに追加</x:String>
-    <x:String x:Key="AddToQueueNext">次に追加</x:String>
-    <x:String x:Key="AlbumInfo">アルバム：{0}</x:String>
-    <x:String x:Key="ArtistInfo">アーティスト：{0}</x:String>
-    <x:String x:Key="AlbumArtistInfo">アルバムアーティスト：{0}</x:String>
-    <x:String x:Key="AlbumPerformerInfo">コラボアーティスト：{0}</x:String>
-    <x:String x:Key="GenreInfo">ジャンル：{0}</x:String>
-    <x:String x:Key="ViewArtists">アーティストを表示</x:String>
 
     <!--  Lyric  -->
     <x:String x:Key="Lyric">歌詞</x:String>
@@ -523,7 +532,7 @@
     <x:String x:Key="LyricApiRequestList">リクエスト一覧</x:String>
     <x:String x:Key="LyricApiTest">API テスト</x:String>
     <x:String x:Key="LyricApiTestInputParams">入力パラメータ</x:String>
-    <x:String x:Key="LyricApiTestUsePlayingTrackParams">現在再生中の曲の情報を使用</x:String>
+    <x:String x:Key="LyricApiTestUsePlayingTrackParams">再生中の曲を使用</x:String>
     <x:String x:Key="LyricApiTestRun">テスト実行</x:String>
     <x:String x:Key="LyricApiTestResult">テスト結果</x:String>
     <x:String x:Key="LyricApiTestSucc">テスト成功</x:String>
@@ -540,9 +549,8 @@
     <x:String x:Key="LyricApiExtractVars">変数を抽出</x:String>
     <x:String x:Key="LyricApiDecoderType">デコーダーの種類</x:String>
     <x:String x:Key="LyricApiDecryptorType">復号方式の種類</x:String>
-    <x:String x:Key="LyricApiDecryptorDefault">デフォルト</x:String>
     <x:String x:Key="LyricApiDecryptorKrc">Krc（KuGou）</x:String>
-    <x:String x:Key="LyricApiDecryptorQrc">Qrc（QQ Music）</x:String>
+    <x:String x:Key="LyricApiDecryptorQrc">Qrc（QQ）</x:String>
     <x:String x:Key="LyricApiTimeout">タイムアウト</x:String>
     <x:String x:Key="LyricApiFinalPath">出力パス</x:String>
     <x:String x:Key="LyricApiFinalPathDesc">最後のリクエストのレスポンス内で歌詞テキストの位置を指定します。例: lrc.lyric、data.content、songs[0].lyric&#xA;空の場合、レスポンス全体が歌詞として扱われます</x:String>
@@ -605,6 +613,7 @@
     <x:String x:Key="ToastTracksReplaceToQueue">キューを置き換えました。現在 {0} 曲</x:String>
     <x:String x:Key="ToastTrackAddToPlaylist">{0} をプレイリスト {1} に追加しました</x:String>
     <x:String x:Key="ToastTracksAddToPlaylist">{0} 曲をプレイリスト {1} に追加しました</x:String>
+    <x:String x:Key="ToastTracksAddToPlaylists">{0} 曲を {1} 個のプレイリストに追加しました</x:String>
     <x:String x:Key="ToastTrackAddToPlaylistFail">曲をプレイリストに追加できませんでした</x:String>
     <x:String x:Key="ToastTrackRemove">{0} 曲を除去しました</x:String>
     <x:String x:Key="ToastPluginEnableFail">プラグイン {0} の有効化に失敗しました。詳細はログファイルをご確認ください</x:String>
@@ -646,6 +655,7 @@
     <x:String x:Key="TipsTrackEmpty2">でフォルダーを追加</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty1">曲がありません。移動先</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty2">でフォルダーを追加</x:String>
+    <x:String x:Key="TipsPlaylistTrackEmpty">曲がありません。ファイルまたはフォルダーをここにドラッグ＆ドロップして追加できます</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">離して曲ファイルをスキャン</x:String>
     <x:String x:Key="TipsAddTracksResult">{0} 曲を追加しました</x:String>
     <x:String x:Key="TipsAlbumIntroInput">アルバム紹介を入力</x:String>

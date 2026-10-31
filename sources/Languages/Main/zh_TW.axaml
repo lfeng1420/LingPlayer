@@ -109,8 +109,10 @@
     <x:String x:Key="Gain">增益</x:String>
     <x:String x:Key="Peak">峰值</x:String>
     <x:String x:Key="Base64">Base64</x:String>
+    <x:String x:Key="CreateDate">建立於 {0}</x:String>
+    <x:String x:Key="ModifyDate">修改於 {0}</x:String>
 
-    <!-- EQ -->
+    <!--  EQ  -->
     <x:String x:Key="Flat">平直</x:String>
     <x:String x:Key="PopClassic">流行（經典）</x:String>
     <x:String x:Key="PopModern">流行（現代）</x:String>
@@ -153,6 +155,7 @@
     <x:String x:Key="ArtistDetailPage">藝術家</x:String>
     <x:String x:Key="FolderPage">資料夾</x:String>
     <x:String x:Key="PlaylistPage">播放清單</x:String>
+    <x:String x:Key="PlaylistDetailPage">播放清單</x:String>
     <x:String x:Key="TrackPage">歌曲</x:String>
     <x:String x:Key="TrackFavoritePage">收藏</x:String>
     <x:String x:Key="TrackRecentPage">最近播放</x:String>
@@ -161,7 +164,6 @@
     <x:String x:Key="StatisticPage">統計</x:String>
     <x:String x:Key="PluginPage">外掛</x:String>
     <x:String x:Key="SettingPage">設定</x:String>
-    <x:String x:Key="PlayingQueuePage">播放佇列</x:String>
     <x:String x:Key="UISettingPage">使用者介面</x:String>
     <x:String x:Key="NavMenuSettingPage">導航選單</x:String>
     <x:String x:Key="LibrarySettingPage">音樂庫</x:String>
@@ -180,12 +182,23 @@
     <!--  Track  -->
     <x:String x:Key="TrackInfo">歌曲資訊</x:String>
     <x:String x:Key="TrackNumDesc">{0} 首歌曲</x:String>
-    <x:String x:Key="RevealInExplorer">在檔案總管中顯示</x:String>
-    <x:String x:Key="UnknownGenre">未知流派</x:String>
+    <x:String x:Key="TrackRevealInExplorer">在檔案總管中顯示</x:String>
+    <x:String x:Key="TrackPlaySelection">播放選中項</x:String>
+    <x:String x:Key="TrackAddToPlaylist">新增到播放清單</x:String>
+    <x:String x:Key="TrackAddToPlaylists">新增到播放清單</x:String>
+    <x:String x:Key="TrackAddToQueue">新增到佇列</x:String>
+    <x:String x:Key="TrackAddToQueueNext">新增到下一首</x:String>
+    <x:String x:Key="TrackAlbumInfo">專輯：{0}</x:String>
+    <x:String x:Key="TrackArtistInfo">藝術家：{0}</x:String>
+    <x:String x:Key="TrackAlbumArtistInfo">專輯藝術家：{0}</x:String>
+    <x:String x:Key="TrackAlbumPerformerInfo">合作藝術家：{0}</x:String>
+    <x:String x:Key="TrackGenreInfo">流派：{0}</x:String>
+    <x:String x:Key="TrackFolderInfo">資料夾：{0}</x:String>
+    <x:String x:Key="TrackPlaylistInfo">播放清單：{0}</x:String>
 
     <!--  Album  -->
     <x:String x:Key="AlbumNumDesc">{0} 張專輯</x:String>
-    <x:String x:Key="UnknownAlbum">未知專輯</x:String>
+    <x:String x:Key="AlbumUnknown">未知專輯</x:String>
     <x:String x:Key="AlbumIntro">專輯介紹</x:String>
     <x:String x:Key="AlbumIntroEmpty">暫無介紹。</x:String>
     <x:String x:Key="AlbumYear">專輯年份</x:String>
@@ -197,29 +210,32 @@
     <x:String x:Key="AlbumSyncMetadata">同步專輯中繼資料到專輯內的所有歌曲</x:String>
 
     <!--  Artist  -->
-    <x:String x:Key="UnknownArtist">未知藝術家</x:String>
+    <x:String x:Key="ArtistUnknown">未知藝術家</x:String>
     <x:String x:Key="ArtistEditTitle">編輯藝術家</x:String>
     <x:String x:Key="ArtistIntro">藝術家介紹</x:String>
     <x:String x:Key="ArtistIntroEmpty">暫無介紹。</x:String>
-    <x:String x:Key="PlayArtistAlbums">播放藝術家所有專輯的歌曲</x:String>
-    <x:String x:Key="AddArtistAlbumsToQueue">新增藝術家所有專輯的歌曲到佇列</x:String>
-    <x:String x:Key="AddArtistAlbumsToPlaylist">新增藝術家所有專輯的歌曲到播放清單</x:String>
-    <x:String x:Key="PlayArtistTracks">播放藝術家的所有歌曲</x:String>
-    <x:String x:Key="AddArtistTracksToQueue">新增藝術家的所有歌曲到佇列</x:String>
-    <x:String x:Key="AddArtistTracksToPlaylist">新增藝術家的所有歌曲到播放清單</x:String>
-    <x:String x:Key="PlaySelectedArtistsAlbums">播放所選藝術家的所有專輯的歌曲</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToQueue">新增所選藝術家的所有專輯的歌曲到佇列</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToPlaylist">新增所選藝術家的所有專輯的歌曲到播放清單</x:String>
-    <x:String x:Key="PlaySelectedArtistsTracks">播放所選藝術家的所有歌曲</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToQueue">新增所選藝術家的所有歌曲到佇列</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToPlaylist">新增所選藝術家的所有歌曲到播放清單</x:String>
+    <x:String x:Key="ArtistPlayAlbums">播放藝術家所有專輯的歌曲</x:String>
+    <x:String x:Key="ArtistAddAlbumsToQueue">新增藝術家所有專輯的歌曲到佇列</x:String>
+    <x:String x:Key="ArtistAddAlbumsToPlaylist">新增藝術家所有專輯的歌曲到播放清單</x:String>
+    <x:String x:Key="ArtistPlayTracks">播放藝術家的所有歌曲</x:String>
+    <x:String x:Key="ArtistAddTracksToQueue">新增藝術家的所有歌曲到佇列</x:String>
+    <x:String x:Key="ArtistAddTracksToPlaylist">新增藝術家的所有歌曲到播放清單</x:String>
+    <x:String x:Key="ArtistPlaySelectedAlbums">播放所選藝術家的所有專輯的歌曲</x:String>
+    <x:String x:Key="ArtistAddSelectedAlbumsToQueue">新增所選藝術家的所有專輯的歌曲到佇列</x:String>
+    <x:String x:Key="ArtistAddSelectedAlbumsToPlaylist">新增所選藝術家的所有專輯的歌曲到播放清單</x:String>
+    <x:String x:Key="ArtistPlaySelectedTracks">播放所選藝術家的所有歌曲</x:String>
+    <x:String x:Key="ArtistAddSelectedTracksToQueue">新增所選藝術家的所有歌曲到佇列</x:String>
+    <x:String x:Key="ArtistAddSelectedTracksToPlaylist">新增所選藝術家的所有歌曲到播放清單</x:String>
+
+    <!--  Genre  -->
+    <x:String x:Key="GenreUnknown">未知流派</x:String>
 
     <!--  Playlist  -->
     <x:String x:Key="PlaylistNew">新建播放清單</x:String>
     <x:String x:Key="PlaylistRename">重新命名播放清單</x:String>
     <x:String x:Key="PlaylistNumDesc">{0}</x:String>
-    <x:String x:Key="PlaylistImportTitle">匯入播放清單</x:String>
-    <x:String x:Key="PlaylistExportTitle">匯出播放清單</x:String>
+    <x:String x:Key="PlaylistImport">匯入播放清單</x:String>
+    <x:String x:Key="PlaylistExport">匯出播放清單</x:String>
     <x:String x:Key="PlaylistsExportPath">匯出路徑：{0}</x:String>
     <x:String x:Key="PlaylistExportSummary">匯出彙總</x:String>
     <x:String x:Key="PlaylistExportFile">匯出歌曲清單</x:String>
@@ -227,10 +243,12 @@
     <x:String x:Key="PlaylistExportTrackFilesStageGathering">正在收集播放清單中的歌曲</x:String>
     <x:String x:Key="PlaylistExportTrackFilesStageCopying">正在複製歌曲檔案</x:String>
     <x:String x:Key="PlaylistExportTrackFilesStageDone">匯出歌曲檔案完成</x:String>
+    <x:String x:Key="PlaylistAutoGenThumbnail">自動生成封面</x:String>
+    <x:String x:Key="PlaylistAutoGenThumbnailDesc">開啟後將使用播放清單中的前四首歌曲封面生成播放清單封面，並在前四首歌曲變化時自動更新封面</x:String>
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
-    <x:String x:Key="TracksInCurFolder">在當前資料夾下的歌曲</x:String>
+    <x:String x:Key="FolderInCurrentTracks">在當前資料夾下的歌曲</x:String>
     <x:String x:Key="FolderAddToExcludeList">新增到排除列表</x:String>
 
     <!--  Statistics  -->
@@ -272,8 +290,8 @@
     <x:String x:Key="LibraryScanNow">立即掃描</x:String>
     <x:String x:Key="LibraryFullScan">完整掃描</x:String>
     <x:String x:Key="LibraryFullScanDesc">開啟後，掃描過程將跳過檔案變動檢查，強制重新讀取所有歌曲檔案&#xA;適用於中繼資料已變更但檔案變動未被識別的場景</x:String>
-    <x:String x:Key="LibraryIncludedFolders">包含的資料夾</x:String>
-    <x:String x:Key="LibraryExcludedFolders">已排除的資料夾</x:String>
+    <x:String x:Key="LibraryIncludedFolders">包含資料夾</x:String>
+    <x:String x:Key="LibraryExcludedFolders">排除資料夾</x:String>
     <x:String x:Key="LibraryScanOptions">掃描選項</x:String>
     <x:String x:Key="LibrarySeparators">分隔符號</x:String>
     <x:String x:Key="LibrarySeparatorsDesc">用於解析歌曲資訊中的多個藝術家和流派</x:String>
@@ -363,6 +381,7 @@
     <x:String x:Key="EffectFadingPlayPause">播放 / 暫停</x:String>
     <x:String x:Key="EffectFadingSeek">跳轉</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">手動切歌</x:String>
+    <x:String x:Key="EffectFadingNaturalSwitch">自然過渡</x:String>
     <x:String x:Key="EffectReplayGain">回放增益</x:String>
     <x:String x:Key="EffectReplayGainDesc">開啟後，將根據音訊檔案中內嵌的 Replay Gain 標籤自動調整播放音量&#xA;需要音訊檔案包含 Replay Gain 標籤</x:String>
     <x:String x:Key="EffectReplayGainMode">增益模式</x:String>
@@ -481,6 +500,8 @@
     <x:String x:Key="SleepTimerStart">開始計時</x:String>
     <x:String x:Key="SleepTimerStop">停止計時</x:String>
     <x:String x:Key="TaskDialogTitle">任務</x:String>
+    <x:String x:Key="PlayingQueueDialogTitle">播放佇列</x:String>
+    <x:String x:Key="ViewArtistsTitle">檢視藝術家</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Mini視窗</x:String>
@@ -494,18 +515,6 @@
     <x:String x:Key="NextTrack">下一首</x:String>
     <x:String x:Key="DesktopLyricOn">桌面歌詞已啟用</x:String>
     <x:String x:Key="DesktopLyricOff">桌面歌詞已停用</x:String>
-
-    <!--  Options  -->
-    <x:String x:Key="PlaySelection">播放選中項</x:String>
-    <x:String x:Key="AddToPlaylist">新增到播放清單</x:String>
-    <x:String x:Key="AddToQueue">新增到佇列</x:String>
-    <x:String x:Key="AddToQueueNext">新增到下一首</x:String>
-    <x:String x:Key="AlbumInfo">專輯：{0}</x:String>
-    <x:String x:Key="ArtistInfo">藝術家：{0}</x:String>
-    <x:String x:Key="AlbumArtistInfo">專輯藝術家：{0}</x:String>
-    <x:String x:Key="AlbumPerformerInfo">合作藝術家：{0}</x:String>
-    <x:String x:Key="GenreInfo">流派：{0}</x:String>
-    <x:String x:Key="ViewArtists">檢視藝術家</x:String>
 
     <!--  Lyric  -->
     <x:String x:Key="Lyric">歌詞</x:String>
@@ -523,7 +532,7 @@
     <x:String x:Key="LyricApiRequestList">請求列表</x:String>
     <x:String x:Key="LyricApiTest">介面測試</x:String>
     <x:String x:Key="LyricApiTestInputParams">輸入參數</x:String>
-    <x:String x:Key="LyricApiTestUsePlayingTrackParams">使用目前播放歌曲資訊</x:String>
+    <x:String x:Key="LyricApiTestUsePlayingTrackParams">使用目前播放歌曲</x:String>
     <x:String x:Key="LyricApiTestRun">執行測試</x:String>
     <x:String x:Key="LyricApiTestResult">測試結果</x:String>
     <x:String x:Key="LyricApiTestSucc">測試成功</x:String>
@@ -540,9 +549,8 @@
     <x:String x:Key="LyricApiExtractVars">提取變數</x:String>
     <x:String x:Key="LyricApiDecoderType">解碼類型</x:String>
     <x:String x:Key="LyricApiDecryptorType">解密類型</x:String>
-    <x:String x:Key="LyricApiDecryptorDefault">預設</x:String>
-    <x:String x:Key="LyricApiDecryptorKrc">Krc（酷狗音樂）</x:String>
-    <x:String x:Key="LyricApiDecryptorQrc">Qrc（QQ音樂）</x:String>
+    <x:String x:Key="LyricApiDecryptorKrc">Krc（酷狗）</x:String>
+    <x:String x:Key="LyricApiDecryptorQrc">Qrc（QQ）</x:String>
     <x:String x:Key="LyricApiTimeout">時限</x:String>
     <x:String x:Key="LyricApiFinalPath">輸出路徑</x:String>
     <x:String x:Key="LyricApiFinalPathDesc">指定歌詞文字在最後一個請求傳回內容中的位置，例如 lrc.lyric、data.content、songs[0].lyric&#xA;留空則將整個傳回內容當作歌詞</x:String>
@@ -605,6 +613,7 @@
     <x:String x:Key="ToastTracksReplaceToQueue">已替換佇列，目前 {0} 首歌曲</x:String>
     <x:String x:Key="ToastTrackAddToPlaylist">已新增 {0} 到播放清單 {1}</x:String>
     <x:String x:Key="ToastTracksAddToPlaylist">已新增 {0} 首歌曲到播放清單 {1}</x:String>
+    <x:String x:Key="ToastTracksAddToPlaylists">已新增 {0} 首歌曲到 {1} 個播放清單</x:String>
     <x:String x:Key="ToastTrackAddToPlaylistFail">新增歌曲到播放清單失敗</x:String>
     <x:String x:Key="ToastTrackRemove">已移除 {0} 首歌曲</x:String>
     <x:String x:Key="ToastPluginEnableFail">外掛 {0} 啟用失敗，請查閱日誌檔案獲取更多資訊</x:String>
@@ -646,6 +655,7 @@
     <x:String x:Key="TipsTrackEmpty2">以新增資料夾</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty1">暫無歌曲，跳轉到</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty2">以新增資料夾</x:String>
+    <x:String x:Key="TipsPlaylistTrackEmpty">暫無歌曲，拖放檔案或資料夾到此處以新增歌曲</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">放開以掃描歌曲檔案</x:String>
     <x:String x:Key="TipsAddTracksResult">已新增 {0} 首歌曲</x:String>
     <x:String x:Key="TipsAlbumIntroInput">輸入專輯介紹</x:String>

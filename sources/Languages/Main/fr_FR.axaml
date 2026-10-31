@@ -109,8 +109,10 @@
     <x:String x:Key="Gain">Gain</x:String>
     <x:String x:Key="Peak">Crête</x:String>
     <x:String x:Key="Base64">Base64</x:String>
+    <x:String x:Key="CreateDate">Créé le {0}</x:String>
+    <x:String x:Key="ModifyDate">Modifié le {0}</x:String>
 
-    <!-- EQ -->
+    <!--  EQ  -->
     <x:String x:Key="Flat">Plat</x:String>
     <x:String x:Key="PopClassic">Pop (Classique)</x:String>
     <x:String x:Key="PopModern">Pop (Moderne)</x:String>
@@ -153,6 +155,7 @@
     <x:String x:Key="ArtistDetailPage">Artiste</x:String>
     <x:String x:Key="FolderPage">Dossiers</x:String>
     <x:String x:Key="PlaylistPage">Playlists</x:String>
+    <x:String x:Key="PlaylistDetailPage">Playlist</x:String>
     <x:String x:Key="TrackPage">Pistes</x:String>
     <x:String x:Key="TrackFavoritePage">Favoris</x:String>
     <x:String x:Key="TrackRecentPage">Écoutés récemment</x:String>
@@ -161,7 +164,6 @@
     <x:String x:Key="StatisticPage">Statistiques</x:String>
     <x:String x:Key="PluginPage">Plugins</x:String>
     <x:String x:Key="SettingPage">Paramètres</x:String>
-    <x:String x:Key="PlayingQueuePage">File d'attente</x:String>
     <x:String x:Key="UISettingPage">UI</x:String>
     <x:String x:Key="NavMenuSettingPage">Menu de navigation</x:String>
     <x:String x:Key="LibrarySettingPage">Bibliothèque</x:String>
@@ -180,12 +182,23 @@
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Infos piste</x:String>
     <x:String x:Key="TrackNumDesc">{0} piste(s)</x:String>
-    <x:String x:Key="RevealInExplorer">Afficher dans l'Explorateur</x:String>
-    <x:String x:Key="UnknownGenre">Genre inconnu</x:String>
+    <x:String x:Key="TrackRevealInExplorer">Afficher dans l'Explorateur</x:String>
+    <x:String x:Key="TrackPlaySelection">Lire la sélection</x:String>
+    <x:String x:Key="TrackAddToPlaylist">Ajouter à la playlist</x:String>
+    <x:String x:Key="TrackAddToPlaylists">Ajouter aux playlists</x:String>
+    <x:String x:Key="TrackAddToQueue">Ajouter à la file d'attente</x:String>
+    <x:String x:Key="TrackAddToQueueNext">Ajouter à la suite</x:String>
+    <x:String x:Key="TrackAlbumInfo">Album : {0}</x:String>
+    <x:String x:Key="TrackArtistInfo">Artiste(s) : {0}</x:String>
+    <x:String x:Key="TrackAlbumArtistInfo">Artiste(s) de l'album : {0}</x:String>
+    <x:String x:Key="TrackAlbumPerformerInfo">Artistes en collaboration : {0}</x:String>
+    <x:String x:Key="TrackGenreInfo">Genre(s) : {0}</x:String>
+    <x:String x:Key="TrackFolderInfo">Dossier : {0}</x:String>
+    <x:String x:Key="TrackPlaylistInfo">Playlist : {0}</x:String>
 
     <!--  Album  -->
     <x:String x:Key="AlbumNumDesc">{0} album(s)</x:String>
-    <x:String x:Key="UnknownAlbum">Album inconnu</x:String>
+    <x:String x:Key="AlbumUnknown">Album inconnu</x:String>
     <x:String x:Key="AlbumIntro">Présentation de l'album</x:String>
     <x:String x:Key="AlbumIntroEmpty">Aucune description disponible.</x:String>
     <x:String x:Key="AlbumYear">Année de l'album</x:String>
@@ -197,29 +210,32 @@
     <x:String x:Key="AlbumSyncMetadata">Synchroniser les métadonnées de l'album avec toutes les pistes</x:String>
 
     <!--  Artist  -->
-    <x:String x:Key="UnknownArtist">Artiste inconnu</x:String>
+    <x:String x:Key="ArtistUnknown">Artiste inconnu</x:String>
     <x:String x:Key="ArtistEditTitle">Modifier l'artiste</x:String>
     <x:String x:Key="ArtistIntro">Présentation de l'artiste</x:String>
     <x:String x:Key="ArtistIntroEmpty">Aucune description disponible.</x:String>
-    <x:String x:Key="PlayArtistAlbums">Lire toutes les pistes des albums de cet artiste</x:String>
-    <x:String x:Key="AddArtistAlbumsToQueue">Ajouter toutes les pistes des albums de cet artiste à la file d'attente</x:String>
-    <x:String x:Key="AddArtistAlbumsToPlaylist">Ajouter toutes les pistes des albums de cet artiste à la playlist</x:String>
-    <x:String x:Key="PlayArtistTracks">Lire toutes les pistes de cet artiste</x:String>
-    <x:String x:Key="AddArtistTracksToQueue">Ajouter toutes les pistes de cet artiste à la file d'attente</x:String>
-    <x:String x:Key="AddArtistTracksToPlaylist">Ajouter toutes les pistes de cet artiste à la playlist</x:String>
-    <x:String x:Key="PlaySelectedArtistsAlbums">Lire toutes les pistes des albums des artistes sélectionnés</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToQueue">Ajouter toutes les pistes des albums des artistes sélectionnés à la file d'attente</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToPlaylist">Ajouter toutes les pistes des albums des artistes sélectionnés à la playlist</x:String>
-    <x:String x:Key="PlaySelectedArtistsTracks">Lire toutes les pistes des artistes sélectionnés</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToQueue">Ajouter toutes les pistes des artistes sélectionnés à la file d'attente</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToPlaylist">Ajouter toutes les pistes des artistes sélectionnés à la playlist</x:String>
+    <x:String x:Key="ArtistPlayAlbums">Lire toutes les pistes des albums de cet artiste</x:String>
+    <x:String x:Key="ArtistAddAlbumsToQueue">Ajouter toutes les pistes des albums de cet artiste à la file d'attente</x:String>
+    <x:String x:Key="ArtistAddAlbumsToPlaylist">Ajouter toutes les pistes des albums de cet artiste à la playlist</x:String>
+    <x:String x:Key="ArtistPlayTracks">Lire toutes les pistes de cet artiste</x:String>
+    <x:String x:Key="ArtistAddTracksToQueue">Ajouter toutes les pistes de cet artiste à la file d'attente</x:String>
+    <x:String x:Key="ArtistAddTracksToPlaylist">Ajouter toutes les pistes de cet artiste à la playlist</x:String>
+    <x:String x:Key="ArtistPlaySelectedAlbums">Lire toutes les pistes des albums des artistes sélectionnés</x:String>
+    <x:String x:Key="ArtistAddSelectedAlbumsToQueue">Ajouter toutes les pistes des albums des artistes sélectionnés à la file d'attente</x:String>
+    <x:String x:Key="ArtistAddSelectedAlbumsToPlaylist">Ajouter toutes les pistes des albums des artistes sélectionnés à la playlist</x:String>
+    <x:String x:Key="ArtistPlaySelectedTracks">Lire toutes les pistes des artistes sélectionnés</x:String>
+    <x:String x:Key="ArtistAddSelectedTracksToQueue">Ajouter toutes les pistes des artistes sélectionnés à la file d'attente</x:String>
+    <x:String x:Key="ArtistAddSelectedTracksToPlaylist">Ajouter toutes les pistes des artistes sélectionnés à la playlist</x:String>
+
+    <!--  Genre  -->
+    <x:String x:Key="GenreUnknown">Genre inconnu</x:String>
 
     <!--  Playlist  -->
     <x:String x:Key="PlaylistNew">Nouvelle playlist</x:String>
     <x:String x:Key="PlaylistRename">Renommer la playlist</x:String>
     <x:String x:Key="PlaylistNumDesc">{0}</x:String>
-    <x:String x:Key="PlaylistImportTitle">Importer une playlist</x:String>
-    <x:String x:Key="PlaylistExportTitle">Exporter la playlist</x:String>
+    <x:String x:Key="PlaylistImport">Importer une playlist</x:String>
+    <x:String x:Key="PlaylistExport">Exporter la playlist</x:String>
     <x:String x:Key="PlaylistsExportPath">Chemin d'export : {0}</x:String>
     <x:String x:Key="PlaylistExportSummary">Résumé de l'exportation</x:String>
     <x:String x:Key="PlaylistExportFile">Exporter la liste des pistes</x:String>
@@ -227,10 +243,12 @@
     <x:String x:Key="PlaylistExportTrackFilesStageGathering">Collecte des pistes de la playlist en cours</x:String>
     <x:String x:Key="PlaylistExportTrackFilesStageCopying">Copie des fichiers de pistes en cours</x:String>
     <x:String x:Key="PlaylistExportTrackFilesStageDone">Export des fichiers de pistes terminé</x:String>
+    <x:String x:Key="PlaylistAutoGenThumbnail">Générer automatiquement la pochette</x:String>
+    <x:String x:Key="PlaylistAutoGenThumbnailDesc">Une fois activé, la pochette de la playlist est générée à partir des pochettes des quatre premières pistes et mise à jour automatiquement lorsqu'elles changent</x:String>
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
-    <x:String x:Key="TracksInCurFolder">Pistes dans le dossier actuel</x:String>
+    <x:String x:Key="FolderInCurrentTracks">Pistes dans le dossier actuel</x:String>
     <x:String x:Key="FolderAddToExcludeList">Ajouter à la liste d'exclusion</x:String>
 
     <!--  Statistics  -->
@@ -363,6 +381,7 @@
     <x:String x:Key="EffectFadingPlayPause">Lecture / Pause</x:String>
     <x:String x:Key="EffectFadingSeek">Saut</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">Changement manuel de piste</x:String>
+    <x:String x:Key="EffectFadingNaturalSwitch">Transition naturelle</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
     <x:String x:Key="EffectReplayGainDesc">Une fois activé, ajuste automatiquement le volume de lecture en fonction des balises Replay Gain intégrées aux fichiers audio&#xA;Des balises Replay Gain sont requises dans les fichiers audio</x:String>
     <x:String x:Key="EffectReplayGainMode">Mode de gain</x:String>
@@ -481,6 +500,8 @@
     <x:String x:Key="SleepTimerStart">Démarrer la minuterie</x:String>
     <x:String x:Key="SleepTimerStop">Arrêter la minuterie</x:String>
     <x:String x:Key="TaskDialogTitle">Tâches</x:String>
+    <x:String x:Key="PlayingQueueDialogTitle">File d'attente</x:String>
+    <x:String x:Key="ViewArtistsTitle">Voir les artistes</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Mini-fenêtre</x:String>
@@ -494,18 +515,6 @@
     <x:String x:Key="NextTrack">Piste suivante</x:String>
     <x:String x:Key="DesktopLyricOn">Paroles bureau activées</x:String>
     <x:String x:Key="DesktopLyricOff">Paroles bureau désactivées</x:String>
-
-    <!--  Options  -->
-    <x:String x:Key="PlaySelection">Lire la sélection</x:String>
-    <x:String x:Key="AddToPlaylist">Ajouter à la playlist</x:String>
-    <x:String x:Key="AddToQueue">Ajouter à la file d'attente</x:String>
-    <x:String x:Key="AddToQueueNext">Ajouter à la suite</x:String>
-    <x:String x:Key="AlbumInfo">Album : {0}</x:String>
-    <x:String x:Key="ArtistInfo">Artiste(s) : {0}</x:String>
-    <x:String x:Key="AlbumArtistInfo">Artiste(s) de l'album : {0}</x:String>
-    <x:String x:Key="AlbumPerformerInfo">Artistes en collaboration : {0}</x:String>
-    <x:String x:Key="GenreInfo">Genre(s) : {0}</x:String>
-    <x:String x:Key="ViewArtists">Voir les artistes</x:String>
 
     <!--  Lyric  -->
     <x:String x:Key="Lyric">Paroles</x:String>
@@ -523,7 +532,7 @@
     <x:String x:Key="LyricApiRequestList">Liste des requêtes</x:String>
     <x:String x:Key="LyricApiTest">Test de l'API</x:String>
     <x:String x:Key="LyricApiTestInputParams">Paramètres d'entrée</x:String>
-    <x:String x:Key="LyricApiTestUsePlayingTrackParams">Utiliser les informations du morceau en cours de lecture</x:String>
+    <x:String x:Key="LyricApiTestUsePlayingTrackParams">Utiliser le morceau en cours</x:String>
     <x:String x:Key="LyricApiTestRun">Lancer le test</x:String>
     <x:String x:Key="LyricApiTestResult">Résultat du test</x:String>
     <x:String x:Key="LyricApiTestSucc">Test réussi</x:String>
@@ -540,9 +549,8 @@
     <x:String x:Key="LyricApiExtractVars">Extraire les variables</x:String>
     <x:String x:Key="LyricApiDecoderType">Type de décodeur</x:String>
     <x:String x:Key="LyricApiDecryptorType">Type de déchiffreur</x:String>
-    <x:String x:Key="LyricApiDecryptorDefault">Par défaut</x:String>
     <x:String x:Key="LyricApiDecryptorKrc">Krc (KuGou)</x:String>
-    <x:String x:Key="LyricApiDecryptorQrc">Qrc (QQ Music)</x:String>
+    <x:String x:Key="LyricApiDecryptorQrc">Qrc (QQ)</x:String>
     <x:String x:Key="LyricApiTimeout">Délai d'attente</x:String>
     <x:String x:Key="LyricApiFinalPath">Chemin de sortie</x:String>
     <x:String x:Key="LyricApiFinalPathDesc">Spécifie l'emplacement du texte des paroles dans la réponse de la dernière requête, par ex. lrc.lyric, data.content, songs[0].lyric&#xA;Si vide, toute la réponse est traitée comme des paroles</x:String>
@@ -605,6 +613,7 @@
     <x:String x:Key="ToastTracksReplaceToQueue">File d'attente remplacée, {0} piste(s)</x:String>
     <x:String x:Key="ToastTrackAddToPlaylist">{0} ajouté à {1}</x:String>
     <x:String x:Key="ToastTracksAddToPlaylist">{0} piste(s) ajoutée(s) à {1}</x:String>
+    <x:String x:Key="ToastTracksAddToPlaylists">{0} piste(s) ajoutée(s) à {1} playlist(s)</x:String>
     <x:String x:Key="ToastTrackAddToPlaylistFail">Échec de l'ajout à la playlist</x:String>
     <x:String x:Key="ToastTrackRemove">{0} piste(s) retirée(s)</x:String>
     <x:String x:Key="ToastPluginEnableFail">Échec d'activation du plugin {0}, voir le log</x:String>
@@ -646,6 +655,7 @@
     <x:String x:Key="TipsTrackEmpty2">pour ajouter des dossiers</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty1">Aucune piste. Allez dans</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty2">pour ajouter des dossiers</x:String>
+    <x:String x:Key="TipsPlaylistTrackEmpty">Aucune piste. Faites glisser des fichiers ou dossiers ici pour ajouter des pistes</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">Relâchez pour analyser</x:String>
     <x:String x:Key="TipsAddTracksResult">{0} piste(s) ajoutée(s)</x:String>
     <x:String x:Key="TipsAlbumIntroInput">Saisir la description de l'album</x:String>

@@ -109,8 +109,10 @@
     <x:String x:Key="Gain">Verstärkung</x:String>
     <x:String x:Key="Peak">Spitze</x:String>
     <x:String x:Key="Base64">Base64</x:String>
+    <x:String x:Key="CreateDate">Erstellt am {0}</x:String>
+    <x:String x:Key="ModifyDate">Geändert am {0}</x:String>
 
-    <!-- EQ -->
+    <!--  EQ  -->
     <x:String x:Key="Flat">Linear</x:String>
     <x:String x:Key="PopClassic">Pop (Klassisch)</x:String>
     <x:String x:Key="PopModern">Pop (Modern)</x:String>
@@ -153,6 +155,7 @@
     <x:String x:Key="ArtistDetailPage">Künstler</x:String>
     <x:String x:Key="FolderPage">Ordner</x:String>
     <x:String x:Key="PlaylistPage">Wiedergabelisten</x:String>
+    <x:String x:Key="PlaylistDetailPage">Wiedergabeliste</x:String>
     <x:String x:Key="TrackPage">Titel</x:String>
     <x:String x:Key="TrackFavoritePage">Favoriten</x:String>
     <x:String x:Key="TrackRecentPage">Zuletzt gespielt</x:String>
@@ -161,7 +164,6 @@
     <x:String x:Key="StatisticPage">Statistik</x:String>
     <x:String x:Key="PluginPage">Plugins</x:String>
     <x:String x:Key="SettingPage">Einstellungen</x:String>
-    <x:String x:Key="PlayingQueuePage">Warteschlange</x:String>
     <x:String x:Key="UISettingPage">UI</x:String>
     <x:String x:Key="NavMenuSettingPage">Navigationsmenü</x:String>
     <x:String x:Key="LibrarySettingPage">Bibliothek</x:String>
@@ -180,12 +182,23 @@
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Titelinfo</x:String>
     <x:String x:Key="TrackNumDesc">{0} Titel</x:String>
-    <x:String x:Key="RevealInExplorer">Im Explorer anzeigen</x:String>
-    <x:String x:Key="UnknownGenre">Unbekanntes Genre</x:String>
+    <x:String x:Key="TrackRevealInExplorer">Im Explorer anzeigen</x:String>
+    <x:String x:Key="TrackPlaySelection">Auswahl abspielen</x:String>
+    <x:String x:Key="TrackAddToPlaylist">Zur Wiedergabeliste hinzufügen</x:String>
+    <x:String x:Key="TrackAddToPlaylists">Zu Wiedergabelisten hinzufügen</x:String>
+    <x:String x:Key="TrackAddToQueue">Zur Warteschlange hinzufügen</x:String>
+    <x:String x:Key="TrackAddToQueueNext">Als nächstes hinzufügen</x:String>
+    <x:String x:Key="TrackAlbumInfo">Album: {0}</x:String>
+    <x:String x:Key="TrackArtistInfo">Künstler: {0}</x:String>
+    <x:String x:Key="TrackAlbumArtistInfo">Albumkünstler: {0}</x:String>
+    <x:String x:Key="TrackAlbumPerformerInfo">Gastkünstler: {0}</x:String>
+    <x:String x:Key="TrackGenreInfo">Genre: {0}</x:String>
+    <x:String x:Key="TrackFolderInfo">Ordner: {0}</x:String>
+    <x:String x:Key="TrackPlaylistInfo">Wiedergabeliste: {0}</x:String>
 
     <!--  Album  -->
     <x:String x:Key="AlbumNumDesc">{0} Album(s)</x:String>
-    <x:String x:Key="UnknownAlbum">Unbekanntes Album</x:String>
+    <x:String x:Key="AlbumUnknown">Unbekanntes Album</x:String>
     <x:String x:Key="AlbumIntro">Albumbeschreibung</x:String>
     <x:String x:Key="AlbumIntroEmpty">Keine Beschreibung verfügbar.</x:String>
     <x:String x:Key="AlbumYear">Albumjahr</x:String>
@@ -197,29 +210,32 @@
     <x:String x:Key="AlbumSyncMetadata">Album-Metadaten mit allen Titeln synchronisieren</x:String>
 
     <!--  Artist  -->
-    <x:String x:Key="UnknownArtist">Unbekannter Künstler</x:String>
+    <x:String x:Key="ArtistUnknown">Unbekannter Künstler</x:String>
     <x:String x:Key="ArtistEditTitle">Künstler bearbeiten</x:String>
     <x:String x:Key="ArtistIntro">Künstlerbeschreibung</x:String>
     <x:String x:Key="ArtistIntroEmpty">Keine Beschreibung verfügbar.</x:String>
-    <x:String x:Key="PlayArtistAlbums">Alle Titel der Alben dieses Künstlers abspielen</x:String>
-    <x:String x:Key="AddArtistAlbumsToQueue">Alle Titel der Alben dieses Künstlers zur Warteschlange hinzufügen</x:String>
-    <x:String x:Key="AddArtistAlbumsToPlaylist">Alle Titel der Alben dieses Künstlers zur Wiedergabeliste hinzufügen</x:String>
-    <x:String x:Key="PlayArtistTracks">Alle Titel dieses Künstlers abspielen</x:String>
-    <x:String x:Key="AddArtistTracksToQueue">Alle Titel dieses Künstlers zur Warteschlange hinzufügen</x:String>
-    <x:String x:Key="AddArtistTracksToPlaylist">Alle Titel dieses Künstlers zur Wiedergabeliste hinzufügen</x:String>
-    <x:String x:Key="PlaySelectedArtistsAlbums">Alle Titel der Alben der ausgewählten Künstler abspielen</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToQueue">Alle Titel der Alben der ausgewählten Künstler zur Warteschlange hinzufügen</x:String>
-    <x:String x:Key="AddSelectedArtistsAlbumsToPlaylist">Alle Titel der Alben der ausgewählten Künstler zur Wiedergabeliste hinzufügen</x:String>
-    <x:String x:Key="PlaySelectedArtistsTracks">Alle Titel der ausgewählten Künstler abspielen</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToQueue">Alle Titel der ausgewählten Künstler zur Warteschlange hinzufügen</x:String>
-    <x:String x:Key="AddSelectedArtistsTracksToPlaylist">Alle Titel der ausgewählten Künstler zur Wiedergabeliste hinzufügen</x:String>
+    <x:String x:Key="ArtistPlayAlbums">Alle Titel der Alben dieses Künstlers abspielen</x:String>
+    <x:String x:Key="ArtistAddAlbumsToQueue">Alle Titel der Alben dieses Künstlers zur Warteschlange hinzufügen</x:String>
+    <x:String x:Key="ArtistAddAlbumsToPlaylist">Alle Titel der Alben dieses Künstlers zur Wiedergabeliste hinzufügen</x:String>
+    <x:String x:Key="ArtistPlayTracks">Alle Titel dieses Künstlers abspielen</x:String>
+    <x:String x:Key="ArtistAddTracksToQueue">Alle Titel dieses Künstlers zur Warteschlange hinzufügen</x:String>
+    <x:String x:Key="ArtistAddTracksToPlaylist">Alle Titel dieses Künstlers zur Wiedergabeliste hinzufügen</x:String>
+    <x:String x:Key="ArtistPlaySelectedAlbums">Alle Titel der Alben der ausgewählten Künstler abspielen</x:String>
+    <x:String x:Key="ArtistAddSelectedAlbumsToQueue">Alle Titel der Alben der ausgewählten Künstler zur Warteschlange hinzufügen</x:String>
+    <x:String x:Key="ArtistAddSelectedAlbumsToPlaylist">Alle Titel der Alben der ausgewählten Künstler zur Wiedergabeliste hinzufügen</x:String>
+    <x:String x:Key="ArtistPlaySelectedTracks">Alle Titel der ausgewählten Künstler abspielen</x:String>
+    <x:String x:Key="ArtistAddSelectedTracksToQueue">Alle Titel der ausgewählten Künstler zur Warteschlange hinzufügen</x:String>
+    <x:String x:Key="ArtistAddSelectedTracksToPlaylist">Alle Titel der ausgewählten Künstler zur Wiedergabeliste hinzufügen</x:String>
+
+    <!--  Genre  -->
+    <x:String x:Key="GenreUnknown">Unbekanntes Genre</x:String>
 
     <!--  Playlist  -->
     <x:String x:Key="PlaylistNew">Neue Wiedergabeliste</x:String>
     <x:String x:Key="PlaylistRename">Wiedergabeliste umbenennen</x:String>
     <x:String x:Key="PlaylistNumDesc">{0}</x:String>
-    <x:String x:Key="PlaylistImportTitle">Wiedergabeliste importieren</x:String>
-    <x:String x:Key="PlaylistExportTitle">Wiedergabeliste exportieren</x:String>
+    <x:String x:Key="PlaylistImport">Wiedergabeliste importieren</x:String>
+    <x:String x:Key="PlaylistExport">Wiedergabeliste exportieren</x:String>
     <x:String x:Key="PlaylistsExportPath">Exportpfad: {0}</x:String>
     <x:String x:Key="PlaylistExportSummary">Exportzusammenfassung</x:String>
     <x:String x:Key="PlaylistExportFile">Titelliste exportieren</x:String>
@@ -227,10 +243,12 @@
     <x:String x:Key="PlaylistExportTrackFilesStageGathering">Titel der Wiedergabeliste werden gesammelt</x:String>
     <x:String x:Key="PlaylistExportTrackFilesStageCopying">Titeldateien werden kopiert</x:String>
     <x:String x:Key="PlaylistExportTrackFilesStageDone">Export der Titeldateien abgeschlossen</x:String>
+    <x:String x:Key="PlaylistAutoGenThumbnail">Cover automatisch erstellen</x:String>
+    <x:String x:Key="PlaylistAutoGenThumbnailDesc">Wenn aktiviert, wird das Wiedergabelisten-Cover aus den Covern der ersten vier Titel erstellt und automatisch aktualisiert, wenn sich diese Titel ändern</x:String>
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
-    <x:String x:Key="TracksInCurFolder">Titel im aktuellen Ordner</x:String>
+    <x:String x:Key="FolderInCurrentTracks">Titel im aktuellen Ordner</x:String>
     <x:String x:Key="FolderAddToExcludeList">Zur Ausschlussliste hinzufügen</x:String>
 
     <!--  Statistics  -->
@@ -363,6 +381,7 @@
     <x:String x:Key="EffectFadingPlayPause">Wiedergabe / Pause</x:String>
     <x:String x:Key="EffectFadingSeek">Sprung</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">Manueller Titelwechsel</x:String>
+    <x:String x:Key="EffectFadingNaturalSwitch">Natürlicher Übergang</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
     <x:String x:Key="EffectReplayGainDesc">Wenn aktiviert, wird die Wiedergabelautstärke automatisch anhand der in die Audiodateien eingebetteten Replay-Gain-Tags angepasst&#xA;Replay-Gain-Tags sind in den Audiodateien erforderlich</x:String>
     <x:String x:Key="EffectReplayGainMode">Verstärkungsmodus</x:String>
@@ -481,6 +500,8 @@
     <x:String x:Key="SleepTimerStart">Timer starten</x:String>
     <x:String x:Key="SleepTimerStop">Timer stoppen</x:String>
     <x:String x:Key="TaskDialogTitle">Aufgaben</x:String>
+    <x:String x:Key="PlayingQueueDialogTitle">Warteschlange</x:String>
+    <x:String x:Key="ViewArtistsTitle">Künstler anzeigen</x:String>
 
     <!--  MiniWindow  -->
     <x:String x:Key="MiniWindow">Minifenster</x:String>
@@ -494,18 +515,6 @@
     <x:String x:Key="NextTrack">Nächster Titel</x:String>
     <x:String x:Key="DesktopLyricOn">Desktop-Songtexte an</x:String>
     <x:String x:Key="DesktopLyricOff">Desktop-Songtexte aus</x:String>
-
-    <!--  Options  -->
-    <x:String x:Key="PlaySelection">Auswahl abspielen</x:String>
-    <x:String x:Key="AddToPlaylist">Zur Wiedergabeliste hinzufügen</x:String>
-    <x:String x:Key="AddToQueue">Zur Warteschlange hinzufügen</x:String>
-    <x:String x:Key="AddToQueueNext">Als nächstes hinzufügen</x:String>
-    <x:String x:Key="AlbumInfo">Album: {0}</x:String>
-    <x:String x:Key="ArtistInfo">Künstler: {0}</x:String>
-    <x:String x:Key="AlbumArtistInfo">Albumkünstler: {0}</x:String>
-    <x:String x:Key="AlbumPerformerInfo">Gastkünstler: {0}</x:String>
-    <x:String x:Key="GenreInfo">Genre: {0}</x:String>
-    <x:String x:Key="ViewArtists">Künstler anzeigen</x:String>
 
     <!--  Lyric  -->
     <x:String x:Key="Lyric">Liedtext</x:String>
@@ -523,7 +532,7 @@
     <x:String x:Key="LyricApiRequestList">Anforderungsliste</x:String>
     <x:String x:Key="LyricApiTest">API-Test</x:String>
     <x:String x:Key="LyricApiTestInputParams">Eingabeparameter</x:String>
-    <x:String x:Key="LyricApiTestUsePlayingTrackParams">Informationen des gerade abgespielten Titels verwenden</x:String>
+    <x:String x:Key="LyricApiTestUsePlayingTrackParams">Aktuellen Titel verwenden</x:String>
     <x:String x:Key="LyricApiTestRun">Test ausführen</x:String>
     <x:String x:Key="LyricApiTestResult">Testergebnis</x:String>
     <x:String x:Key="LyricApiTestSucc">Test erfolgreich</x:String>
@@ -540,9 +549,8 @@
     <x:String x:Key="LyricApiExtractVars">Variablen extrahieren</x:String>
     <x:String x:Key="LyricApiDecoderType">Decodertyp</x:String>
     <x:String x:Key="LyricApiDecryptorType">Entschlüsselungstyp</x:String>
-    <x:String x:Key="LyricApiDecryptorDefault">Standard</x:String>
     <x:String x:Key="LyricApiDecryptorKrc">Krc (KuGou)</x:String>
-    <x:String x:Key="LyricApiDecryptorQrc">Qrc (QQ Music)</x:String>
+    <x:String x:Key="LyricApiDecryptorQrc">Qrc (QQ)</x:String>
     <x:String x:Key="LyricApiTimeout">Zeitlimit</x:String>
     <x:String x:Key="LyricApiFinalPath">Ausgabepfad</x:String>
     <x:String x:Key="LyricApiFinalPathDesc">Gibt die Position des Liedtexts in der Antwort der letzten Anforderung an, z. B. lrc.lyric, data.content, songs[0].lyric&#xA;Wenn leer, wird die gesamte Antwort als Liedtext behandelt</x:String>
@@ -605,6 +613,7 @@
     <x:String x:Key="ToastTracksReplaceToQueue">Warteschlange ersetzt, jetzt {0} Titel</x:String>
     <x:String x:Key="ToastTrackAddToPlaylist">{0} zu {1} hinzugefügt</x:String>
     <x:String x:Key="ToastTracksAddToPlaylist">{0} Titel zu {1} hinzugefügt</x:String>
+    <x:String x:Key="ToastTracksAddToPlaylists">{0} Titel zu {1} Wiedergabelisten hinzugefügt</x:String>
     <x:String x:Key="ToastTrackAddToPlaylistFail">Fehler beim Hinzufügen zur Wiedergabeliste</x:String>
     <x:String x:Key="ToastTrackRemove">{0} Titel entfernt</x:String>
     <x:String x:Key="ToastPluginEnableFail">Plugin {0} konnte nicht aktiviert werden, siehe Log</x:String>
@@ -646,6 +655,7 @@
     <x:String x:Key="TipsTrackEmpty2">um Ordner hinzuzufügen</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty1">Keine Titel. Gehe zu</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty2">um Ordner hinzuzufügen</x:String>
+    <x:String x:Key="TipsPlaylistTrackEmpty">Keine Titel. Dateien oder Ordner zum Hinzufügen hierher ziehen</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">Loslassen zum Scannen</x:String>
     <x:String x:Key="TipsAddTracksResult">{0} Titel hinzugefügt</x:String>
     <x:String x:Key="TipsAlbumIntroInput">Albumbeschreibung eingeben</x:String>
