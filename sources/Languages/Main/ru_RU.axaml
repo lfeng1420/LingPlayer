@@ -111,6 +111,7 @@
     <x:String x:Key="Base64">Base64</x:String>
     <x:String x:Key="CreateDate">Создан: {0}</x:String>
     <x:String x:Key="ModifyDate">Изменён: {0}</x:String>
+    <x:String x:Key="AddToPlaylistTime">Время добавления в плейлист</x:String>
 
     <!--  EQ  -->
     <x:String x:Key="Flat">Линейный</x:String>

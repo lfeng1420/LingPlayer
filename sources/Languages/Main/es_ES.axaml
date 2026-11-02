@@ -111,6 +111,7 @@
     <x:String x:Key="Base64">Base64</x:String>
     <x:String x:Key="CreateDate">Creado el {0}</x:String>
     <x:String x:Key="ModifyDate">Modificado el {0}</x:String>
+    <x:String x:Key="AddToPlaylistTime">Hora de adición a la lista</x:String>
 
     <!--  EQ  -->
     <x:String x:Key="Flat">Plano</x:String>
