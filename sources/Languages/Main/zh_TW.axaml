@@ -31,7 +31,7 @@
     <x:String x:Key="ModifyTime">修改時間</x:String>
     <x:String x:Key="TrackNum">歌曲數量</x:String>
     <x:String x:Key="AlbumNum">專輯數量</x:String>
-    <x:String x:Key="Current">當前</x:String>
+    <x:String x:Key="Current">目前</x:String>
     <x:String x:Key="Choices">可選</x:String>
     <x:String x:Key="SelectAll">全選</x:String>
     <x:String x:Key="SelectReverse">反選</x:String>
@@ -63,9 +63,9 @@
     <x:String x:Key="Bold">粗</x:String>
     <x:String x:Key="UltraBold">超粗</x:String>
     <x:String x:Key="Heavy">最粗</x:String>
-    <x:String x:Key="LineMargin">行間距</x:String>
+    <x:String x:Key="LineSpacing">行間距</x:String>
     <x:String x:Key="Edit">編輯</x:String>
-    <x:String x:Key="TrackId">歌曲id</x:String>
+    <x:String x:Key="TrackId">歌曲ID</x:String>
     <x:String x:Key="Path">檔案路徑</x:String>
     <x:String x:Key="MimeType">格式</x:String>
     <x:String x:Key="FileSize">檔案大小</x:String>
@@ -166,7 +166,7 @@
     <x:String x:Key="PluginPage">外掛</x:String>
     <x:String x:Key="SettingPage">設定</x:String>
     <x:String x:Key="UISettingPage">使用者介面</x:String>
-    <x:String x:Key="NavMenuSettingPage">導航選單</x:String>
+    <x:String x:Key="NavMenuSettingPage">導覽</x:String>
     <x:String x:Key="LibrarySettingPage">音樂庫</x:String>
     <x:String x:Key="EffectSettingPage">音訊音效</x:String>
     <x:String x:Key="LangSettingPage">語言</x:String>
@@ -179,6 +179,7 @@
     <x:String x:Key="StatArtistPage">藝術家排行榜</x:String>
     <x:String x:Key="ImageCornerSettingPage">圖片圓角強度</x:String>
     <x:String x:Key="LyricSettingPage">歌詞</x:String>
+    <x:String x:Key="CloudSettingPage">同步與復原</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">歌曲資訊</x:String>
@@ -249,8 +250,8 @@
 
     <!--  Folder  -->
     <x:String x:Key="FolderNumDesc">{0}</x:String>
-    <x:String x:Key="FolderInCurrentTracks">在當前資料夾下的歌曲</x:String>
-    <x:String x:Key="FolderAddToExcludeList">新增到排除列表</x:String>
+    <x:String x:Key="FolderInCurrentTracks">在目前資料夾下的歌曲</x:String>
+    <x:String x:Key="FolderAddToExcludeList">新增到排除清單</x:String>
 
     <!--  Statistics  -->
     <x:String x:Key="StatPlayTime">播放時間</x:String>
@@ -279,13 +280,14 @@
 
     <!--  Setting  -->
     <x:String x:Key="LibrarySettingDesc">資料夾、掃描選項</x:String>
-    <x:String x:Key="UISettingDesc">視窗透明效果、自訂字型、桌布、導航選單</x:String>
+    <x:String x:Key="UISettingDesc">視窗透明效果、自訂字型、桌布、導覽</x:String>
     <x:String x:Key="NavMenuSettingDesc">可見性控制、順序調整、預設頁面設定</x:String>
     <x:String x:Key="LangSettingDesc">系統語言、切換語言</x:String>
     <x:String x:Key="LyricSettingDesc">歌詞源、網路介面</x:String>
     <x:String x:Key="EffectSettingDesc">淡入淡出、回放增益、等化器、殘響</x:String>
     <x:String x:Key="PlayControlSettingDesc">自動播放、隨機播放</x:String>
-    <x:String x:Key="AdvancedSettingDesc">垃圾回收</x:String>
+    <x:String x:Key="CloudSettingDesc">自動同步、檔案數上限、自動復原</x:String>
+    <x:String x:Key="AdvancedSettingDesc">記憶體回收</x:String>
     <x:String x:Key="AboutSettingDesc">版本資訊、問題回報、日誌快取</x:String>
     <x:String x:Key="LibraryExcludeBelowDurationTracks">排除設定時長以下的歌曲</x:String>
     <x:String x:Key="LibraryScanNow">立即掃描</x:String>
@@ -309,7 +311,7 @@
     <x:String x:Key="ThemeDark">深色</x:String>
     <x:String x:Key="ThemeFollowSystem">跟隨系統</x:String>
     <x:String x:Key="TransparencyEffect">視窗透明效果</x:String>
-    <x:String x:Key="TransparencyEffectSettingDesc">效果將套用於主視窗和mini視窗&#xA;請注意某些效果可能不受當前平台支援</x:String>
+    <x:String x:Key="TransparencyEffectSettingDesc">效果將套用於主視窗和Mini視窗&#xA;請注意某些效果可能不受目前平台支援</x:String>
     <x:String x:Key="WindowsRenderType">渲染模式</x:String>
     <x:String x:Key="WindowsRenderTypeDesc">如果遇到介面閃爍、顯示異常等渲染問題，請嘗試更換渲染模式&#xA;更換渲染模式後需要重新啟動應用程式以生效</x:String>
     <x:String x:Key="WindowsRenderDefault">自適應</x:String>
@@ -353,7 +355,7 @@
     <x:String x:Key="ImageCornerStrengthPlayingCover">正在播放頁面歌曲封面圓角強度</x:String>
     <x:String x:Key="PlayControlAlwaysVisible">播放控制按鈕始終可見</x:String>
     <x:String x:Key="MainNavOpenPaneLength">導航列展開寬度</x:String>
-    <x:String x:Key="MainNavOpenPaneLengthDesc">調整導航選單展開狀態下的面板寬度</x:String>
+    <x:String x:Key="MainNavOpenPaneLengthDesc">調整導覽展開狀態下的面板寬度</x:String>
     <x:String x:Key="PlayingPage">播放介面</x:String>
     <x:String x:Key="TrackCover">歌曲封面</x:String>
     <x:String x:Key="GradientFlow">動態漸層</x:String>
@@ -363,13 +365,11 @@
     <x:String x:Key="OverlayDarkOpacity">疊加層不透明度（深色主題）</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">疊加層用於提升在淺色主題下文字的可讀性，設定過小的值可能導致文字難以閱讀</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">疊加層用於在深色主題下壓暗過亮的背景，在淺色主題下提亮過暗的背景，以提升文字的可讀性</x:String>
-    <x:String x:Key="JumpBarOverlayLightOpacity">跳轉欄疊加層不透明度（淺色主題）</x:String>
-    <x:String x:Key="JumpBarOverlayDarkOpacity">跳轉欄疊加層不透明度（深色主題）</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">在藝術家頁面中顯示參與創作藝術家</x:String>
-    <x:String x:Key="CollaboratorArtistsVisibleDesc">開啟後，參與創作的藝術家將顯示在藝術家列表中</x:String>
+    <x:String x:Key="CollaboratorArtistsVisibleDesc">開啟後，參與創作的藝術家將顯示在藝術家清單中</x:String>
     <x:String x:Key="FolderHierachyView">資料夾層級檢視</x:String>
     <x:String x:Key="HomeNavMenuItem">啟動時預設顯示頁面</x:String>
-    <x:String x:Key="HomeNavMenuItemDesc">點擊上方的導航選單項可切換預設顯示頁面</x:String>
+    <x:String x:Key="HomeNavMenuItemDesc">點擊上方的導覽項可切換預設顯示頁面</x:String>
     <x:String x:Key="SystemLang">系統語言</x:String>
     <x:String x:Key="SwitchLang">切換語言</x:String>
     <x:String x:Key="TranslationContributors">翻譯貢獻人員</x:String>
@@ -426,9 +426,26 @@
     <x:String x:Key="ShuffleByArtistDesc">先按藝術家對播放佇列中的歌曲進行分組，之後隨機播放每個分組。同一分組內的歌曲按專輯名、碟號和曲目號排序</x:String>
     <x:String x:Key="ShuffleByFolder">按資料夾分組隨機</x:String>
     <x:String x:Key="ShuffleByFolderDesc">先按資料夾對播放佇列中的歌曲進行分組，之後隨機播放每個分組</x:String>
-    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">切換頁面後觸發垃圾回收</x:String>
-    <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">開啟後將在切換頁面後觸發垃圾回收，以釋放記憶體&#xA;由於垃圾回收時會暫停執行緒運行，如遇到播放卡頓情況，請關閉此選項</x:String>
-    <x:String x:Key="AdvancedForceGC">強制垃圾回收</x:String>
+    <x:String x:Key="CloudSync">同步</x:String>
+    <x:String x:Key="CloudSyncNow">立即同步</x:String>
+    <x:String x:Key="CloudSyncAutoInterval">自動同步間隔</x:String>
+    <x:String x:Key="CloudSyncAutoIntervalDesc">設定為 0 分鐘時將停用自動同步</x:String>
+    <x:String x:Key="CloudSyncMaxFileNum">檔案數上限</x:String>
+    <x:String x:Key="CloudSyncMaxFileNumDesc">雲端最多保留的檔案數量，超過上限時將自動刪除時間最早的檔案&#xA;設置為 0 時不再限制雲端保留的檔案數量</x:String>
+    <x:String x:Key="CloudSyncAllowInMeteredNetwork">允許在計費網路連線下同步</x:String>
+    <x:String x:Key="CloudSyncAllowInMeteredNetworkDesc">停用後，在計費網路連線下將不再自動同步</x:String>
+    <x:String x:Key="CloudSyncLastTime">最近同步時間</x:String>
+    <x:String x:Key="CloudRestore">復原</x:String>
+    <x:String x:Key="CloudRestoreLastTime">最近復原時間</x:String>
+    <x:String x:Key="CloudFilesFrom">{0} 檔案</x:String>
+    <x:String x:Key="CloudFiles">檔案清單</x:String>
+    <x:String x:Key="CloudFilesDesc">檢視雲端檔案，或從雲端下載檔案並復原至本機</x:String>
+    <x:String x:Key="CloudFileNum">{0} 個檔案</x:String>
+    <x:String x:Key="CloudFileDesc">專輯 {0} / 藝術家 {1} / 播放清單 {2} / 收藏 {3} / 播放佇列 {4} / 最近播放 {5} / 累計播放時間 {6} / 累計播放歌曲 {7} / 設定項 {8} / EQ設定 {9} / 殘響設定 {10}</x:String>
+    <x:String x:Key="CloudFileNameCheckAvailable">檢查可用性</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">切換頁面後觸發記憶體回收&#xA;設置為 0 時不再限制雲端保留的檔案數量</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">開啟後將在切換頁面後觸發記憶體回收，以釋放記憶體&#xA;由於記憶體回收時會暫停執行緒運行，如遇到播放卡頓情況，請關閉此選項</x:String>
+    <x:String x:Key="AdvancedForceGC">強制記憶體回收</x:String>
     <x:String x:Key="AdvancedForceGCDesc">此操作可能嚴重影響應用程式效能，建議僅在記憶體占用過高時使用</x:String>
     <x:String x:Key="AboutVersion">版本</x:String>
     <x:String x:Key="AboutOpenSourceLicense">開放原始碼許可</x:String>
@@ -468,6 +485,11 @@
     <x:String x:Key="MiniWindowOverlayOpacity">疊加層不透明度</x:String>
     <x:String x:Key="MiniWindowOverlayOpacityDesc">疊加層用於提升文字的可讀性</x:String>
     <x:String x:Key="MiniWindowShowInTaskbar">在工作列顯示</x:String>
+    <x:String x:Key="SleepTimer">睡眠定時</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEnd">延長計時直到目前歌曲播放完成</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEndDesc">延長生效後，倒數計時前將顯示「+」符號，例如：+01:50&#xA;已處於延長狀態時切換歌曲，將自動重新延長至該歌曲播放完成</x:String>
+    <x:String x:Key="SleepTimerStart">開始計時</x:String>
+    <x:String x:Key="SleepTimerStop">停止計時</x:String>
 
     <!--  Dialog  -->
     <x:String x:Key="WallpaperEditTitle">桌布編輯</x:String>
@@ -475,8 +497,8 @@
     <x:String x:Key="OpenFolderDialogTitle">選擇資料夾</x:String>
     <x:String x:Key="OpenFileDialogTitle">選擇檔案</x:String>
     <x:String x:Key="OpenSaveFileDialogTitle">選擇儲存檔案位置</x:String>
-    <x:String x:Key="FolderExcludeConfirmTitle">新增資料夾到排除列表</x:String>
-    <x:String x:Key="FolderExcludeConfirmContent">確認將以下資料夾新增到排除列表嗎？排除後將同步移除曲庫中屬於該資料夾或其子資料夾的歌曲，此操作不會刪除歌曲檔案。&#xA;{0}</x:String>
+    <x:String x:Key="FolderExcludeConfirmTitle">新增資料夾到排除清單</x:String>
+    <x:String x:Key="FolderExcludeConfirmContent">確認將以下資料夾新增到排除清單嗎？排除後將同步移除曲庫中屬於該資料夾或其子資料夾的歌曲，此操作不會刪除歌曲檔案。&#xA;{0}</x:String>
     <x:String x:Key="PlaylistDeleteTitle">刪除播放清單</x:String>
     <x:String x:Key="PlaylistDeleteContent">確認刪除以下播放清單嗎？此操作將永久刪除播放清單，且無法復原。&#xA;{0}</x:String>
     <x:String x:Key="PlaylistTrackRemoveTitle">移除歌曲</x:String>
@@ -495,11 +517,6 @@
     <x:String x:Key="TrackEditTitle">編輯歌曲中繼資料</x:String>
     <x:String x:Key="AlbumEditTitle">編輯專輯中繼資料</x:String>
     <x:String x:Key="NoticeTitle">📢 重大變更</x:String>
-    <x:String x:Key="SleepTimerTitle">睡眠定時</x:String>
-    <x:String x:Key="SleepTimerExtendToTrackEnd">延長計時直到當前歌曲播放完成</x:String>
-    <x:String x:Key="SleepTimerExtendToTrackEndDesc">延長生效後，倒數計時前將顯示「+」符號，例如：+01:50&#xA;已處於延長狀態時切換歌曲，將自動重新延長至該歌曲播放完成</x:String>
-    <x:String x:Key="SleepTimerStart">開始計時</x:String>
-    <x:String x:Key="SleepTimerStop">停止計時</x:String>
     <x:String x:Key="TaskDialogTitle">任務</x:String>
     <x:String x:Key="PlayingQueueDialogTitle">播放佇列</x:String>
     <x:String x:Key="ViewArtistsTitle">檢視藝術家</x:String>
@@ -514,23 +531,23 @@
     <x:String x:Key="Pause">暫停</x:String>
     <x:String x:Key="PreTrack">上一首</x:String>
     <x:String x:Key="NextTrack">下一首</x:String>
-    <x:String x:Key="DesktopLyricOn">桌面歌詞已啟用</x:String>
-    <x:String x:Key="DesktopLyricOff">桌面歌詞已停用</x:String>
 
     <!--  Lyric  -->
+    <x:String x:Key="DesktopLyric">桌面歌詞</x:String>
+    <x:String x:Key="DesktopLyricOn">桌面歌詞已啟用</x:String>
+    <x:String x:Key="DesktopLyricOff">桌面歌詞已停用</x:String>
     <x:String x:Key="Lyric">歌詞</x:String>
     <x:String x:Key="LyricLoading">正在載入歌詞</x:String>
     <x:String x:Key="LyricNone">暫無歌詞</x:String>
-    <x:String x:Key="DesktopLyric">桌面歌詞</x:String>
     <x:String x:Key="LyricEmbedded">內嵌</x:String>
     <x:String x:Key="LyricFile">檔案</x:String>
     <x:String x:Key="LyricNetwork">網路</x:String>
     <x:String x:Key="LyricSource">歌詞源</x:String>
     <x:String x:Key="LyricSearch">歌詞搜尋</x:String>
-    <x:String x:Key="LyricApi">介面列表</x:String>
+    <x:String x:Key="LyricApi">介面清單</x:String>
     <x:String x:Key="LyricApiNew">新建介面</x:String>
     <x:String x:Key="LyricApiBase">基礎設定</x:String>
-    <x:String x:Key="LyricApiRequestList">請求列表</x:String>
+    <x:String x:Key="LyricApiRequestList">請求清單</x:String>
     <x:String x:Key="LyricApiTest">介面測試</x:String>
     <x:String x:Key="LyricApiTestInputParams">輸入參數</x:String>
     <x:String x:Key="LyricApiTestUsePlayingTrackParams">使用目前播放歌曲</x:String>
@@ -621,13 +638,13 @@
     <x:String x:Key="ToastPluginEnableSucc">已啟用外掛 {0}</x:String>
     <x:String x:Key="ToastPluginDisable">已停用外掛 {0}</x:String>
     <x:String x:Key="ToastOperationCanceled">操作已取消</x:String>
-    <x:String x:Key="ToastShuffleFailed">{0} 模式：歌曲列表隨機失敗</x:String>
+    <x:String x:Key="ToastShuffleFailed">{0} 模式：歌曲清單隨機失敗</x:String>
     <x:String x:Key="ToastOpenFolderFail">開啟所在資料夾 {0} 失敗，請查閱日誌檔案獲取更多資訊</x:String>
     <x:String x:Key="ToastOneDriveLoginFail">OneDrive 登入失敗</x:String>
     <x:String x:Key="ToastOneDriveLoginSucc">OneDrive 登入成功</x:String>
     <x:String x:Key="ToastOneDriveLogout">OneDrive 帳號 {0} 已登出</x:String>
     <x:String x:Key="ToastOneDriveNoAccount">OneDrive 尚未登入</x:String>
-    <x:String x:Key="ToastForceGCResult">強制垃圾回收完成，釋放了 {0} 記憶體</x:String>
+    <x:String x:Key="ToastForceGCResult">強制記憶體回收完成，釋放了 {0} 記憶體</x:String>
     <x:String x:Key="ToastArtistExists">藝術家 {0} 已存在</x:String>
     <x:String x:Key="ToastAlbumArtistExists">專輯藝術家 {0} 已存在</x:String>
     <x:String x:Key="ToastGenreExists">流派 {0} 已存在</x:String>
@@ -642,6 +659,16 @@
     <x:String x:Key="ToastLyricApiFillNameFirst">請先填寫介面名稱</x:String>
     <x:String x:Key="ToastLyricApiAddFail">新增歌詞介面失敗</x:String>
     <x:String x:Key="ToastLyricApiCopyVarNameSucc">已複製變數名稱</x:String>
+    <x:String x:Key="ToastCloudSyncFail">同步資料至 {0} 失敗，錯誤碼：{0}</x:String>
+    <x:String x:Key="ToastCloudSyncSucc">已同步資料至 {0}</x:String>
+    <x:String x:Key="ToastCloudRestoreFail">復原資料失敗，錯誤碼：{0}</x:String>
+    <x:String x:Key="ToastCloudRestoreSucc">已復原資料至本機</x:String>
+    <x:String x:Key="ToastCloudFileDeleteSucc">雲端檔案刪除成功</x:String>
+    <x:String x:Key="ToastCloudFileDeleteFail">雲端檔案刪除失敗，錯誤碼：{0}</x:String>
+    <x:String x:Key="ToastCloudFileListFetchFail">雲端檔案列表取得失敗，錯誤碼：{0}</x:String>
+    <x:String x:Key="ToastCloudSyncCanceled">已取消同步作業</x:String>
+    <x:String x:Key="ToastCloudRestoreCanceled">已取消復原作業</x:String>
+    <x:String x:Key="ToastCloudDeleteCanceled">已取消刪除作業</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">正在初始化</x:String>
@@ -674,8 +701,8 @@
     <x:String x:Key="TipsCueTrackEdit">此歌曲來源於 CUE 檔案，暫不支援修改中繼資料，請直接編輯 CUE 檔案。</x:String>
     <x:String x:Key="TipsCueAlbumEdit">此專輯包含來源於 CUE 檔案的歌曲，暫不支援修改中繼資料，請直接編輯 CUE 檔案。</x:String>
     <x:String x:Key="TipsEffectNameInput">輸入新名稱</x:String>
-    <x:String x:Key="LyricSourceDragSortTips">拖曳以調整尋找順序</x:String>
-    <x:String x:Key="LyricApiDragSortTips">拖曳以調整呼叫順序</x:String>
+    <x:String x:Key="TipsLyricSourceDragSort">拖曳以調整尋找順序</x:String>
+    <x:String x:Key="TipsLyricApiDragSort">拖曳以調整呼叫順序</x:String>
     <x:String x:Key="TipsLyricApiNameEmpty">介面名稱不能為空</x:String>
     <x:String x:Key="TipsLyricApiNameExists">介面名稱已存在</x:String>
     <x:String x:Key="TipsLyricApiUrlEmpty">位址為空</x:String>
@@ -683,6 +710,18 @@
     <x:String x:Key="TipsLyricApiExtractVarsEmpty">提取變數清單不應為空</x:String>
     <x:String x:Key="TipsLyricSearching">正在搜尋...</x:String>
     <x:String x:Key="TipsLyricApiRequestParams">可用變數（點擊以複製）：</x:String>
+    <x:String x:Key="TipsCloudFileSyncInput">輸入檔案名稱</x:String>
+    <x:String x:Key="TipsCloudFileNameExists">雲端已存在同名檔案，將發生覆蓋</x:String>
+    <x:String x:Key="TipsCloudFileNameAvailable">檔案名稱可用</x:String>
+    <x:String x:Key="TipsCloudFileNameCheckError">檢查失敗，錯誤碼：{0}</x:String>
+    <x:String x:Key="TipsCloudRoutineGathering">收集資料</x:String>
+    <x:String x:Key="TipsCloudRoutinePacking">打包資料</x:String>
+    <x:String x:Key="TipsCloudRoutinePrepareRequest">準備請求</x:String>
+    <x:String x:Key="TipsCloudRoutineRequesting">請求中</x:String>
+    <x:String x:Key="TipsCloudRoutineSending">傳送資料</x:String>
+    <x:String x:Key="TipsCloudRoutineReceiving">接收資料</x:String>
+    <x:String x:Key="TipsCloudRoutineUnpacking">解壓縮</x:String>
+    <x:String x:Key="TipsCloudRoutineApplying">套用資料</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">0.10.0.0 版本修復了歌曲末尾被提前截斷的問題（通常少於1秒）。這是因為快取時長精度已從 秒 升級為 毫秒。</x:String>

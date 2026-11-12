@@ -59,11 +59,11 @@
     <x:String x:Key="Light">Ligero</x:String>
     <x:String x:Key="Regular">Normal</x:String>
     <x:String x:Key="Medium">Medio</x:String>
-    <x:String x:Key="SemiBold">Semi negrita</x:String>
+    <x:String x:Key="SemiBold">Seminegrita</x:String>
     <x:String x:Key="Bold">Negrita</x:String>
     <x:String x:Key="UltraBold">Ultra negrita</x:String>
     <x:String x:Key="Heavy">Pesado</x:String>
-    <x:String x:Key="LineMargin">Interlineado</x:String>
+    <x:String x:Key="LineSpacing">Interlineado</x:String>
     <x:String x:Key="Edit">Editar</x:String>
     <x:String x:Key="TrackId">ID de pista</x:String>
     <x:String x:Key="Path">Ruta</x:String>
@@ -111,7 +111,7 @@
     <x:String x:Key="Base64">Base64</x:String>
     <x:String x:Key="CreateDate">Creado el {0}</x:String>
     <x:String x:Key="ModifyDate">Modificado el {0}</x:String>
-    <x:String x:Key="AddToPlaylistTime">Hora de adición a la lista</x:String>
+    <x:String x:Key="AddToPlaylistTime">Fecha de adición a la lista</x:String>
 
     <!--  EQ  -->
     <x:String x:Key="Flat">Plano</x:String>
@@ -133,7 +133,7 @@
     <x:String x:Key="VocalBoostFemale">Refuerzo vocal (Femenino)</x:String>
 
     <!--  Reverb  -->
-    <x:String x:Key="SoftRoom">Sala suave</x:String>
+    <x:String x:Key="SoftRoom">Sala acolchada</x:String>
     <x:String x:Key="Room">Habitación</x:String>
     <x:String x:Key="LivingRoom">Sala de estar</x:String>
     <x:String x:Key="Bathroom">Baño</x:String>
@@ -179,6 +179,7 @@
     <x:String x:Key="StatArtistPage">Ranking de artistas</x:String>
     <x:String x:Key="ImageCornerSettingPage">Redondeo de imágenes</x:String>
     <x:String x:Key="LyricSettingPage">Letras</x:String>
+    <x:String x:Key="CloudSettingPage">Sincronización y restauración</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Info de pista</x:String>
@@ -285,6 +286,7 @@
     <x:String x:Key="LyricSettingDesc">Fuentes de letras, APIs de red</x:String>
     <x:String x:Key="EffectSettingDesc">Fundido, Replay Gain, Ecualizador, Reverberación</x:String>
     <x:String x:Key="PlayControlSettingDesc">Reproducción automática, aleatoria</x:String>
+    <x:String x:Key="CloudSettingDesc">Sincronización automática, número máximo de archivos, restauración automática</x:String>
     <x:String x:Key="AdvancedSettingDesc">Recolección de basura</x:String>
     <x:String x:Key="AboutSettingDesc">Versión, reportar errores, caché de logs</x:String>
     <x:String x:Key="LibraryExcludeBelowDurationTracks">Excluir pistas por debajo de la duración establecida</x:String>
@@ -320,7 +322,7 @@
     <x:String x:Key="WindowsRenderWglDesc">Renderizado GPU mediante OpenGL nativo</x:String>
     <x:String x:Key="WindowsRenderVulkan">Vulkan</x:String>
     <x:String x:Key="WindowsRenderVulkanDesc">Renderizado GPU mediante Vulkan nativo</x:String>
-    <x:String x:Key="WindowsRenderSoftware">Software</x:String>
+    <x:String x:Key="WindowsRenderSoftware">Renderizado por software</x:String>
     <x:String x:Key="WindowsRenderSoftwareDesc">Renderizado por CPU, rendimiento puede ser menor</x:String>
     <x:String x:Key="CustomFont">Fuente personalizada</x:String>
     <x:String x:Key="CustomFontDesc">Las fuentes recién instaladas pueden no aparecer, reinicie la app</x:String>
@@ -363,8 +365,6 @@
     <x:String x:Key="OverlayDarkOpacity">Opacidad de superposición (oscuro)</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">La superposición mejora la legibilidad en tema claro. Valores muy bajos dificultan la lectura</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">Oscurece fondos claros en tema oscuro y aclara fondos oscuros en tema claro</x:String>
-    <x:String x:Key="JumpBarOverlayLightOpacity">Opacidad de superposición de barra de salto para tema claro</x:String>
-    <x:String x:Key="JumpBarOverlayDarkOpacity">Opacidad de superposición de barra de salto para tema oscuro</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">Mostrar artistas colaboradores en la lista</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">Si se activa, los artistas colaboradores aparecen en la lista de artistas</x:String>
     <x:String x:Key="FolderHierachyView">Vista jerárquica de carpetas</x:String>
@@ -375,12 +375,12 @@
     <x:String x:Key="TranslationContributors">Contribuidores de traducción</x:String>
     <x:String x:Key="TranslationContributorsDesc">Ver la lista de contribuidores que ayudaron a mejorar las traducciones</x:String>
     <x:String x:Key="HelpImproveTranslation">Ayudar a mejorar la traducción</x:String>
-    <x:String x:Key="HelpImproveTranslationDesc">¿Se encontró un problema de traducción? Enviar un PR</x:String>
+    <x:String x:Key="HelpImproveTranslationDesc">¿Encontró un problema de traducción? Envíe un PR</x:String>
     <x:String x:Key="EffectFading">Fundido</x:String>
     <x:String x:Key="EffectFadingInTime">Tiempo de fundido de entrada</x:String>
     <x:String x:Key="EffectFadingOutTime">Tiempo de fundido de salida</x:String>
     <x:String x:Key="EffectFadingPlayPause">Reproducir / Pausar</x:String>
-    <x:String x:Key="EffectFadingSeek">Saltar</x:String>
+    <x:String x:Key="EffectFadingSeek">Desplazamiento</x:String>
     <x:String x:Key="EffectFadingManualTrackChange">Cambio manual de pista</x:String>
     <x:String x:Key="EffectFadingNaturalSwitch">Transición natural</x:String>
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
@@ -426,7 +426,24 @@
     <x:String x:Key="ShuffleByArtistDesc">Agrupar por artista y mezclar los grupos. Ordenado por álbum, disco y pista</x:String>
     <x:String x:Key="ShuffleByFolder">Aleatorio por carpeta</x:String>
     <x:String x:Key="ShuffleByFolderDesc">Agrupar por carpeta y mezclar los grupos</x:String>
-    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">Ejecutar GC al cambiar de página</x:String>
+    <x:String x:Key="CloudSync">Sincronizar</x:String>
+    <x:String x:Key="CloudSyncNow">Sincronizar ahora</x:String>
+    <x:String x:Key="CloudSyncAutoInterval">Intervalo de sincronización automática</x:String>
+    <x:String x:Key="CloudSyncAutoIntervalDesc">Establezca 0 minutos para desactivar la sincronización automática</x:String>
+    <x:String x:Key="CloudSyncMaxFileNum">Número máximo de archivos</x:String>
+    <x:String x:Key="CloudSyncMaxFileNumDesc">Número máximo de archivos que se conservan en la nube; los archivos más antiguos se eliminarán automáticamente cuando se supere el límite&#xA;Al establecerlo en 0, no se limita el número de archivos que se conservan en la nube</x:String>
+    <x:String x:Key="CloudSyncAllowInMeteredNetwork">Permitir la sincronización en redes de uso medido</x:String>
+    <x:String x:Key="CloudSyncAllowInMeteredNetworkDesc">Si se desactiva, la sincronización automática no se realizará en redes de uso medido</x:String>
+    <x:String x:Key="CloudSyncLastTime">Última sincronización</x:String>
+    <x:String x:Key="CloudRestore">Restaurar</x:String>
+    <x:String x:Key="CloudRestoreLastTime">Última restauración</x:String>
+    <x:String x:Key="CloudFilesFrom">Archivos de {0}</x:String>
+    <x:String x:Key="CloudFiles">Lista de archivos</x:String>
+    <x:String x:Key="CloudFilesDesc">Consulte los archivos de nube, o descargue archivos de la nube y restáurelos localmente</x:String>
+    <x:String x:Key="CloudFileNum">{0} archivo(s)</x:String>
+    <x:String x:Key="CloudFileDesc">Álbumes: {0} / Artistas: {1} / Listas: {2} / Favoritos: {3} / Cola de reproducción: {4} / Reproducciones recientes: {5} / Tiempo total de reproducción: {6} / Pistas reproducidas: {7} / Ajustes: {8} / Configuración de ecualizador: {9} / Configuración de reverberación: {10}</x:String>
+    <x:String x:Key="CloudFileNameCheckAvailable">Verificar disponibilidad</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">Ejecutar GC al cambiar de página&#xA;Al establecerlo en 0, no se limita el número de archivos que se conservan en la nube</x:String>
     <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">Al activarlo, ejecuta la recolección de basura al cambiar de página para liberar memoria&#xA;Dado que el GC pausa los hilos, desactive esta opción si experimenta tartamudeo en la reproducción</x:String>
     <x:String x:Key="AdvancedForceGC">Forzar recolección de basura</x:String>
     <x:String x:Key="AdvancedForceGCDesc">Esta operación puede afectar significativamente el rendimiento de la aplicación. Recomendado solo con alto uso de memoria</x:String>
@@ -468,6 +485,11 @@
     <x:String x:Key="MiniWindowOverlayOpacity">Opacidad de superposición</x:String>
     <x:String x:Key="MiniWindowOverlayOpacityDesc">Para mejorar la legibilidad del texto</x:String>
     <x:String x:Key="MiniWindowShowInTaskbar">Mostrar en barra de tareas</x:String>
+    <x:String x:Key="SleepTimer">Temporizador de apagado</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEnd">Ampliar el temporizador hasta que termine la pista actual</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEndDesc">Al activarse la ampliación, aparecerá el signo «+» antes de la cuenta atrás, por ejemplo: +01:50&#xA;Si el temporizador ya está ampliado, cambiar de pista lo ampliará automáticamente hasta que termine esa pista</x:String>
+    <x:String x:Key="SleepTimerStart">Iniciar temporizador</x:String>
+    <x:String x:Key="SleepTimerStop">Detener temporizador</x:String>
 
     <!--  Dialog  -->
     <x:String x:Key="WallpaperEditTitle">Editar fondo de pantalla</x:String>
@@ -495,11 +517,6 @@
     <x:String x:Key="TrackEditTitle">Editar metadatos de pista</x:String>
     <x:String x:Key="AlbumEditTitle">Editar metadatos del álbum</x:String>
     <x:String x:Key="NoticeTitle">📢 Cambios importantes</x:String>
-    <x:String x:Key="SleepTimerTitle">Temporizador de apagado</x:String>
-    <x:String x:Key="SleepTimerExtendToTrackEnd">Ampliar el temporizador hasta que termine la pista actual</x:String>
-    <x:String x:Key="SleepTimerExtendToTrackEndDesc">Al activarse la ampliación, aparecerá el signo «+» antes de la cuenta atrás, por ejemplo: +01:50&#xA;Si el temporizador ya está ampliado, cambiar de pista lo ampliará automáticamente hasta que termine esa pista</x:String>
-    <x:String x:Key="SleepTimerStart">Iniciar temporizador</x:String>
-    <x:String x:Key="SleepTimerStop">Detener temporizador</x:String>
     <x:String x:Key="TaskDialogTitle">Tareas</x:String>
     <x:String x:Key="PlayingQueueDialogTitle">Cola de reproducción</x:String>
     <x:String x:Key="ViewArtistsTitle">Ver artistas</x:String>
@@ -514,14 +531,14 @@
     <x:String x:Key="Pause">Pausa</x:String>
     <x:String x:Key="PreTrack">Pista anterior</x:String>
     <x:String x:Key="NextTrack">Pista siguiente</x:String>
-    <x:String x:Key="DesktopLyricOn">Letras de escritorio activadas</x:String>
-    <x:String x:Key="DesktopLyricOff">Letras de escritorio desactivadas</x:String>
 
     <!--  Lyric  -->
+    <x:String x:Key="DesktopLyric">Letras en el escritorio</x:String>
+    <x:String x:Key="DesktopLyricOn">Letras de escritorio activadas</x:String>
+    <x:String x:Key="DesktopLyricOff">Letras de escritorio desactivadas</x:String>
     <x:String x:Key="Lyric">Letras</x:String>
     <x:String x:Key="LyricLoading">Cargando letras...</x:String>
     <x:String x:Key="LyricNone">Sin letras</x:String>
-    <x:String x:Key="DesktopLyric">Letras en el escritorio</x:String>
     <x:String x:Key="LyricEmbedded">Incrustado</x:String>
     <x:String x:Key="LyricFile">Archivo</x:String>
     <x:String x:Key="LyricNetwork">Red</x:String>
@@ -642,14 +659,24 @@
     <x:String x:Key="ToastLyricApiFillNameFirst">Primero debe escribir el nombre de la API</x:String>
     <x:String x:Key="ToastLyricApiAddFail">No se pudo agregar la API de letras</x:String>
     <x:String x:Key="ToastLyricApiCopyVarNameSucc">Nombre de variable copiado</x:String>
+    <x:String x:Key="ToastCloudSyncFail">Error al sincronizar los datos con {0}, código de error: {0}</x:String>
+    <x:String x:Key="ToastCloudSyncSucc">Datos sincronizados con {0}</x:String>
+    <x:String x:Key="ToastCloudRestoreFail">Error al restaurar los datos, código de error: {0}</x:String>
+    <x:String x:Key="ToastCloudRestoreSucc">Datos restaurados localmente</x:String>
+    <x:String x:Key="ToastCloudFileDeleteSucc">Archivo de nube eliminado</x:String>
+    <x:String x:Key="ToastCloudFileDeleteFail">No se pudo eliminar el archivo de nube, código de error: {0}</x:String>
+    <x:String x:Key="ToastCloudFileListFetchFail">Error al obtener la lista de archivos de nube, código de error: {0}</x:String>
+    <x:String x:Key="ToastCloudSyncCanceled">Operación de sincronización cancelada</x:String>
+    <x:String x:Key="ToastCloudRestoreCanceled">Operación de restauración cancelada</x:String>
+    <x:String x:Key="ToastCloudDeleteCanceled">Operación de eliminación cancelada</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">Inicializando...</x:String>
     <x:String x:Key="TipsEnablePlugins">Activando plugins</x:String>
     <x:String x:Key="TipsScanStage">Escaneando pistas {0}</x:String>
     <x:String x:Key="TipsParseStage">Analizando pistas {0}/{1}</x:String>
-    <x:String x:Key="TipsAlbumStage">Analizando {0} grupos de álbumes: Álbum {1} / Artista {2}</x:String>
-    <x:String x:Key="TipsDoneStage">Se actualizaron {0} pistas, {1} álbumes y {2} artistas</x:String>
+    <x:String x:Key="TipsAlbumStage">Analizando {0} grupo(s) de álbumes: Álbum {1} / Artista {2}</x:String>
+    <x:String x:Key="TipsDoneStage">Se actualizaron {0} pista(s), {1} álbum(es) y {2} artista(s)</x:String>
     <x:String x:Key="TipsFailStage">Error de escaneo, vea el log</x:String>
     <x:String x:Key="TipsTrackEmpty0">Sin pistas. Arrastre archivos o carpetas aquí para escanear</x:String>
     <x:String x:Key="TipsTrackEmpty1">O vaya a</x:String>
@@ -673,9 +700,9 @@
     <x:String x:Key="TipsWallpaper">Un fondo personalizado puede reducir la legibilidad.&#xA;Ajuste la opacidad o cambie de tema.</x:String>
     <x:String x:Key="TipsCueTrackEdit">Pista de archivo CUE, los metadatos no se pueden modificar. Edite el archivo CUE directamente.</x:String>
     <x:String x:Key="TipsCueAlbumEdit">Álbum con pistas CUE, los metadatos no se pueden modificar. Edite el archivo CUE directamente.</x:String>
-    <x:String x:Key="TipsEffectNameInput">Introduce un nuevo nombre</x:String>
-    <x:String x:Key="LyricSourceDragSortTips">Arrastra para ajustar el orden de búsqueda</x:String>
-    <x:String x:Key="LyricApiDragSortTips">Arrastra para ajustar el orden de llamada</x:String>
+    <x:String x:Key="TipsEffectNameInput">Introduzca un nuevo nombre</x:String>
+    <x:String x:Key="TipsLyricSourceDragSort">Arrastre para ajustar el orden de búsqueda</x:String>
+    <x:String x:Key="TipsLyricApiDragSort">Arrastre para ajustar el orden de llamada</x:String>
     <x:String x:Key="TipsLyricApiNameEmpty">El nombre de la API no puede estar vacío</x:String>
     <x:String x:Key="TipsLyricApiNameExists">El nombre de la API ya existe</x:String>
     <x:String x:Key="TipsLyricApiUrlEmpty">La URL está vacía</x:String>
@@ -683,6 +710,18 @@
     <x:String x:Key="TipsLyricApiExtractVarsEmpty">La lista de variables a extraer no puede estar vacía</x:String>
     <x:String x:Key="TipsLyricSearching">Buscando...</x:String>
     <x:String x:Key="TipsLyricApiRequestParams">Variables disponibles (haz clic para copiar):</x:String>
+    <x:String x:Key="TipsCloudFileSyncInput">Introduzca el nombre del archivo</x:String>
+    <x:String x:Key="TipsCloudFileNameExists">Ya existe un archivo con el mismo nombre en la nube; se sobrescribirá</x:String>
+    <x:String x:Key="TipsCloudFileNameAvailable">Nombre de archivo disponible</x:String>
+    <x:String x:Key="TipsCloudFileNameCheckError">Error al comprobar, código de error: {0}</x:String>
+    <x:String x:Key="TipsCloudRoutineGathering">Recopilando datos</x:String>
+    <x:String x:Key="TipsCloudRoutinePacking">Empaquetando datos</x:String>
+    <x:String x:Key="TipsCloudRoutinePrepareRequest">Preparando la solicitud</x:String>
+    <x:String x:Key="TipsCloudRoutineRequesting">Solicitando</x:String>
+    <x:String x:Key="TipsCloudRoutineSending">Enviando datos</x:String>
+    <x:String x:Key="TipsCloudRoutineReceiving">Recibiendo datos</x:String>
+    <x:String x:Key="TipsCloudRoutineUnpacking">Descomprimiendo</x:String>
+    <x:String x:Key="TipsCloudRoutineApplying">Aplicando datos</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">La versión 0.10.0.0 corrige el problema de truncamiento prematuro al final de las pistas (generalmente menos de 1 segundo). La precisión de la duración en caché se ha actualizado de segundos a milisegundos.</x:String>

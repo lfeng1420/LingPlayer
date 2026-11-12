@@ -63,7 +63,7 @@
     <x:String x:Key="Bold">Bold</x:String>
     <x:String x:Key="UltraBold">Ultra Bold</x:String>
     <x:String x:Key="Heavy">Heavy</x:String>
-    <x:String x:Key="LineMargin">Line margin</x:String>
+    <x:String x:Key="LineSpacing">Line spacing</x:String>
     <x:String x:Key="Edit">Edit</x:String>
     <x:String x:Key="TrackId">Track ID</x:String>
     <x:String x:Key="Path">Path</x:String>
@@ -179,6 +179,7 @@
     <x:String x:Key="StatArtistPage">Artist Ranking</x:String>
     <x:String x:Key="ImageCornerSettingPage">Image Corner Strength</x:String>
     <x:String x:Key="LyricSettingPage">Lyrics</x:String>
+    <x:String x:Key="CloudSettingPage">Sync &amp; Restore</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Track info</x:String>
@@ -204,7 +205,7 @@
     <x:String x:Key="AlbumIntroEmpty">No introduction available.</x:String>
     <x:String x:Key="AlbumYear">Year</x:String>
     <x:String x:Key="AlbumArtists">Album artists</x:String>
-    <x:String x:Key="AlbumPerformers">Collaboration artists</x:String>
+    <x:String x:Key="AlbumPerformers">Collaborating artists</x:String>
     <x:String x:Key="AlbumDiscNumber">CD {0}</x:String>
     <x:String x:Key="AlbumUseFirstTrackThumbnail">Use the cover of the first track as the album cover</x:String>
     <x:String x:Key="AlbumReplaceAllTarcksThumbnail">Replace the cover of all tracks in the album with the album cover</x:String>
@@ -285,6 +286,7 @@
     <x:String x:Key="LyricSettingDesc">Lyrics sources, network APIs</x:String>
     <x:String x:Key="EffectSettingDesc">Fade in/out, Replay Gain, Equalizer, Reverb</x:String>
     <x:String x:Key="PlayControlSettingDesc">Auto-play, Shuffle play</x:String>
+    <x:String x:Key="CloudSettingDesc">Auto sync, max file count, auto restore</x:String>
     <x:String x:Key="AdvancedSettingDesc">Garbage collection</x:String>
     <x:String x:Key="AboutSettingDesc">Version info, Bug report, Log cache</x:String>
     <x:String x:Key="LibraryExcludeBelowDurationTracks">Exclude tracks below the set duration</x:String>
@@ -363,8 +365,6 @@
     <x:String x:Key="OverlayDarkOpacity">Overlay opacity for dark theme</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">Overlay layer is used to enhance text readability in light theme, setting the value too low may make the text difficult to read</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">Overlay layer is used to dim overly bright backgrounds in dark themes and brighten overly dark backgrounds in light themes, thereby improving text readability</x:String>
-    <x:String x:Key="JumpBarOverlayLightOpacity">Jump bar overlay opacity for light theme</x:String>
-    <x:String x:Key="JumpBarOverlayDarkOpacity">Jump bar overlay opacity for dark theme</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">Show collaborating artists on artist page</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">When enabled, artists credited on tracks will also appear in the artist list</x:String>
     <x:String x:Key="FolderHierachyView">Folder hierarchical view</x:String>
@@ -426,7 +426,24 @@
     <x:String x:Key="ShuffleByArtistDesc">Group the tracks in the play queue by artist first, and then shuffle play each group. Within the same group, tracks are sorted by album name, disc number, and track number</x:String>
     <x:String x:Key="ShuffleByFolder">Shuffle by folder</x:String>
     <x:String x:Key="ShuffleByFolderDesc">Group the tracks in the play queue by folder first, and then shuffle play each group</x:String>
-    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">Trigger GC after switching pages</x:String>
+    <x:String x:Key="CloudSync">Sync</x:String>
+    <x:String x:Key="CloudSyncNow">Sync now</x:String>
+    <x:String x:Key="CloudSyncAutoInterval">Auto sync interval</x:String>
+    <x:String x:Key="CloudSyncAutoIntervalDesc">Set to 0 minutes to disable auto sync</x:String>
+    <x:String x:Key="CloudSyncMaxFileNum">Max file count</x:String>
+    <x:String x:Key="CloudSyncMaxFileNumDesc">Maximum number of files kept in the cloud; the oldest files will be automatically deleted when the limit is exceeded&#xA;When set to 0, no limit is placed on the number of files kept in the cloud</x:String>
+    <x:String x:Key="CloudSyncAllowInMeteredNetwork">Allow sync over metered network</x:String>
+    <x:String x:Key="CloudSyncAllowInMeteredNetworkDesc">When disabled, auto sync will not run over metered networks</x:String>
+    <x:String x:Key="CloudSyncLastTime">Last sync time</x:String>
+    <x:String x:Key="CloudRestore">Restore</x:String>
+    <x:String x:Key="CloudRestoreLastTime">Last restore time</x:String>
+    <x:String x:Key="CloudFilesFrom">Files from {0}</x:String>
+    <x:String x:Key="CloudFiles">File list</x:String>
+    <x:String x:Key="CloudFilesDesc">View cloud files, or download files from the cloud and restore them locally</x:String>
+    <x:String x:Key="CloudFileNum">{0} file(s)</x:String>
+    <x:String x:Key="CloudFileDesc">Album {0} / Artist {1} / Playlist {2} / Favorites {3} / Play queue {4} / Recent plays {5} / Total play time {6} / Total tracks played {7} / Settings {8} / EQ config {9} / Reverb config {10}</x:String>
+    <x:String x:Key="CloudFileNameCheckAvailable">Check availability</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">Trigger GC after switching pages&#xA;When set to 0, no limit is placed on the number of files kept in the cloud</x:String>
     <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">When enabled, triggers garbage collection after switching pages to free memory&#xA;Since GC pauses threads, disable this option if playback stuttering occurs</x:String>
     <x:String x:Key="AdvancedForceGC">Force garbage collection</x:String>
     <x:String x:Key="AdvancedForceGCDesc">This operation may significantly impact application performance, recommended only when memory usage is high</x:String>
@@ -468,21 +485,26 @@
     <x:String x:Key="MiniWindowOverlayOpacity">Overlay opacity</x:String>
     <x:String x:Key="MiniWindowOverlayOpacityDesc">Used to enhance the readability of text</x:String>
     <x:String x:Key="MiniWindowShowInTaskbar">Show in taskbar</x:String>
+    <x:String x:Key="SleepTimer">Sleep timer</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEnd">Extend the timer until the current track finishes playing</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEndDesc">After the extension takes effect, a "+" sign will appear before the countdown, e.g.: +01:50&#xA;If the timer is already extended, switching tracks will automatically extend it again until that track finishes</x:String>
+    <x:String x:Key="SleepTimerStart">Start timer</x:String>
+    <x:String x:Key="SleepTimerStop">Stop timer</x:String>
 
     <!--  Dialog  -->
     <x:String x:Key="WallpaperEditTitle">Wallpaper edit</x:String>
     <x:String x:Key="WallpaperInvalid">Invalid image</x:String>
-    <x:String x:Key="OpenFolderDialogTitle">Pick one folder</x:String>
-    <x:String x:Key="OpenFileDialogTitle">Pick one file</x:String>
+    <x:String x:Key="OpenFolderDialogTitle">Select a folder</x:String>
+    <x:String x:Key="OpenFileDialogTitle">Select a file</x:String>
     <x:String x:Key="OpenSaveFileDialogTitle">Select file save location</x:String>
     <x:String x:Key="FolderExcludeConfirmTitle">Add folder to exclude list</x:String>
-    <x:String x:Key="FolderExcludeConfirmContent">Add the following folder(s) to the exclude list? After exclusion, tracks in this folder or its subfolders will be removed from the collection. This action will not delete any files from the device.&#xA;{0}</x:String>
+    <x:String x:Key="FolderExcludeConfirmContent">Add the following folder(s) to the exclude list? After exclusion, tracks in this folder or its subfolders will be removed from the library. This action will not delete any files from the device.&#xA;{0}</x:String>
     <x:String x:Key="PlaylistDeleteTitle">Delete playlist</x:String>
     <x:String x:Key="PlaylistDeleteContent">Delete these playlists? This action will permanently delete these playlists and cannot be recovered.&#xA;{0}</x:String>
     <x:String x:Key="PlaylistTrackRemoveTitle">Remove track from playlist</x:String>
-    <x:String x:Key="PlaylistTrackRemoveContent">Remove track {1} from playlist {0}? This action will not delete the track file from local storage.</x:String>
+    <x:String x:Key="PlaylistTrackRemoveContent">Remove track {1} from playlist {0}?</x:String>
     <x:String x:Key="PlaylistTracksRemoveTitle">Remove multiple tracks from playlist</x:String>
-    <x:String x:Key="PlaylistTracksRemoveContent">Remove the selected track(s) from playlist {0}? This action will not delete the track file from local storage.</x:String>
+    <x:String x:Key="PlaylistTracksRemoveContent">Remove the selected track(s) from playlist {0}?</x:String>
     <x:String x:Key="TrackRemoveTitle">Remove track</x:String>
     <x:String x:Key="TrackRemoveContent">Remove track {0}? This action will not delete the track file from local storage.</x:String>
     <x:String x:Key="TracksRemoveTitle">Remove multiple tracks</x:String>
@@ -495,11 +517,6 @@
     <x:String x:Key="TrackEditTitle">Edit track metadata</x:String>
     <x:String x:Key="AlbumEditTitle">Edit album metadata</x:String>
     <x:String x:Key="NoticeTitle">📢 Breaking changes</x:String>
-    <x:String x:Key="SleepTimerTitle">Sleep timer</x:String>
-    <x:String x:Key="SleepTimerExtendToTrackEnd">Extend the timer until the current track finishes playing</x:String>
-    <x:String x:Key="SleepTimerExtendToTrackEndDesc">After the extension takes effect, a "+" sign will appear before the countdown, e.g.: +01:50&#xA;If the timer is already extended, switching tracks will automatically extend it again until that track finishes</x:String>
-    <x:String x:Key="SleepTimerStart">Start timer</x:String>
-    <x:String x:Key="SleepTimerStop">Stop timer</x:String>
     <x:String x:Key="TaskDialogTitle">Tasks</x:String>
     <x:String x:Key="PlayingQueueDialogTitle">Playing Queue</x:String>
     <x:String x:Key="ViewArtistsTitle">View artists</x:String>
@@ -514,14 +531,14 @@
     <x:String x:Key="Pause">Pause</x:String>
     <x:String x:Key="PreTrack">Previous track</x:String>
     <x:String x:Key="NextTrack">Next track</x:String>
-    <x:String x:Key="DesktopLyricOn">Desktop lyrics enabled</x:String>
-    <x:String x:Key="DesktopLyricOff">Desktop lyrics disabled</x:String>
 
     <!--  Lyric  -->
+    <x:String x:Key="DesktopLyric">Desktop lyrics</x:String>
+    <x:String x:Key="DesktopLyricOn">Desktop lyrics enabled</x:String>
+    <x:String x:Key="DesktopLyricOff">Desktop lyrics disabled</x:String>
     <x:String x:Key="Lyric">Lyrics</x:String>
     <x:String x:Key="LyricLoading">Loading lyrics...</x:String>
     <x:String x:Key="LyricNone">No lyrics</x:String>
-    <x:String x:Key="DesktopLyric">Desktop lyrics</x:String>
     <x:String x:Key="LyricEmbedded">Embedded</x:String>
     <x:String x:Key="LyricFile">File</x:String>
     <x:String x:Key="LyricNetwork">Network</x:String>
@@ -614,7 +631,7 @@
     <x:String x:Key="ToastTracksReplaceToQueue">Queue has been replaced, current {0} track(s)</x:String>
     <x:String x:Key="ToastTrackAddToPlaylist">Added {0} to playlist {1}</x:String>
     <x:String x:Key="ToastTracksAddToPlaylist">Added {0} track(s) to playlist {1}</x:String>
-    <x:String x:Key="ToastTracksAddToPlaylists">Added {0} track(s) to {1} playlists</x:String>
+    <x:String x:Key="ToastTracksAddToPlaylists">Added {0} track(s) to {1} playlist(s)</x:String>
     <x:String x:Key="ToastTrackAddToPlaylistFail">Failed to add track to playlist</x:String>
     <x:String x:Key="ToastTrackRemove">Removed {0} track(s)</x:String>
     <x:String x:Key="ToastPluginEnableFail">Failed to enable plugin {0}, please check the log file for more information</x:String>
@@ -623,7 +640,7 @@
     <x:String x:Key="ToastOperationCanceled">Operation canceled</x:String>
     <x:String x:Key="ToastShuffleFailed">{0} mode: shuffle failed</x:String>
     <x:String x:Key="ToastOpenFolderFail">Failed to open folder {0}, please check the log file for more information</x:String>
-    <x:String x:Key="ToastOneDriveLoginFail">Failed to login to OneDrive</x:String>
+    <x:String x:Key="ToastOneDriveLoginFail">Failed to log in to OneDrive</x:String>
     <x:String x:Key="ToastOneDriveLoginSucc">Successfully logged in to OneDrive</x:String>
     <x:String x:Key="ToastOneDriveLogout">OneDrive account {0} logged out successfully</x:String>
     <x:String x:Key="ToastOneDriveNoAccount">Not signed in to OneDrive</x:String>
@@ -642,14 +659,24 @@
     <x:String x:Key="ToastLyricApiFillNameFirst">Please fill in the API name first</x:String>
     <x:String x:Key="ToastLyricApiAddFail">Failed to add lyric API</x:String>
     <x:String x:Key="ToastLyricApiCopyVarNameSucc">Variable name copied</x:String>
+    <x:String x:Key="ToastCloudSyncFail">Failed to sync data to {0}, error code: {0}</x:String>
+    <x:String x:Key="ToastCloudSyncSucc">Data synced to {0}</x:String>
+    <x:String x:Key="ToastCloudRestoreFail">Failed to restore data, error code: {0}</x:String>
+    <x:String x:Key="ToastCloudRestoreSucc">Data restored to local</x:String>
+    <x:String x:Key="ToastCloudFileDeleteSucc">Cloud file deleted successfully</x:String>
+    <x:String x:Key="ToastCloudFileDeleteFail">Failed to delete cloud file, error code: {0}</x:String>
+    <x:String x:Key="ToastCloudFileListFetchFail">Failed to fetch cloud file list, error code: {0}</x:String>
+    <x:String x:Key="ToastCloudSyncCanceled">Sync operation canceled</x:String>
+    <x:String x:Key="ToastCloudRestoreCanceled">Restore operation canceled</x:String>
+    <x:String x:Key="ToastCloudDeleteCanceled">Delete operation canceled</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">Initializing...</x:String>
     <x:String x:Key="TipsEnablePlugins">Enabling plugins</x:String>
     <x:String x:Key="TipsScanStage">Scanning tracks {0}</x:String>
     <x:String x:Key="TipsParseStage">Parsing tracks {0}/{1}</x:String>
-    <x:String x:Key="TipsAlbumStage">Parsing from {0} album groups: Album {1} / Artist {2}</x:String>
-    <x:String x:Key="TipsDoneStage">Updated {0} tracks, {1} albums, {2} artists</x:String>
+    <x:String x:Key="TipsAlbumStage">Parsing from {0} album group(s): Album {1} / Artist {2}</x:String>
+    <x:String x:Key="TipsDoneStage">Updated {0} track(s), {1} album(s), {2} artist(s)</x:String>
     <x:String x:Key="TipsFailStage">Scan failed, please check the log file for more information</x:String>
     <x:String x:Key="TipsTrackEmpty0">No tracks, drag and drop files or folders here to scan</x:String>
     <x:String x:Key="TipsTrackEmpty1">Or jump to</x:String>
@@ -658,24 +685,24 @@
     <x:String x:Key="TipsAndroidTrackEmpty2">to add folders</x:String>
     <x:String x:Key="TipsPlaylistTrackEmpty">No tracks, drag and drop files or folders here to add tracks</x:String>
     <x:String x:Key="TipsDragFolderOrFiles">Release to scan track files</x:String>
-    <x:String x:Key="TipsAddTracksResult">{0} tracks added</x:String>
-    <x:String x:Key="TipsAlbumIntroInput">Input album introduction</x:String>
-    <x:String x:Key="TipsArtistInput">Input artist name</x:String>
-    <x:String x:Key="TipsAlbumArtistInput">Input album artist name</x:String>
-    <x:String x:Key="TipsAlbumPerformersInput">Input collaborating artist name</x:String>
-    <x:String x:Key="TipsArtistIntroInput">Input artist introduction</x:String>
-    <x:String x:Key="TipsPlaylistNameInput">Input playlist name</x:String>
-    <x:String x:Key="TipsGenreInput">Input genre</x:String>
+    <x:String x:Key="TipsAddTracksResult">{0} track(s) added</x:String>
+    <x:String x:Key="TipsAlbumIntroInput">Enter album introduction</x:String>
+    <x:String x:Key="TipsArtistInput">Enter artist name</x:String>
+    <x:String x:Key="TipsAlbumArtistInput">Enter album artist name</x:String>
+    <x:String x:Key="TipsAlbumPerformersInput">Enter collaborating artist name</x:String>
+    <x:String x:Key="TipsArtistIntroInput">Enter artist introduction</x:String>
+    <x:String x:Key="TipsPlaylistNameInput">Enter playlist name</x:String>
+    <x:String x:Key="TipsGenreInput">Enter genre</x:String>
     <x:String x:Key="TipsSearch">Search tracks, albums, artists, playlists</x:String>
     <x:String x:Key="TipsNavMenuItem">Drag and drop menu items to adjust the display order</x:String>
-    <x:String x:Key="TipsSeparatorInput">Input separator</x:String>
-    <x:String x:Key="TipsSeparator">Delimiters are used to parse multiple artists and genres in track information.&#xA;Select a delimiter to customize how artists or genres are displayed.</x:String>
+    <x:String x:Key="TipsSeparatorInput">Enter separator</x:String>
+    <x:String x:Key="TipsSeparator">Separators are used to parse multiple artists and genres in track information.&#xA;Select a separator to customize how artists or genres are displayed.</x:String>
     <x:String x:Key="TipsWallpaper">Using a custom wallpaper may cause text to be difficult to read if the contrast between the text and the background is not strong.&#xA;Adjust the opacity or switch between light and dark themes to improve readability.</x:String>
     <x:String x:Key="TipsCueTrackEdit">This track comes from a CUE file, metadata cannot be modified. Please edit the CUE file directly.</x:String>
     <x:String x:Key="TipsCueAlbumEdit">This album contains tracks from CUE files, metadata cannot be modified. Please edit the CUE file directly.</x:String>
     <x:String x:Key="TipsEffectNameInput">Enter new name</x:String>
-    <x:String x:Key="LyricSourceDragSortTips">Drag to adjust lookup order</x:String>
-    <x:String x:Key="LyricApiDragSortTips">Drag to adjust call order</x:String>
+    <x:String x:Key="TipsLyricSourceDragSort">Drag to adjust lookup order</x:String>
+    <x:String x:Key="TipsLyricApiDragSort">Drag to adjust call order</x:String>
     <x:String x:Key="TipsLyricApiNameEmpty">API name cannot be empty</x:String>
     <x:String x:Key="TipsLyricApiNameExists">API name already exists</x:String>
     <x:String x:Key="TipsLyricApiUrlEmpty">URL is empty</x:String>
@@ -683,6 +710,18 @@
     <x:String x:Key="TipsLyricApiExtractVarsEmpty">Extract variables list cannot be empty</x:String>
     <x:String x:Key="TipsLyricSearching">Searching...</x:String>
     <x:String x:Key="TipsLyricApiRequestParams">Available variables (click to copy):</x:String>
+    <x:String x:Key="TipsCloudFileSyncInput">Enter filename</x:String>
+    <x:String x:Key="TipsCloudFileNameExists">A file with the same name already exists in the cloud; it will be overwritten</x:String>
+    <x:String x:Key="TipsCloudFileNameAvailable">Filename available</x:String>
+    <x:String x:Key="TipsCloudFileNameCheckError">Check failed, error code: {0}</x:String>
+    <x:String x:Key="TipsCloudRoutineGathering">Gathering data</x:String>
+    <x:String x:Key="TipsCloudRoutinePacking">Packing data</x:String>
+    <x:String x:Key="TipsCloudRoutinePrepareRequest">Preparing request</x:String>
+    <x:String x:Key="TipsCloudRoutineRequesting">Requesting</x:String>
+    <x:String x:Key="TipsCloudRoutineSending">Sending data</x:String>
+    <x:String x:Key="TipsCloudRoutineReceiving">Receiving data</x:String>
+    <x:String x:Key="TipsCloudRoutineUnpacking">Unpacking</x:String>
+    <x:String x:Key="TipsCloudRoutineApplying">Applying data</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">Version 0.10.0.0 fixes the issue where the end of tracks was prematurely truncated (usually less than 1 second). The cache duration precision has been upgraded from seconds to milliseconds.</x:String>
@@ -700,7 +739,7 @@
 
     <!--  Misc  -->
     <x:String x:Key="SendLogMail">Send log via email</x:String>
-    <x:String x:Key="AppLaunchFail">App launch fail</x:String>
+    <x:String x:Key="AppLaunchFail">App launch failed</x:String>
     <x:String x:Key="ServiceInitFail">Failed to initialize the {0}</x:String>
     <x:String x:Key="ClearAllEndedTasks">Clear all ended tasks</x:String>
 </ResourceDictionary>

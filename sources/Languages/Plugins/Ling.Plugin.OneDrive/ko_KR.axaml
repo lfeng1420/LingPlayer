@@ -1,0 +1,7 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.Plugin.OneDrive.Languages.ko_KR">
+    <x:String x:Key="OneDrivePluginName">OneDrive</x:String>
+    <x:String x:Key="OneDrivePluginDesc">OneDrive로 기기 간 앱 데이터 동기화</x:String>
+    <x:String x:Key="OneDriveSettingPage">OneDrive 설정</x:String>
+    <x:String x:Key="OneDriveLogin">로그인</x:String>
+    <x:String x:Key="OneDriveLogout">로그아웃</x:String>
+</ResourceDictionary>

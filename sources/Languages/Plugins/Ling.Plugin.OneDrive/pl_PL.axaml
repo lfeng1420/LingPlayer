@@ -1,0 +1,7 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.Plugin.OneDrive.Languages.pl_PL">
+    <x:String x:Key="OneDrivePluginName">OneDrive</x:String>
+    <x:String x:Key="OneDrivePluginDesc">Synchronizuj dane aplikacji między urządzeniami za pomocą OneDrive</x:String>
+    <x:String x:Key="OneDriveSettingPage">Ustawienia OneDrive</x:String>
+    <x:String x:Key="OneDriveLogin">Zaloguj się</x:String>
+    <x:String x:Key="OneDriveLogout">Wyloguj się</x:String>
+</ResourceDictionary>

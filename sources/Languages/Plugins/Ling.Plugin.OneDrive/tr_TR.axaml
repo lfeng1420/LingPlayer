@@ -1,0 +1,7 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.Plugin.OneDrive.Languages.tr_TR">
+    <x:String x:Key="OneDrivePluginName">OneDrive</x:String>
+    <x:String x:Key="OneDrivePluginDesc">OneDrive ile uygulama verilerini cihazlar arasında senkronize et</x:String>
+    <x:String x:Key="OneDriveSettingPage">OneDrive Ayarları</x:String>
+    <x:String x:Key="OneDriveLogin">Oturum aç</x:String>
+    <x:String x:Key="OneDriveLogout">Oturumu kapat</x:String>
+</ResourceDictionary>

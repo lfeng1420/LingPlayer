@@ -1,7 +1,7 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.Plugin.Steam.Languages.ko_KR">
     <x:String x:Key="SteamPluginName">Steam</x:String>
     <x:String x:Key="SteamPluginDesc">Steam 리치 프레즌스, 통계 및 도전 과제 통합</x:String>
-    <x:String x:Key="SteamSettingPage">Steam 플러그인 설정</x:String>
+    <x:String x:Key="SteamSettingPage">Steam 설정</x:String>
     <x:String x:Key="SteamRichPresenceFormat">리치 프레즌스 형식</x:String>
     <x:String x:Key="SteamRichPresenceFormatDesc">친구 목록에 표시되는 리치 프레즌스 형식 설정</x:String>
     <x:String x:Key="TipsSteamRichPresenceFormat">형식 문자열을 입력하세요. 트랙 재생 시 자리 표시자가 자동으로 해당 정보로 대체됩니다</x:String>

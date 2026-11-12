@@ -54,7 +54,7 @@
     <x:String x:Key="Left">Sol</x:String>
     <x:String x:Key="Center">Orta</x:String>
     <x:String x:Key="Right">Sağ</x:String>
-    <x:String x:Key="Thin">Çok ince</x:String>
+    <x:String x:Key="Thin">En ince</x:String>
     <x:String x:Key="UltraLight">Ultra ince</x:String>
     <x:String x:Key="Light">İnce</x:String>
     <x:String x:Key="Regular">Normal</x:String>
@@ -63,7 +63,7 @@
     <x:String x:Key="Bold">Kalın</x:String>
     <x:String x:Key="UltraBold">Ultra kalın</x:String>
     <x:String x:Key="Heavy">Ağır</x:String>
-    <x:String x:Key="LineMargin">Satır aralığı</x:String>
+    <x:String x:Key="LineSpacing">Satır aralığı</x:String>
     <x:String x:Key="Edit">Düzenle</x:String>
     <x:String x:Key="TrackId">Parça ID</x:String>
     <x:String x:Key="Path">Yol</x:String>
@@ -179,6 +179,7 @@
     <x:String x:Key="StatArtistPage">Sanatçı Sıralaması</x:String>
     <x:String x:Key="ImageCornerSettingPage">Resim köşe yuvarlaklığı</x:String>
     <x:String x:Key="LyricSettingPage">Şarkı sözleri</x:String>
+    <x:String x:Key="CloudSettingPage">Senkronizasyon ve Geri Yükleme</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Parça bilgisi</x:String>
@@ -198,7 +199,7 @@
     <x:String x:Key="TrackPlaylistInfo">Çalma listesi: {0}</x:String>
 
     <!--  Album  -->
-    <x:String x:Key="AlbumNumDesc">{0} albüm(ler)</x:String>
+    <x:String x:Key="AlbumNumDesc">{0} albüm</x:String>
     <x:String x:Key="AlbumUnknown">Bilinmeyen albüm</x:String>
     <x:String x:Key="AlbumIntro">Albüm hakkında</x:String>
     <x:String x:Key="AlbumIntroEmpty">Açıklama yok.</x:String>
@@ -283,8 +284,9 @@
     <x:String x:Key="NavMenuSettingDesc">Görünürlük, sıralama, varsayılan sayfa</x:String>
     <x:String x:Key="LangSettingDesc">Sistem dili, dil değiştirme</x:String>
     <x:String x:Key="LyricSettingDesc">Söz kaynakları, ağ API'leri</x:String>
-    <x:String x:Key="EffectSettingDesc">Geçiş, Replay Gain, Ekolayzır, Yankı</x:String>
+    <x:String x:Key="EffectSettingDesc">Geçiş, Replay Gain, Ekolayzer, Yankı</x:String>
     <x:String x:Key="PlayControlSettingDesc">Otomatik oynatma, karışık oynatma</x:String>
+    <x:String x:Key="CloudSettingDesc">Otomatik senkronizasyon, maksimum dosya sayısı, otomatik geri yükleme</x:String>
     <x:String x:Key="AdvancedSettingDesc">Çöp toplama</x:String>
     <x:String x:Key="AboutSettingDesc">Sürüm, hata bildirimi, günlük önbelleği</x:String>
     <x:String x:Key="LibraryExcludeBelowDurationTracks">Ayarlanan sürenin altındaki parçaları hariç tut</x:String>
@@ -336,7 +338,7 @@
     <x:String x:Key="TaskbarTitle">Görev çubuğunda geçerli parçayı göster</x:String>
     <x:String x:Key="TaskbarTitleDesc">Varsayılan biçim: Başlık - Sanatçı(lar)</x:String>
     <x:String x:Key="ImageCornerStrength">Resim köşe yuvarlaklığı</x:String>
-    <x:String x:Key="ImageCornerStrengthDesc">Kapak resimlerinin köşe yuvarlaklığını özelleştirin</x:String>
+    <x:String x:Key="ImageCornerStrengthDesc">Kapak ve sanatçı resimlerinin köşe yuvarlaklığını özelleştirin</x:String>
     <x:String x:Key="ImageCornerStrengthTips">Daha düşük = daha keskin, daha yüksek = daha yuvarlak</x:String>
     <x:String x:Key="ImageCornerStrengthSmall">Küçük resim köşe yuvarlaklığı</x:String>
     <x:String x:Key="ImageCornerStrengthSmallDesc">Parçalar, albümler (liste görünümü), oynatma kontrolleri</x:String>
@@ -363,8 +365,6 @@
     <x:String x:Key="OverlayDarkOpacity">Kaplama opaklığı (koyu)</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">Kaplama, açık temada metin okunabilirliğini artırır. Çok düşük değer metni okunmaz hale getirebilir</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">Kaplama, koyu temada aşırı parlak arka planları karartır, açık temada aşırı koyu arka planları aydınlatır</x:String>
-    <x:String x:Key="JumpBarOverlayLightOpacity">Atlama çubuğu kaplama opaklığı (açık)</x:String>
-    <x:String x:Key="JumpBarOverlayDarkOpacity">Atlama çubuğu kaplama opaklığı (koyu)</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">Konuk sanatçıları listede göster</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">Etkinleştirildiğinde, konuk sanatçılar sanatçı listesinde görünür</x:String>
     <x:String x:Key="FolderHierachyView">Klasör hiyerarşi görünümü</x:String>
@@ -376,7 +376,7 @@
     <x:String x:Key="TranslationContributorsDesc">Çevirilerin iyileştirilmesine yardımcı olan katkıda bulunanların listesini görüntüleyin</x:String>
     <x:String x:Key="HelpImproveTranslation">Çeviriyi İyileştirmeye Yardımcı Olun</x:String>
     <x:String x:Key="HelpImproveTranslationDesc">Çeviri hatası mı bulundu? PR gönderin</x:String>
-    <x:String x:Key="EffectFading">Geçiş</x:String>
+    <x:String x:Key="EffectFading">Yumuşak geçiş (fade)</x:String>
     <x:String x:Key="EffectFadingInTime">Yumuşak giriş süresi</x:String>
     <x:String x:Key="EffectFadingOutTime">Yumuşak çıkış süresi</x:String>
     <x:String x:Key="EffectFadingPlayPause">Oynat / Duraklat</x:String>
@@ -426,7 +426,24 @@
     <x:String x:Key="ShuffleByArtistDesc">Sanatçıya göre grupla ve grupları karıştır. Grup içinde albüm, disk ve parçaya göre sıralanır</x:String>
     <x:String x:Key="ShuffleByFolder">Klasöre göre karıştır</x:String>
     <x:String x:Key="ShuffleByFolderDesc">Klasöre göre grupla ve grupları karıştır</x:String>
-    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">Sayfa değiştirdikten sonra GC'yi tetikle</x:String>
+    <x:String x:Key="CloudSync">Senkronize et</x:String>
+    <x:String x:Key="CloudSyncNow">Şimdi senkronize et</x:String>
+    <x:String x:Key="CloudSyncAutoInterval">Otomatik senkronizasyon aralığı</x:String>
+    <x:String x:Key="CloudSyncAutoIntervalDesc">Otomatik senkronizasyonu devre dışı bırakmak için 0 dakika ayarlayın</x:String>
+    <x:String x:Key="CloudSyncMaxFileNum">Maksimum dosya sayısı</x:String>
+    <x:String x:Key="CloudSyncMaxFileNumDesc">Bulutta saklanacak maksimum dosya sayısı; sınır aşıldığında en eski dosyalar otomatik olarak silinir&#xA;0 olarak ayarlandığında bulutta saklanan dosya sayısı sınırlanmaz</x:String>
+    <x:String x:Key="CloudSyncAllowInMeteredNetwork">Ölçümlü ağlarda senkronizasyona izin ver</x:String>
+    <x:String x:Key="CloudSyncAllowInMeteredNetworkDesc">Devre dışı bırakıldığında, ölçümlü ağlarda otomatik senkronizasyon yapılmaz</x:String>
+    <x:String x:Key="CloudSyncLastTime">Son senkronizasyon zamanı</x:String>
+    <x:String x:Key="CloudRestore">Geri yükle</x:String>
+    <x:String x:Key="CloudRestoreLastTime">Son geri yükleme zamanı</x:String>
+    <x:String x:Key="CloudFilesFrom">{0} içindeki dosyalar</x:String>
+    <x:String x:Key="CloudFiles">Dosya listesi</x:String>
+    <x:String x:Key="CloudFilesDesc">Bulut dosyalarını görüntüleyin veya buluttan dosya indirip yerel olarak geri yükleyin</x:String>
+    <x:String x:Key="CloudFileNum">{0} dosya</x:String>
+    <x:String x:Key="CloudFileDesc">Albüm: {0} / Sanatçı: {1} / Çalma listesi: {2} / Favoriler: {3} / Oynatma kuyruğu: {4} / Son oynatılanlar: {5} / Toplam oynatma süresi: {6} / Oynatılan parça sayısı: {7} / Ayarlar: {8} / EQ ayarı: {9} / Yankı ayarı: {10}</x:String>
+    <x:String x:Key="CloudFileNameCheckAvailable">Kullanılabilirliği kontrol et</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">Sayfa değiştirdikten sonra GC'yi tetikle&#xA;0 olarak ayarlandığında bulutta saklanan dosya sayısı sınırlanmaz</x:String>
     <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">Etkinleştirildiğinde, bellek boşaltmak için sayfa değişiminden sonra çöp toplamayı tetikler&#xA;GC iş parçacıklarını duraklattığından, oynatmada takılma olması durumunda bu seçenek devre dışı bırakılmalıdır</x:String>
     <x:String x:Key="AdvancedForceGC">Çöp toplamayı zorla</x:String>
     <x:String x:Key="AdvancedForceGCDesc">Bu işlem uygulama performansını önemli ölçüde etkileyebilir. Yalnızca bellek kullanımı yüksek olduğunda önerilir</x:String>
@@ -468,6 +485,11 @@
     <x:String x:Key="MiniWindowOverlayOpacity">Kaplama opaklığı</x:String>
     <x:String x:Key="MiniWindowOverlayOpacityDesc">Metin okunabilirliğini artırmak için</x:String>
     <x:String x:Key="MiniWindowShowInTaskbar">Görev çubuğunda göster</x:String>
+    <x:String x:Key="SleepTimer">Uyku zamanlayıcısı</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEnd">Zamanlayıcıyı geçerli parça bitene kadar uzat</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEndDesc">Uzatma etkinleştiğinde geri sayımın önünde "+" işareti görünür, örn.: +01:50&#xA;Zamanlayıcı zaten uzatılmışsa, parça değiştirmek onu otomatik olarak o parça bitene kadar yeniden uzatır</x:String>
+    <x:String x:Key="SleepTimerStart">Zamanlayıcıyı başlat</x:String>
+    <x:String x:Key="SleepTimerStop">Zamanlayıcıyı durdur</x:String>
 
     <!--  Dialog  -->
     <x:String x:Key="WallpaperEditTitle">Duvar kağıdını düzenle</x:String>
@@ -476,7 +498,7 @@
     <x:String x:Key="OpenFileDialogTitle">Bir dosya seçin</x:String>
     <x:String x:Key="OpenSaveFileDialogTitle">Kayıt konumunu seçin</x:String>
     <x:String x:Key="FolderExcludeConfirmTitle">Hariç tutma listesine ekle</x:String>
-    <x:String x:Key="FolderExcludeConfirmContent">Bu klasör hariç tutma listesine eklensin mi? Parçalar kitaplıktan kaldırılacak. Dosyalar silinmez.&#xA;{0}</x:String>
+    <x:String x:Key="FolderExcludeConfirmContent">Bu klasör hariç tutma listesine eklensin mi? Bu klasördeki veya alt klasörlerindeki parçalar kitaplıktan kaldırılacak. Dosyalar silinmez.&#xA;{0}</x:String>
     <x:String x:Key="PlaylistDeleteTitle">Çalma listesini sil</x:String>
     <x:String x:Key="PlaylistDeleteContent">Bu çalma listesi kalıcı olarak silinsin mi? Bu işlem geri alınamaz.&#xA;{0}</x:String>
     <x:String x:Key="PlaylistTrackRemoveTitle">Parçayı kaldır</x:String>
@@ -495,11 +517,6 @@
     <x:String x:Key="TrackEditTitle">Parça meta verilerini düzenle</x:String>
     <x:String x:Key="AlbumEditTitle">Albüm meta verilerini düzenle</x:String>
     <x:String x:Key="NoticeTitle">📢 Önemli değişiklikler</x:String>
-    <x:String x:Key="SleepTimerTitle">Uyku zamanlayıcısı</x:String>
-    <x:String x:Key="SleepTimerExtendToTrackEnd">Zamanlayıcıyı geçerli parça bitene kadar uzat</x:String>
-    <x:String x:Key="SleepTimerExtendToTrackEndDesc">Uzatma etkinleştiğinde geri sayımın önünde "+" işareti görünür, örn.: +01:50&#xA;Zamanlayıcı zaten uzatılmışsa, parça değiştirmek onu otomatik olarak o parça bitene kadar yeniden uzatır</x:String>
-    <x:String x:Key="SleepTimerStart">Zamanlayıcıyı başlat</x:String>
-    <x:String x:Key="SleepTimerStop">Zamanlayıcıyı durdur</x:String>
     <x:String x:Key="TaskDialogTitle">Görevler</x:String>
     <x:String x:Key="PlayingQueueDialogTitle">Çalma kuyruğu</x:String>
     <x:String x:Key="ViewArtistsTitle">Sanatçıları gör</x:String>
@@ -514,14 +531,14 @@
     <x:String x:Key="Pause">Duraklat</x:String>
     <x:String x:Key="PreTrack">Önceki parça</x:String>
     <x:String x:Key="NextTrack">Sonraki parça</x:String>
-    <x:String x:Key="DesktopLyricOn">Masaüstü sözleri açık</x:String>
-    <x:String x:Key="DesktopLyricOff">Masaüstü sözleri kapalı</x:String>
 
     <!--  Lyric  -->
+    <x:String x:Key="DesktopLyric">Masaüstü sözleri</x:String>
+    <x:String x:Key="DesktopLyricOn">Masaüstü sözleri açık</x:String>
+    <x:String x:Key="DesktopLyricOff">Masaüstü sözleri kapalı</x:String>
     <x:String x:Key="Lyric">Şarkı sözleri</x:String>
     <x:String x:Key="LyricLoading">Sözler yükleniyor...</x:String>
     <x:String x:Key="LyricNone">Söz yok</x:String>
-    <x:String x:Key="DesktopLyric">Masaüstü sözleri</x:String>
     <x:String x:Key="LyricEmbedded">Gömülü</x:String>
     <x:String x:Key="LyricFile">Dosya</x:String>
     <x:String x:Key="LyricNetwork">Ağ</x:String>
@@ -642,6 +659,16 @@
     <x:String x:Key="ToastLyricApiFillNameFirst">Önce API adını girin</x:String>
     <x:String x:Key="ToastLyricApiAddFail">Şarkı sözü API'si eklenemedi</x:String>
     <x:String x:Key="ToastLyricApiCopyVarNameSucc">Değişken adı kopyalandı</x:String>
+    <x:String x:Key="ToastCloudSyncFail">{0} ile veri senkronize edilemedi, hata kodu: {0}</x:String>
+    <x:String x:Key="ToastCloudSyncSucc">Veriler {0} ile senkronize edildi</x:String>
+    <x:String x:Key="ToastCloudRestoreFail">Veriler geri yüklenemedi, hata kodu: {0}</x:String>
+    <x:String x:Key="ToastCloudRestoreSucc">Veriler yerel olarak geri yüklendi</x:String>
+    <x:String x:Key="ToastCloudFileDeleteSucc">Bulut dosyası silindi</x:String>
+    <x:String x:Key="ToastCloudFileDeleteFail">Bulut dosyası silinemedi, hata kodu: {0}</x:String>
+    <x:String x:Key="ToastCloudFileListFetchFail">Bulut dosya listesi alınamadı, hata kodu: {0}</x:String>
+    <x:String x:Key="ToastCloudSyncCanceled">Eşitleme iptal edildi</x:String>
+    <x:String x:Key="ToastCloudRestoreCanceled">Geri yükleme iptal edildi</x:String>
+    <x:String x:Key="ToastCloudDeleteCanceled">Silme iptal edildi</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">Başlatılıyor...</x:String>
@@ -674,8 +701,8 @@
     <x:String x:Key="TipsCueTrackEdit">Bu parça CUE dosyasından geliyor, meta veriler değiştirilemez. CUE dosyasını doğrudan düzenleyin.</x:String>
     <x:String x:Key="TipsCueAlbumEdit">Bu albüm CUE dosyalarından parçalar içeriyor, meta veriler değiştirilemez. CUE dosyasını doğrudan düzenleyin.</x:String>
     <x:String x:Key="TipsEffectNameInput">Yeni ad girin</x:String>
-    <x:String x:Key="LyricSourceDragSortTips">Arama sırasını ayarlamak için sürükleyin</x:String>
-    <x:String x:Key="LyricApiDragSortTips">Çağrı sırasını ayarlamak için sürükleyin</x:String>
+    <x:String x:Key="TipsLyricSourceDragSort">Arama sırasını ayarlamak için sürükleyin</x:String>
+    <x:String x:Key="TipsLyricApiDragSort">Çağrı sırasını ayarlamak için sürükleyin</x:String>
     <x:String x:Key="TipsLyricApiNameEmpty">API adı boş olamaz</x:String>
     <x:String x:Key="TipsLyricApiNameExists">API adı zaten var</x:String>
     <x:String x:Key="TipsLyricApiUrlEmpty">URL boş</x:String>
@@ -683,6 +710,18 @@
     <x:String x:Key="TipsLyricApiExtractVarsEmpty">Ayıklanacak değişken listesi boş olamaz</x:String>
     <x:String x:Key="TipsLyricSearching">Aranıyor...</x:String>
     <x:String x:Key="TipsLyricApiRequestParams">Kullanılabilir değişkenler (kopyalamak için tıklayın):</x:String>
+    <x:String x:Key="TipsCloudFileSyncInput">Dosya adını girin</x:String>
+    <x:String x:Key="TipsCloudFileNameExists">Bulutta aynı isimde bir dosya zaten var; üzerine yazılacak</x:String>
+    <x:String x:Key="TipsCloudFileNameAvailable">Dosya adı kullanılabilir</x:String>
+    <x:String x:Key="TipsCloudFileNameCheckError">Kontrol başarısız, hata kodu: {0}</x:String>
+    <x:String x:Key="TipsCloudRoutineGathering">Veriler toplanıyor</x:String>
+    <x:String x:Key="TipsCloudRoutinePacking">Veriler paketleniyor</x:String>
+    <x:String x:Key="TipsCloudRoutinePrepareRequest">İstek hazırlanıyor</x:String>
+    <x:String x:Key="TipsCloudRoutineRequesting">İstek yürütülüyor</x:String>
+    <x:String x:Key="TipsCloudRoutineSending">Veriler gönderiliyor</x:String>
+    <x:String x:Key="TipsCloudRoutineReceiving">Veriler alınıyor</x:String>
+    <x:String x:Key="TipsCloudRoutineUnpacking">Paket açılıyor</x:String>
+    <x:String x:Key="TipsCloudRoutineApplying">Veriler uygulanıyor</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">0.10.0.0 sürümü, parçaların sonunun erken kesilmesi sorununu (genellikle 1 saniyeden az) düzeltir. Önbellek süre hassasiyeti saniyeden milisaniyeye yükseltildi.</x:String>

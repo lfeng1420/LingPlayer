@@ -63,7 +63,7 @@
     <x:String x:Key="Bold">太字</x:String>
     <x:String x:Key="UltraBold">超太字</x:String>
     <x:String x:Key="Heavy">極太</x:String>
-    <x:String x:Key="LineMargin">行間</x:String>
+    <x:String x:Key="LineSpacing">行間</x:String>
     <x:String x:Key="Edit">編集</x:String>
     <x:String x:Key="TrackId">曲ID</x:String>
     <x:String x:Key="Path">ファイルパス</x:String>
@@ -172,13 +172,14 @@
     <x:String x:Key="LangSettingPage">言語</x:String>
     <x:String x:Key="PlayControlSettingPage">再生制御</x:String>
     <x:String x:Key="AdvancedSettingPage">詳細設定</x:String>
-    <x:String x:Key="AboutSettingPage">について</x:String>
+    <x:String x:Key="AboutSettingPage">このアプリについて</x:String>
     <x:String x:Key="AboutSettingLicensePage">オープンソースライセンス</x:String>
     <x:String x:Key="StatTrackPage">曲ランキング</x:String>
     <x:String x:Key="StatAlbumPage">アルバムランキング</x:String>
     <x:String x:Key="StatArtistPage">アーティストランキング</x:String>
     <x:String x:Key="ImageCornerSettingPage">画像の角丸の強さ</x:String>
     <x:String x:Key="LyricSettingPage">歌詞</x:String>
+    <x:String x:Key="CloudSettingPage">同期と復元</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">曲情報</x:String>
@@ -285,6 +286,7 @@
     <x:String x:Key="LyricSettingDesc">歌詞ソース、ネットワーク API</x:String>
     <x:String x:Key="EffectSettingDesc">フェードイン/アウト、Replay Gain、イコライザー、リバーブ</x:String>
     <x:String x:Key="PlayControlSettingDesc">自動再生、シャッフル再生</x:String>
+    <x:String x:Key="CloudSettingDesc">自動同期、ファイル数上限、自動復元</x:String>
     <x:String x:Key="AdvancedSettingDesc">ガベージコレクション</x:String>
     <x:String x:Key="AboutSettingDesc">バージョン情報、問題報告、ログキャッシュ</x:String>
     <x:String x:Key="LibraryExcludeBelowDurationTracks">設定時間以下の曲を除外</x:String>
@@ -363,8 +365,6 @@
     <x:String x:Key="OverlayDarkOpacity">オーバーレイ不透明度（ダークテーマ）</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">オーバーレイはライトテーマでのテキスト可読性を向上させます。値を小さく設定しすぎるとテキストが読みにくくなる可能性があります</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">オーバーレイはダークテーマで明るすぎる背景を暗くし、ライトテーマで暗すぎる背景を明るくして、テキストの可読性を向上させます</x:String>
-    <x:String x:Key="JumpBarOverlayLightOpacity">ジャンプバーオーバーレイ不透明度（ライトテーマ）</x:String>
-    <x:String x:Key="JumpBarOverlayDarkOpacity">ジャンプバーオーバーレイ不透明度（ダークテーマ）</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">アーティストページにコラボアーティストを表示</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">有効にすると、コラボアーティストがアーティストリストに表示されます</x:String>
     <x:String x:Key="FolderHierachyView">フォルダー階層ビュー</x:String>
@@ -386,7 +386,7 @@
     <x:String x:Key="EffectReplayGain">Replay Gain</x:String>
     <x:String x:Key="EffectReplayGainDesc">有効にすると、オーディオファイルに埋め込まれた Replay Gain タグに基づいて再生音量を自動調整します&#xA;オーディオファイルに Replay Gain タグが必要です</x:String>
     <x:String x:Key="EffectReplayGainMode">ゲインモード</x:String>
-    <x:String x:Key="EffectEQ">イコライザ</x:String>
+    <x:String x:Key="EffectEQ">イコライザー</x:String>
     <x:String x:Key="EffectEQPreampMode">プリアンプ減衰モード</x:String>
     <x:String x:Key="EffectEQPreampModeDesc">イコライザー処理の前に全体レベルを下げ、ブースト後の信号過負荷と歪みを防ぎます</x:String>
     <x:String x:Key="EffectEQPreampModeAutoDesc">現在のイコライザーカーブの最大ゲインに基づいて減衰量を自動計算し、信号が 0 dBFS を超えないようにします</x:String>
@@ -426,7 +426,24 @@
     <x:String x:Key="ShuffleByArtistDesc">再生キュー内の曲をまずアーティストごとにグループ化し、その後各グループをランダムに再生します。同一グループ内の曲はアルバム名、ディスク番号、トラック番号でソートされます</x:String>
     <x:String x:Key="ShuffleByFolder">フォルダーごとにシャッフル</x:String>
     <x:String x:Key="ShuffleByFolderDesc">再生キュー内の曲をまずフォルダーごとにグループ化し、その後各グループをランダムに再生します</x:String>
-    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">ページ切り替え後にガベージコレクションを実行</x:String>
+    <x:String x:Key="CloudSync">同期</x:String>
+    <x:String x:Key="CloudSyncNow">今すぐ同期</x:String>
+    <x:String x:Key="CloudSyncAutoInterval">自動同期間隔</x:String>
+    <x:String x:Key="CloudSyncAutoIntervalDesc">0 分に設定すると自動同期が無効になります</x:String>
+    <x:String x:Key="CloudSyncMaxFileNum">ファイル数の上限</x:String>
+    <x:String x:Key="CloudSyncMaxFileNumDesc">クラウドに保持するファイルの最大数。上限を超えると最も古いファイルが自動的に削除されます&#xA;0 に設定すると、クラウドに保持するファイル数は制限されません</x:String>
+    <x:String x:Key="CloudSyncAllowInMeteredNetwork">従量制ネットワークでの同期を許可</x:String>
+    <x:String x:Key="CloudSyncAllowInMeteredNetworkDesc">無効にすると、従量制ネットワークでは自動同期が行われなくなります</x:String>
+    <x:String x:Key="CloudSyncLastTime">最終同期日時</x:String>
+    <x:String x:Key="CloudRestore">復元</x:String>
+    <x:String x:Key="CloudRestoreLastTime">最終復元日時</x:String>
+    <x:String x:Key="CloudFilesFrom">{0} のファイル</x:String>
+    <x:String x:Key="CloudFiles">ファイル一覧</x:String>
+    <x:String x:Key="CloudFilesDesc">クラウドファイルを表示、またはクラウドからファイルをダウンロードしてローカルに復元します</x:String>
+    <x:String x:Key="CloudFileNum">{0} 件のファイル</x:String>
+    <x:String x:Key="CloudFileDesc">アルバム {0} / アーティスト {1} / プレイリスト {2} / お気に入り {3} / 再生キュー {4} / 最近の再生 {5} / 累計再生時間 {6} / 累計再生曲数 {7} / 設定 {8} / EQ設定 {9} / リバーブ設定 {10}</x:String>
+    <x:String x:Key="CloudFileNameCheckAvailable">可用性を確認</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">ページ切り替え後にガベージコレクションを実行&#xA;0 に設定すると、クラウドに保持するファイル数は制限されません</x:String>
     <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">有効にすると、ページ切り替え後にガベージコレクションを実行してメモリを解放します&#xA;ガベージコレクションはスレッドを一時停止させるため、再生が途切れる場合はこのオプションを無効にしてください</x:String>
     <x:String x:Key="AdvancedForceGC">ガベージコレクションを強制実行</x:String>
     <x:String x:Key="AdvancedForceGCDesc">この操作はアプリのパフォーマンスに深刻な影響を与える可能性があります。メモリ使用量が高すぎる場合のみ使用を推奨します</x:String>
@@ -468,6 +485,11 @@
     <x:String x:Key="MiniWindowOverlayOpacity">オーバーレイ不透明度</x:String>
     <x:String x:Key="MiniWindowOverlayOpacityDesc">テキストの可読性を向上させるために使用します</x:String>
     <x:String x:Key="MiniWindowShowInTaskbar">タスクバーに表示</x:String>
+    <x:String x:Key="SleepTimer">スリープタイマー</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEnd">現在の曲の再生終了までタイマーを延長</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEndDesc">延長が有効になると、カウントダウンの前に「+」記号が表示されます。例：+01:50&#xA;すでに延長されている状態で曲を切り替えると、その曲の再生が終わるまで自動的に再延長されます</x:String>
+    <x:String x:Key="SleepTimerStart">タイマー開始</x:String>
+    <x:String x:Key="SleepTimerStop">タイマー停止</x:String>
 
     <!--  Dialog  -->
     <x:String x:Key="WallpaperEditTitle">壁紙編集</x:String>
@@ -478,28 +500,23 @@
     <x:String x:Key="FolderExcludeConfirmTitle">フォルダーを除外リストに追加</x:String>
     <x:String x:Key="FolderExcludeConfirmContent">以下のフォルダーを除外リストに追加しますか？除外後、そのフォルダーまたはサブフォルダーに属する曲はライブラリから削除されます。この操作でファイルが削除されることはありません。&#xA;{0}</x:String>
     <x:String x:Key="PlaylistDeleteTitle">プレイリストを削除</x:String>
-    <x:String x:Key="PlaylistDeleteContent">以下のプレイリストを削除しますか？この操作は永久的に削除され、復元できません。&#xA;{0}</x:String>
+    <x:String x:Key="PlaylistDeleteContent">以下のプレイリストを削除しますか？この操作により完全に削除され、復元できません。&#xA;{0}</x:String>
     <x:String x:Key="PlaylistTrackRemoveTitle">曲を除去</x:String>
     <x:String x:Key="PlaylistTrackRemoveContent">プレイリスト {0} から曲 {1} を除去しますか？</x:String>
     <x:String x:Key="PlaylistTracksRemoveTitle">複数の曲を除去</x:String>
     <x:String x:Key="PlaylistTracksRemoveContent">プレイリスト {0} から選択した曲を除去しますか？</x:String>
-    <x:String x:Key="TrackRemoveTitle">曲を削除</x:String>
-    <x:String x:Key="TrackRemoveContent">曲 {0} を削除しますか？この操作でローカルの曲ファイルは削除されません。</x:String>
-    <x:String x:Key="TracksRemoveTitle">複数の曲を削除</x:String>
-    <x:String x:Key="TracksRemoveContent">選択した曲を削除しますか？この操作でローカルの曲ファイルは削除されません。</x:String>
+    <x:String x:Key="TrackRemoveTitle">曲を除去</x:String>
+    <x:String x:Key="TrackRemoveContent">曲 {0} を除去しますか？この操作でローカルの曲ファイルは削除されません。</x:String>
+    <x:String x:Key="TracksRemoveTitle">複数の曲を除去</x:String>
+    <x:String x:Key="TracksRemoveContent">選択した曲を除去しますか？この操作でローカルの曲ファイルは削除されません。</x:String>
     <x:String x:Key="AlbumRemoveTitle">アルバムを除去</x:String>
-    <x:String x:Key="AlbumRemoveContent">アルバム {0} を除去しますか？この操作はアルバムとすべての編集内容を永久的に削除し、復元できません。</x:String>
+    <x:String x:Key="AlbumRemoveContent">アルバム {0} を除去しますか？この操作によりアルバムとすべての編集内容が完全に削除され、復元できません。</x:String>
     <x:String x:Key="ArtistRemoveTitle">アーティストを除去</x:String>
-    <x:String x:Key="ArtistRemoveContent">アーティスト {0} を除去しますか？この操作はアーティストとすべての編集内容を永久的に削除し、復元できません。</x:String>
+    <x:String x:Key="ArtistRemoveContent">アーティスト {0} を除去しますか？この操作によりアーティストとすべての編集内容が完全に削除され、復元できません。</x:String>
     <x:String x:Key="TrackScanTitle">曲をスキャン</x:String>
     <x:String x:Key="TrackEditTitle">曲メタデータを編集</x:String>
     <x:String x:Key="AlbumEditTitle">アルバムメタデータを編集</x:String>
     <x:String x:Key="NoticeTitle">📢 重要な変更</x:String>
-    <x:String x:Key="SleepTimerTitle">スリープタイマー</x:String>
-    <x:String x:Key="SleepTimerExtendToTrackEnd">現在の曲の再生終了までタイマーを延長</x:String>
-    <x:String x:Key="SleepTimerExtendToTrackEndDesc">延長が有効になると、カウントダウンの前に「+」記号が表示されます。例：+01:50&#xA;すでに延長されている状態で曲を切り替えると、その曲の再生が終わるまで自動的に再延長されます</x:String>
-    <x:String x:Key="SleepTimerStart">タイマー開始</x:String>
-    <x:String x:Key="SleepTimerStop">タイマー停止</x:String>
     <x:String x:Key="TaskDialogTitle">タスク</x:String>
     <x:String x:Key="PlayingQueueDialogTitle">再生キュー</x:String>
     <x:String x:Key="ViewArtistsTitle">アーティストを表示</x:String>
@@ -514,14 +531,14 @@
     <x:String x:Key="Pause">一時停止</x:String>
     <x:String x:Key="PreTrack">前の曲</x:String>
     <x:String x:Key="NextTrack">次の曲</x:String>
-    <x:String x:Key="DesktopLyricOn">デスクトップ歌詞 有効</x:String>
-    <x:String x:Key="DesktopLyricOff">デスクトップ歌詞 無効</x:String>
 
     <!--  Lyric  -->
+    <x:String x:Key="DesktopLyric">デスクトップ歌詞</x:String>
+    <x:String x:Key="DesktopLyricOn">デスクトップ歌詞 有効</x:String>
+    <x:String x:Key="DesktopLyricOff">デスクトップ歌詞 無効</x:String>
     <x:String x:Key="Lyric">歌詞</x:String>
     <x:String x:Key="LyricLoading">歌詞を読み込み中</x:String>
     <x:String x:Key="LyricNone">歌詞なし</x:String>
-    <x:String x:Key="DesktopLyric">デスクトップ歌詞</x:String>
     <x:String x:Key="LyricEmbedded">埋め込み</x:String>
     <x:String x:Key="LyricFile">ファイル</x:String>
     <x:String x:Key="LyricNetwork">ネットワーク</x:String>
@@ -642,18 +659,28 @@
     <x:String x:Key="ToastLyricApiFillNameFirst">先に API 名を入力してください</x:String>
     <x:String x:Key="ToastLyricApiAddFail">歌詞 API の追加に失敗しました</x:String>
     <x:String x:Key="ToastLyricApiCopyVarNameSucc">変数名をコピーしました</x:String>
+    <x:String x:Key="ToastCloudSyncFail">{0} へのデータ同期に失敗しました。エラーコード：{0}</x:String>
+    <x:String x:Key="ToastCloudSyncSucc">データを {0} に同期しました</x:String>
+    <x:String x:Key="ToastCloudRestoreFail">データの復元に失敗しました。エラーコード：{0}</x:String>
+    <x:String x:Key="ToastCloudRestoreSucc">データをローカルに復元しました</x:String>
+    <x:String x:Key="ToastCloudFileDeleteSucc">クラウドファイルを削除しました</x:String>
+    <x:String x:Key="ToastCloudFileDeleteFail">クラウドファイルの削除に失敗しました。エラーコード：{0}</x:String>
+    <x:String x:Key="ToastCloudFileListFetchFail">クラウドファイル一覧の取得に失敗しました。エラーコード：{0}</x:String>
+    <x:String x:Key="ToastCloudSyncCanceled">同期はキャンセルされました</x:String>
+    <x:String x:Key="ToastCloudRestoreCanceled">復元はキャンセルされました</x:String>
+    <x:String x:Key="ToastCloudDeleteCanceled">削除はキャンセルされました</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">初期化中</x:String>
     <x:String x:Key="TipsEnablePlugins">プラグインを有効化中</x:String>
     <x:String x:Key="TipsScanStage">曲をスキャン中 {0}</x:String>
     <x:String x:Key="TipsParseStage">曲を解析中 {0}/{1}</x:String>
-    <x:String x:Key="TipsAlbumStage">{0} アルバムグループから解析中：アルバム {1} / アーティスト {2}</x:String>
+    <x:String x:Key="TipsAlbumStage">{0} 個のアルバムグループを解析中：アルバム {1} / アーティスト {2}</x:String>
     <x:String x:Key="TipsDoneStage">{0} 曲、{1} アルバム、{2} アーティストを更新しました</x:String>
     <x:String x:Key="TipsFailStage">スキャンに失敗しました。詳細はログファイルをご確認ください</x:String>
     <x:String x:Key="TipsTrackEmpty0">曲がありません。ファイルまたはフォルダーをここにドラッグ＆ドロップしてスキャンが可能です</x:String>
-    <x:String x:Key="TipsTrackEmpty1">または移動先</x:String>
-    <x:String x:Key="TipsTrackEmpty2">でフォルダーを追加</x:String>
+    <x:String x:Key="TipsTrackEmpty1">または</x:String>
+    <x:String x:Key="TipsTrackEmpty2">に移動してフォルダーを追加</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty1">曲がありません。移動先</x:String>
     <x:String x:Key="TipsAndroidTrackEmpty2">でフォルダーを追加</x:String>
     <x:String x:Key="TipsPlaylistTrackEmpty">曲がありません。ファイルまたはフォルダーをここにドラッグ＆ドロップして追加できます</x:String>
@@ -670,12 +697,12 @@
     <x:String x:Key="TipsNavMenuItem">メニュー項目をドラッグして表示順序を調整</x:String>
     <x:String x:Key="TipsSeparatorInput">区切り文字を入力</x:String>
     <x:String x:Key="TipsSeparator">区切り文字は曲情報内の複数のアーティストやジャンルを解析するために使用します。&#xA;区切り文字を選択してアーティストやジャンルの表示方法をカスタマイズすることが可能です。</x:String>
-    <x:String x:Key="TipsWallpaper">カスタム壁紙を使用すると、テキストと背景のコントラストが弱くて識別しにくい場合があります。&#xA;透明度を調整するか、テーマ（ライト/ダーク）を切り替えることで最適な効果が得られます。</x:String>
+    <x:String x:Key="TipsWallpaper">カスタム壁紙を使用すると、テキストと背景のコントラストが弱くて識別しにくい場合があります。&#xA;不透明度を調整するか、テーマ（ライト/ダーク）を切り替えることで最適な効果が得られます。</x:String>
     <x:String x:Key="TipsCueTrackEdit">この曲は CUE ファイルから生成されています。メタデータの変更はサポートされていません。CUE ファイルを直接編集してください。</x:String>
     <x:String x:Key="TipsCueAlbumEdit">このアルバムには CUE ファイルから生成された曲が含まれています。メタデータの変更はサポートされていません。CUE ファイルを直接編集してください。</x:String>
     <x:String x:Key="TipsEffectNameInput">新しい名前を入力</x:String>
-    <x:String x:Key="LyricSourceDragSortTips">ドラッグで検索順序を調整</x:String>
-    <x:String x:Key="LyricApiDragSortTips">ドラッグで呼び出し順序を調整</x:String>
+    <x:String x:Key="TipsLyricSourceDragSort">ドラッグで検索順序を調整</x:String>
+    <x:String x:Key="TipsLyricApiDragSort">ドラッグで呼び出し順序を調整</x:String>
     <x:String x:Key="TipsLyricApiNameEmpty">API 名は空にできません</x:String>
     <x:String x:Key="TipsLyricApiNameExists">API 名は既に存在します</x:String>
     <x:String x:Key="TipsLyricApiUrlEmpty">URL が空です</x:String>
@@ -683,6 +710,18 @@
     <x:String x:Key="TipsLyricApiExtractVarsEmpty">抽出する変数のリストは空にできません</x:String>
     <x:String x:Key="TipsLyricSearching">検索中...</x:String>
     <x:String x:Key="TipsLyricApiRequestParams">使用可能な変数（クリックでコピー）：</x:String>
+    <x:String x:Key="TipsCloudFileSyncInput">ファイル名を入力</x:String>
+    <x:String x:Key="TipsCloudFileNameExists">クラウドに同じ名前のファイルが既に存在します。上書きされます</x:String>
+    <x:String x:Key="TipsCloudFileNameAvailable">ファイル名は利用可能です</x:String>
+    <x:String x:Key="TipsCloudFileNameCheckError">確認に失敗しました。エラーコード：{0}</x:String>
+    <x:String x:Key="TipsCloudRoutineGathering">データを収集中</x:String>
+    <x:String x:Key="TipsCloudRoutinePacking">データを圧縮中</x:String>
+    <x:String x:Key="TipsCloudRoutinePrepareRequest">リクエストを準備中</x:String>
+    <x:String x:Key="TipsCloudRoutineRequesting">リクエスト中</x:String>
+    <x:String x:Key="TipsCloudRoutineSending">データを送信中</x:String>
+    <x:String x:Key="TipsCloudRoutineReceiving">データを受信中</x:String>
+    <x:String x:Key="TipsCloudRoutineUnpacking">解凍中</x:String>
+    <x:String x:Key="TipsCloudRoutineApplying">データを適用中</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">0.10.0.0 バージョンでは、曲の終わりが途中で切断される問題（通常1秒未満）が修正されました。これはキャッシュの時間長精度が秒からミリ秒にアップグレードされたためです。</x:String>

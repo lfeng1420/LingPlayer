@@ -1,0 +1,7 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Ling.Plugin.OneDrive.Languages.zh_TW">
+    <x:String x:Key="OneDrivePluginName">OneDrive</x:String>
+    <x:String x:Key="OneDrivePluginDesc">透過 OneDrive 跨裝置同步應用程式資料</x:String>
+    <x:String x:Key="OneDriveSettingPage">OneDrive 設定</x:String>
+    <x:String x:Key="OneDriveLogin">登入</x:String>
+    <x:String x:Key="OneDriveLogout">登出</x:String>
+</ResourceDictionary>

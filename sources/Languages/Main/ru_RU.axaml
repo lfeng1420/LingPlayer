@@ -63,7 +63,7 @@
     <x:String x:Key="Bold">Жирный</x:String>
     <x:String x:Key="UltraBold">Сверхжирный</x:String>
     <x:String x:Key="Heavy">Тяжёлый</x:String>
-    <x:String x:Key="LineMargin">Межстрочный</x:String>
+    <x:String x:Key="LineSpacing">Межстрочный</x:String>
     <x:String x:Key="Edit">Правка</x:String>
     <x:String x:Key="TrackId">ID трека</x:String>
     <x:String x:Key="Path">Путь</x:String>
@@ -73,7 +73,7 @@
     <x:String x:Key="SampleRate">Частота дискретизации</x:String>
     <x:String x:Key="BitsPerSample">Разрядность</x:String>
     <x:String x:Key="Today">Сегодня</x:String>
-    <x:String x:Key="Week">Неделя</x:String>
+    <x:String x:Key="Week">На этой неделе</x:String>
     <x:String x:Key="Total">Всего</x:String>
     <x:String x:Key="Hour">ч</x:String>
     <x:String x:Key="Minute">мин</x:String>
@@ -179,6 +179,7 @@
     <x:String x:Key="StatArtistPage">Рейтинг исполнителей</x:String>
     <x:String x:Key="ImageCornerSettingPage">Скругление углов</x:String>
     <x:String x:Key="LyricSettingPage">Текст песни</x:String>
+    <x:String x:Key="CloudSettingPage">Синхронизация и восстановление</x:String>
 
     <!--  Track  -->
     <x:String x:Key="TrackInfo">Инфо о треке</x:String>
@@ -261,7 +262,7 @@
     <x:String x:Key="StatNoData">Нет данных</x:String>
     <x:String x:Key="StatWaiting">Ожидание:</x:String>
     <x:String x:Key="StatFinished">Записано:</x:String>
-    <x:String x:Key="StatDurationNotEnough">Короткие:</x:String>
+    <x:String x:Key="StatDurationNotEnough">Недостаточная длительность:</x:String>
 
     <!--  Plugin  -->
     <x:String x:Key="Loaded">Загружен</x:String>
@@ -285,6 +286,7 @@
     <x:String x:Key="LyricSettingDesc">Источники текста, сетевые API</x:String>
     <x:String x:Key="EffectSettingDesc">Плавный переход, Replay Gain, Эквалайзер, Реверберация</x:String>
     <x:String x:Key="PlayControlSettingDesc">Автовоспроизведение, перемешивание</x:String>
+    <x:String x:Key="CloudSettingDesc">Автосинхронизация, максимальное число файлов, автовосстановление</x:String>
     <x:String x:Key="AdvancedSettingDesc">Сборка мусора</x:String>
     <x:String x:Key="AboutSettingDesc">Версия, отзывы, кэш</x:String>
     <x:String x:Key="LibraryExcludeBelowDurationTracks">Исключить треки короче заданной длительности</x:String>
@@ -363,8 +365,6 @@
     <x:String x:Key="OverlayDarkOpacity">Наложение (тёмная)</x:String>
     <x:String x:Key="OverlayLightOpacityDesc">Улучшает видимость текста при использовании светлой темы. Низкие значения могут ухудшить видимость текста</x:String>
     <x:String x:Key="PlayingOverlayOpacityDesc">Затемняет яркий фон при использовании тёмной темы и осветляет при использовании светлой темы для лучшей видимости текста</x:String>
-    <x:String x:Key="JumpBarOverlayLightOpacity">Непрозрачность наложения панели перехода для светлой темы</x:String>
-    <x:String x:Key="JumpBarOverlayDarkOpacity">Непрозрачность наложения панели перехода для тёмной темы</x:String>
     <x:String x:Key="CollaboratorArtistsVisible">Показывать приглашённых исполнителей в списке</x:String>
     <x:String x:Key="CollaboratorArtistsVisibleDesc">При включении приглашённые исполнители отображаются в списке</x:String>
     <x:String x:Key="FolderHierachyView">Иерархия папок</x:String>
@@ -414,7 +414,7 @@
     <x:String x:Key="AndroidMediaButtonEvent">Включить управление воспроизведением с помощью мультимедийных кнопок</x:String>
     <x:String x:Key="AndroidMediaButtonEventDesc">Управление воспроизведением с помощью мультимедийных кнопок (например, кнопок воспроизведения/паузы в наушниках)</x:String>
     <x:String x:Key="AndroidAudioFocus">Эксклюзивный аудиофокус</x:String>
-    <x:String x:Key="AndroidAudioFocusDesc">После включения воспроизведение заглушит другие приложения. Эта функция может не работать из-за системных ограничений устройства</x:String>
+    <x:String x:Key="AndroidAudioFocusDesc">После включения воспроизведение не будет выполняться одновременно с другими приложениями. Эта функция может не работать из-за системных ограничений устройства</x:String>
     <x:String x:Key="TrackClickAction">Действие по нажатию на трек</x:String>
     <x:String x:Key="TrackClickActionDesc">Дополнительные действия при нажатии на трек в списке</x:String>
     <x:String x:Key="TrackClickActionAddToNext">Добавить следующим</x:String>
@@ -426,7 +426,24 @@
     <x:String x:Key="ShuffleByArtistDesc">Сначала треки группируются в очереди воспроизведения по исполнителям, а затем каждая группа воспроизводится в случайном порядке. Внутри одной и той же группы треки сортируются по названию альбома, номеру диска и трека</x:String>
     <x:String x:Key="ShuffleByFolder">По папкам</x:String>
     <x:String x:Key="ShuffleByFolderDesc">Сначала треки группируются в очереди воспроизведения по папкам, а затем каждая группа воспроизводится в случайном порядке</x:String>
-    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">Запускать сборку мусора при смене страницы</x:String>
+    <x:String x:Key="CloudSync">Синхронизировать</x:String>
+    <x:String x:Key="CloudSyncNow">Синхронизировать сейчас</x:String>
+    <x:String x:Key="CloudSyncAutoInterval">Интервал автосинхронизации</x:String>
+    <x:String x:Key="CloudSyncAutoIntervalDesc">Установите 0 минут, чтобы отключить автосинхронизацию</x:String>
+    <x:String x:Key="CloudSyncMaxFileNum">Максимальное число файлов</x:String>
+    <x:String x:Key="CloudSyncMaxFileNumDesc">Максимальное число файлов, хранящихся в облаке; при превышении лимита самые старые файлы будут автоматически удалены&#xA;При значении 0 количество файлов, хранящихся в облаке, не ограничивается</x:String>
+    <x:String x:Key="CloudSyncAllowInMeteredNetwork">Разрешить синхронизацию через сети с ограниченным трафиком</x:String>
+    <x:String x:Key="CloudSyncAllowInMeteredNetworkDesc">Если отключено, автосинхронизация не будет выполняться в сетях с ограниченным трафиком</x:String>
+    <x:String x:Key="CloudSyncLastTime">Последняя синхронизация</x:String>
+    <x:String x:Key="CloudRestore">Восстановить</x:String>
+    <x:String x:Key="CloudRestoreLastTime">Последнее восстановление</x:String>
+    <x:String x:Key="CloudFilesFrom">Файлы из {0}</x:String>
+    <x:String x:Key="CloudFiles">Список файлов</x:String>
+    <x:String x:Key="CloudFilesDesc">Просматривайте файлы облака или скачивайте файлы из облака и восстанавливайте их локально</x:String>
+    <x:String x:Key="CloudFileNum">Файлов: {0}</x:String>
+    <x:String x:Key="CloudFileDesc">Альбомов: {0} / Исполнителей: {1} / Плейлистов: {2} / Избранное: {3} / Очередь воспроизведения: {4} / Недавно проигранное: {5} / Общее время воспроизведения: {6} / Прослушано треков: {7} / Настройки: {8} / Конфигурация эквалайзера: {9} / Конфигурация реверберации: {10}</x:String>
+    <x:String x:Key="CloudFileNameCheckAvailable">Проверить доступность</x:String>
+    <x:String x:Key="AdvancedTriggerGCAfterSwitchPage">Запускать сборку мусора при смене страницы&#xA;При значении 0 количество файлов, хранящихся в облаке, не ограничивается</x:String>
     <x:String x:Key="AdvancedTriggerGCAfterSwitchPageDesc">При включении запускает сборку мусора после смены страницы для освобождения памяти&#xA;Поскольку сборка мусора приостанавливает потоки, отключите эту опцию, если воспроизведение прерывается</x:String>
     <x:String x:Key="AdvancedForceGC">Принудительная сборка мусора</x:String>
     <x:String x:Key="AdvancedForceGCDesc">Эта операция может существенно повлиять на производительность приложения. Рекомендуется только при высокой загрузке памяти</x:String>
@@ -468,6 +485,11 @@
     <x:String x:Key="MiniWindowOverlayOpacity">Непрозрачность наложения</x:String>
     <x:String x:Key="MiniWindowOverlayOpacityDesc">Используется для улучшения видимости текста</x:String>
     <x:String x:Key="MiniWindowShowInTaskbar">Показывать в панели задач</x:String>
+    <x:String x:Key="SleepTimer">Таймер сна</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEnd">Продлить таймер до конца текущего трека</x:String>
+    <x:String x:Key="SleepTimerExtendToTrackEndDesc">После активации продления перед обратным отсчётом появится знак «+», например: +01:50&#xA;Если таймер уже продлён, переключение трека автоматически продлит его до конца этого трека</x:String>
+    <x:String x:Key="SleepTimerStart">Запустить таймер</x:String>
+    <x:String x:Key="SleepTimerStop">Остановить таймер</x:String>
 
     <!--  Dialog  -->
     <x:String x:Key="WallpaperEditTitle">Изменить обои</x:String>
@@ -480,7 +502,7 @@
     <x:String x:Key="PlaylistDeleteTitle">Удалить плейлист</x:String>
     <x:String x:Key="PlaylistDeleteContent">Удалить эти плейлисты? Это действие приведет к необратимому удалению этих плейлистов, и восстановить их будет невозможно.&#xA;{0}</x:String>
     <x:String x:Key="PlaylistTrackRemoveTitle">Убрать трек</x:String>
-    <x:String x:Key="PlaylistTrackRemoveContent">Удалить трек {1} из списка воспроизведения {0}? Это действие не приведет к удалению файла трека из библиотеки.</x:String>
+    <x:String x:Key="PlaylistTrackRemoveContent">Убрать трек {1} из плейлиста {0}?</x:String>
     <x:String x:Key="PlaylistTracksRemoveTitle">Убрать треки</x:String>
     <x:String x:Key="PlaylistTracksRemoveContent">Убрать выбранные треки из плейлиста {0}?</x:String>
     <x:String x:Key="TrackRemoveTitle">Убрать трек</x:String>
@@ -495,11 +517,6 @@
     <x:String x:Key="TrackEditTitle">Изменить метаданные трека</x:String>
     <x:String x:Key="AlbumEditTitle">Изменить метаданные альбома</x:String>
     <x:String x:Key="NoticeTitle">📢 Важные изменения</x:String>
-    <x:String x:Key="SleepTimerTitle">Таймер сна</x:String>
-    <x:String x:Key="SleepTimerExtendToTrackEnd">Продлить таймер до конца текущего трека</x:String>
-    <x:String x:Key="SleepTimerExtendToTrackEndDesc">После активации продления перед обратным отсчётом появится знак «+», например: +01:50&#xA;Если таймер уже продлён, переключение трека автоматически продлит его до конца этого трека</x:String>
-    <x:String x:Key="SleepTimerStart">Запустить таймер</x:String>
-    <x:String x:Key="SleepTimerStop">Остановить таймер</x:String>
     <x:String x:Key="TaskDialogTitle">Задачи</x:String>
     <x:String x:Key="PlayingQueueDialogTitle">Очередь</x:String>
     <x:String x:Key="ViewArtistsTitle">Посмотреть исполнителей</x:String>
@@ -514,14 +531,14 @@
     <x:String x:Key="Pause">Пауза</x:String>
     <x:String x:Key="PreTrack">Предыдущий</x:String>
     <x:String x:Key="NextTrack">Следующий</x:String>
-    <x:String x:Key="DesktopLyricOn">Текст на рабочем столе включен</x:String>
-    <x:String x:Key="DesktopLyricOff">Текст на рабочем столе выключен</x:String>
 
     <!--  Lyric  -->
+    <x:String x:Key="DesktopLyric">Тексты на рабочем столе</x:String>
+    <x:String x:Key="DesktopLyricOn">Текст на рабочем столе включен</x:String>
+    <x:String x:Key="DesktopLyricOff">Текст на рабочем столе выключен</x:String>
     <x:String x:Key="Lyric">Текст песни</x:String>
     <x:String x:Key="LyricLoading">Загрузка текста...</x:String>
     <x:String x:Key="LyricNone">Нет текста</x:String>
-    <x:String x:Key="DesktopLyric">Тексты на рабочем столе</x:String>
     <x:String x:Key="LyricEmbedded">Встроенный</x:String>
     <x:String x:Key="LyricFile">Файл</x:String>
     <x:String x:Key="LyricNetwork">Сеть</x:String>
@@ -642,13 +659,23 @@
     <x:String x:Key="ToastLyricApiFillNameFirst">Сначала введите имя API</x:String>
     <x:String x:Key="ToastLyricApiAddFail">Не удалось добавить API текста песен</x:String>
     <x:String x:Key="ToastLyricApiCopyVarNameSucc">Имя переменной скопировано</x:String>
+    <x:String x:Key="ToastCloudSyncFail">Ошибка синхронизации данных в {0}, код ошибки: {0}</x:String>
+    <x:String x:Key="ToastCloudSyncSucc">Данные синхронизированы в {0}</x:String>
+    <x:String x:Key="ToastCloudRestoreFail">Ошибка восстановления данных, код ошибки: {0}</x:String>
+    <x:String x:Key="ToastCloudRestoreSucc">Данные восстановлены локально</x:String>
+    <x:String x:Key="ToastCloudFileDeleteSucc">Файл облака удалён</x:String>
+    <x:String x:Key="ToastCloudFileDeleteFail">Не удалось удалить файл облака, код ошибки: {0}</x:String>
+    <x:String x:Key="ToastCloudFileListFetchFail">Не удалось получить список файлов облака, код ошибки: {0}</x:String>
+    <x:String x:Key="ToastCloudSyncCanceled">Синхронизация отменена</x:String>
+    <x:String x:Key="ToastCloudRestoreCanceled">Восстановление отменено</x:String>
+    <x:String x:Key="ToastCloudDeleteCanceled">Удаление отменено</x:String>
 
     <!--  Tips  -->
     <x:String x:Key="TipsInitServices">Инициализация...</x:String>
     <x:String x:Key="TipsEnablePlugins">Включение плагинов</x:String>
     <x:String x:Key="TipsScanStage">Сканирование {0}</x:String>
     <x:String x:Key="TipsParseStage">Парсинг {0}/{1}</x:String>
-    <x:String x:Key="TipsAlbumStage">Парсинг {0} групп: альбом {1} / исполнителей {2}</x:String>
+    <x:String x:Key="TipsAlbumStage">Парсинг {0} групп: альбом {1} / исполнитель {2}</x:String>
     <x:String x:Key="TipsDoneStage">Обновлено треков: {0}, альбомов: {1}, исполнителей: {2}</x:String>
     <x:String x:Key="TipsFailStage">Ошибка сканирования, см. лог</x:String>
     <x:String x:Key="TipsTrackEmpty0">Нет треков. Перетащите файлы или папки для сканирования</x:String>
@@ -674,8 +701,8 @@
     <x:String x:Key="TipsCueTrackEdit">Этот трек взят из файла CUE, метаданные не могут быть изменены. Пожалуйста, отредактируйте файл CUE напрямую.</x:String>
     <x:String x:Key="TipsCueAlbumEdit">Этот альбом содержит треки из файлов CUE, метаданные не могут быть изменены. Пожалуйста, отредактируйте файл CUE напрямую.</x:String>
     <x:String x:Key="TipsEffectNameInput">Введите новое имя</x:String>
-    <x:String x:Key="LyricSourceDragSortTips">Перетащите, чтобы изменить порядок поиска</x:String>
-    <x:String x:Key="LyricApiDragSortTips">Перетащите, чтобы изменить порядок вызова</x:String>
+    <x:String x:Key="TipsLyricSourceDragSort">Перетащите, чтобы изменить порядок поиска</x:String>
+    <x:String x:Key="TipsLyricApiDragSort">Перетащите, чтобы изменить порядок вызова</x:String>
     <x:String x:Key="TipsLyricApiNameEmpty">Имя API не может быть пустым</x:String>
     <x:String x:Key="TipsLyricApiNameExists">Имя API уже существует</x:String>
     <x:String x:Key="TipsLyricApiUrlEmpty">URL пуст</x:String>
@@ -683,6 +710,18 @@
     <x:String x:Key="TipsLyricApiExtractVarsEmpty">Список извлекаемых переменных не может быть пустым</x:String>
     <x:String x:Key="TipsLyricSearching">Поиск...</x:String>
     <x:String x:Key="TipsLyricApiRequestParams">Доступные переменные (нажмите, чтобы скопировать):</x:String>
+    <x:String x:Key="TipsCloudFileSyncInput">Введите имя файла</x:String>
+    <x:String x:Key="TipsCloudFileNameExists">В облаке уже существует файл с тем же именем; он будет перезаписан</x:String>
+    <x:String x:Key="TipsCloudFileNameAvailable">Имя файла доступно</x:String>
+    <x:String x:Key="TipsCloudFileNameCheckError">Проверка не удалась, код ошибки: {0}</x:String>
+    <x:String x:Key="TipsCloudRoutineGathering">Сбор данных</x:String>
+    <x:String x:Key="TipsCloudRoutinePacking">Упаковка данных</x:String>
+    <x:String x:Key="TipsCloudRoutinePrepareRequest">Подготовка запроса</x:String>
+    <x:String x:Key="TipsCloudRoutineRequesting">Выполнение запроса</x:String>
+    <x:String x:Key="TipsCloudRoutineSending">Отправка данных</x:String>
+    <x:String x:Key="TipsCloudRoutineReceiving">Получение данных</x:String>
+    <x:String x:Key="TipsCloudRoutineUnpacking">Распаковка</x:String>
+    <x:String x:Key="TipsCloudRoutineApplying">Применение данных</x:String>
 
     <!--  Notice  -->
     <x:String x:Key="NoticePart1">Версия 0.10.0.0 исправляет проблему преждевременного обрезания конца треков (обычно менее 1 секунды). Точность длительности в кэше обновлена с секунд до миллисекунд.</x:String>
