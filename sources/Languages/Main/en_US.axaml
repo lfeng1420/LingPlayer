@@ -269,13 +269,13 @@
     <x:String x:Key="Disconnected">Disconnected</x:String>
     <x:String x:Key="Connecting">Connecting</x:String>
     <x:String x:Key="Connected">Connected</x:String>
-    <x:String x:Key="LoadFailed">Load failed</x:String>
+    <x:String x:Key="LoadFailed">Failed to load</x:String>
     <x:String x:Key="Unloaded">Unloaded</x:String>
     <x:String x:Key="Success">Success</x:String>
-    <x:String x:Key="DescFileLoadFail">Description file load failed</x:String>
+    <x:String x:Key="DescFileLoadFail">Failed to load description file</x:String>
     <x:String x:Key="FileNotFound">File not found</x:String>
     <x:String x:Key="FileInvalid">File invalid</x:String>
-    <x:String x:Key="LoadFail">Load failed</x:String>
+    <x:String x:Key="LoadFail">Failed to load</x:String>
     <x:String x:Key="Error">Error</x:String>
 
     <!--  Setting  -->
@@ -554,7 +554,7 @@
     <x:String x:Key="LyricApiTestRun">Run test</x:String>
     <x:String x:Key="LyricApiTestResult">Test result</x:String>
     <x:String x:Key="LyricApiTestSucc">Test successful</x:String>
-    <x:String x:Key="LyricApiTestFail">Test failed</x:String>
+    <x:String x:Key="LyricApiTestFail">Failed to run the test</x:String>
     <x:String x:Key="LyricApiRequestNew">Add request</x:String>
     <x:String x:Key="LyricApiRequestEdit">Edit request</x:String>
     <x:String x:Key="LyricApiName">API name</x:String>
@@ -607,12 +607,12 @@
     <x:String x:Key="ToastTrackLoadFailed">Failed to load: {0}, the file format may not be supported</x:String>
     <x:String x:Key="ToastTrackPlaying">Track is already playing</x:String>
     <x:String x:Key="ToastAlbumSaveThumbnailFail">Failed to save album cover, the selected image file may not be supported</x:String>
-    <x:String x:Key="ToastAlbumSaveSucc">Album information saved successfully</x:String>
+    <x:String x:Key="ToastAlbumSaveSucc">Successfully saved album information</x:String>
     <x:String x:Key="ToastArtistSaveThumbnailFail">Failed to save artist cover, the selected image file may not be supported</x:String>
-    <x:String x:Key="ToastArtistSaveSucc">Artist information saved successfully</x:String>
-    <x:String x:Key="ToastPlaylistRenameSucc">Playlist renamed successfully</x:String>
-    <x:String x:Key="ToastPlaylistNewSucc">New playlist {0} created successfully</x:String>
-    <x:String x:Key="ToastPlaylistDelete">Playlist deleted successfully</x:String>
+    <x:String x:Key="ToastArtistSaveSucc">Successfully saved artist information</x:String>
+    <x:String x:Key="ToastPlaylistEditSucc">Successfully updated playlist</x:String>
+    <x:String x:Key="ToastPlaylistNewSucc">Successfully created new playlist {0}</x:String>
+    <x:String x:Key="ToastPlaylistDelete">Successfully deleted playlist</x:String>
     <x:String x:Key="ToastPlaylistImportSucc">Successfully imported playlist {1} from file {0}, added {2} track(s)</x:String>
     <x:String x:Key="ToastPlaylistImportFail">Failed to import playlist {1} from file {0}</x:String>
     <x:String x:Key="ToastPlaylistExportSucc">Successfully exported playlist {0} to file {1}</x:String>
@@ -638,24 +638,24 @@
     <x:String x:Key="ToastPluginEnableSucc">Successfully enabled plugin {0}</x:String>
     <x:String x:Key="ToastPluginDisable">Successfully disabled plugin {0}</x:String>
     <x:String x:Key="ToastOperationCanceled">Operation canceled</x:String>
-    <x:String x:Key="ToastShuffleFailed">{0} mode: shuffle failed</x:String>
+    <x:String x:Key="ToastShuffleFailed">{0} mode: failed to shuffle</x:String>
     <x:String x:Key="ToastOpenFolderFail">Failed to open folder {0}, please check the log file for more information</x:String>
     <x:String x:Key="ToastOneDriveLoginFail">Failed to log in to OneDrive</x:String>
     <x:String x:Key="ToastOneDriveLoginSucc">Successfully logged in to OneDrive</x:String>
-    <x:String x:Key="ToastOneDriveLogout">OneDrive account {0} logged out successfully</x:String>
+    <x:String x:Key="ToastOneDriveLogout">Successfully logged out OneDrive account {0}</x:String>
     <x:String x:Key="ToastOneDriveNoAccount">Not signed in to OneDrive</x:String>
     <x:String x:Key="ToastForceGCResult">Force garbage collection completed, released {0} memory</x:String>
     <x:String x:Key="ToastArtistExists">Artist {0} already exists</x:String>
     <x:String x:Key="ToastAlbumArtistExists">Album artist {0} already exists</x:String>
     <x:String x:Key="ToastGenreExists">Genre {0} already exists</x:String>
     <x:String x:Key="ToastTrackMetadataUpdateFail">Failed to update track metadata, please check the log file for more information</x:String>
-    <x:String x:Key="ToastTrackMetadataUpdateSucc">Track metadata updated successfully</x:String>
+    <x:String x:Key="ToastTrackMetadataUpdateSucc">Successfully updated track metadata</x:String>
     <x:String x:Key="ToastAlbumTrackMetadataUpdateFail">Failed to update track metadata in the album, please check the log file for more information</x:String>
     <x:String x:Key="ToastAlbumMetadataUpdateFail">Failed to update album metadata, please check the log file for more information</x:String>
-    <x:String x:Key="ToastAlbumMetadataUpdateSucc">Album metadata updated successfully</x:String>
+    <x:String x:Key="ToastAlbumMetadataUpdateSucc">Successfully updated album metadata</x:String>
     <x:String x:Key="ToastEffectRenameExists">Name already exists</x:String>
     <x:String x:Key="ToastEffectRenameSucc">Rename succeeded</x:String>
-    <x:String x:Key="ToastEffectRenameFail">Rename failed</x:String>
+    <x:String x:Key="ToastEffectRenameFail">Failed to rename</x:String>
     <x:String x:Key="ToastLyricApiFillNameFirst">Please fill in the API name first</x:String>
     <x:String x:Key="ToastLyricApiAddFail">Failed to add lyric API</x:String>
     <x:String x:Key="ToastLyricApiCopyVarNameSucc">Variable name copied</x:String>
@@ -663,7 +663,7 @@
     <x:String x:Key="ToastCloudSyncSucc">Data synced to {0}</x:String>
     <x:String x:Key="ToastCloudRestoreFail">Failed to restore data, error code: {0}</x:String>
     <x:String x:Key="ToastCloudRestoreSucc">Data restored to local</x:String>
-    <x:String x:Key="ToastCloudFileDeleteSucc">Cloud file deleted successfully</x:String>
+    <x:String x:Key="ToastCloudFileDeleteSucc">Successfully deleted cloud file</x:String>
     <x:String x:Key="ToastCloudFileDeleteFail">Failed to delete cloud file, error code: {0}</x:String>
     <x:String x:Key="ToastCloudFileListFetchFail">Failed to fetch cloud file list, error code: {0}</x:String>
     <x:String x:Key="ToastCloudSyncCanceled">Sync operation canceled</x:String>
@@ -677,7 +677,7 @@
     <x:String x:Key="TipsParseStage">Parsing tracks {0}/{1}</x:String>
     <x:String x:Key="TipsAlbumStage">Parsing from {0} album group(s): Album {1} / Artist {2}</x:String>
     <x:String x:Key="TipsDoneStage">Updated {0} track(s), {1} album(s), {2} artist(s)</x:String>
-    <x:String x:Key="TipsFailStage">Scan failed, please check the log file for more information</x:String>
+    <x:String x:Key="TipsFailStage">Failed to scan, please check the log file for more information</x:String>
     <x:String x:Key="TipsTrackEmpty0">No tracks, drag and drop files or folders here to scan</x:String>
     <x:String x:Key="TipsTrackEmpty1">Or jump to</x:String>
     <x:String x:Key="TipsTrackEmpty2">to add folders</x:String>
@@ -713,7 +713,7 @@
     <x:String x:Key="TipsCloudFileSyncInput">Enter filename</x:String>
     <x:String x:Key="TipsCloudFileNameExists">A file with the same name already exists in the cloud; it will be overwritten</x:String>
     <x:String x:Key="TipsCloudFileNameAvailable">Filename available</x:String>
-    <x:String x:Key="TipsCloudFileNameCheckError">Check failed, error code: {0}</x:String>
+    <x:String x:Key="TipsCloudFileNameCheckError">Failed to check, error code: {0}</x:String>
     <x:String x:Key="TipsCloudRoutineGathering">Gathering data</x:String>
     <x:String x:Key="TipsCloudRoutinePacking">Packing data</x:String>
     <x:String x:Key="TipsCloudRoutinePrepareRequest">Preparing request</x:String>
@@ -739,7 +739,7 @@
 
     <!--  Misc  -->
     <x:String x:Key="SendLogMail">Send log via email</x:String>
-    <x:String x:Key="AppLaunchFail">App launch failed</x:String>
+    <x:String x:Key="AppLaunchFail">Failed to launch the app</x:String>
     <x:String x:Key="ServiceInitFail">Failed to initialize the {0}</x:String>
     <x:String x:Key="ClearAllEndedTasks">Clear all ended tasks</x:String>
 </ResourceDictionary>

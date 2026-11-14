@@ -610,7 +610,7 @@
     <x:String x:Key="ToastAlbumSaveSucc">Albüm bilgileri kaydedildi</x:String>
     <x:String x:Key="ToastArtistSaveThumbnailFail">Sanatçı resmi kaydedilemedi, seçilen resim dosyası desteklenmiyor olabilir</x:String>
     <x:String x:Key="ToastArtistSaveSucc">Sanatçı bilgileri kaydedildi</x:String>
-    <x:String x:Key="ToastPlaylistRenameSucc">Çalma listesi yeniden adlandırıldı</x:String>
+    <x:String x:Key="ToastPlaylistEditSucc">Çalma listesi güncellendi</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">Yeni çalma listesi {0} oluşturuldu</x:String>
     <x:String x:Key="ToastPlaylistDelete">Çalma listesi silindi</x:String>
     <x:String x:Key="ToastPlaylistImportSucc">{1} listesi {0} dosyasından içe aktarıldı, {2} parça eklendi</x:String>

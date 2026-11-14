@@ -610,7 +610,7 @@
     <x:String x:Key="ToastAlbumSaveSucc">专辑信息保存成功</x:String>
     <x:String x:Key="ToastArtistSaveThumbnailFail">保存艺术家封面失败，选择的图片文件可能不受支持</x:String>
     <x:String x:Key="ToastArtistSaveSucc">艺术家信息保存成功</x:String>
-    <x:String x:Key="ToastPlaylistRenameSucc">歌单重命名成功</x:String>
+    <x:String x:Key="ToastPlaylistEditSucc">歌单修改成功</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">新建歌单 {0} 成功</x:String>
     <x:String x:Key="ToastPlaylistDelete">删除歌单成功</x:String>
     <x:String x:Key="ToastPlaylistImportSucc">成功从文件 {0} 导入歌单 {1}，添加了 {2} 首歌曲</x:String>

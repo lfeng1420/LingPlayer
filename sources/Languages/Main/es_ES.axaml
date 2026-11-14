@@ -610,7 +610,7 @@
     <x:String x:Key="ToastAlbumSaveSucc">Información del álbum guardada</x:String>
     <x:String x:Key="ToastArtistSaveThumbnailFail">Error al guardar la imagen del artista, el archivo de imagen seleccionado puede no ser compatible</x:String>
     <x:String x:Key="ToastArtistSaveSucc">Información del artista guardada</x:String>
-    <x:String x:Key="ToastPlaylistRenameSucc">Lista renombrada</x:String>
+    <x:String x:Key="ToastPlaylistEditSucc">Lista modificada</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">Nueva lista {0} creada</x:String>
     <x:String x:Key="ToastPlaylistDelete">Lista eliminada</x:String>
     <x:String x:Key="ToastPlaylistImportSucc">Lista {1} importada desde {0}, {2} pista(s) añadida(s)</x:String>
@@ -663,7 +663,7 @@
     <x:String x:Key="ToastCloudSyncSucc">Datos sincronizados con {0}</x:String>
     <x:String x:Key="ToastCloudRestoreFail">Error al restaurar los datos, código de error: {0}</x:String>
     <x:String x:Key="ToastCloudRestoreSucc">Datos restaurados localmente</x:String>
-    <x:String x:Key="ToastCloudFileDeleteSucc">Archivo de nube eliminado</x:String>
+    <x:String x:Key="ToastCloudFileDeleteSucc">Archivo de la nube eliminado</x:String>
     <x:String x:Key="ToastCloudFileDeleteFail">No se pudo eliminar el archivo de nube, código de error: {0}</x:String>
     <x:String x:Key="ToastCloudFileListFetchFail">Error al obtener la lista de archivos de nube, código de error: {0}</x:String>
     <x:String x:Key="ToastCloudSyncCanceled">Operación de sincronización cancelada</x:String>

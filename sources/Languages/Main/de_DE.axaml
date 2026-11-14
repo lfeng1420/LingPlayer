@@ -610,7 +610,7 @@
     <x:String x:Key="ToastAlbumSaveSucc">Albuminformationen gespeichert</x:String>
     <x:String x:Key="ToastArtistSaveThumbnailFail">Künstlerbild konnte nicht gespeichert werden, das ausgewählte Bildformat wird möglicherweise nicht unterstützt</x:String>
     <x:String x:Key="ToastArtistSaveSucc">Künstlerinformationen gespeichert</x:String>
-    <x:String x:Key="ToastPlaylistRenameSucc">Wiedergabeliste umbenannt</x:String>
+    <x:String x:Key="ToastPlaylistEditSucc">Wiedergabeliste geändert</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">Neue Wiedergabeliste {0} erstellt</x:String>
     <x:String x:Key="ToastPlaylistDelete">Wiedergabeliste gelöscht</x:String>
     <x:String x:Key="ToastPlaylistImportSucc">Wiedergabeliste {1} aus {0} importiert, {2} Titel hinzugefügt</x:String>

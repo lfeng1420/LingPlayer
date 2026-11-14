@@ -269,7 +269,7 @@
     <x:String x:Key="Disconnected">未接続</x:String>
     <x:String x:Key="Connecting">接続中</x:String>
     <x:String x:Key="Connected">接続済み</x:String>
-    <x:String x:Key="LoadFailed">読み込み失敗</x:String>
+    <x:String x:Key="LoadFailed">読み込みに失敗しました</x:String>
     <x:String x:Key="Unloaded">アンロード済み</x:String>
     <x:String x:Key="Success">成功</x:String>
     <x:String x:Key="DescFileLoadFail">説明ファイルの読み込みに失敗しました</x:String>
@@ -610,7 +610,7 @@
     <x:String x:Key="ToastAlbumSaveSucc">アルバム情報を保存しました</x:String>
     <x:String x:Key="ToastArtistSaveThumbnailFail">アーティストカバーの保存に失敗しました。選択した画像ファイルがサポートされていない可能性があります</x:String>
     <x:String x:Key="ToastArtistSaveSucc">アーティスト情報を保存しました</x:String>
-    <x:String x:Key="ToastPlaylistRenameSucc">プレイリスト名を変更しました</x:String>
+    <x:String x:Key="ToastPlaylistEditSucc">プレイリストを変更しました</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">新規プレイリスト {0} を作成しました</x:String>
     <x:String x:Key="ToastPlaylistDelete">プレイリストを削除しました</x:String>
     <x:String x:Key="ToastPlaylistImportSucc">ファイル {0} からプレイリスト {1} をインポートし、{2} 曲を追加しました</x:String>

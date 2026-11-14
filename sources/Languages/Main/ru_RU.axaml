@@ -272,7 +272,7 @@
     <x:String x:Key="LoadFailed">Ошибка загрузки</x:String>
     <x:String x:Key="Unloaded">Выгружен</x:String>
     <x:String x:Key="Success">Успешно</x:String>
-    <x:String x:Key="DescFileLoadFail">Ошибка файла описания</x:String>
+    <x:String x:Key="DescFileLoadFail">Ошибка загрузки файла описания</x:String>
     <x:String x:Key="FileNotFound">Файл не найден</x:String>
     <x:String x:Key="FileInvalid">Файл недействителен</x:String>
     <x:String x:Key="LoadFail">Ошибка загрузки</x:String>
@@ -610,7 +610,7 @@
     <x:String x:Key="ToastAlbumSaveSucc">Информация об альбоме сохранена</x:String>
     <x:String x:Key="ToastArtistSaveThumbnailFail">Не удалось сохранить фото исполнителя, возможно, формат изображения не поддерживается</x:String>
     <x:String x:Key="ToastArtistSaveSucc">Информация об исполнителе сохранена</x:String>
-    <x:String x:Key="ToastPlaylistRenameSucc">Плейлист переименован</x:String>
+    <x:String x:Key="ToastPlaylistEditSucc">Плейлист изменён</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">Плейлист {0} создан</x:String>
     <x:String x:Key="ToastPlaylistDelete">Плейлист удалён</x:String>
     <x:String x:Key="ToastPlaylistImportSucc">Импортирован плейлист {1} из {0}, добавлено треков: {2}.</x:String>

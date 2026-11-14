@@ -610,7 +610,7 @@
     <x:String x:Key="ToastAlbumSaveSucc">Informações do álbum salvas</x:String>
     <x:String x:Key="ToastArtistSaveThumbnailFail">Falha ao salvar imagem do artista, o arquivo de imagem selecionado pode não ser suportado</x:String>
     <x:String x:Key="ToastArtistSaveSucc">Informações do artista salvas</x:String>
-    <x:String x:Key="ToastPlaylistRenameSucc">Playlist renomeada</x:String>
+    <x:String x:Key="ToastPlaylistEditSucc">Playlist modificada</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">Nova playlist {0} criada</x:String>
     <x:String x:Key="ToastPlaylistDelete">Playlist excluída</x:String>
     <x:String x:Key="ToastPlaylistImportSucc">Playlist {1} importada de {0}, {2} faixa(s) adicionada(s)</x:String>
