@@ -603,12 +603,11 @@
     <x:String x:Key="tr-TR">Турецкий</x:String>
 
     <!--  Toast  -->
+    <x:String x:Key="ToastSaveThumbnailFail">Не удалось сохранить обложку, возможно, формат изображения не поддерживается</x:String>
     <x:String x:Key="ToastTrackFileNotFound">Файл трека не найден: {0}</x:String>
     <x:String x:Key="ToastTrackLoadFailed">Ошибка загрузки: {0}, формат не поддерживается</x:String>
     <x:String x:Key="ToastTrackPlaying">Трек уже играет</x:String>
-    <x:String x:Key="ToastAlbumSaveThumbnailFail">Не удалось сохранить обложку альбома, возможно, формат изображения не поддерживается</x:String>
     <x:String x:Key="ToastAlbumSaveSucc">Информация об альбоме сохранена</x:String>
-    <x:String x:Key="ToastArtistSaveThumbnailFail">Не удалось сохранить фото исполнителя, возможно, формат изображения не поддерживается</x:String>
     <x:String x:Key="ToastArtistSaveSucc">Информация об исполнителе сохранена</x:String>
     <x:String x:Key="ToastPlaylistEditSucc">Плейлист изменён</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">Плейлист {0} создан</x:String>

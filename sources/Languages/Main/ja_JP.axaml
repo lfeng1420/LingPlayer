@@ -603,12 +603,11 @@
     <x:String x:Key="tr-TR">トルコ語</x:String>
 
     <!--  Toast  -->
+    <x:String x:Key="ToastSaveThumbnailFail">カバーの保存に失敗しました。選択した画像ファイルがサポートされていない可能性があります</x:String>
     <x:String x:Key="ToastTrackFileNotFound">曲ファイルが見つかりません：{0}</x:String>
     <x:String x:Key="ToastTrackLoadFailed">読み込み失敗：{0}、ファイル形式がサポートされていない可能性があります</x:String>
     <x:String x:Key="ToastTrackPlaying">曲は既に再生中です</x:String>
-    <x:String x:Key="ToastAlbumSaveThumbnailFail">アルバムカバーの保存に失敗しました。選択した画像ファイルがサポートされていない可能性があります</x:String>
     <x:String x:Key="ToastAlbumSaveSucc">アルバム情報を保存しました</x:String>
-    <x:String x:Key="ToastArtistSaveThumbnailFail">アーティストカバーの保存に失敗しました。選択した画像ファイルがサポートされていない可能性があります</x:String>
     <x:String x:Key="ToastArtistSaveSucc">アーティスト情報を保存しました</x:String>
     <x:String x:Key="ToastPlaylistEditSucc">プレイリストを変更しました</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">新規プレイリスト {0} を作成しました</x:String>

@@ -603,12 +603,11 @@
     <x:String x:Key="tr-TR">Turco</x:String>
 
     <!--  Toast  -->
+    <x:String x:Key="ToastSaveThumbnailFail">Falha ao salvar capa, o arquivo de imagem selecionado pode não ser suportado</x:String>
     <x:String x:Key="ToastTrackFileNotFound">Arquivo da faixa não encontrado: {0}</x:String>
     <x:String x:Key="ToastTrackLoadFailed">Falha ao carregar: {0}, formato pode não ser suportado</x:String>
     <x:String x:Key="ToastTrackPlaying">Faixa já está em reprodução</x:String>
-    <x:String x:Key="ToastAlbumSaveThumbnailFail">Falha ao salvar capa do álbum, o arquivo de imagem selecionado pode não ser suportado</x:String>
     <x:String x:Key="ToastAlbumSaveSucc">Informações do álbum salvas</x:String>
-    <x:String x:Key="ToastArtistSaveThumbnailFail">Falha ao salvar imagem do artista, o arquivo de imagem selecionado pode não ser suportado</x:String>
     <x:String x:Key="ToastArtistSaveSucc">Informações do artista salvas</x:String>
     <x:String x:Key="ToastPlaylistEditSucc">Playlist modificada</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">Nova playlist {0} criada</x:String>

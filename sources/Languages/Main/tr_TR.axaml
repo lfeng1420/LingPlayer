@@ -603,12 +603,11 @@
     <x:String x:Key="tr-TR">Türkçe</x:String>
 
     <!--  Toast  -->
+    <x:String x:Key="ToastSaveThumbnailFail">Kapak kaydedilemedi, seçilen resim dosyası desteklenmiyor olabilir</x:String>
     <x:String x:Key="ToastTrackFileNotFound">Parça dosyası bulunamadı: {0}</x:String>
     <x:String x:Key="ToastTrackLoadFailed">Yükleme başarısız: {0}, dosya biçimi desteklenmiyor olabilir</x:String>
     <x:String x:Key="ToastTrackPlaying">Parça zaten çalınıyor</x:String>
-    <x:String x:Key="ToastAlbumSaveThumbnailFail">Albüm kapağı kaydedilemedi, seçilen resim dosyası desteklenmiyor olabilir</x:String>
     <x:String x:Key="ToastAlbumSaveSucc">Albüm bilgileri kaydedildi</x:String>
-    <x:String x:Key="ToastArtistSaveThumbnailFail">Sanatçı resmi kaydedilemedi, seçilen resim dosyası desteklenmiyor olabilir</x:String>
     <x:String x:Key="ToastArtistSaveSucc">Sanatçı bilgileri kaydedildi</x:String>
     <x:String x:Key="ToastPlaylistEditSucc">Çalma listesi güncellendi</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">Yeni çalma listesi {0} oluşturuldu</x:String>

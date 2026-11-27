@@ -603,12 +603,11 @@
     <x:String x:Key="tr-TR">터키어</x:String>
 
     <!--  Toast  -->
+    <x:String x:Key="ToastSaveThumbnailFail">커버 저장 실패, 선택한 이미지 파일이 지원되지 않을 수 있습니다</x:String>
     <x:String x:Key="ToastTrackFileNotFound">곡 파일을 찾을 수 없음: {0}</x:String>
     <x:String x:Key="ToastTrackLoadFailed">로드 실패: {0}, 파일 형식이 지원되지 않을 수 있습니다</x:String>
     <x:String x:Key="ToastTrackPlaying">곡이 이미 재생 중입니다</x:String>
-    <x:String x:Key="ToastAlbumSaveThumbnailFail">앨범 커버 저장 실패, 선택한 이미지 파일이 지원되지 않을 수 있습니다</x:String>
     <x:String x:Key="ToastAlbumSaveSucc">앨범 정보 저장 성공</x:String>
-    <x:String x:Key="ToastArtistSaveThumbnailFail">아티스트 커버 저장 실패, 선택한 이미지 파일이 지원되지 않을 수 있습니다</x:String>
     <x:String x:Key="ToastArtistSaveSucc">아티스트 정보 저장 성공</x:String>
     <x:String x:Key="ToastPlaylistEditSucc">재생목록 수정 성공</x:String>
     <x:String x:Key="ToastPlaylistNewSucc">새 재생목록 {0} 생성 성공</x:String>
